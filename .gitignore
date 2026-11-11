@@ -24,3 +24,9 @@ mirror/node_modules/
 !/RECON/refactor-2026-11-11/browser-final.log
 !/RECON/refactor-2026-11-11/clean-install-after.log
 !/RECON/refactor-2026-11-11/browser-final/*.json
+!/RECON/zh-CN-2026-11-11/integrity.json
+!/RECON/zh-CN-2026-11-11/preview.json
+!/RECON/zh-CN-2026-11-11/release-manifest.json
+!/RECON/zh-CN-2026-11-11/check-final.log
+!/RECON/zh-CN-2026-11-11/browser-final.log
+!/RECON/zh-CN-2026-11-11/browser-final/*.json

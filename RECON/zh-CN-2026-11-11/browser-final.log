@@ -1,0 +1,56 @@
+
+> sansa-published-mirror@0.1.0 test:e2e
+> node --test --test-concurrency=1 tests/browser/*.test.mjs
+
+TAP version 13
+# Subtest: Chinese desktop and touch UI localize menus, map labels, tooltips and dynamic counters
+ok 1 - Chinese desktop and touch UI localize menus, map labels, tooltips and dynamic counters
+  ---
+  duration_ms: 12284.07625
+  type: 'test'
+  ...
+# Subtest: original UI completes beads, audio, tools, café, hall and revisit with original domains blocked
+ok 2 - original UI completes beads, audio, tools, café, hall and revisit with original domains blocked
+  ---
+  duration_ms: 49943.259375
+  type: 'test'
+  ...
+# Subtest: two independent browsers see each other, change rooms and resume after actual connection loss
+ok 3 - two independent browsers see each other, change rooms and resume after actual connection loss
+  ---
+  duration_ms: 11418.058041
+  type: 'test'
+  ...
+# Subtest: real pointer drags orbit 360 degrees and wheel zoom stays bounded
+ok 4 - real pointer drags orbit 360 degrees and wheel zoom stays bounded
+  ---
+  duration_ms: 12290.414292
+  type: 'test'
+  ...
+# Subtest: failed dynamic module load shows retry and recovers in a clean context
+ok 5 - failed dynamic module load shows retry and recovers in a clean context
+  ---
+  duration_ms: 3112.766292
+  type: 'test'
+  ...
+# Subtest: mobile touch tap walks, drag orbits and two-finger pinch zooms
+ok 6 - mobile touch tap walks, drag orbits and two-finger pinch zooms
+  ---
+  duration_ms: 10361.084542
+  type: 'test'
+  ...
+# Subtest: default URL without query parameters admits a clean visitor
+ok 7 - default URL without query parameters admits a clean visitor
+  ---
+  duration_ms: 3235.534791
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 103720.458583

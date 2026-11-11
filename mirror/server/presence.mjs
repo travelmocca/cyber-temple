@@ -2,6 +2,7 @@ import { randomUUID } from 'node:crypto';
 import { Activities, Cafe25 } from './activities.mjs';
 import { MAP, roomIDs } from './protocol/constants.mjs';
 import { dispatchMessage } from './protocol/dispatch.mjs';
+import { translateText } from '../locales/zh-CN.mjs';
 export { MAP, roomIDs, CLIENT_SEND_TYPES } from './protocol/constants.mjs';
 
 // Owns room/session lifecycle; protocol dispatch and activity rules live in separate modules.
@@ -153,7 +154,7 @@ export class PresenceHub {
       ? { ...saved.visitor, seat, cushion: null, pose: 'walk' }
       : {
           id: randomUUID(),
-          name: '고요한 방문자 ' + (seat + 1),
+          name: translateText('고요한 방문자') + ' ' + (seat + 1),
           seat,
           cushion: null,
           color: '#b9c5ba',

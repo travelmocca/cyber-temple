@@ -100,6 +100,116 @@ async function record(name, value) {
   await writeFile(new URL(name + '.json', out), JSON.stringify(value, null, 2));
 }
 test(
+  'Chinese desktop and touch UI localize menus, map labels, tooltips and dynamic counters',
+  { timeout: 120000 },
+  async () => {
+    const results = [];
+    for (const mobile of [false, true]) {
+      const visitor = await open(
+        mobile ? { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true } : {},
+      );
+      const page = visitor.page;
+      const label = mobile ? 'mobile' : 'desktop';
+      const assertTranslated = async () => {
+        const content = await page.evaluate(() => ({
+          lang: document.documentElement.lang,
+          text: document.body.innerText,
+          labels: [...document.querySelectorAll('[aria-label],[title],[placeholder]')].flatMap(
+            (element) =>
+              ['aria-label', 'title', 'placeholder'].map(
+                (attribute) => element.getAttribute(attribute) ?? '',
+              ),
+          ),
+          overflow: document.documentElement.scrollWidth > innerWidth,
+        }));
+        assert.equal(content.lang, 'zh-CN');
+        assert.doesNotMatch(content.text + content.labels.join('\n'), /[\uac00-\ud7a3]/u);
+        assert.equal(content.overflow, false);
+        return content;
+      };
+      try {
+        assert.equal(await page.locator('#game-bow').getAttribute('aria-label'), '礼佛');
+        await assertTranslated();
+        await page.screenshot({ path: fileURLToPath(new URL('zh-' + label + '-entry.png', out)) });
+        await page.locator('#game-settings').click();
+        await page.locator('#settings-dialog').waitFor({ state: 'visible' });
+        await page.waitForFunction(
+          () => getComputedStyle(document.querySelector('#settings-dialog')).opacity === '1',
+        );
+        assert.equal(await page.locator('#settings-title').innerText(), '设置');
+        assert.match(await page.locator('#settings-dialog').innerText(), /韩国时间/);
+        await assertTranslated();
+        await page.screenshot({
+          path: fileURLToPath(new URL('zh-' + label + '-settings.png', out)),
+        });
+        await page.getByRole('button', { name: '关闭设置', exact: true }).click();
+        await page.locator('#village-places').click();
+        await page.locator('#village-places-dialog').waitFor({ state: 'visible' });
+        await page.waitForFunction(() => {
+          const dialog = document.querySelector('#village-places-dialog');
+          const image = document.querySelector('#village-map-art');
+          return (
+            getComputedStyle(dialog).opacity === '1' && image.complete && image.naturalWidth > 0
+          );
+        });
+        const places = await page
+          .locator('[data-place]')
+          .evaluateAll((elements) => elements.map((element) => element.getAttribute('aria-label')));
+        assert.deepEqual(places, [
+          '入口',
+          '咖啡',
+          '清缘堂',
+          '林间小径',
+          '池畔休憩处',
+          '河畔步道',
+          '竹林',
+          '柿饼晾晒场',
+          '梵钟',
+          '绕塔',
+          '施工现场',
+          '搬运瓦片',
+        ]);
+        await assertTranslated();
+        await page.screenshot({ path: fileURLToPath(new URL('zh-' + label + '-map.png', out)) });
+        await page.getByRole('button', { name: '关闭地图', exact: true }).click();
+        await page.locator('#game-room').click();
+        assert.equal(await page.locator('#room-title').innerText(), '山寺房间');
+        await page.locator('#game-people').click();
+        await page.locator('#people-dialog').waitFor({ state: 'visible' });
+        assert.match(await page.locator('#visitor-list').innerText(), /清静访客/);
+        await assertTranslated();
+        await page.getByRole('button', { name: '关闭访客窗口', exact: true }).click();
+        if (await page.locator('#room-dialog').isVisible())
+          await page.getByRole('button', { name: '关闭房间选择', exact: true }).click();
+        await page.locator('[data-mode=beads]').click();
+        await page.locator('.beads-stage canvas').waitFor({ state: 'visible' });
+        await page.locator('.beads-stage canvas').focus();
+        await page.keyboard.press('ArrowDown');
+        await page.waitForFunction(
+          () => document.querySelector('.beads-count')?.textContent === '1',
+        );
+        assert.match(
+          await page.locator('.beads-counter').getAttribute('aria-label'),
+          /本圈 1颗，共 1颗/,
+        );
+        await assertTranslated();
+        assert.deepEqual(visitor.errors, []);
+        assert.deepEqual(visitor.external, []);
+        results.push({
+          mobileEmulation: mobile,
+          places,
+          translated: true,
+          consoleErrors: visitor.errors,
+        });
+      } finally {
+        await visitor.context.close();
+      }
+    }
+    await record('zh-interface', results);
+  },
+);
+
+test(
   'original UI completes beads, audio, tools, café, hall and revisit with original domains blocked',
   { timeout: 240000 },
   async () => {
@@ -127,12 +237,12 @@ test(
       const popup = await popupPromise;
       await popup.waitForLoadState();
       assert.ok(popup.url().startsWith(base + '/__mirror/payment'));
-      assert.match(await popup.locator('body').innerText(), /모의 공양/);
+      assert.match(await popup.locator('body').innerText(), /模拟供养/);
       await popup.close();
       await p.keyboard.press('Escape');
       await p.locator('#game-settings').click({ noWaitAfter: true });
       await p.locator('#settings-dialog').waitFor({ state: 'visible' });
-      await p.getByRole('button', { name: '설정 닫기', exact: true }).click({ noWaitAfter: true });
+      await p.getByRole('button', { name: '关闭设置', exact: true }).click({ noWaitAfter: true });
       await travel(p, 'hall');
       assert.equal((await state(p)).space, 'hall');
       await p.locator('#game-bow').click({ noWaitAfter: true });
@@ -153,11 +263,9 @@ test(
       );
       await p.screenshot({ path: fileURLToPath(new URL('hall.png', out)) });
       await travel(p, 'cafe');
-      await p
-        .getByRole('button', { name: '커피 내리기', exact: true })
-        .click({ noWaitAfter: true });
-      await p.locator('button[aria-label="커피 내리기"]').waitFor({ state: 'visible' });
-      await p.locator('button[aria-label="커피 내리기"]').click({ noWaitAfter: true });
+      await p.getByRole('button', { name: '制作咖啡', exact: true }).click({ noWaitAfter: true });
+      await p.locator('button[aria-label="制作咖啡"]').waitFor({ state: 'visible' });
+      await p.locator('button[aria-label="制作咖啡"]').click({ noWaitAfter: true });
       await p.waitForFunction(
         () => document.querySelector('canvas[data-engine]').dataset.coffeeHeld === 'true',
         null,

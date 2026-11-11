@@ -6,6 +6,29 @@ export const hash = (value) => createHash('sha256').update(value).digest('hex');
 export function applyPatch(text, patch) {
   if (hash(text) === patch.afterSha256) return text;
   if (hash(text) !== patch.beforeSha256) throw Error('patch source version mismatch');
+  if (patch.edits) {
+    if (!Array.isArray(patch.edits) || !patch.edits.length) throw Error('invalid text edits');
+    let previousEnd = 0;
+    for (const edit of patch.edits) {
+      if (
+        !Number.isSafeInteger(edit.start) ||
+        !Number.isSafeInteger(edit.end) ||
+        edit.start < previousEnd ||
+        edit.end <= edit.start ||
+        edit.end > text.length ||
+        typeof edit.before !== 'string' ||
+        typeof edit.after !== 'string' ||
+        text.slice(edit.start, edit.end) !== edit.before
+      )
+        throw Error('invalid text edit position, order or preimage');
+      previousEnd = edit.end;
+    }
+    let result = text;
+    for (const edit of [...patch.edits].reverse())
+      result = result.slice(0, edit.start) + edit.after + result.slice(edit.end);
+    if (hash(result) !== patch.afterSha256) throw Error('patch result hash mismatch');
+    return result;
+  }
   if (!patch.before || text.split(patch.before).length !== 2)
     throw Error('patch must match exactly once');
   const result = text.replace(patch.before, () => patch.after);
@@ -25,6 +48,12 @@ async function walk(root, base = root) {
 export async function verifyAssets(root) {
   const manifest = JSON.parse(await readFile(join(root, 'baseline/manifest.json')));
   const { patches } = JSON.parse(await readFile(join(root, 'patches/patches.json')));
+  for (const patch of patches)
+    if (
+      patch.catalogSha256 &&
+      hash(await readFile(join(root, 'locales/zh-CN.json'))) !== patch.catalogSha256
+    )
+      throw Error('localization catalog changed; regenerate patches');
   const registered = new Set(manifest.files.map((f) => f.path));
   for (const scope of ['baseline/site', 'site'])
     for (const file of await walk(join(root, scope)))

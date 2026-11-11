@@ -84,7 +84,7 @@ test('payment target is a local simulation with no provider redirect', async () 
     );
     assert.equal(r.status, 200);
     assert.equal(r.headers.get('location'), null);
-    assert.match(await r.text(), /모의 공양/);
+    assert.match(await r.text(), /模拟供养/);
   } finally {
     await close();
   }

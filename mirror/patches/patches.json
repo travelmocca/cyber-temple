@@ -39,6 +39,3790 @@
         "P01",
         "X01"
       ]
+    },
+    {
+      "id": "zh-CN-index.html",
+      "target": "index.html",
+      "beforeSha256": "ff1d6a40bb4b3255735de6488495ed1c58c631ccf6ed11d4f36ad6c4b9aa91f6",
+      "afterSha256": "f8365e41b850afc4536539bf922109675bd11d7636e67e3e68723cc52828c5cb",
+      "catalogSha256": "753e1d011f17cdab563a8a13d303dbbf43228545be11f6d8b810644f99372d74",
+      "reason": "Simplified Chinese text and locale metadata; executable structure and activity rules unchanged",
+      "edits": [
+        {
+          "start": 22,
+          "end": 31,
+          "before": "lang=\"ko\"",
+          "after": "lang=\"zh-CN\""
+        },
+        {
+          "start": 351,
+          "end": 353,
+          "before": "산사",
+          "after": "山寺"
+        },
+        {
+          "start": 470,
+          "end": 493,
+          "before": "말없이 같이 앉아 있는 온라인 절, 산사.",
+          "after": "一座可以静静相伴的线上寺庙。"
+        },
+        {
+          "start": 503,
+          "end": 514,
+          "before": "산사, 잠깐 쉬어가요",
+          "after": "山寺，歇一会儿"
+        },
+        {
+          "start": 649,
+          "end": 664,
+          "before": "content=\"ko_KR\"",
+          "after": "content=\"zh_CN\""
+        },
+        {
+          "start": 705,
+          "end": 707,
+          "before": "산사",
+          "after": "山寺"
+        },
+        {
+          "start": 745,
+          "end": 756,
+          "before": "산사, 잠깐 쉬어가요",
+          "after": "山寺，歇一会儿"
+        },
+        {
+          "start": 800,
+          "end": 819,
+          "before": "말없이 같이 앉아 있는 온라인 절.",
+          "after": "一座可以静静相伴的线上寺庙。"
+        },
+        {
+          "start": 1161,
+          "end": 1202,
+          "before": "정면으로 합장하는 동자승과 초록 산·흰 법당 로고. 산사, 잠깐 쉬어가요.",
+          "after": "正面合掌的小沙弥，绿山与白色法堂标志。山寺，歇一会儿。"
+        },
+        {
+          "start": 1298,
+          "end": 1309,
+          "before": "산사, 잠깐 쉬어가요",
+          "after": "山寺，歇一会儿"
+        },
+        {
+          "start": 1354,
+          "end": 1373,
+          "before": "말없이 같이 앉아 있는 온라인 절.",
+          "after": "一座可以静静相伴的线上寺庙。"
+        },
+        {
+          "start": 1509,
+          "end": 1550,
+          "before": "정면으로 합장하는 동자승과 초록 산·흰 법당 로고. 산사, 잠깐 쉬어가요.",
+          "after": "正面合掌的小沙弥，绿山与白色法堂标志。山寺，歇一会儿。"
+        },
+        {
+          "start": 3937,
+          "end": 3939,
+          "before": "산사",
+          "after": "山寺"
+        },
+        {
+          "start": 4228,
+          "end": 4230,
+          "before": "산사",
+          "after": "山寺"
+        },
+        {
+          "start": 4267,
+          "end": 4286,
+          "before": "산사에 들어갈 준비를 하고 있어요.",
+          "after": "正在准备进入山寺。"
+        },
+        {
+          "start": 4363,
+          "end": 4371,
+          "before": "입장 준비 단계",
+          "after": "入寺准备进度"
+        },
+        {
+          "start": 4416,
+          "end": 4442,
+          "before": "잠시 후 돌길을 따라 산사를 둘러볼 수 있어요.",
+          "after": "稍后即可沿着石径漫步山寺。"
+        },
+        {
+          "start": 4487,
+          "end": 4494,
+          "before": "다시 들어가기",
+          "after": "重新进入"
+        },
+        {
+          "start": 4702,
+          "end": 4712,
+          "before": "산사 · 온라인 절",
+          "after": "山寺 · 线上寺庙"
+        },
+        {
+          "start": 4720,
+          "end": 4748,
+          "before": "염주를 굴리고, 절하고, 잠깐 쉬어가는 공간입니다.",
+          "after": "拨动念珠、礼佛，歇一会儿的地方。"
+        },
+        {
+          "start": 4755,
+          "end": 4788,
+          "before": "법당을 둘러보려면 브라우저의 JavaScript를 켜주세요.",
+          "after": "请开启浏览器的 JavaScript 以游览法堂。"
+        }
+      ]
+    },
+    {
+      "id": "zh-CN-manifest.webmanifest",
+      "target": "manifest.webmanifest",
+      "beforeSha256": "0aa8d967278ee6741b39c3a293637d2cb4a3b68ad8ce1595b3662140d59a220d",
+      "afterSha256": "c56dd3abc63d4a39d50d416230ba0db4cc9ca3204ae8f3fed919e65336dc71bb",
+      "catalogSha256": "753e1d011f17cdab563a8a13d303dbbf43228545be11f6d8b810644f99372d74",
+      "reason": "Simplified Chinese text and locale metadata; executable structure and activity rules unchanged",
+      "edits": [
+        {
+          "start": 26,
+          "end": 36,
+          "before": "산사 — 온라인 절",
+          "after": "山寺 — 线上寺庙"
+        },
+        {
+          "start": 56,
+          "end": 58,
+          "before": "산사",
+          "after": "山寺"
+        },
+        {
+          "start": 79,
+          "end": 102,
+          "before": "말없이 같이 앉아 있는 온라인 절, 산사.",
+          "after": "一座可以静静相伴的线上寺庙。"
+        },
+        {
+          "start": 107,
+          "end": 119,
+          "before": "\"lang\": \"ko\"",
+          "after": "\"lang\": \"zh-CN\""
+        }
+      ]
+    },
+    {
+      "id": "zh-CN-assets-index-qXYao_lF.js",
+      "target": "assets/index-qXYao_lF.js",
+      "beforeSha256": "3fb762f018c3d02d66a2de596e52447846adba7e303afb20643a0a8b14190ae7",
+      "afterSha256": "d7d31a54f49476a0c8c5562b2ea885d6e2e179f674beb10afa6c5451edb2a31e",
+      "catalogSha256": "753e1d011f17cdab563a8a13d303dbbf43228545be11f6d8b810644f99372d74",
+      "reason": "Simplified Chinese text and locale metadata; executable structure and activity rules unchanged",
+      "edits": [
+        {
+          "start": 2245,
+          "end": 2255,
+          "before": "\"산사 로딩 실패\"",
+          "after": "\"山寺加载失败\""
+        },
+        {
+          "start": 2307,
+          "end": 2322,
+          "before": "\"풍경을 불러오지 못했어요\"",
+          "after": "\"无法加载风景\""
+        },
+        {
+          "start": 2337,
+          "end": 2357,
+          "before": "\"연결을 확인하고 다시 들어와주세요\"",
+          "after": "\"请检查连接后重新进入\""
+        }
+      ]
+    },
+    {
+      "id": "zh-CN-assets-game-U0Pmc8tU.js",
+      "target": "assets/game-U0Pmc8tU.js",
+      "beforeSha256": "9cae64b9045f6f82c487fdadd87c761dda3e685bc46a75e07aeb1676a306e27f",
+      "afterSha256": "e8cb189045ded3daa69305d4dfb94ade0656ee57af588d4fe86e872fb61e68aa",
+      "catalogSha256": "753e1d011f17cdab563a8a13d303dbbf43228545be11f6d8b810644f99372d74",
+      "reason": "Simplified Chinese text and locale metadata; executable structure and activity rules unchanged",
+      "edits": [
+        {
+          "start": 2393,
+          "end": 2405,
+          "before": "\"산사 — 온라인 절\"",
+          "after": "\"山寺 — 线上寺庙\""
+        },
+        {
+          "start": 26728,
+          "end": 26735,
+          "before": "\"공사 현장\"",
+          "after": "\"施工现场\""
+        },
+        {
+          "start": 26814,
+          "end": 26821,
+          "before": "\"연못 쉼터\"",
+          "after": "\"池畔休憩处\""
+        },
+        {
+          "start": 26903,
+          "end": 26907,
+          "before": "\"범종\"",
+          "after": "\"梵钟\""
+        },
+        {
+          "start": 38584,
+          "end": 38591,
+          "before": "\"대문 안쪽\"",
+          "after": "\"山门内侧\""
+        },
+        {
+          "start": 38597,
+          "end": 38614,
+          "before": "\"청연당 · 연못으로 가는 길\"",
+          "after": "\"清缘堂 · 通往池畔的小径\""
+        },
+        {
+          "start": 38642,
+          "end": 38647,
+          "before": "\"청연당\"",
+          "after": "\"清缘堂\""
+        },
+        {
+          "start": 38653,
+          "end": 38667,
+          "before": "\"조용히 쉬어 가는 법당\"",
+          "after": "\"静心小憩的法堂\""
+        },
+        {
+          "start": 38700,
+          "end": 38707,
+          "before": "\"연꽃 연못\"",
+          "after": "\"莲花池\""
+        },
+        {
+          "start": 38713,
+          "end": 38726,
+          "before": "\"감나무 뒤 작은 연못\"",
+          "after": "\"柿树后的小池塘\""
+        },
+        {
+          "start": 50483,
+          "end": 50493,
+          "before": "\"정원으로 나가기\"",
+          "after": "\"走出庭院\""
+        },
+        {
+          "start": 50562,
+          "end": 50572,
+          "before": "\"청연당 들어가기\"",
+          "after": "\"进入清缘堂\""
+        },
+        {
+          "start": 51081,
+          "end": 51085,
+          "before": "\"진홍\"",
+          "after": "\"绯红\""
+        },
+        {
+          "start": 51124,
+          "end": 51129,
+          "before": "\"치자빛\"",
+          "after": "\"栀黄\""
+        },
+        {
+          "start": 51168,
+          "end": 51172,
+          "before": "\"청록\"",
+          "after": "\"青绿\""
+        },
+        {
+          "start": 51211,
+          "end": 51215,
+          "before": "\"미색\"",
+          "after": "\"米白\""
+        },
+        {
+          "start": 51254,
+          "end": 51258,
+          "before": "\"쪽빛\"",
+          "after": "\"靛蓝\""
+        },
+        {
+          "start": 52341,
+          "end": 52567,
+          "before": "\n<section class=\"lantern-picker\" aria-label=\"연등 색상 고르기\">\n  <div class=\"lantern-picker-stage\">\n    <div class=\"lantern-picker-viewport\" tabindex=\"0\" role=\"group\" aria-label=\"연등 색상\" aria-describedby=\"lantern-swipe-guide\">\n      ",
+          "after": "\n<section class=\"lantern-picker\" aria-label=\"选择祈愿灯颜色\">\n  <div class=\"lantern-picker-stage\">\n    <div class=\"lantern-picker-viewport\" tabindex=\"0\" role=\"group\" aria-label=\"祈愿灯颜色\" aria-describedby=\"lantern-swipe-guide\">\n      "
+        },
+        {
+          "start": 52738,
+          "end": 52839,
+          "before": "\n    </div>\n    <button type=\"button\" class=\"lantern-picker-arrow\" data-step=\"-1\" aria-label=\"이전 색상\">",
+          "after": "\n    </div>\n    <button type=\"button\" class=\"lantern-picker-arrow\" data-step=\"-1\" aria-label=\"上一个颜色\">"
+        },
+        {
+          "start": 52861,
+          "end": 52959,
+          "before": "</button>\n    <button type=\"button\" class=\"lantern-picker-arrow\" data-step=\"1\" aria-label=\"다음 색상\">",
+          "after": "</button>\n    <button type=\"button\" class=\"lantern-picker-arrow\" data-step=\"1\" aria-label=\"下一个颜色\">"
+        },
+        {
+          "start": 53189,
+          "end": 53268,
+          "before": "</div>\n    <p id=\"lantern-swipe-guide\">좌우로 넘겨 연등 색을 골라요</p>\n  </div>\n</section>",
+          "after": "</div>\n    <p id=\"lantern-swipe-guide\">左右滑动，选择灯的颜色</p>\n  </div>\n</section>"
+        },
+        {
+          "start": 55754,
+          "end": 55876,
+          "before": "'<aside id=\"render-rest\" class=\"render-rest\" hidden><p>잠깐 쉬고 있어요</p><button id=\"render-resume\">여기서 계속 쉬기</button></aside>'",
+          "after": "\"<aside id=\\\"render-rest\\\" class=\\\"render-rest\\\" hidden><p>正在小憩</p><button id=\\\"render-resume\\\">在这里继续休息</button></aside>\""
+        },
+        {
+          "start": 56334,
+          "end": 56338,
+          "before": "\"입구\"",
+          "after": "\"入口\""
+        },
+        {
+          "start": 56366,
+          "end": 56370,
+          "before": "\"커피\"",
+          "after": "\"咖啡\""
+        },
+        {
+          "start": 56398,
+          "end": 56403,
+          "before": "\"청연당\"",
+          "after": "\"清缘堂\""
+        },
+        {
+          "start": 56454,
+          "end": 56458,
+          "before": "\"숲길\"",
+          "after": "\"林间小径\""
+        },
+        {
+          "start": 56494,
+          "end": 56501,
+          "before": "\"연못 쉼터\"",
+          "after": "\"池畔休憩处\""
+        },
+        {
+          "start": 56530,
+          "end": 56538,
+          "before": "\"강변 산책로\"",
+          "after": "\"河畔步道\""
+        },
+        {
+          "start": 56568,
+          "end": 56575,
+          "before": "\"대나무 숲\"",
+          "after": "\"竹林\""
+        },
+        {
+          "start": 56617,
+          "end": 56624,
+          "before": "\"곶감 덕장\"",
+          "after": "\"柿饼晾晒场\""
+        },
+        {
+          "start": 56659,
+          "end": 56663,
+          "before": "\"범종\"",
+          "after": "\"梵钟\""
+        },
+        {
+          "start": 56702,
+          "end": 56707,
+          "before": "\"탑돌이\"",
+          "after": "\"绕塔\""
+        },
+        {
+          "start": 56741,
+          "end": 56748,
+          "before": "\"공사 현장\"",
+          "after": "\"施工现场\""
+        },
+        {
+          "start": 56789,
+          "end": 56797,
+          "before": "\"기와 나르기\"",
+          "after": "\"搬运瓦片\""
+        },
+        {
+          "start": 58456,
+          "end": 58880,
+          "before": "'<button id=\"village-places\" class=\"tool village-map-tool\" type=\"button\" aria-label=\"산사 둘러보기\" title=\"산사 둘러보기\" aria-haspopup=\"dialog\" aria-controls=\"village-places-dialog\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 6.8 8.6 4l6.8 2.8L21 4v13.2L15.4 20l-6.8-2.8L3 20V6.8ZM8.6 4v13.2m6.8-10.4V20\"/></svg></button>'",
+          "after": "\"<button id=\\\"village-places\\\" class=\\\"tool village-map-tool\\\" type=\\\"button\\\" aria-label=\\\"游览山寺\\\" title=\\\"游览山寺\\\" aria-haspopup=\\\"dialog\\\" aria-controls=\\\"village-places-dialog\\\"><svg viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.45\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" aria-hidden=\\\"true\\\"><path d=\\\"M3 6.8 8.6 4l6.8 2.8L21 4v13.2L15.4 20l-6.8-2.8L3 20V6.8ZM8.6 4v13.2m6.8-10.4V20\\\"/></svg></button>\""
+        },
+        {
+          "start": 58885,
+          "end": 59282,
+          "before": "<dialog id=\"village-places-dialog\" class=\"game-dialog village-places-dialog\" aria-labelledby=\"village-places-title\">\n  <header><h2 id=\"village-places-title\">산사 둘러보기</h2><button type=\"button\" class=\"dialog-close tool\" aria-label=\"지도 닫기\">×</button></header>\n  <div class=\"village-map\" role=\"group\" aria-label=\"산사 지도\" aria-busy=\"true\">\n    <img id=\"village-map-art\" class=\"village-map-art\" data-src=\"",
+          "after": "<dialog id=\"village-places-dialog\" class=\"game-dialog village-places-dialog\" aria-labelledby=\"village-places-title\">\n  <header><h2 id=\"village-places-title\">游览山寺</h2><button type=\"button\" class=\"dialog-close tool\" aria-label=\"关闭地图\">×</button></header>\n  <div class=\"village-map\" role=\"group\" aria-label=\"山寺地图\" aria-busy=\"true\">\n    <img id=\"village-map-art\" class=\"village-map-art\" data-src=\""
+        },
+        {
+          "start": 59366,
+          "end": 59494,
+          "before": "\n    <span id=\"village-map-position\" class=\"village-map-position\" role=\"img\" aria-label=\"내 위치\" hidden></span>\n  </div>\n</dialog>",
+          "after": "\n    <span id=\"village-map-position\" class=\"village-map-position\" role=\"img\" aria-label=\"我的位置\" hidden></span>\n  </div>\n</dialog>"
+        },
+        {
+          "start": 60936,
+          "end": 60948,
+          "before": "\"산사 — 온라인 절\"",
+          "after": "\"山寺 — 线上寺庙\""
+        },
+        {
+          "start": 661377,
+          "end": 661384,
+          "before": "\"소리 끄기\"",
+          "after": "\"关闭声音\""
+        },
+        {
+          "start": 661385,
+          "end": 661392,
+          "before": "\"소리 켜기\"",
+          "after": "\"开启声音\""
+        },
+        {
+          "start": 663191,
+          "end": 663200,
+          "before": "\"첫 번째 바퀴\"",
+          "after": "\"第 1 圈\""
+        },
+        {
+          "start": 663207,
+          "end": 663212,
+          "before": "번째 바퀴",
+          "after": "圈"
+        },
+        {
+          "start": 663257,
+          "end": 663263,
+          "before": "이번 바퀴 ",
+          "after": "本圈 "
+        },
+        {
+          "start": 663268,
+          "end": 663274,
+          "before": "알, 모두 ",
+          "after": "颗，共 "
+        },
+        {
+          "start": 663279,
+          "end": 663280,
+          "before": "알",
+          "after": "颗"
+        },
+        {
+          "start": 663364,
+          "end": 663372,
+          "before": "바퀴 돌렸어요.",
+          "after": "圈已完成。"
+        },
+        {
+          "start": 663599,
+          "end": 663619,
+          "before": "\"염주 동작을 전달하지 못했습니다.\"",
+          "after": "\"未能同步念珠动作。\""
+        },
+        {
+          "start": 665095,
+          "end": 665141,
+          "before": "\"앞뒤로 이어지는 큰 나무 염주. 위아래로 쓸거나 화살표 키와 휠로 돌려 보세요.\"",
+          "after": "\"前后相连的木念珠。上下滑动，或使用方向键和滚轮拨动。\""
+        },
+        {
+          "start": 666291,
+          "end": 666299,
+          "before": "\"염주 돌리기\"",
+          "after": "\"拨动念珠\""
+        },
+        {
+          "start": 666314,
+          "end": 667023,
+          "before": "<div class=\"beads-stage\"></div><footer class=\"beads-footer\"><div class=\"beads-counter\" aria-label=\"넘긴 염주\"><strong class=\"beads-count\">0</strong><span>/ 108</span></div><div class=\"beads-round\">첫 번째 바퀴</div><p id=\"beads-gesture-guide\" class=\"beads-gesture-guide\">잡고 쓸어 넘기기</p></footer><div class=\"beads-header\" role=\"group\" aria-label=\"염주 조작\"><button type=\"button\" class=\"beads-back\" aria-label=\"염주 접기\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M19 12H5m6-6-6 6 6 6\"/></svg><span>접기</span></button><button type=\"button\" class=\"beads-sound\" data-audio-control aria-label=\"소리 켜기\" aria-pressed=\"false\">",
+          "after": "<div class=\"beads-stage\"></div><footer class=\"beads-footer\"><div class=\"beads-counter\" aria-label=\"已拨念珠\"><strong class=\"beads-count\">0</strong><span>/ 108</span></div><div class=\"beads-round\">第 1 圈</div><p id=\"beads-gesture-guide\" class=\"beads-gesture-guide\">按住并滑动念珠</p></footer><div class=\"beads-header\" role=\"group\" aria-label=\"念珠操作\"><button type=\"button\" class=\"beads-back\" aria-label=\"收起念珠\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M19 12H5m6-6-6 6 6 6\"/></svg><span>收起</span></button><button type=\"button\" class=\"beads-sound\" data-audio-control aria-label=\"开启声音\" aria-pressed=\"false\">"
+        },
+        {
+          "start": 667616,
+          "end": 667662,
+          "before": "\"앞뒤로 이어지는 큰 나무 염주. 위아래로 쓸거나 화살표 키와 휠로 돌려 보세요.\"",
+          "after": "\"前后相连的木念珠。上下滑动，或使用方向键和滚轮拨动。\""
+        },
+        {
+          "start": 674879,
+          "end": 674883,
+          "before": "\"목탁\"",
+          "after": "\"木鱼\""
+        },
+        {
+          "start": 674898,
+          "end": 674977,
+          "before": "<button type=\"button\" class=\"moktak-instrument\" aria-label=\"목탁 두드리기\"><img src=\"",
+          "after": "<button type=\"button\" class=\"moktak-instrument\" aria-label=\"敲木鱼\"><img src=\""
+        },
+        {
+          "start": 674982,
+          "end": 675129,
+          "before": "\" alt=\"\" draggable=\"false\"></button><div class=\"moktak-controls\" aria-label=\"목탁 조작\"><button type=\"button\" class=\"moktak-play\" aria-pressed=\"false\">",
+          "after": "\" alt=\"\" draggable=\"false\"></button><div class=\"moktak-controls\" aria-label=\"木鱼操作\"><button type=\"button\" class=\"moktak-play\" aria-pressed=\"false\">"
+        },
+        {
+          "start": 675134,
+          "end": 675222,
+          "before": "<span>자동재생</span></button><button type=\"button\" class=\"moktak-close\" aria-label=\"목탁 닫기\">",
+          "after": "<span>自动敲击</span></button><button type=\"button\" class=\"moktak-close\" aria-label=\"关闭木鱼\">"
+        },
+        {
+          "start": 675723,
+          "end": 675729,
+          "before": "\"일시정지\"",
+          "after": "\"暂停\""
+        },
+        {
+          "start": 675730,
+          "end": 675736,
+          "before": "\"자동재생\"",
+          "after": "\"自动敲击\""
+        },
+        {
+          "start": 675817,
+          "end": 675831,
+          "before": "\"목탁 자동재생 일시정지\"",
+          "after": "\"暂停自动敲木鱼\""
+        },
+        {
+          "start": 675832,
+          "end": 675841,
+          "before": "\"목탁 자동재생\"",
+          "after": "\"自动敲木鱼\""
+        },
+        {
+          "start": 675859,
+          "end": 675876,
+          "before": "\"목탁 자동재생을 시작했어요.\"",
+          "after": "\"已开始自动敲木鱼。\""
+        },
+        {
+          "start": 675877,
+          "end": 675893,
+          "before": "\"목탁 자동재생을 멈췄어요.\"",
+          "after": "\"已停止自动敲木鱼。\""
+        },
+        {
+          "start": 676669,
+          "end": 676702,
+          "before": "\"상단 소리와 설정의 효과음을 켠 뒤 목탁을 두드려주세요.\"",
+          "after": "\"请先开启顶部声音开关和设置中的音效，再敲木鱼。\""
+        },
+        {
+          "start": 676813,
+          "end": 676842,
+          "before": "\"목탁 소리를 준비하지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"木鱼声音尚未就绪，请再点一次。\""
+        },
+        {
+          "start": 744414,
+          "end": 744419,
+          "before": "\"설강화\"",
+          "after": "\"雪滴花\""
+        },
+        {
+          "start": 744427,
+          "end": 744432,
+          "before": "\"최종원\"",
+          "after": "\"Choi Jong-won\""
+        },
+        {
+          "start": 744444,
+          "end": 744459,
+          "before": "\"화가 · GS25 경영주\"",
+          "after": "\"画家 · GS25 店主\""
+        },
+        {
+          "start": 744472,
+          "end": 744540,
+          "before": "\"추운 겨울을 이겨내는 꽃, 설강화의 꽃말은 희망과 위로입니다. 일상을 살아가는 모두에게 따뜻한 인사를 전하고 싶습니다.\"",
+          "after": "\"雪滴花熬过寒冬，花语是希望与慰藉。愿向认真生活的每个人，送上一声温暖的问候。\""
+        },
+        {
+          "start": 744559,
+          "end": 744634,
+          "before": "\"낮에는 GS25 편의점을 경영하고, 밤에는 그림을 그리며 꿈을 좇는 작가. 자연과 꽃에서 영감을 얻으며 자유로움과 위로를 전합니다.\"",
+          "after": "\"白天经营 GS25 便利店，夜晚用绘画追逐梦想。从自然与花朵汲取灵感，传递自由与慰藉。\""
+        },
+        {
+          "start": 744651,
+          "end": 744690,
+          "before": "\"카페25는 일상을 살아가는 우리를 응원하는 가장 가까운 카페입니다.\"",
+          "after": "\"CAFE25 是身边最近的咖啡馆，为认真生活的我们加油。\""
+        },
+        {
+          "start": 744702,
+          "end": 744731,
+          "before": "\"최종원 × 카페25 for dreamers 이야기\"",
+          "after": "\"Choi Jong-won × CAFE25：献给追梦者的故事\""
+        },
+        {
+          "start": 745485,
+          "end": 745492,
+          "before": "\"사진 저장\"",
+          "after": "\"保存照片\""
+        },
+        {
+          "start": 745605,
+          "end": 745617,
+          "before": "\"사진을 저장했어요.\"",
+          "after": "\"照片已保存。\""
+        },
+        {
+          "start": 745618,
+          "end": 745644,
+          "before": "\"사진을 저장하지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"照片保存失败，请再试一次。\""
+        },
+        {
+          "start": 746096,
+          "end": 746106,
+          "before": "\"작품 설명 닫기\"",
+          "after": "\"关闭作品介绍\""
+        },
+        {
+          "start": 746262,
+          "end": 746278,
+          "before": "\"최종원 작가의 설강화 회화\"",
+          "after": "\"Choi Jong-won 的《雪滴花》绘画作品\""
+        },
+        {
+          "start": 747629,
+          "end": 747637,
+          "before": "\"일어나는 중\"",
+          "after": "\"正在起身\""
+        },
+        {
+          "start": 747640,
+          "end": 747652,
+          "before": "\"의자로 걸어가는 중\"",
+          "after": "\"正在走向座椅\""
+        },
+        {
+          "start": 747655,
+          "end": 747661,
+          "before": "\"일어나기\"",
+          "after": "\"起身\""
+        },
+        {
+          "start": 747662,
+          "end": 747669,
+          "before": "\"앉아 쉬기\"",
+          "after": "\"坐下休息\""
+        },
+        {
+          "start": 747695,
+          "end": 747712,
+          "before": "\"의자로 걸어가는 중 · 취소\"",
+          "after": "\"正在走向座椅 · 取消\""
+        },
+        {
+          "start": 851308,
+          "end": 851327,
+          "before": "\"방문자 모델을 열지 못했습니다.\"",
+          "after": "\"无法加载访客模型。\""
+        },
+        {
+          "start": 889460,
+          "end": 889467,
+          "before": "\"공양이 ·\"",
+          "after": "\"供养猫 ·\""
+        },
+        {
+          "start": 895938,
+          "end": 895973,
+          "before": "\"공양이 · blue woven CAFE25 waistcoat\"",
+          "after": "\"供养猫 · 蓝色编织 CAFE25 马甲\""
+        },
+        {
+          "start": 896041,
+          "end": 896069,
+          "before": "\"공양이 · tailored cyan piping\"",
+          "after": "\"供养猫 · 青色滚边\""
+        },
+        {
+          "start": 896117,
+          "end": 896152,
+          "before": "\"공양이 · white CAFE25 clothing print\"",
+          "after": "\"供养猫 · 白色 CAFE25 服装印花\""
+        },
+        {
+          "start": 899215,
+          "end": 899248,
+          "before": "\"공양이 · fitted CAFE25 patrol vest\"",
+          "after": "\"供养猫 · CAFE25 巡逻马甲\""
+        },
+        {
+          "start": 899386,
+          "end": 899407,
+          "before": "\"공양이 · waistcoat hem\"",
+          "after": "\"供养猫 · 马甲下摆\""
+        },
+        {
+          "start": 899546,
+          "end": 899573,
+          "before": "\"공양이 · waistcoat side seam\"",
+          "after": "\"供养猫 · 马甲侧缝\""
+        },
+        {
+          "start": 900016,
+          "end": 900029,
+          "before": "공양이 · CAFE25 ",
+          "after": "供养猫 · CAFE25 "
+        },
+        {
+          "start": 903161,
+          "end": 903182,
+          "before": "\"공양이 · CAFE25 순찰 고양이\"",
+          "after": "\"供养猫 · CAFE25 巡逻猫\""
+        },
+        {
+          "start": 903674,
+          "end": 903705,
+          "before": "\"공양이 · soft paw contact shadow\"",
+          "after": "\"供养猫 · 柔和的足部接触阴影\""
+        },
+        {
+          "start": 903805,
+          "end": 903834,
+          "before": "\"공양이 · moving contact shadow\"",
+          "after": "\"供养猫 · 移动接触阴影\""
+        },
+        {
+          "start": 904407,
+          "end": 904421,
+          "before": "\"공양이 · 작은 하트 \"",
+          "after": "\"供养猫 · 小爱心 \""
+        },
+        {
+          "start": 948635,
+          "end": 948660,
+          "before": "\"산사 · garden floor cover\"",
+          "after": "\"山寺 · 庭院地面\""
+        },
+        {
+          "start": 950697,
+          "end": 950725,
+          "before": "\"산사 · painted mineral grain\"",
+          "after": "\"山寺 · 矿物纹理\""
+        },
+        {
+          "start": 952157,
+          "end": 952196,
+          "before": "\"산사 · weathered slate grain and relief\"",
+          "after": "\"山寺 · 风化板岩纹理与浮雕\""
+        },
+        {
+          "start": 953933,
+          "end": 953948,
+          "before": "\"산사 · 다져진 숲 바닥\"",
+          "after": "\"山寺 · 夯实的林地\""
+        },
+        {
+          "start": 957374,
+          "end": 957401,
+          "before": "\"연등이 머무는 못 · CAFE25 garden\"",
+          "after": "\"祈愿灯池 · CAFE25 庭院\""
+        },
+        {
+          "start": 976209,
+          "end": 976224,
+          "before": "\"공양이 · 연못가 고양이\"",
+          "after": "\"供养猫 · 池畔小猫\""
+        },
+        {
+          "start": 979544,
+          "end": 979548,
+          "before": "\"산사\"",
+          "after": "\"山寺\""
+        },
+        {
+          "start": 986497,
+          "end": 986521,
+          "before": "\"산사 · 단풍나무, 참나무, 은행나무 잎\"",
+          "after": "\"山寺 · 枫叶、橡树叶与银杏叶\""
+        },
+        {
+          "start": 987951,
+          "end": 987965,
+          "before": "\"산사 · 가을 단풍 숲\"",
+          "after": "\"山寺 · 秋日枫林\""
+        },
+        {
+          "start": 987987,
+          "end": 987999,
+          "before": "\"산사 · 단풍 수관\"",
+          "after": "\"山寺 · 枫树树冠\""
+        },
+        {
+          "start": 988508,
+          "end": 988522,
+          "before": "\"산사 · 단풍나무 줄기\"",
+          "after": "\"山寺 · 枫树树干\""
+        },
+        {
+          "start": 995777,
+          "end": 995783,
+          "before": "\"공사 중\"",
+          "after": "\"施工中\""
+        },
+        {
+          "start": 995784,
+          "end": 995797,
+          "before": "\"관계자 외 출입 금지\"",
+          "after": "\"非工作人员请勿入内\""
+        },
+        {
+          "start": 997025,
+          "end": 997034,
+          "before": "\"기와 놓는 곳\"",
+          "after": "\"瓦片放置处\""
+        },
+        {
+          "start": 997169,
+          "end": 997186,
+          "before": "\"공사 현장 · 일하는 꼬동이\"",
+          "after": "\"施工现场 · 干活的小沙弥\""
+        },
+        {
+          "start": 997471,
+          "end": 997488,
+          "before": "\"공사 준비 · 안전모와 기와\"",
+          "after": "\"施工准备 · 安全帽与瓦片\""
+        },
+        {
+          "start": 998080,
+          "end": 998090,
+          "before": "\"공사 · 안전모\"",
+          "after": "\"施工 · 安全帽\""
+        },
+        {
+          "start": 998648,
+          "end": 998653,
+          "before": "\"안전모\"",
+          "after": "\"安全帽\""
+        },
+        {
+          "start": 998654,
+          "end": 998666,
+          "before": "\"눌러서 쓰거나 반납\"",
+          "after": "\"点击佩戴或归还\""
+        },
+        {
+          "start": 998916,
+          "end": 998931,
+          "before": "\"청연당 뒤 · 기와 더미\"",
+          "after": "\"清缘堂后方 · 瓦片堆\""
+        },
+        {
+          "start": 998932,
+          "end": 998946,
+          "before": "\"공사장 · 운반한 기와\"",
+          "after": "\"工地 · 已搬运的瓦片\""
+        },
+        {
+          "start": 1000075,
+          "end": 1000091,
+          "before": "\"청연당 뒤 · 기와 적재장\"",
+          "after": "\"清缘堂后方 · 瓦片堆放区\""
+        },
+        {
+          "start": 1000604,
+          "end": 1000611,
+          "before": "\"기와 자재\"",
+          "after": "\"瓦片材料\""
+        },
+        {
+          "start": 1000612,
+          "end": 1000624,
+          "before": "\"눌러서 한 장 들기\"",
+          "after": "\"点击拿取一片\""
+        },
+        {
+          "start": 1000796,
+          "end": 1000805,
+          "before": "\"기와 놓는 곳\"",
+          "after": "\"瓦片放置处\""
+        },
+        {
+          "start": 1001138,
+          "end": 1001152,
+          "before": "\"공사 · 손에 든 기와\"",
+          "after": "\"施工 · 手中的瓦片\""
+        },
+        {
+          "start": 1005988,
+          "end": 1005997,
+          "before": "\"범종 · 당목\"",
+          "after": "\"梵钟 · 撞木\""
+        },
+        {
+          "start": 1010940,
+          "end": 1010952,
+          "before": "\"산사 · 대나무 숲\"",
+          "after": "\"山寺 · 竹林\""
+        },
+        {
+          "start": 1011373,
+          "end": 1011383,
+          "before": "\"산사 · 대나무\"",
+          "after": "\"山寺 · 竹子\""
+        },
+        {
+          "start": 1015299,
+          "end": 1015321,
+          "before": "\"산사 · 숲에서 연못으로 흐르는 강물\"",
+          "after": "\"山寺 · 从林间流向池塘的溪水\""
+        },
+        {
+          "start": 1015527,
+          "end": 1015538,
+          "before": "\"산사 · 동쪽 강\"",
+          "after": "\"山寺 · 东侧河流\""
+        },
+        {
+          "start": 1015560,
+          "end": 1015575,
+          "before": "\"동쪽 강 · 물가의 사초\"",
+          "after": "\"东侧河流 · 水边莎草\""
+        },
+        {
+          "start": 1016522,
+          "end": 1016533,
+          "before": "\"동쪽 강 · 물결\"",
+          "after": "\"东侧河流 · 涟漪\""
+        },
+        {
+          "start": 1031449,
+          "end": 1031472,
+          "before": "\"CAFE25 · 마당의 작은 목재 팝업\"",
+          "after": "\"CAFE25 · 庭院木质小店\""
+        },
+        {
+          "start": 1035374,
+          "end": 1035380,
+          "before": "\"디카페인\"",
+          "after": "\"脱咖啡因\""
+        },
+        {
+          "start": 1035538,
+          "end": 1035549,
+          "before": "\"번뇌없이 즐기세요\"",
+          "after": "\"无忧享用\""
+        },
+        {
+          "start": 1035683,
+          "end": 1035689,
+          "before": "\"디카페인\"",
+          "after": "\"脱咖啡因\""
+        },
+        {
+          "start": 1035739,
+          "end": 1035750,
+          "before": "\"번뇌없이 즐기세요\"",
+          "after": "\"无忧享用\""
+        },
+        {
+          "start": 1038108,
+          "end": 1038113,
+          "before": "\"산사점\"",
+          "after": "\"山寺店\""
+        },
+        {
+          "start": 1038501,
+          "end": 1038506,
+          "before": "\"산사점\"",
+          "after": "\"山寺店\""
+        },
+        {
+          "start": 1039542,
+          "end": 1039554,
+          "before": "\"가장 가까운 휴식,\"",
+          "after": "\"最近的休憩，\""
+        },
+        {
+          "start": 1039555,
+          "end": 1039559,
+          "before": "\"산사\"",
+          "after": "\"山寺\""
+        },
+        {
+          "start": 1039562,
+          "end": 1039574,
+          "before": "\"가장 가까운 커피,\"",
+          "after": "\"最近的咖啡，\""
+        },
+        {
+          "start": 1039575,
+          "end": 1039581,
+          "before": "\"카페25\"",
+          "after": "\"CAFE25\""
+        },
+        {
+          "start": 1040781,
+          "end": 1040796,
+          "before": "\"가장 가까운 휴식, 커피\"",
+          "after": "\"身边的休憩，一杯咖啡\""
+        },
+        {
+          "start": 1040846,
+          "end": 1040855,
+          "before": "\"산사 카페25\"",
+          "after": "\"山寺 CAFE25\""
+        },
+        {
+          "start": 1041432,
+          "end": 1041443,
+          "before": "\"설강화 · 최종원\"",
+          "after": "\"雪滴花 · Choi Jong-won\""
+        },
+        {
+          "start": 1041818,
+          "end": 1041831,
+          "before": "\"설강화  ·  최종원\"",
+          "after": "\"雪滴花  ·  Choi Jong-won\""
+        },
+        {
+          "start": 1047634,
+          "end": 1047654,
+          "before": "\"CAFE25 · 한옥 컵 쓰레기통\"",
+          "after": "\"CAFE25 · 韩屋风格杯具回收箱\""
+        },
+        {
+          "start": 1054590,
+          "end": 1054609,
+          "before": "CAFE25 한옥 컵 쓰레기통 · ",
+          "after": "CAFE25 韩屋风格杯具回收箱 · "
+        },
+        {
+          "start": 1054838,
+          "end": 1054857,
+          "before": "CAFE25 한옥 컵 쓰레기통 · ",
+          "after": "CAFE25 韩屋风格杯具回收箱 · "
+        },
+        {
+          "start": 1055598,
+          "end": 1055614,
+          "before": "\"산사 · 산길 풀숲과 낙엽\"",
+          "after": "\"山寺 · 山路草丛与落叶\""
+        },
+        {
+          "start": 1059576,
+          "end": 1059581,
+          "before": "\"산책길\"",
+          "after": "\"散步小径\""
+        },
+        {
+          "start": 1068685,
+          "end": 1068703,
+          "before": "\"삼층석탑 · 세월이 밴 화강석\"",
+          "after": "\"三层石塔 · 岁月浸染的花岗岩\""
+        },
+        {
+          "start": 1068719,
+          "end": 1068737,
+          "before": "\"탑돌이 마당 · 다듬은 너럭돌\"",
+          "after": "\"绕塔庭院 · 平整石板\""
+        },
+        {
+          "start": 1082188,
+          "end": 1082200,
+          "before": "\"범종 · 청동 몸체\"",
+          "after": "\"梵钟 · 青铜钟身\""
+        },
+        {
+          "start": 1082271,
+          "end": 1082285,
+          "before": "\"범종 · 닳은 청동 띠\"",
+          "after": "\"梵钟 · 磨旧的青铜饰带\""
+        },
+        {
+          "start": 1082355,
+          "end": 1082368,
+          "before": "\"범종각 · 짙은 목재\"",
+          "after": "\"梵钟阁 · 深色木材\""
+        },
+        {
+          "start": 1097859,
+          "end": 1097874,
+          "before": "\"청연당 · 가운데 출입문\"",
+          "after": "\"清缘堂 · 中央入口\""
+        },
+        {
+          "start": 1099890,
+          "end": 1099895,
+          "before": "\"청연당\"",
+          "after": "\"清缘堂\""
+        },
+        {
+          "start": 1099930,
+          "end": 1099944,
+          "before": "\"청연당 · 淸緣堂 현판\"",
+          "after": "\"清缘堂 · 淸緣堂匾额\""
+        },
+        {
+          "start": 1100132,
+          "end": 1100152,
+          "before": "\"청연당 현판 · 오른쪽부터 淸緣堂\"",
+          "after": "\"清缘堂匾额 · 从右向左读作淸緣堂\""
+        },
+        {
+          "start": 1118836,
+          "end": 1118841,
+          "before": "\"복전함\"",
+          "after": "\"功德箱\""
+        },
+        {
+          "start": 1120177,
+          "end": 1120182,
+          "before": "\"복전함\"",
+          "after": "\"功德箱\""
+        },
+        {
+          "start": 1120469,
+          "end": 1120486,
+          "before": "\"복전함 inscription\"",
+          "after": "\"功德箱题字\""
+        },
+        {
+          "start": 1122870,
+          "end": 1122880,
+          "before": "\"청연당 · 건물\"",
+          "after": "\"清缘堂 · 建筑\""
+        },
+        {
+          "start": 1122888,
+          "end": 1122898,
+          "before": "\"청연당 · 내부\"",
+          "after": "\"清缘堂 · 内部\""
+        },
+        {
+          "start": 1122907,
+          "end": 1122914,
+          "before": "\"산책 정원\"",
+          "after": "\"漫步庭院\""
+        },
+        {
+          "start": 1123391,
+          "end": 1123405,
+          "before": "\"청연당 · 삼존 원거리\"",
+          "after": "\"清缘堂 · 三尊佛像远景\""
+        },
+        {
+          "start": 1123414,
+          "end": 1123427,
+          "before": "\"청연당 · 삼존 세부\"",
+          "after": "\"清缘堂 · 三尊佛像细节\""
+        },
+        {
+          "start": 1137184,
+          "end": 1137200,
+          "before": "\"대세지보살 · 지혜의 협시\"",
+          "after": "\"大势至菩萨 · 智慧胁侍\""
+        },
+        {
+          "start": 1137231,
+          "end": 1137247,
+          "before": "\"관세음보살 · 자비의 협시\"",
+          "after": "\"观世音菩萨 · 慈悲胁侍\""
+        },
+        {
+          "start": 1192645,
+          "end": 1192648,
+          "before": "\"나\"",
+          "after": "\"我\""
+        },
+        {
+          "start": 1228965,
+          "end": 1228977,
+          "before": "\"향 올리기와 복전함\"",
+          "after": "\"上香与功德箱\""
+        },
+        {
+          "start": 1229072,
+          "end": 1229283,
+          "before": "'<svg viewBox=\"0 0 20 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M10 19V10M5 19h10l-1.2 3H6.2L5 19Z M10 7c-3-2 3-3 0-6\"/></svg><span>향 올리기</span>'",
+          "after": "\"<svg viewBox=\\\"0 0 20 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.2\\\" stroke-linecap=\\\"round\\\" aria-hidden=\\\"true\\\"><path d=\\\"M10 19V10M5 19h10l-1.2 3H6.2L5 19Z M10 7c-3-2 3-3 0-6\\\"/></svg><span>上香</span>\""
+        },
+        {
+          "start": 1229456,
+          "end": 1229460,
+          "before": "\"향로\"",
+          "after": "\"香炉\""
+        },
+        {
+          "start": 1229720,
+          "end": 1229725,
+          "before": "\"복전함\"",
+          "after": "\"功德箱\""
+        },
+        {
+          "start": 1229946,
+          "end": 1229951,
+          "before": "\"복전함\"",
+          "after": "\"功德箱\""
+        },
+        {
+          "start": 1230416,
+          "end": 1230422,
+          "before": "\"그만두기\"",
+          "after": "\"放弃\""
+        },
+        {
+          "start": 1230926,
+          "end": 1230937,
+          "before": "\"차례를 기다립니다\"",
+          "after": "\"正在排队\""
+        },
+        {
+          "start": 1230938,
+          "end": 1230950,
+          "before": "\"잠시만 기다려주세요\"",
+          "after": "\"请稍候\""
+        },
+        {
+          "start": 1230965,
+          "end": 1230976,
+          "before": "\"향로로 다가갑니다\"",
+          "after": "\"正在走向香炉\""
+        },
+        {
+          "start": 1230977,
+          "end": 1230991,
+          "before": "\"잠시 마음을 가라앉혀요\"",
+          "after": "\"让心静下来\""
+        },
+        {
+          "start": 1231003,
+          "end": 1231012,
+          "before": "\"향을 올립니다\"",
+          "after": "\"敬上一炷香\""
+        },
+        {
+          "start": 1231013,
+          "end": 1231031,
+          "before": "\"고요한 마음을 한 자루에 담아\"",
+          "after": "\"将一份清静寄于香中\""
+        },
+        {
+          "start": 1231042,
+          "end": 1231054,
+          "before": "\"향을 올리고 있어요\"",
+          "after": "\"正在上香\""
+        },
+        {
+          "start": 1231055,
+          "end": 1231067,
+          "before": "\"잠시만 기다려주세요\"",
+          "after": "\"请稍候\""
+        },
+        {
+          "start": 1231079,
+          "end": 1231089,
+          "before": "\"향을 올렸습니다\"",
+          "after": "\"已敬香\""
+        },
+        {
+          "start": 1231090,
+          "end": 1231111,
+          "before": "\"내 향이 이곳에서 조용히 타오릅니다\"",
+          "after": "\"这一炷香，正在此处静静燃烧\""
+        },
+        {
+          "start": 1231122,
+          "end": 1231132,
+          "before": "\"향을 올렸습니다\"",
+          "after": "\"已敬香\""
+        },
+        {
+          "start": 1231133,
+          "end": 1231152,
+          "before": "\"다음 분을 위해 잠시 이동합니다\"",
+          "after": "\"为下一位让出位置\""
+        },
+        {
+          "start": 1231163,
+          "end": 1231177,
+          "before": "\"올린 향이 타고 있어요\"",
+          "after": "\"敬上的香正在燃烧\""
+        },
+        {
+          "start": 1231178,
+          "end": 1231203,
+          "before": "\"잠시 머물며 가늘게 흐르는 연기를 바라봐요\"",
+          "after": "\"稍作停留，看看袅袅升起的轻烟\""
+        },
+        {
+          "start": 1231218,
+          "end": 1231235,
+          "before": "\"지금은 향을 올리지 못했어요\"",
+          "after": "\"暂时无法上香\""
+        },
+        {
+          "start": 1231236,
+          "end": 1231256,
+          "before": "\"연결된 뒤 향로를 다시 눌러주세요\"",
+          "after": "\"连接恢复后，请再次点击香炉\""
+        },
+        {
+          "start": 1231396,
+          "end": 1231399,
+          "before": "앞에 ",
+          "after": "前方还有 "
+        },
+        {
+          "start": 1231403,
+          "end": 1231424,
+          "before": "명이 있어요 · 차례가 되면 다가갑니다",
+          "after": "人 · 轮到你时会自动上前"
+        },
+        {
+          "start": 1231426,
+          "end": 1231438,
+          "before": "\"잠시만 기다려주세요\"",
+          "after": "\"请稍候\""
+        },
+        {
+          "start": 1258194,
+          "end": 1258205,
+          "before": "\"CAFE25 커피\"",
+          "after": "\"CAFE25 咖啡\""
+        },
+        {
+          "start": 1258294,
+          "end": 1258302,
+          "before": "\"커피 내리기\"",
+          "after": "\"制作咖啡\""
+        },
+        {
+          "start": 1259265,
+          "end": 1259273,
+          "before": "\"커피 내리기\"",
+          "after": "\"制作咖啡\""
+        },
+        {
+          "start": 1259451,
+          "end": 1259460,
+          "before": "\"커피 창 닫기\"",
+          "after": "\"关闭咖啡窗口\""
+        },
+        {
+          "start": 1259773,
+          "end": 1259780,
+          "before": "\"커피 선택\"",
+          "after": "\"选择咖啡\""
+        },
+        {
+          "start": 1259809,
+          "end": 1259814,
+          "before": "\"무소유\"",
+          "after": "\"分享杯\""
+        },
+        {
+          "start": 1259815,
+          "end": 1259825,
+          "before": "\"다른 방문자에게\"",
+          "after": "\"送给其他访客\""
+        },
+        {
+          "start": 1259839,
+          "end": 1259844,
+          "before": "\"풀소유\"",
+          "after": "\"自享杯\""
+        },
+        {
+          "start": 1259845,
+          "end": 1259856,
+          "before": "\"25배 후 나에게\"",
+          "after": "\"礼佛 25 次后，犒劳自己\""
+        },
+        {
+          "start": 1259870,
+          "end": 1259874,
+          "before": "\"배달\"",
+          "after": "\"送一杯\""
+        },
+        {
+          "start": 1259875,
+          "end": 1259885,
+          "before": "\"사랑하는 이에게\"",
+          "after": "\"送给在意的人\""
+        },
+        {
+          "start": 1261334,
+          "end": 1261344,
+          "before": "\"커피 추출 진행\"",
+          "after": "\"咖啡制作进度\""
+        },
+        {
+          "start": 1263515,
+          "end": 1263529,
+          "before": "\"커피를 내리고 있어요.\"",
+          "after": "\"正在制作咖啡。\""
+        },
+        {
+          "start": 1263534,
+          "end": 1263568,
+          "before": "\"커피를 건네거나 쓰레기통에 버린 뒤 다시 내릴 수 있어요.\"",
+          "after": "\"将咖啡送出或放入回收箱后，即可再次制作。\""
+        },
+        {
+          "start": 1263569,
+          "end": 1263599,
+          "before": "\"빈 컵을 쓰레기통에 버린 뒤 다시 내릴 수 있어요.\"",
+          "after": "\"将空杯放入回收箱后，即可再次制作。\""
+        },
+        {
+          "start": 1263602,
+          "end": 1263632,
+          "before": "\"내가 마시지 않고 다른 방문자에게 건네는 커피예요.\"",
+          "after": "\"这杯咖啡送给其他访客，不能自己喝。\""
+        },
+        {
+          "start": 1263633,
+          "end": 1263655,
+          "before": "\"절 25번을 마치면 마실 수 있어요.\"",
+          "after": "\"完整礼佛 25 次后，即可享用。\""
+        },
+        {
+          "start": 1263996,
+          "end": 1264006,
+          "before": "\"마무리하는 중…\"",
+          "after": "\"正在完成…\""
+        },
+        {
+          "start": 1264008,
+          "end": 1264019,
+          "before": "커피 내리는 중 · ",
+          "after": "咖啡制作中 · "
+        },
+        {
+          "start": 1264023,
+          "end": 1264024,
+          "before": "초",
+          "after": "秒"
+        },
+        {
+          "start": 1264028,
+          "end": 1264035,
+          "before": "\"확인 중…\"",
+          "after": "\"确认中…\""
+        },
+        {
+          "start": 1264036,
+          "end": 1264044,
+          "before": "\"커피 내리기\"",
+          "after": "\"制作咖啡\""
+        },
+        {
+          "start": 1264089,
+          "end": 1264108,
+          "before": "\"커피 추출 완료, 마무리하는 중\"",
+          "after": "\"咖啡已萃取完成，正在收尾\""
+        },
+        {
+          "start": 1264110,
+          "end": 1264120,
+          "before": "커피 내리는 중, ",
+          "after": "咖啡制作中，还剩 "
+        },
+        {
+          "start": 1264124,
+          "end": 1264128,
+          "before": "초 남음",
+          "after": "秒"
+        },
+        {
+          "start": 1264133,
+          "end": 1264143,
+          "before": "커피 내리기, 절 ",
+          "after": "制作咖啡，礼佛 "
+        },
+        {
+          "start": 1264147,
+          "end": 1264153,
+          "before": " / 25배",
+          "after": " / 25 次"
+        },
+        {
+          "start": 1264155,
+          "end": 1264163,
+          "before": "\"커피 내리기\"",
+          "after": "\"制作咖啡\""
+        },
+        {
+          "start": 1264364,
+          "end": 1264379,
+          "before": "\"내 커피를 위한 절 진행\"",
+          "after": "\"自享咖啡的礼佛进度\""
+        },
+        {
+          "start": 1264380,
+          "end": 1264390,
+          "before": "\"커피 추출 진행\"",
+          "after": "\"咖啡制作进度\""
+        },
+        {
+          "start": 1264443,
+          "end": 1264449,
+          "before": " / 25배",
+          "after": " / 25 次"
+        },
+        {
+          "start": 1264623,
+          "end": 1264631,
+          "before": "\"무소유 커피\"",
+          "after": "\"分享咖啡\""
+        },
+        {
+          "start": 1264655,
+          "end": 1264662,
+          "before": "\"받은 커피\"",
+          "after": "\"收到的咖啡\""
+        },
+        {
+          "start": 1264663,
+          "end": 1264675,
+          "before": "\"풀소유 · 내 커피\"",
+          "after": "\"自享 · 我的咖啡\""
+        },
+        {
+          "start": 1264712,
+          "end": 1264749,
+          "before": "\"가까운 사람이 ‘커피 요청하기’를 누르면 ‘건네기’로 수락해요.\"",
+          "after": "\"附近的访客点击“请求咖啡”后，点击“递出”即可同意。\""
+        },
+        {
+          "start": 1264750,
+          "end": 1264781,
+          "before": "\"일어나면 다른 방문자의 커피 요청을 받을 수 있어요.\"",
+          "after": "\"起身后即可接收其他访客的咖啡请求。\""
+        },
+        {
+          "start": 1264782,
+          "end": 1264802,
+          "before": "\"세 번에 나누어 마실 수 있어요.\"",
+          "after": "\"可以分三口慢慢喝。\""
+        },
+        {
+          "start": 1264827,
+          "end": 1264851,
+          "before": "\"건네지 않을 땐 쓰레기통을 눌러 버려요.\"",
+          "after": "\"不想送出时，可点击回收箱放入杯子。\""
+        },
+        {
+          "start": 1264904,
+          "end": 1264914,
+          "before": "\"한 모금 마시기\"",
+          "after": "\"喝一口\""
+        },
+        {
+          "start": 1264960,
+          "end": 1264970,
+          "before": "\"커피 마시는 중\"",
+          "after": "\"正在喝咖啡\""
+        },
+        {
+          "start": 1264995,
+          "end": 1265003,
+          "before": "\"마시는 중…\"",
+          "after": "\"品尝中…\""
+        },
+        {
+          "start": 1265072,
+          "end": 1265077,
+          "before": "\"빈 컵\"",
+          "after": "\"空杯\""
+        },
+        {
+          "start": 1265136,
+          "end": 1265150,
+          "before": "\"쓰레기통에 버려주세요.\"",
+          "after": "\"请放入回收箱。\""
+        },
+        {
+          "start": 1265578,
+          "end": 1265609,
+          "before": "\"로컬 미리보기 · QR 코드는 이 기기에서만 열려요.\"",
+          "after": "\"本地预览 · 此二维码只能在当前设备打开。\""
+        },
+        {
+          "start": 1265674,
+          "end": 1265712,
+          "before": "\"로컬 미리보기 · 같은 네트워크에서만 QR 코드를 열 수 있어요.\"",
+          "after": "\"本地预览 · 只有同一网络内的设备可以打开二维码。\""
+        },
+        {
+          "start": 1266405,
+          "end": 1266421,
+          "before": "\"이미지를 만들 수 없어요.\"",
+          "after": "\"无法生成图片。\""
+        },
+        {
+          "start": 1266624,
+          "end": 1266637,
+          "before": "\"CAFE25 × 산사\"",
+          "after": "\"CAFE25 × 山寺\""
+        },
+        {
+          "start": 1266724,
+          "end": 1266736,
+          "before": "\"우리, 잠깐 쉬자.\"",
+          "after": "\"一起，歇一会儿。\""
+        },
+        {
+          "start": 1266765,
+          "end": 1266778,
+          "before": "\"커피 한 잔, 같이.\"",
+          "after": "\"一起喝杯咖啡。\""
+        },
+        {
+          "start": 1267183,
+          "end": 1267189,
+          "before": "\"× 산사\"",
+          "after": "\"× 山寺\""
+        },
+        {
+          "start": 1267554,
+          "end": 1267564,
+          "before": "\"산사에서 만나요\"",
+          "after": "\"山寺见\""
+        },
+        {
+          "start": 1267631,
+          "end": 1267648,
+          "before": "\"이미지를 저장할 수 없어요.\"",
+          "after": "\"无法保存图片。\""
+        },
+        {
+          "start": 1268021,
+          "end": 1268033,
+          "before": "\"커피 공유 창 닫기\"",
+          "after": "\"关闭咖啡分享窗口\""
+        },
+        {
+          "start": 1268324,
+          "end": 1268339,
+          "before": "\"친구에게 한마디 (선택)\"",
+          "after": "\"给朋友的一句话（选填）\""
+        },
+        {
+          "start": 1268533,
+          "end": 1268552,
+          "before": "\"지금 생각나는 사람에게 한마디.\"",
+          "after": "\"对现在想起的那个人，说一句话。\""
+        },
+        {
+          "start": 1268592,
+          "end": 1268607,
+          "before": "\"친구에게 한마디 (선택)\"",
+          "after": "\"给朋友的一句话（选填）\""
+        },
+        {
+          "start": 1269450,
+          "end": 1269491,
+          "before": "\"산사에서 꼬동이와 공양이가 함께 두 손으로 CAFE25 커피를 건네요.\"",
+          "after": "\"山寺的小沙弥与供养猫，双手递上一杯 CAFE25 咖啡。\""
+        },
+        {
+          "start": 1269661,
+          "end": 1269716,
+          "before": "\"<small>CAFE25 × 산사</small><strong>우리, 잠깐 쉬자.</strong>\"",
+          "after": "\"<small>CAFE25 × 山寺</small><strong>一起，歇一会儿。</strong>\""
+        },
+        {
+          "start": 1269898,
+          "end": 1269904,
+          "before": "\"× 산사\"",
+          "after": "\"× 山寺\""
+        },
+        {
+          "start": 1270102,
+          "end": 1270110,
+          "before": "\"이미지 복사\"",
+          "after": "\"复制图片\""
+        },
+        {
+          "start": 1270137,
+          "end": 1270145,
+          "before": "\"이미지 저장\"",
+          "after": "\"保存图片\""
+        },
+        {
+          "start": 1270939,
+          "end": 1270980,
+          "before": "\"문구와 로고가 포함된 커피 배달 이미지. 길게 눌러 저장할 수 있어요.\"",
+          "after": "\"附有文字与标志的咖啡赠送图片，可长按保存。\""
+        },
+        {
+          "start": 1271125,
+          "end": 1271132,
+          "before": "\"문구 수정\"",
+          "after": "\"修改文字\""
+        },
+        {
+          "start": 1273349,
+          "end": 1273357,
+          "before": "\"산사의 친구\"",
+          "after": "\"山寺的朋友\""
+        },
+        {
+          "start": 1273453,
+          "end": 1273463,
+          "before": "\"산사에 초대해요\"",
+          "after": "\"邀你来山寺\""
+        },
+        {
+          "start": 1274040,
+          "end": 1274047,
+          "before": "\"커피 배달\"",
+          "after": "\"送一杯咖啡\""
+        },
+        {
+          "start": 1274184,
+          "end": 1274205,
+          "before": "\"<span>이미지 공유</span>\"",
+          "after": "\"<span>分享图片</span>\""
+        },
+        {
+          "start": 1274206,
+          "end": 1274228,
+          "before": "\"<span>잠깐 쉬어가기</span>\"",
+          "after": "\"<span>歇一会儿</span>\""
+        },
+        {
+          "start": 1274804,
+          "end": 1274817,
+          "before": "\"커피 한 잔, 같이.\"",
+          "after": "\"一起喝杯咖啡。\""
+        },
+        {
+          "start": 1275879,
+          "end": 1275915,
+          "before": "\"이미지를 만들지 못했어요. 보내기를 눌러 다시 준비해 주세요.\"",
+          "after": "\"图片生成失败，请点击发送重新生成。\""
+        },
+        {
+          "start": 1276394,
+          "end": 1276412,
+          "before": "\"입력한 문구를 확인해 주세요.\"",
+          "after": "\"请检查输入的文字。\""
+        },
+        {
+          "start": 1277013,
+          "end": 1277041,
+          "before": "\"문구를 저장하지 못했어요. 다시 입력해 주세요.\"",
+          "after": "\"文字保存失败，请重新输入。\""
+        },
+        {
+          "start": 1277637,
+          "end": 1277659,
+          "before": "\"CAFE25-산사-한-잔의-쉼.png\"",
+          "after": "\"CAFE25-山寺-一杯小憩.png\""
+        },
+        {
+          "start": 1278019,
+          "end": 1278045,
+          "before": "\"지금 들고 있는 컵을 정리한 뒤 받아주세요.\"",
+          "after": "\"请先处理手中的杯子，再接收咖啡。\""
+        },
+        {
+          "start": 1278076,
+          "end": 1278105,
+          "before": "\"커피를 받지 못했어요. 잠시 후 다시 눌러주세요.\"",
+          "after": "\"未能接收咖啡，请稍后重试。\""
+        },
+        {
+          "start": 1278215,
+          "end": 1278251,
+          "before": "\"이미지를 준비하고 있어요. 준비되면 보내기를 다시 눌러주세요.\"",
+          "after": "\"正在准备图片，就绪后请再次点击发送。\""
+        },
+        {
+          "start": 1278468,
+          "end": 1278508,
+          "before": "\"이미지가 첨부되지 않으면 저장한 뒤 채팅에서 사진으로 첨부해 주세요.\"",
+          "after": "\"若未附上图片，请先保存，再作为照片发送到聊天中。\""
+        },
+        {
+          "start": 1278610,
+          "end": 1278650,
+          "before": "\"공유창을 열지 못했어요. 이미지를 저장한 뒤 사진으로 첨부해 주세요.\"",
+          "after": "\"无法打开分享窗口，请保存图片后作为照片发送。\""
+        },
+        {
+          "start": 1278830,
+          "end": 1278851,
+          "before": "\"이미지가 준비되면 다시 눌러주세요.\"",
+          "after": "\"请在图片准备好后再次点击。\""
+        },
+        {
+          "start": 1278991,
+          "end": 1279020,
+          "before": "\"이미지를 복사했어요. 채팅에 붙여넣어 보내주세요.\"",
+          "after": "\"图片已复制，请粘贴到聊天中发送。\""
+        },
+        {
+          "start": 1279051,
+          "end": 1279088,
+          "before": "\"이미지를 복사하지 못했어요. 저장한 뒤 사진으로 첨부해 주세요.\"",
+          "after": "\"无法复制图片，请保存后作为照片发送。\""
+        },
+        {
+          "start": 1279356,
+          "end": 1279378,
+          "before": "\"CAFE25-산사-한-잔의-쉼.png\"",
+          "after": "\"CAFE25-山寺-一杯小憩.png\""
+        },
+        {
+          "start": 1279791,
+          "end": 1279840,
+          "before": "\"저장한 PNG를 채팅에 첨부해 주세요. 저장되지 않으면 위 이미지를 길게 눌러주세요.\"",
+          "after": "\"请将保存的 PNG 图片发送到聊天中；若未能保存，请长按上方图片。\""
+        },
+        {
+          "start": 1279889,
+          "end": 1279921,
+          "before": "\"이미지를 저장하지 못했어요. 잠시 후 다시 눌러주세요.\"",
+          "after": "\"图片保存失败，请稍后重试。\""
+        },
+        {
+          "start": 1280281,
+          "end": 1280300,
+          "before": "\"온전히 마친 25배가 필요해요.\"",
+          "after": "\"需要完整礼佛 25 次。\""
+        },
+        {
+          "start": 1280319,
+          "end": 1280336,
+          "before": "\"머신 가까이 다가가 주세요.\"",
+          "after": "\"请靠近咖啡机。\""
+        },
+        {
+          "start": 1280357,
+          "end": 1280385,
+          "before": "\"내가 내린 무소유 잔은 다른 이에게 건네주세요.\"",
+          "after": "\"分享杯请送给其他人。\""
+        },
+        {
+          "start": 1280402,
+          "end": 1280427,
+          "before": "\"건네는 시간이 지났어요. 다시 건네주세요.\"",
+          "after": "\"递送已超时，请重新递送。\""
+        },
+        {
+          "start": 1280448,
+          "end": 1280467,
+          "before": "\"상대가 이미 잔을 들고 있어요.\"",
+          "after": "\"对方手中已有杯子。\""
+        },
+        {
+          "start": 1280488,
+          "end": 1280512,
+          "before": "\"상대에게 조금 더 가까이 다가가 주세요.\"",
+          "after": "\"请再靠近对方一点。\""
+        },
+        {
+          "start": 1280529,
+          "end": 1280552,
+          "before": "\"건네기가 끝났어요. 다시 시도해주세요.\"",
+          "after": "\"递送已结束，请重试。\""
+        },
+        {
+          "start": 1280561,
+          "end": 1280580,
+          "before": "\"조금 더 가까이 다가가 주세요.\"",
+          "after": "\"请再靠近一点。\""
+        },
+        {
+          "start": 1280593,
+          "end": 1280612,
+          "before": "\"상대가 이미 잔을 들고 있어요.\"",
+          "after": "\"对方手中已有杯子。\""
+        },
+        {
+          "start": 1280623,
+          "end": 1280647,
+          "before": "\"커피가 다 내려질 때까지 기다려 주세요.\"",
+          "after": "\"请等待咖啡制作完成。\""
+        },
+        {
+          "start": 1280658,
+          "end": 1280677,
+          "before": "\"온전히 마친 25배가 필요해요.\"",
+          "after": "\"需要完整礼佛 25 次。\""
+        },
+        {
+          "start": 1280690,
+          "end": 1280715,
+          "before": "\"건네는 시간이 지났어요. 다시 건네주세요.\"",
+          "after": "\"递送已超时，请重新递送。\""
+        },
+        {
+          "start": 1280729,
+          "end": 1280751,
+          "before": "\"연결을 확인한 뒤 다시 시도해주세요.\"",
+          "after": "\"请检查连接后重试。\""
+        },
+        {
+          "start": 1280760,
+          "end": 1280788,
+          "before": "\"내가 내린 무소유 잔은 다른 이에게 건네주세요.\"",
+          "after": "\"分享杯请送给其他人。\""
+        },
+        {
+          "start": 1280816,
+          "end": 1280845,
+          "before": "\"만날 자리가 없어요. 조금 옆으로 이동해 주세요.\"",
+          "after": "\"没有合适的会面位置，请向旁边移动一点。\""
+        },
+        {
+          "start": 1280866,
+          "end": 1280892,
+          "before": "\"마시는 커피는 다 마신 뒤 버릴 수 있어요.\"",
+          "after": "\"饮用中的咖啡需喝完后才能回收。\""
+        },
+        {
+          "start": 1280911,
+          "end": 1280930,
+          "before": "\"쓰레기통 가까이 다가가 주세요.\"",
+          "after": "\"请靠近回收箱。\""
+        },
+        {
+          "start": 1280950,
+          "end": 1280970,
+          "before": "\"컵은 쓰레기통을 눌러 버려주세요.\"",
+          "after": "\"请点击回收箱放入杯子。\""
+        },
+        {
+          "start": 1280984,
+          "end": 1280996,
+          "before": "\"버릴 컵이 없어요.\"",
+          "after": "\"没有可回收的杯子。\""
+        },
+        {
+          "start": 1281013,
+          "end": 1281040,
+          "before": "\"컵이 바뀌었어요. 쓰레기통을 다시 눌러주세요.\"",
+          "after": "\"杯子已变化，请再次点击回收箱。\""
+        },
+        {
+          "start": 1281059,
+          "end": 1281079,
+          "before": "\"이 쓰레기통에는 버릴 수 없어요.\"",
+          "after": "\"无法放入这个回收箱。\""
+        },
+        {
+          "start": 1281101,
+          "end": 1281127,
+          "before": "\"상대가 앉아 있거나 다른 일을 하고 있어요.\"",
+          "after": "\"对方正坐着或忙于其他事情。\""
+        },
+        {
+          "start": 1281148,
+          "end": 1281185,
+          "before": "\"이미 커피 요청이 진행 중이에요. 잠시 뒤 다시 요청해 주세요.\"",
+          "after": "\"已有咖啡请求正在进行，请稍后再试。\""
+        },
+        {
+          "start": 1281200,
+          "end": 1281224,
+          "before": "\"상대에게 조금 더 가까이 다가가 주세요.\"",
+          "after": "\"请再靠近对方一点。\""
+        },
+        {
+          "start": 1281247,
+          "end": 1281263,
+          "before": "\"이미 커피를 들고 있어요.\"",
+          "after": "\"你手中已有咖啡。\""
+        },
+        {
+          "start": 1281288,
+          "end": 1281308,
+          "before": "\"지금 건넬 무소유 커피가 없어요.\"",
+          "after": "\"目前没有可送出的分享咖啡。\""
+        },
+        {
+          "start": 1281353,
+          "end": 1281379,
+          "before": "\"지금 하던 동작을 마친 뒤 다시 눌러주세요.\"",
+          "after": "\"请先完成当前动作，再次点击。\""
+        },
+        {
+          "start": 1282233,
+          "end": 1282240,
+          "before": "\"커피 요청\"",
+          "after": "\"咖啡请求\""
+        },
+        {
+          "start": 1284802,
+          "end": 1284837,
+          "before": "\"커피 요청 시간이 지났어요. 가까이에서 다시 요청해 주세요.\"",
+          "after": "\"咖啡请求已超时，请在附近重新请求。\""
+        },
+        {
+          "start": 1284838,
+          "end": 1284853,
+          "before": "\"커피 요청이 취소됐어요.\"",
+          "after": "\"咖啡请求已取消。\""
+        },
+        {
+          "start": 1285682,
+          "end": 1285704,
+          "before": "\"연결을 확인한 뒤 다시 시도해주세요.\"",
+          "after": "\"请检查连接后重试。\""
+        },
+        {
+          "start": 1286162,
+          "end": 1286192,
+          "before": "\"컵을 버리지 못했어요. 쓰레기통을 다시 눌러주세요.\"",
+          "after": "\"杯子回收失败，请再次点击回收箱。\""
+        },
+        {
+          "start": 1286203,
+          "end": 1286233,
+          "before": "\"지금은 마실 수 없어요. 잠시 뒤 다시 눌러주세요.\"",
+          "after": "\"暂时无法喝咖啡，请稍后再试。\""
+        },
+        {
+          "start": 1286245,
+          "end": 1286275,
+          "before": "\"커피를 내리지 못했어요. 잠시 뒤 다시 눌러주세요.\"",
+          "after": "\"咖啡制作失败，请稍后再试。\""
+        },
+        {
+          "start": 1286276,
+          "end": 1286312,
+          "before": "\"커피 요청을 마치지 못했어요. 가까이에서 다시 시도해 주세요.\"",
+          "after": "\"咖啡请求未完成，请靠近后重试。\""
+        },
+        {
+          "start": 1286421,
+          "end": 1286443,
+          "before": "\"연결을 확인한 뒤 다시 시도해주세요.\"",
+          "after": "\"请检查连接后重试。\""
+        },
+        {
+          "start": 1291463,
+          "end": 1291491,
+          "before": "\"이곳에서는 남은 풀소유 커피도 버릴 수 있어요.\"",
+          "after": "\"这里也可以回收尚未喝完的自享咖啡。\""
+        },
+        {
+          "start": 1291492,
+          "end": 1291532,
+          "before": "\"다 마신 빈 컵이나 아직 건네지 않은 무소유 커피를 버릴 수 있어요.\"",
+          "after": "\"可以回收空杯，或尚未送出的分享咖啡。\""
+        },
+        {
+          "start": 1291850,
+          "end": 1291871,
+          "before": "\"요청을 취소하고 쓰레기통으로 가요.\"",
+          "after": "\"取消请求，前往回收箱。\""
+        },
+        {
+          "start": 1291872,
+          "end": 1291890,
+          "before": "\"쓰레기통으로 걸어가고 있어요.\"",
+          "after": "\"正在走向回收箱。\""
+        },
+        {
+          "start": 1292198,
+          "end": 1292216,
+          "before": "\"쓰레기통으로 걸어가고 있어요.\"",
+          "after": "\"正在走向回收箱。\""
+        },
+        {
+          "start": 1292529,
+          "end": 1292563,
+          "before": "\"쓰레기통에 다가갈 수 없어요. 조금 옆으로 이동해 주세요.\"",
+          "after": "\"无法靠近回收箱，请向旁边移动一点。\""
+        },
+        {
+          "start": 1293064,
+          "end": 1293092,
+          "before": "\"쓰레기통에 다가가지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"未能靠近回收箱，请再点一次。\""
+        },
+        {
+          "start": 1293325,
+          "end": 1293359,
+          "before": "\"쓰레기통에 다가갈 수 없어요. 조금 옆으로 이동해 주세요.\"",
+          "after": "\"无法靠近回收箱，请向旁边移动一点。\""
+        },
+        {
+          "start": 1294749,
+          "end": 1294758,
+          "before": "\"곁에 있는 이\"",
+          "after": "\"身边的访客\""
+        },
+        {
+          "start": 1295530,
+          "end": 1295543,
+          "before": "\"서로 다가가고 있어요\"",
+          "after": "\"正在互相靠近\""
+        },
+        {
+          "start": 1295544,
+          "end": 1295558,
+          "before": "\"상대가 다가오고 있어요\"",
+          "after": "\"对方正在走来\""
+        },
+        {
+          "start": 1295572,
+          "end": 1295580,
+          "before": "님의 커피 요청",
+          "after": "的咖啡请求"
+        },
+        {
+          "start": 1295595,
+          "end": 1295599,
+          "before": "\"취소\"",
+          "after": "\"取消\""
+        },
+        {
+          "start": 1295606,
+          "end": 1295611,
+          "before": "\"건네기\"",
+          "after": "\"递出\""
+        },
+        {
+          "start": 1295670,
+          "end": 1295674,
+          "before": "\"거절\"",
+          "after": "\"婉拒\""
+        },
+        {
+          "start": 1295894,
+          "end": 1295907,
+          "before": "\"서로 다가가고 있어요\"",
+          "after": "\"正在互相靠近\""
+        },
+        {
+          "start": 1295908,
+          "end": 1295920,
+          "before": "\"커피를 받으러 가요\"",
+          "after": "\"正在前去接咖啡\""
+        },
+        {
+          "start": 1295921,
+          "end": 1295932,
+          "before": "\"커피를 요청했어요\"",
+          "after": "\"已请求咖啡\""
+        },
+        {
+          "start": 1295935,
+          "end": 1295939,
+          "before": "\"취소\"",
+          "after": "\"取消\""
+        },
+        {
+          "start": 1296051,
+          "end": 1296064,
+          "before": "\"커피 한 잔을 건네요\"",
+          "after": "\"递上一杯咖啡\""
+        },
+        {
+          "start": 1296086,
+          "end": 1296095,
+          "before": "\"다가가는 중…\"",
+          "after": "\"正在靠近…\""
+        },
+        {
+          "start": 1296096,
+          "end": 1296106,
+          "before": "\"두 손으로 받기\"",
+          "after": "\"双手接过\""
+        },
+        {
+          "start": 1296158,
+          "end": 1296164,
+          "before": "\"괜찮아요\"",
+          "after": "\"不用了，谢谢\""
+        },
+        {
+          "start": 1296298,
+          "end": 1296315,
+          "before": "\"상대가 받을 때까지 기다려요\"",
+          "after": "\"等待对方接过咖啡\""
+        },
+        {
+          "start": 1296318,
+          "end": 1296322,
+          "before": "\"취소\"",
+          "after": "\"取消\""
+        },
+        {
+          "start": 1296425,
+          "end": 1296427,
+          "before": "님께",
+          "after": "的咖啡"
+        },
+        {
+          "start": 1296431,
+          "end": 1296440,
+          "before": "\"커피 요청하기\"",
+          "after": "\"请求咖啡\""
+        },
+        {
+          "start": 1297114,
+          "end": 1297140,
+          "before": "\"조금 옆으로 이동한 뒤 다시 요청해 주세요.\"",
+          "after": "\"请向旁边移动一点后，再次请求。\""
+        },
+        {
+          "start": 1299042,
+          "end": 1299086,
+          "before": "\"서로 다가가지 못해 커피 요청을 취소했어요. 가까이에서 다시 요청해 주세요.\"",
+          "after": "\"未能互相靠近，已取消咖啡请求。请靠近后重试。\""
+        },
+        {
+          "start": 1299297,
+          "end": 1299347,
+          "before": "\"만날 자리로 걸어갈 수 없어 커피 요청을 취소했어요. 조금 옆에서 다시 요청해 주세요.\"",
+          "after": "\"无法走到会面位置，已取消咖啡请求。请向旁边移动一点后重试。\""
+        },
+        {
+          "start": 1309581,
+          "end": 1309636,
+          "before": "\"청연당과 연등 산책길, 연꽃 연못과 열린 마당이 있는 산사. 동자승 뒤에서 둘러보는 3인칭 공간\"",
+          "after": "\"山寺拥有清缘堂、祈愿灯小径、莲花池和开阔庭院。跟随小沙弥的第三人称视角，自在游览。\""
+        },
+        {
+          "start": 1312351,
+          "end": 1312359,
+          "before": "\"산사의 친구\"",
+          "after": "\"山寺的朋友\""
+        },
+        {
+          "start": 1332595,
+          "end": 1332615,
+          "before": "\"기와 옮기기를 잠시 쉬고 있어요.\"",
+          "after": "\"瓦片搬运暂时休息中。\""
+        },
+        {
+          "start": 1332636,
+          "end": 1332659,
+          "before": "\"다른 방문자가 기와를 옮기는 중이에요.\"",
+          "after": "\"其他访客正在搬运瓦片。\""
+        },
+        {
+          "start": 1332681,
+          "end": 1332702,
+          "before": "\"모든 서버에서 기와를 다 옮겼어요.\"",
+          "after": "\"所有房间的瓦片都已搬运完成。\""
+        },
+        {
+          "start": 1332769,
+          "end": 1332790,
+          "before": "\"모든 서버에서 기와를 다 옮겼어요.\"",
+          "after": "\"所有房间的瓦片都已搬运完成。\""
+        },
+        {
+          "start": 1332791,
+          "end": 1332805,
+          "before": "\"기와를 모두 옮겼어요.\"",
+          "after": "\"瓦片已全部搬运完成。\""
+        },
+        {
+          "start": 1333887,
+          "end": 1333912,
+          "before": "\"공사장 입구의 기와 놓는 곳을 눌러주세요.\"",
+          "after": "\"请点击工地入口的瓦片放置处。\""
+        },
+        {
+          "start": 1333913,
+          "end": 1333932,
+          "before": "\"안전모 선반을 먼저 눌러주세요.\"",
+          "after": "\"请先点击安全帽架。\""
+        },
+        {
+          "start": 1333976,
+          "end": 1334005,
+          "before": "\"청연당 뒤 기와 더미를 눌러 한 장을 가져오세요.\"",
+          "after": "\"请点击清缘堂后方的瓦片堆，拿取一片。\""
+        },
+        {
+          "start": 1334067,
+          "end": 1334089,
+          "before": "\"들고 있는 기와를 먼저 내려놓으세요.\"",
+          "after": "\"请先放下手中的瓦片。\""
+        },
+        {
+          "start": 1334248,
+          "end": 1334274,
+          "before": "\"손에 든 것을 정리한 뒤 작업에 합류하세요.\"",
+          "after": "\"请先处理手中的物品，再参与施工。\""
+        },
+        {
+          "start": 1334856,
+          "end": 1334872,
+          "before": "\"작업대를 다시 눌러주세요.\"",
+          "after": "\"请再次点击工作台。\""
+        },
+        {
+          "start": 1334909,
+          "end": 1334912,
+          "before": "산사 ",
+          "after": "山寺 "
+        },
+        {
+          "start": 1334921,
+          "end": 1334938,
+          "before": "번 서버에 기와를 옮겼어요 · ",
+          "after": "号房间已收到瓦片 · "
+        },
+        {
+          "start": 1334961,
+          "end": 1334962,
+          "before": "장",
+          "after": "片"
+        },
+        {
+          "start": 1334983,
+          "end": 1335011,
+          "before": "\"안전모를 썼어요. 옆의 기와 더미를 눌러보세요.\"",
+          "after": "\"已戴上安全帽，请点击旁边的瓦片堆。\""
+        },
+        {
+          "start": 1335022,
+          "end": 1335046,
+          "before": "\"공사장에 내려놓으면 다른 서버로 보내요.\"",
+          "after": "\"放到工地后，将送往其他房间。\""
+        },
+        {
+          "start": 1335047,
+          "end": 1335082,
+          "before": "\"기와를 들었어요. 공사장 입구의 기와 놓는 곳을 눌러보세요.\"",
+          "after": "\"已拿起瓦片，请点击工地入口的瓦片放置处。\""
+        },
+        {
+          "start": 1335097,
+          "end": 1335106,
+          "before": "이 서버의 기와 ",
+          "after": "本房间的瓦片 "
+        },
+        {
+          "start": 1335125,
+          "end": 1335132,
+          "before": "\"ko-KR\"",
+          "after": "\"zh-CN\""
+        },
+        {
+          "start": 1335134,
+          "end": 1335169,
+          "before": "장을 모두 옮겼어요. 계속 옮기면 다른 서버를 도울 수 있어요.",
+          "after": "片已全部搬运完成。继续搬运可帮助其他房间。"
+        },
+        {
+          "start": 1335172,
+          "end": 1335183,
+          "before": "기와를 놓았어요 · ",
+          "after": "已放下瓦片 · "
+        },
+        {
+          "start": 1335192,
+          "end": 1335193,
+          "before": "장",
+          "after": "片"
+        },
+        {
+          "start": 1335202,
+          "end": 1335215,
+          "before": "\"안전모를 반납했어요.\"",
+          "after": "\"已归还安全帽。\""
+        },
+        {
+          "start": 1375237,
+          "end": 1375261,
+          "before": "\"일어나는 중이에요. 잠깐만 기다려주세요.\"",
+          "after": "\"正在起身，请稍候。\""
+        },
+        {
+          "start": 1375684,
+          "end": 1375719,
+          "before": "\"두 자리가 모두 사용 중이에요. 다른 벤치를 이용해 주세요.\"",
+          "after": "\"两个座位都有人了，请使用其他长椅。\""
+        },
+        {
+          "start": 1375896,
+          "end": 1375929,
+          "before": "\"다른 방문자가 쉬고 있어요. 다른 의자를 이용해 주세요.\"",
+          "after": "\"其他访客正在休息，请使用其他座椅。\""
+        },
+        {
+          "start": 1376341,
+          "end": 1376353,
+          "before": "\"산사-호숫가.png\"",
+          "after": "\"山寺-湖畔.png\""
+        },
+        {
+          "start": 1377460,
+          "end": 1377484,
+          "before": "\"의자에 앉지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"未能坐下，请再点一次。\""
+        },
+        {
+          "start": 1377960,
+          "end": 1377993,
+          "before": "\"다른 방문자가 쉬고 있어요. 다른 의자를 이용해 주세요.\"",
+          "after": "\"其他访客正在休息，请使用其他座椅。\""
+        },
+        {
+          "start": 1377994,
+          "end": 1378018,
+          "before": "\"의자에 앉지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"未能坐下，请再点一次。\""
+        },
+        {
+          "start": 1378621,
+          "end": 1378642,
+          "before": "\"연결을 확인한 뒤 다시 눌러주세요.\"",
+          "after": "\"请检查连接后再次点击。\""
+        },
+        {
+          "start": 1406296,
+          "end": 1406313,
+          "before": "\"상단 소리를 먼저 켜주세요.\"",
+          "after": "\"请先开启顶部的声音开关。\""
+        },
+        {
+          "start": 1406552,
+          "end": 1406581,
+          "before": "\"목탁 소리를 불러오지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"木鱼声音加载失败，请再点一次。\""
+        },
+        {
+          "start": 1406669,
+          "end": 1406688,
+          "before": "\"목탁 소리를 준비하지 못했어요.\"",
+          "after": "\"木鱼声音尚未就绪。\""
+        },
+        {
+          "start": 1406795,
+          "end": 1406813,
+          "before": "\"목탁 소리 준비가 취소됐어요.\"",
+          "after": "\"木鱼声音加载已取消。\""
+        },
+        {
+          "start": 1407677,
+          "end": 1407689,
+          "before": "\"소리가 종료됐어요.\"",
+          "after": "\"播放已结束。\""
+        },
+        {
+          "start": 1407722,
+          "end": 1407735,
+          "before": "\"소리가 멈춰 있어요.\"",
+          "after": "\"声音已暂停。\""
+        },
+        {
+          "start": 1408770,
+          "end": 1408803,
+          "before": "\"소리를 시작하지 못했어요. 소리 버튼을 다시 눌러주세요.\"",
+          "after": "\"无法开始播放，请再次点击声音按钮。\""
+        },
+        {
+          "start": 1409270,
+          "end": 1409299,
+          "before": "\"소리가 중단됐어요. 소리 버튼을 다시 눌러주세요.\"",
+          "after": "\"播放已中断，请再次点击声音按钮。\""
+        },
+        {
+          "start": 1409333,
+          "end": 1409366,
+          "before": "\"소리를 시작하지 못했어요. 소리 버튼을 다시 눌러주세요.\"",
+          "after": "\"无法开始播放，请再次点击声音按钮。\""
+        },
+        {
+          "start": 1409502,
+          "end": 1409535,
+          "before": "\"소리를 시작하지 못했어요. 소리 버튼을 다시 눌러주세요.\"",
+          "after": "\"无法开始播放，请再次点击声音按钮。\""
+        },
+        {
+          "start": 1409575,
+          "end": 1409591,
+          "before": "\"소리를 시작하지 못했어요.\"",
+          "after": "\"无法开始播放。\""
+        },
+        {
+          "start": 1411615,
+          "end": 1411633,
+          "before": "\"소리 버튼을 다시 눌러주세요.\"",
+          "after": "\"请再次点击声音按钮。\""
+        },
+        {
+          "start": 1416280,
+          "end": 1416292,
+          "before": "\"소리가 종료됐어요.\"",
+          "after": "\"播放已结束。\""
+        },
+        {
+          "start": 1417199,
+          "end": 1417230,
+          "before": "\"이 브라우저는 Web Audio를 지원하지 않습니다.\"",
+          "after": "\"此浏览器不支持 Web Audio。\""
+        },
+        {
+          "start": 1425261,
+          "end": 1425287,
+          "before": "\"염불을 불러오지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"诵经音频加载失败，请再点一次。\""
+        },
+        {
+          "start": 1430375,
+          "end": 1430382,
+          "before": "\"새벽 예불\"",
+          "after": "\"早课\""
+        },
+        {
+          "start": 1430423,
+          "end": 1430430,
+          "before": "\"저녁 예불\"",
+          "after": "\"晚课\""
+        },
+        {
+          "start": 1431554,
+          "end": 1431567,
+          "before": "\"사찰 염불 · 검토용\"",
+          "after": "\"寺院诵经 · 试听版\""
+        },
+        {
+          "start": 1431580,
+          "end": 1431607,
+          "before": "\"사찰 현장 녹음 · 반야심경 완독 음원 미선정\"",
+          "after": "\"寺院现场录音 · 尚未选定完整《心经》音源\""
+        },
+        {
+          "start": 1431724,
+          "end": 1431756,
+          "before": "\"염불소리1 · 김용배 · 공유마당 · CC BY 4.0\"",
+          "after": "\"诵经声 1 · Kim Yong-bae · 共享园地 · CC BY 4.0\""
+        },
+        {
+          "start": 1432924,
+          "end": 1433037,
+          "before": "\" aria-checked=\"true\" data-audio-control>켜짐</button></div>\n    <label class=\"sound-level\"><span class=\"sansa-sr\">",
+          "after": "\" aria-checked=\"true\" data-audio-control>开启</button></div>\n    <label class=\"sound-level\"><span class=\"sansa-sr\">"
+        },
+        {
+          "start": 1433041,
+          "end": 1433062,
+          "before": " 크기</span><input id=\"",
+          "after": " 音量</span><input id=\""
+        },
+        {
+          "start": 1433133,
+          "end": 1433169,
+          "before": " 크기\" data-audio-control><output id=\"",
+          "after": " 音量\" data-audio-control><output id=\""
+        },
+        {
+          "start": 1433239,
+          "end": 1433244,
+          "before": "\"환경음\"",
+          "after": "\"环境音\""
+        },
+        {
+          "start": 1433245,
+          "end": 1433254,
+          "before": "\"바람과 새소리\"",
+          "after": "\"风声与鸟鸣\""
+        },
+        {
+          "start": 1433275,
+          "end": 1433280,
+          "before": "\"효과음\"",
+          "after": "\"音效\""
+        },
+        {
+          "start": 1433281,
+          "end": 1433298,
+          "before": "\"내 종소리와 염주·목탁 소리\"",
+          "after": "\"我的钟声、念珠声与木鱼声\""
+        },
+        {
+          "start": 1433307,
+          "end": 1433600,
+          "before": "\n  <div class=\"setting-row background-setting\"><div><strong>백그라운드 재생</strong><small id=\"background-description\">다른 탭으로 가면 모든 소리가 함께 멈춰요.</small></div><button id=\"audio-background-toggle\" class=\"switch\" role=\"switch\" aria-label=\"백그라운드 재생\" aria-checked=\"false\" data-audio-control></button></div>",
+          "after": "\n  <div class=\"setting-row background-setting\"><div><strong>后台播放</strong><small id=\"background-description\">切换到其他标签页时，所有声音会一起暂停。</small></div><button id=\"audio-background-toggle\" class=\"switch\" role=\"switch\" aria-label=\"后台播放\" aria-checked=\"false\" data-audio-control></button></div>"
+        },
+        {
+          "start": 1434106,
+          "end": 1434110,
+          "before": "\"켜짐\"",
+          "after": "\"开启\""
+        },
+        {
+          "start": 1434111,
+          "end": 1434115,
+          "before": "\"꺼짐\"",
+          "after": "\"关闭\""
+        },
+        {
+          "start": 1434889,
+          "end": 1434912,
+          "before": "\"다른 탭에서도 선택한 소리가 이어져요.\"",
+          "after": "\"切换到其他标签页时，所选声音继续播放。\""
+        },
+        {
+          "start": 1434913,
+          "end": 1434939,
+          "before": "\"다른 탭으로 가면 모든 소리가 함께 멈춰요.\"",
+          "after": "\"切换到其他标签页时，所有声音会一起暂停。\""
+        },
+        {
+          "start": 1435349,
+          "end": 1436131,
+          "before": "</span><div><h3 id=\"chant-title\">염불</h3><p id=\"chant-status\" role=\"status\">나에게만 들리는 개인 듣기</p></div><button id=\"chant-personal\" class=\"sound-channel-toggle\" data-audio-control aria-pressed=\"false\">듣기</button><button id=\"chant-joint\" class=\"sound-channel-toggle\" data-audio-control aria-pressed=\"false\" hidden>함께 듣기</button></div>\n    <label class=\"sound-level\"><span class=\"sansa-sr\">염불 크기</span><input id=\"chant-volume\" type=\"range\" min=\"0\" max=\"100\" value=\"26\" aria-label=\"염불 크기\" data-audio-control><output id=\"chant-volume-value\">26%</output></label>\n    <div class=\"chant-schedule-note\"><span class=\"chant-schedule-dot\" aria-hidden=\"true\"></span><span id=\"chant-next\"></span></div>\n    <p class=\"chant-rule\">매일 05:00 · 18:00, 한국 시간<br>예불이 시작되면 개인 듣기는 끝나고 함께 들어요.</p>\n  </section>",
+          "after": "</span><div><h3 id=\"chant-title\">诵经</h3><p id=\"chant-status\" role=\"status\">仅自己听见的个人播放</p></div><button id=\"chant-personal\" class=\"sound-channel-toggle\" data-audio-control aria-pressed=\"false\">聆听</button><button id=\"chant-joint\" class=\"sound-channel-toggle\" data-audio-control aria-pressed=\"false\" hidden>一起听</button></div>\n    <label class=\"sound-level\"><span class=\"sansa-sr\">诵经音量</span><input id=\"chant-volume\" type=\"range\" min=\"0\" max=\"100\" value=\"26\" aria-label=\"诵经音量\" data-audio-control><output id=\"chant-volume-value\">26%</output></label>\n    <div class=\"chant-schedule-note\"><span class=\"chant-schedule-dot\" aria-hidden=\"true\"></span><span id=\"chant-next\"></span></div>\n    <p class=\"chant-rule\">每天 05:00 · 18:00，韩国时间（UTC+9）<br>共修开始时，个人播放将结束，转为一起聆听。</p>\n  </section>"
+        },
+        {
+          "start": 1436158,
+          "end": 1436224,
+          "before": "<details class=\"sound-credit\"><summary>음원 정보</summary><p><a href=\"",
+          "after": "<details class=\"sound-credit\"><summary>音源信息</summary><p><a href=\""
+        },
+        {
+          "start": 1436292,
+          "end": 1436408,
+          "before": "</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">이용조건</a><br>",
+          "after": "</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">许可条款</a><br>"
+        },
+        {
+          "start": 1436425,
+          "end": 1436535,
+          "before": " · <a href=\"/audio/temple-chant-review-v1.license.txt\" target=\"_blank\" rel=\"noopener noreferrer\">가공 내역</a></p>",
+          "after": " · <a href=\"/audio/temple-chant-review-v1.license.txt\" target=\"_blank\" rel=\"noopener noreferrer\">加工记录</a></p>"
+        },
+        {
+          "start": 1442731,
+          "end": 1442735,
+          "before": "\"멈춤\"",
+          "after": "\"暂停\""
+        },
+        {
+          "start": 1442736,
+          "end": 1442740,
+          "before": "\"듣기\"",
+          "after": "\"聆听\""
+        },
+        {
+          "start": 1442784,
+          "end": 1442795,
+          "before": "\"개인 염불 멈추기\"",
+          "after": "\"暂停个人诵经\""
+        },
+        {
+          "start": 1442796,
+          "end": 1442806,
+          "before": "\"개인 염불 듣기\"",
+          "after": "\"聆听个人诵经\""
+        },
+        {
+          "start": 1442965,
+          "end": 1442991,
+          "before": "\"염불을 불러오지 못했어요. 다시 눌러주세요.\"",
+          "after": "\"诵经音频加载失败，请再点一次。\""
+        },
+        {
+          "start": 1443052,
+          "end": 1443064,
+          "before": "\"염불을 불러오는 중\"",
+          "after": "\"正在加载诵经音频\""
+        },
+        {
+          "start": 1443109,
+          "end": 1443116,
+          "before": "\"공동 예불\"",
+          "after": "\"共修\""
+        },
+        {
+          "start": 1443117,
+          "end": 1443129,
+          "before": "을 함께 듣고 있어요.",
+          "after": "，正在一起聆听。"
+        },
+        {
+          "start": 1443131,
+          "end": 1443148,
+          "before": "\"나에게만 들리는 염불이에요.\"",
+          "after": "\"这是仅自己听见的诵经。\""
+        },
+        {
+          "start": 1443196,
+          "end": 1443218,
+          "before": "\"소리를 켜면 이어서 들을 수 있어요.\"",
+          "after": "\"开启声音后即可继续聆听。\""
+        },
+        {
+          "start": 1443280,
+          "end": 1443297,
+          "before": "\"잠시 쉬고 다시 들려드려요.\"",
+          "after": "\"稍作休息，待会儿继续播放。\""
+        },
+        {
+          "start": 1443313,
+          "end": 1443327,
+          "before": "\"염불 크기가 0이에요.\"",
+          "after": "\"诵经音量为 0。\""
+        },
+        {
+          "start": 1443328,
+          "end": 1443347,
+          "before": "\"듣고 싶을 때 나에게만 들려요.\"",
+          "after": "\"想听时开启，仅自己能听见。\""
+        },
+        {
+          "start": 1443419,
+          "end": 1443437,
+          "before": "\"백그라운드에서 잠시 멈췄어요.\"",
+          "after": "\"已在后台暂时暂停。\""
+        },
+        {
+          "start": 1443506,
+          "end": 1443533,
+          "before": "\"공동 예불 시간 · 소리를 켜면 함께 들어요.\"",
+          "after": "\"共修时间 · 开启声音即可一起听。\""
+        },
+        {
+          "start": 1443599,
+          "end": 1443601,
+          "before": "부터",
+          "after": "起"
+        },
+        {
+          "start": 1443604,
+          "end": 1443607,
+          "before": "다음 ",
+          "after": "下次 "
+        },
+        {
+          "start": 1443775,
+          "end": 1443782,
+          "before": "\"소리 끄기\"",
+          "after": "\"关闭声音\""
+        },
+        {
+          "start": 1443783,
+          "end": 1443790,
+          "before": "\"함께 듣기\"",
+          "after": "\"一起听\""
+        },
+        {
+          "start": 1443831,
+          "end": 1443844,
+          "before": "\"공동 예불 소리 끄기\"",
+          "after": "\"关闭共修声音\""
+        },
+        {
+          "start": 1443845,
+          "end": 1443855,
+          "before": "\"공동 예불 듣기\"",
+          "after": "\"聆听共修\""
+        },
+        {
+          "start": 1443998,
+          "end": 1444008,
+          "before": "\"예불 소리 끄기\"",
+          "after": "\"关闭礼佛声音\""
+        },
+        {
+          "start": 1444009,
+          "end": 1444019,
+          "before": "\"공동 예불 듣기\"",
+          "after": "\"聆听共修\""
+        },
+        {
+          "start": 1444022,
+          "end": 1444030,
+          "before": "\"염불 멈추기\"",
+          "after": "\"暂停诵经\""
+        },
+        {
+          "start": 1444031,
+          "end": 1444038,
+          "before": "\"염불 듣기\"",
+          "after": "\"聆听诵经\""
+        },
+        {
+          "start": 1444183,
+          "end": 1444192,
+          "before": "\"함께 듣는 중\"",
+          "after": "\"正在一起听\""
+        },
+        {
+          "start": 1444193,
+          "end": 1444200,
+          "before": "\"함께 듣기\"",
+          "after": "\"一起听\""
+        },
+        {
+          "start": 1501664,
+          "end": 1501691,
+          "before": "\"풍경을 불러오고 있어요. 잠시만 기다려주세요.\"",
+          "after": "\"正在加载风景，请稍候。\""
+        },
+        {
+          "start": 1501700,
+          "end": 1501727,
+          "before": "\"법당을 준비하고 있어요. 잠시만 기다려주세요.\"",
+          "after": "\"正在准备法堂，请稍候。\""
+        },
+        {
+          "start": 1501732,
+          "end": 1501759,
+          "before": "\"화면을 준비하고 있어요. 잠시만 기다려주세요.\"",
+          "after": "\"正在准备画面，请稍候。\""
+        },
+        {
+          "start": 1501768,
+          "end": 1501798,
+          "before": "\"화면을 다시 준비하고 있어요. 잠시만 기다려주세요.\"",
+          "after": "\"正在重新准备画面，请稍候。\""
+        },
+        {
+          "start": 1501809,
+          "end": 1501836,
+          "before": "\"연결을 기다리고 있어요. 잠시만 기다려주세요.\"",
+          "after": "\"正在等待连接，请稍候。\""
+        },
+        {
+          "start": 1505594,
+          "end": 1505598,
+          "before": "\"복사\"",
+          "after": "\"复制\""
+        },
+        {
+          "start": 1506246,
+          "end": 1506251,
+          "before": "\"복사됨\"",
+          "after": "\"已复制\""
+        },
+        {
+          "start": 1506266,
+          "end": 1506279,
+          "before": "\"계좌번호를 복사했어요\"",
+          "after": "\"已复制账号\""
+        },
+        {
+          "start": 1506361,
+          "end": 1506394,
+          "before": "\"복사하지 못했어요. 계좌번호를 길게 눌러 복사해 주세요.\"",
+          "after": "\"复制失败，请长按账号进行复制。\""
+        },
+        {
+          "start": 1506504,
+          "end": 1506512,
+          "before": "\"고요한 산새\"",
+          "after": "\"清静的山雀\""
+        },
+        {
+          "start": 1506513,
+          "end": 1506521,
+          "before": "\"느긋한 솔잎\"",
+          "after": "\"悠然的松叶\""
+        },
+        {
+          "start": 1506522,
+          "end": 1506530,
+          "before": "\"따스한 물결\"",
+          "after": "\"温暖的涟漪\""
+        },
+        {
+          "start": 1506531,
+          "end": 1506539,
+          "before": "\"은은한 바람\"",
+          "after": "\"轻柔的微风\""
+        },
+        {
+          "start": 1506793,
+          "end": 1507550,
+          "before": "<dialog id=\"room-dialog\" class=\"game-dialog room-dialog\" aria-labelledby=\"room-title\">\n  <header><h2 id=\"room-title\">산사 서버</h2><button class=\"dialog-close tool\" aria-label=\"서버 선택 닫기\">×</button></header>\n  <p class=\"dialog-description\">어느 서버에서도 같은 산사를 이용할 수 있어요.</p>\n  <div class=\"room-directory-heading\">\n    <span id=\"room-current\">입장할 서버를 찾고 있어요</span>\n    <div class=\"room-directory-actions\">\n      <button id=\"game-people\" class=\"text-button\" type=\"button\" aria-haspopup=\"dialog\">방문객</button>\n      <button id=\"room-refresh\" class=\"text-button\" type=\"button\" aria-label=\"인원 새로고침\">새로고침</button>\n    </div>\n  </div>\n  <p id=\"room-status\" class=\"room-status\" role=\"status\"></p>\n  <div id=\"room-list\" class=\"room-list\" aria-label=\"산사 서버 목록\"></div>\n</dialog>",
+          "after": "<dialog id=\"room-dialog\" class=\"game-dialog room-dialog\" aria-labelledby=\"room-title\">\n  <header><h2 id=\"room-title\">山寺房间</h2><button class=\"dialog-close tool\" aria-label=\"关闭房间选择\">×</button></header>\n  <p class=\"dialog-description\">每个房间都可以游览同一座山寺。</p>\n  <div class=\"room-directory-heading\">\n    <span id=\"room-current\">正在寻找可进入的房间</span>\n    <div class=\"room-directory-actions\">\n      <button id=\"game-people\" class=\"text-button\" type=\"button\" aria-haspopup=\"dialog\">访客</button>\n      <button id=\"room-refresh\" class=\"text-button\" type=\"button\" aria-label=\"刷新人数\">刷新</button>\n    </div>\n  </div>\n  <p id=\"room-status\" class=\"room-status\" role=\"status\"></p>\n  <div id=\"room-list\" class=\"room-list\" aria-label=\"山寺房间列表\"></div>\n</dialog>"
+        },
+        {
+          "start": 1508004,
+          "end": 1508010,
+          "before": "산사 서버 ",
+          "after": "山寺房间 "
+        },
+        {
+          "start": 1508109,
+          "end": 1508115,
+          "before": "\"확인 중\"",
+          "after": "\"确认中\""
+        },
+        {
+          "start": 1508517,
+          "end": 1508528,
+          "before": "현재 · 산사 서버 ",
+          "after": "当前 · 山寺房间 "
+        },
+        {
+          "start": 1508541,
+          "end": 1508557,
+          "before": "\"입장할 서버를 찾고 있어요\"",
+          "after": "\"正在寻找可进入的房间\""
+        },
+        {
+          "start": 1508759,
+          "end": 1508767,
+          "before": " · 이전 정보",
+          "after": " · 上次信息"
+        },
+        {
+          "start": 1508796,
+          "end": 1508797,
+          "before": "초",
+          "after": "秒"
+        },
+        {
+          "start": 1508819,
+          "end": 1508820,
+          "before": "분",
+          "after": "分钟"
+        },
+        {
+          "start": 1508822,
+          "end": 1508825,
+          "before": " 전)",
+          "after": " 前）"
+        },
+        {
+          "start": 1508878,
+          "end": 1508879,
+          "before": "명",
+          "after": "人"
+        },
+        {
+          "start": 1508883,
+          "end": 1508892,
+          "before": "\" · 이용 중\"",
+          "after": "\" · 已进入\""
+        },
+        {
+          "start": 1508895,
+          "end": 1508902,
+          "before": "\" · 만석\"",
+          "after": "\" · 已满\""
+        },
+        {
+          "start": 1508918,
+          "end": 1508924,
+          "before": "\"확인 중\"",
+          "after": "\"确认中\""
+        },
+        {
+          "start": 1508925,
+          "end": 1508932,
+          "before": "\"확인 불가\"",
+          "after": "\"无法确认\""
+        },
+        {
+          "start": 1509030,
+          "end": 1509036,
+          "before": "산사 서버 ",
+          "after": "山寺房间 "
+        },
+        {
+          "start": 1509137,
+          "end": 1509154,
+          "before": "\"접속 인원을 확인하고 있어요\"",
+          "after": "\"正在查询在线人数\""
+        },
+        {
+          "start": 1509344,
+          "end": 1509381,
+          "before": "\"이전 정보를 함께 표시했어요. 입장할 때 인원을 다시 확인해요.\"",
+          "after": "\"部分为上次查询的信息，进入时会再次确认人数。\""
+        },
+        {
+          "start": 1509384,
+          "end": 1509422,
+          "before": "\"확인된 서버부터 표시했어요. 나머지는 잠시 후 다시 확인해주세요.\"",
+          "after": "\"优先显示已确认的房间，其余房间请稍后再查。\""
+        },
+        {
+          "start": 1509423,
+          "end": 1509444,
+          "before": "\"표시된 인원은 실제 방문객 수예요.\"",
+          "after": "\"显示的人数是真实在线访客数。\""
+        },
+        {
+          "start": 1509445,
+          "end": 1509476,
+          "before": "\"인원을 확인하지 못했어요. 잠시 후 다시 눌러주세요.\"",
+          "after": "\"无法查询人数，请稍后再试。\""
+        },
+        {
+          "start": 1509616,
+          "end": 1509647,
+          "before": "\"이전 정보를 표시했어요. 잠시 후 다시 확인해주세요.\"",
+          "after": "\"正在显示上次的信息，请稍后再查。\""
+        },
+        {
+          "start": 1509648,
+          "end": 1509679,
+          "before": "\"인원을 확인하지 못했어요. 잠시 후 다시 눌러주세요.\"",
+          "after": "\"无法查询人数，请稍后再试。\""
+        },
+        {
+          "start": 1509859,
+          "end": 1509879,
+          "before": "\"다른 산사 서버로 연결하고 있어요\"",
+          "after": "\"正在连接其他山寺房间\""
+        },
+        {
+          "start": 1509983,
+          "end": 1510022,
+          "before": "\"이동하지 못했어요. 인원을 새로 확인한 뒤 다른 서버를 골라주세요.\"",
+          "after": "\"无法切换，请刷新人数后选择其他房间。\""
+        },
+        {
+          "start": 1516258,
+          "end": 1516760,
+          "before": "\n<main class=\"sansa-game\" aria-label=\"산사\">\n  <div id=\"game-world\" class=\"game-world\"></div>\n  <button id=\"lantern-marker\" type=\"button\" tabindex=\"-1\" hidden>\n    <span class=\"lantern-marker-outline\" aria-hidden=\"true\"></span>\n    <span class=\"lantern-marker-label\"></span>\n  </button>\n  <header class=\"game-header\">\n    <div class=\"game-entry-tools\">\n      <div class=\"game-room-tools\" data-liquid-glass=\"clear\">\n        <button id=\"game-exit\" class=\"tool exit-tool\" aria-label=\"산사 나가기\" title=\"산사 나가기\">",
+          "after": "\n<main class=\"sansa-game\" aria-label=\"山寺\">\n  <div id=\"game-world\" class=\"game-world\"></div>\n  <button id=\"lantern-marker\" type=\"button\" tabindex=\"-1\" hidden>\n    <span class=\"lantern-marker-outline\" aria-hidden=\"true\"></span>\n    <span class=\"lantern-marker-label\"></span>\n  </button>\n  <header class=\"game-header\">\n    <div class=\"game-entry-tools\">\n      <div class=\"game-room-tools\" data-liquid-glass=\"clear\">\n        <button id=\"game-exit\" class=\"tool exit-tool\" aria-label=\"离开山寺\" title=\"离开山寺\">"
+        },
+        {
+          "start": 1516793,
+          "end": 1517508,
+          "before": "\n        <button id=\"game-room\" class=\"game-brand\" aria-label=\"산사 서버 선택\" aria-haspopup=\"dialog\"><span>산사</span><small id=\"game-room-name\"><b id=\"game-room-number\">—</b><svg class=\"room-chevron\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></small></button>\n      </div>\n    </div>\n    <nav class=\"game-tools\" data-liquid-nav=\"tools\" aria-label=\"산사 도구\">\n      <button id=\"game-support\" class=\"tool support-tool\" aria-label=\"공양미 보태기\" title=\"공양미 보태기\" aria-haspopup=\"dialog\"><span aria-hidden=\"true\">🍚</span></button>\n      <button id=\"game-sound\" class=\"tool\" data-audio-control title=\"기본 소리\" aria-label=\"소리 켜기\">",
+          "after": "\n        <button id=\"game-room\" class=\"game-brand\" aria-label=\"选择山寺房间\" aria-haspopup=\"dialog\"><span>山寺</span><small id=\"game-room-name\"><b id=\"game-room-number\">—</b><svg class=\"room-chevron\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></small></button>\n      </div>\n    </div>\n    <nav class=\"game-tools\" data-liquid-nav=\"tools\" aria-label=\"山寺工具\">\n      <button id=\"game-support\" class=\"tool support-tool\" aria-label=\"添一份供养\" title=\"添一份供养\" aria-haspopup=\"dialog\"><span aria-hidden=\"true\">🍚</span></button>\n      <button id=\"game-sound\" class=\"tool\" data-audio-control title=\"主声音开关\" aria-label=\"开启声音\">"
+        },
+        {
+          "start": 1517518,
+          "end": 1517590,
+          "before": "</button>\n      <button id=\"game-settings\" class=\"tool\" aria-label=\"설정\">",
+          "after": "</button>\n      <button id=\"game-settings\" class=\"tool\" aria-label=\"设置\">"
+        },
+        {
+          "start": 1517604,
+          "end": 1518901,
+          "before": "</button>\n    </nav>\n  </header>\n  <div class=\"game-context\">\n    <div id=\"game-context-actions\" class=\"game-context-actions\"><button id=\"chant-invite\" class=\"chant-invite\" data-audio-control>염불 듣기</button></div>\n    <button id=\"chant-banner\" class=\"chant-banner\" data-audio-control hidden></button>\n    <div class=\"game-notices\">\n      <p id=\"game-hint\" class=\"game-hint\">화면을 드래그해 둘러보세요</p>\n      <div id=\"game-connection\" class=\"game-connection\" data-liquid-glass=\"clear\" role=\"status\" hidden><span id=\"game-connection-label\"></span><button id=\"connection-rooms\">서버 선택</button></div>\n      <div id=\"game-toast\" class=\"game-toast\" role=\"status\" aria-live=\"polite\"></div>\n    </div>\n  </div>\n  <div class=\"game-bottom\">\n    <button id=\"pagoda-walk\" class=\"village-places\" type=\"button\" data-liquid-glass=\"clear\" hidden>탑돌이 시작</button>\n    <button id=\"village-bell-strike\" class=\"village-places\" type=\"button\" hidden>범종 치기</button>\n    <button id=\"village-travel-stop\" class=\"village-places\" type=\"button\" data-liquid-glass=\"clear\" hidden>이동 멈추기</button>\n    <section id=\"lantern-guide\" aria-label=\"소원 연등 안내\" hidden>\n      <div class=\"lantern-guide-heading\">\n        <p id=\"lantern-guide-title\" role=\"status\"></p>\n        <button id=\"lantern-guide-close\" type=\"button\" aria-label=\"연등 안내 닫기\" hidden>",
+          "after": "</button>\n    </nav>\n  </header>\n  <div class=\"game-context\">\n    <div id=\"game-context-actions\" class=\"game-context-actions\"><button id=\"chant-invite\" class=\"chant-invite\" data-audio-control>聆听诵经</button></div>\n    <button id=\"chant-banner\" class=\"chant-banner\" data-audio-control hidden></button>\n    <div class=\"game-notices\">\n      <p id=\"game-hint\" class=\"game-hint\">拖动画面，自在游览</p>\n      <div id=\"game-connection\" class=\"game-connection\" data-liquid-glass=\"clear\" role=\"status\" hidden><span id=\"game-connection-label\"></span><button id=\"connection-rooms\">选择房间</button></div>\n      <div id=\"game-toast\" class=\"game-toast\" role=\"status\" aria-live=\"polite\"></div>\n    </div>\n  </div>\n  <div class=\"game-bottom\">\n    <button id=\"pagoda-walk\" class=\"village-places\" type=\"button\" data-liquid-glass=\"clear\" hidden>开始绕塔</button>\n    <button id=\"village-bell-strike\" class=\"village-places\" type=\"button\" hidden>敲梵钟</button>\n    <button id=\"village-travel-stop\" class=\"village-places\" type=\"button\" data-liquid-glass=\"clear\" hidden>停止移动</button>\n    <section id=\"lantern-guide\" aria-label=\"祈愿灯说明\" hidden>\n      <div class=\"lantern-guide-heading\">\n        <p id=\"lantern-guide-title\" role=\"status\"></p>\n        <button id=\"lantern-guide-close\" type=\"button\" aria-label=\"关闭祈愿灯说明\" hidden>"
+        },
+        {
+          "start": 1518912,
+          "end": 1519793,
+          "before": "</button>\n      </div>\n      <p id=\"lantern-guide-note\"></p>\n      <div class=\"lantern-guide-actions\">\n        <button id=\"lantern-guide-main\" type=\"button\"></button>\n        <button id=\"lantern-guide-extra\" type=\"button\" hidden></button>\n      </div>\n    </section>\n    <div id=\"game-bow25\" class=\"game-bow25\" data-count=\"0\" hidden>\n      <span id=\"game-bow25-count\" class=\"game-bow25-count\" aria-hidden=\"true\">0/25</span>\n      <div id=\"game-bow25-progress\" class=\"game-bow25-track\" role=\"progressbar\" aria-label=\"풀소유 커피 절 진행\" aria-valuemin=\"0\" aria-valuemax=\"25\" aria-valuenow=\"0\" aria-valuetext=\"0/25\"><i id=\"game-bow25-fill\" class=\"game-bow25-fill\" aria-hidden=\"true\"></i></div>\n    </div>\n    <nav class=\"game-modes\" data-liquid-nav=\"modes\" aria-label=\"산사에서 할 일\">\n      <button id=\"hello\" aria-label=\"합장 인사\" aria-keyshortcuts=\"3\" aria-busy=\"false\" title=\"합장 인사 · 3\" disabled>",
+          "after": "</button>\n      </div>\n      <p id=\"lantern-guide-note\"></p>\n      <div class=\"lantern-guide-actions\">\n        <button id=\"lantern-guide-main\" type=\"button\"></button>\n        <button id=\"lantern-guide-extra\" type=\"button\" hidden></button>\n      </div>\n    </section>\n    <div id=\"game-bow25\" class=\"game-bow25\" data-count=\"0\" hidden>\n      <span id=\"game-bow25-count\" class=\"game-bow25-count\" aria-hidden=\"true\">0/25</span>\n      <div id=\"game-bow25-progress\" class=\"game-bow25-track\" role=\"progressbar\" aria-label=\"自享咖啡的礼佛进度\" aria-valuemin=\"0\" aria-valuemax=\"25\" aria-valuenow=\"0\" aria-valuetext=\"0/25\"><i id=\"game-bow25-fill\" class=\"game-bow25-fill\" aria-hidden=\"true\"></i></div>\n    </div>\n    <nav class=\"game-modes\" data-liquid-nav=\"modes\" aria-label=\"山寺活动\">\n      <button id=\"hello\" aria-label=\"合掌问候\" aria-keyshortcuts=\"3\" aria-busy=\"false\" title=\"合掌问候 · 3\" disabled>"
+        },
+        {
+          "start": 1519804,
+          "end": 1519947,
+          "before": "<span id=\"game-hello-label\">합장</span><kbd>3</kbd></button>\n      <button id=\"game-bow\" data-mode=\"kneel\" aria-pressed=\"false\" aria-label=\"절하기\">",
+          "after": "<span id=\"game-hello-label\">合掌</span><kbd>3</kbd></button>\n      <button id=\"game-bow\" data-mode=\"kneel\" aria-pressed=\"false\" aria-label=\"礼佛\">"
+        },
+        {
+          "start": 1519956,
+          "end": 1520048,
+          "before": "<span id=\"game-bow-label\">절하기</span><kbd>1</kbd><i class=\"bow-progress\"></i></button>\n      ",
+          "after": "<span id=\"game-bow-label\">礼佛</span><kbd>1</kbd><i class=\"bow-progress\"></i></button>\n      "
+        },
+        {
+          "start": 1520053,
+          "end": 1520147,
+          "before": "\n      <button id=\"game-moktak\" aria-pressed=\"false\" aria-label=\"목탁 열기\" aria-keyshortcuts=\"5\">",
+          "after": "\n      <button id=\"game-moktak\" aria-pressed=\"false\" aria-label=\"打开木鱼\" aria-keyshortcuts=\"5\">"
+        },
+        {
+          "start": 1520159,
+          "end": 1520269,
+          "before": "<span>목탁</span><kbd>5</kbd></button>\n      <button data-mode=\"beads\" aria-pressed=\"false\" aria-label=\"염주 돌리기\">",
+          "after": "<span>木鱼</span><kbd>5</kbd></button>\n      <button data-mode=\"beads\" aria-pressed=\"false\" aria-label=\"拨动念珠\">"
+        },
+        {
+          "start": 1520280,
+          "end": 1520424,
+          "before": "<span>염주</span><kbd>2</kbd></button>\n    </nav>\n  </div>\n  <div id=\"game-loading\" class=\"game-loading\" role=\"status\"><span class=\"loading-mark\">",
+          "after": "<span>念珠</span><kbd>2</kbd></button>\n    </nav>\n  </div>\n  <div id=\"game-loading\" class=\"game-loading\" role=\"status\"><span class=\"loading-mark\">"
+        },
+        {
+          "start": 1520436,
+          "end": 1521009,
+          "before": "</span><h1>산사</h1><p id=\"game-loading-message\">산사의 풍경을 불러오고 있어요.</p><progress id=\"game-loading-progress\" max=\"5\" value=\"1\" aria-label=\"입장 준비 단계\"></progress><p id=\"game-loading-note\">잠시 후 돌길을 따라 산사를 둘러볼 수 있어요.</p><button id=\"loading-beads\" class=\"outline-button\" hidden>염주 먼저 굴리기</button><button id=\"render-retry\" class=\"outline-button\" hidden>화면 다시 열기</button></div>\n  <div id=\"practice-layer\" class=\"practice-layer\" hidden><div id=\"practice-backdrop\" class=\"practice-backdrop\" aria-hidden=\"true\"></div><div id=\"beads-host\"></div><div id=\"moktak-host\"></div></div>\n</main>\n",
+          "after": "</span><h1>山寺</h1><p id=\"game-loading-message\">正在加载山寺风景。</p><progress id=\"game-loading-progress\" max=\"5\" value=\"1\" aria-label=\"入寺准备进度\"></progress><p id=\"game-loading-note\">稍后即可沿着石径漫步山寺。</p><button id=\"loading-beads\" class=\"outline-button\" hidden>先拨一会儿念珠</button><button id=\"render-retry\" class=\"outline-button\" hidden>重新打开画面</button></div>\n  <div id=\"practice-layer\" class=\"practice-layer\" hidden><div id=\"practice-backdrop\" class=\"practice-backdrop\" aria-hidden=\"true\"></div><div id=\"beads-host\"></div><div id=\"moktak-host\"></div></div>\n</main>\n"
+        },
+        {
+          "start": 1521020,
+          "end": 1521252,
+          "before": "\n<dialog id=\"lantern-wish-dialog\" class=\"game-dialog lantern-wish-dialog\" aria-labelledby=\"lantern-wish-title\">\n  <header><h2 id=\"lantern-wish-title\">소원 연등 걸기</h2><button type=\"button\" class=\"dialog-close tool\" aria-label=\"연등 창 닫기\">",
+          "after": "\n<dialog id=\"lantern-wish-dialog\" class=\"game-dialog lantern-wish-dialog\" aria-labelledby=\"lantern-wish-title\">\n  <header><h2 id=\"lantern-wish-title\">挂祈愿灯</h2><button type=\"button\" class=\"dialog-close tool\" aria-label=\"关闭祈愿灯窗口\">"
+        },
+        {
+          "start": 1521323,
+          "end": 1521482,
+          "before": "\n    <div class=\"lantern-compose\">\n      <div class=\"lantern-compose-heading\"><label for=\"lantern-wish-input\">소원 한 문장</label><span id=\"lantern-wish-count\">0 / ",
+          "after": "\n    <div class=\"lantern-compose\">\n      <div class=\"lantern-compose-heading\"><label for=\"lantern-wish-input\">写下一句心愿</label><span id=\"lantern-wish-count\">0 / "
+        },
+        {
+          "start": 1521487,
+          "end": 1521562,
+          "before": "자</span></div>\n      <textarea id=\"lantern-wish-input\" rows=\"2\" maxlength=\"",
+          "after": "字</span></div>\n      <textarea id=\"lantern-wish-input\" rows=\"2\" maxlength=\""
+        },
+        {
+          "start": 1521569,
+          "end": 1521990,
+          "before": "\" aria-describedby=\"lantern-visibility lantern-wish-count\" placeholder=\"여기에 소원을 적어주세요\" enterkeyhint=\"done\" required></textarea>\n      <p id=\"lantern-wish-context\" hidden></p>\n      <p id=\"lantern-wish-error\" role=\"status\"></p>\n    </div>\n    <footer class=\"lantern-wish-actions\">\n      <p class=\"lantern-visibility\" id=\"lantern-visibility\">소원은 같은 방에 공개돼요</p>\n      <button id=\"lantern-wish-submit\" type=\"submit\" disabled>",
+          "after": "\" aria-describedby=\"lantern-visibility lantern-wish-count\" placeholder=\"在这里写下你的心愿\" enterkeyhint=\"done\" required></textarea>\n      <p id=\"lantern-wish-context\" hidden></p>\n      <p id=\"lantern-wish-error\" role=\"status\"></p>\n    </div>\n    <footer class=\"lantern-wish-actions\">\n      <p class=\"lantern-visibility\" id=\"lantern-visibility\">心愿会在同一房间公开</p>\n      <button id=\"lantern-wish-submit\" type=\"submit\" disabled>"
+        },
+        {
+          "start": 1522003,
+          "end": 1522612,
+          "before": "<span id=\"lantern-wish-submit-label\">연등 걸기</span></button>\n      <button id=\"lantern-wish-retry\" type=\"button\" hidden>다른 빈 고리에 이어 쓰기</button>\n    </footer>\n  </form>\n  <div id=\"lantern-wish-reading\" class=\"lantern-wish-reading\" hidden>\n    <img id=\"lantern-wish-portrait\" alt=\"\" width=\"370\" height=\"585\" decoding=\"async\">\n    <p id=\"lantern-wish-text\"></p>\n    <small>이 방에 걸린 소원</small>\n  </div>\n</dialog>\n<dialog id=\"settings-dialog\" class=\"game-dialog settings-dialog\" aria-labelledby=\"settings-title\">\n  <header><h2 id=\"settings-title\">설정</h2><button class=\"dialog-close tool\" aria-label=\"설정 닫기\" autofocus>",
+          "after": "<span id=\"lantern-wish-submit-label\">挂灯</span></button>\n      <button id=\"lantern-wish-retry\" type=\"button\" hidden>保留心愿，换一个空挂环</button>\n    </footer>\n  </form>\n  <div id=\"lantern-wish-reading\" class=\"lantern-wish-reading\" hidden>\n    <img id=\"lantern-wish-portrait\" alt=\"\" width=\"370\" height=\"585\" decoding=\"async\">\n    <p id=\"lantern-wish-text\"></p>\n    <small>挂在此房间的心愿</small>\n  </div>\n</dialog>\n<dialog id=\"settings-dialog\" class=\"game-dialog settings-dialog\" aria-labelledby=\"settings-title\">\n  <header><h2 id=\"settings-title\">设置</h2><button class=\"dialog-close tool\" aria-label=\"关闭设置\" autofocus>"
+        },
+        {
+          "start": 1522623,
+          "end": 1523068,
+          "before": "</button></header>\n  <div class=\"settings-dialog-body\">\n  <section class=\"sound-settings\" aria-labelledby=\"sound-title\">\n    <div class=\"sound-master\"><div><h3 id=\"sound-title\">내가 듣는 소리</h3><p>세 가지 소리를 내 취향대로</p></div><button id=\"audio-toggle\" class=\"switch\" data-audio-control role=\"switch\" aria-label=\"기본 소리\" aria-checked=\"false\"></button></div>\n    <p id=\"audio-status\" class=\"audio-status\" role=\"status\"></p>\n    <div class=\"sound-channels\">",
+          "after": "</button></header>\n  <div class=\"settings-dialog-body\">\n  <section class=\"sound-settings\" aria-labelledby=\"sound-title\">\n    <div class=\"sound-master\"><div><h3 id=\"sound-title\">我听见的声音</h3><p>按喜好调节三种声音</p></div><button id=\"audio-toggle\" class=\"switch\" data-audio-control role=\"switch\" aria-label=\"主声音开关\" aria-checked=\"false\"></button></div>\n    <p id=\"audio-status\" class=\"audio-status\" role=\"status\"></p>\n    <div class=\"sound-channels\">"
+        },
+        {
+          "start": 1523109,
+          "end": 1523521,
+          "before": "'<p><a href=\"https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?menuNo=200020&amp;wrtSn=13253416\" target=\"_blank\" rel=\"noopener noreferrer\">목탁2 · 김용배 · 공유마당 · CC BY 4.0</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/deed.ko\" target=\"_blank\" rel=\"noopener noreferrer\">이용조건</a><br>원본 일부 추출·소리 크기 조정 · <a href=\"/audio/moktak-natural.license.txt\" target=\"_blank\" rel=\"noopener noreferrer\">가공 내역</a></p>'",
+          "after": "\"<p><a href=\\\"https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?menuNo=200020&amp;wrtSn=13253416\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">木鱼 2 · Kim Yong-bae · 共享园地 · CC BY 4.0</a> · <a href=\\\"https://creativecommons.org/licenses/by/4.0/deed.ko\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">许可条款</a><br>原音频节选与音量调整 · <a href=\\\"/audio/moktak-natural.license.txt\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">加工记录</a></p>\""
+        },
+        {
+          "start": 1523523,
+          "end": 1524905,
+          "before": "\n  </section>\n  <details class=\"control-help\"><summary>조작 방법</summary><p class=\"desktop-help\">바닥 클릭 · WASD · 방향키로 이동<br>드래그로 둘러보기 · 휠로 확대/축소<br>1 · E · Space 절하기/멈추기 · 2 염주 · 3 합장 · 5 목탁<br>합장을 누르면 두 손을 모아 인사해요.</p><p class=\"touch-help\">바닥을 누르면 그곳까지 걸어요.<br>한 손가락으로 쓸어 둘러보고, 두 손가락을 벌리거나 모아 확대/축소해요.<br>절하기를 누르면 계속 절하고, 멈추기를 누르면 일어나요.<br>염주는 알을 잡고 위아래로 넘겨요.<br>목탁은 두드리거나 자동재생으로 들어요.<br>합장을 누르면 두 손을 모아 인사해요.</p></details>\n  <p class=\"artwork-credit\">불상 자료 · <a href=\"https://www.museum.go.kr/MUSEUM/contents/M0505000000.do?relicId=1116&schM=view&searchId=search\" target=\"_blank\" rel=\"noopener noreferrer\">국립중앙박물관, 금동불좌상·금동보살입상(덕수2116)</a><br>공공누리 제1유형. 본존 좌상은 원형을 유지하고, 협시 입상은 좌우 동세와 보관의 표지를 조정해 관세음·대세지보살로 구성했습니다. 웹용 크기·텍스처·압축을 조정했으며, 두 보살의 구성은 산사의 현대적 해석입니다.</p>\n  <p class=\"artwork-credit\">불화 자료 · 아미타삼존의 전통 도상을 참고해 AI로 제작한 산사 창작 이미지입니다.</p>\n  </div>\n</dialog>\n<dialog id=\"support-dialog\" class=\"game-dialog support-dialog\" aria-labelledby=\"support-title\" aria-describedby=\"support-description\">\n  <svg class=\"sansa-sr\" aria-hidden=\"true\" focusable=\"false\"><defs><filter id=\"support-pay-ink\" color-interpolation-filters=\"sRGB\"><feColorMatrix type=\"matrix\" values=\"0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1 0 0 0 1\"/><feComposite in2=\"SourceAlpha\" operator=\"in\"/></filter></defs></svg>\n  <header><h2 id=\"support-title\">공양미 보태기</h2><button class=\"dialog-close tool\" aria-label=\"공양미 창 닫기\">",
+          "after": "\n  </section>\n  <details class=\"control-help\"><summary>操作说明</summary><p class=\"desktop-help\">点击地面 · WASD · 方向键移动<br>拖动环视 · 滚轮缩放<br>1 · E · Space 礼佛/停止 · 2 念珠 · 3 合掌 · 5 木鱼<br>点击合掌，双手合十向大家问候。</p><p class=\"touch-help\">点击地面，即可走向那里。<br>单指滑动环视，双指张合缩放。<br>点击礼佛可持续礼拜，点击停止即可起身。<br>按住念珠，上下滑动拨珠。<br>木鱼可以手动敲击，也可以自动播放。<br>点击合掌，双手合十向大家问候。</p></details>\n  <p class=\"artwork-credit\">佛像资料 · <a href=\"https://www.museum.go.kr/MUSEUM/contents/M0505000000.do?relicId=1116&schM=view&searchId=search\" target=\"_blank\" rel=\"noopener noreferrer\">韩国国立中央博物馆，鎏金铜坐佛与菩萨立像（德寿 2116）</a><br>韩国公共开放许可第 1 类。主尊坐像保留原貌；两侧立像调整了姿态与宝冠标识，分别表现观世音菩萨与大势至菩萨。已针对网页调整尺寸、纹理与压缩。两位菩萨的组合为山寺的现代诠释。</p>\n  <p class=\"artwork-credit\">佛画资料 · 参考阿弥陀三尊的传统图像，由 AI 生成的山寺原创图片。</p>\n  </div>\n</dialog>\n<dialog id=\"support-dialog\" class=\"game-dialog support-dialog\" aria-labelledby=\"support-title\" aria-describedby=\"support-description\">\n  <svg class=\"sansa-sr\" aria-hidden=\"true\" focusable=\"false\"><defs><filter id=\"support-pay-ink\" color-interpolation-filters=\"sRGB\"><feColorMatrix type=\"matrix\" values=\"0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1 0 0 0 1\"/><feComposite in2=\"SourceAlpha\" operator=\"in\"/></filter></defs></svg>\n  <header><h2 id=\"support-title\">添一份供养</h2><button class=\"dialog-close tool\" aria-label=\"关闭供养窗口\">"
+        },
+        {
+          "start": 1524916,
+          "end": 1525410,
+          "before": "</button></header>\n  <p id=\"support-description\" class=\"support-description\">보시해 주신 마음, 감사히 받겠습니다. 🙇🏻‍♂️</p>\n  <div class=\"support-options\">\n  <button id=\"support-account\" class=\"support-account\" type=\"button\" data-account-number=\"1002-8374-3277\" aria-label=\"토스뱅크 산사 1002-8374-3277 계좌번호 복사\">\n    <span class=\"support-account-details\"><span class=\"support-account-bank\">토스뱅크 · 산사</span><span class=\"support-account-number\">1002-8374-3277</span></span>\n    <span class=\"support-account-action\">",
+          "after": "</button></header>\n  <p id=\"support-description\" class=\"support-description\">感谢你的善意供养。🙇🏻‍♂️</p>\n  <div class=\"support-options\">\n  <button id=\"support-account\" class=\"support-account\" type=\"button\" data-account-number=\"1002-8374-3277\" aria-label=\"复制 Toss Bank 山寺账号 1002-8374-3277\">\n    <span class=\"support-account-details\"><span class=\"support-account-bank\">Toss Bank · 山寺</span><span class=\"support-account-number\">1002-8374-3277</span></span>\n    <span class=\"support-account-action\">"
+        },
+        {
+          "start": 1525535,
+          "end": 1525747,
+          "before": "<span id=\"support-copy-label\">복사</span></span>\n  </button>\n  <p id=\"support-copy-status\" class=\"sansa-sr\" role=\"status\" aria-live=\"polite\"></p>\n  <figure class=\"support-qr\">\n    <img class=\"support-qr-logo\" src=\"",
+          "after": "<span id=\"support-copy-label\">复制</span></span>\n  </button>\n  <p id=\"support-copy-status\" class=\"sansa-sr\" role=\"status\" aria-live=\"polite\"></p>\n  <figure class=\"support-qr\">\n    <img class=\"support-qr-logo\" src=\""
+        },
+        {
+          "start": 1525752,
+          "end": 1525829,
+          "before": "\" width=\"121\" height=\"50\" alt=\"카카오페이\">\n    <img class=\"support-qr-code\" src=\"",
+          "after": "\" width=\"121\" height=\"50\" alt=\"Kakao Pay\">\n    <img class=\"support-qr-code\" src=\""
+        },
+        {
+          "start": 1525834,
+          "end": 1526149,
+          "before": "\" width=\"45\" height=\"45\" alt=\"산사 공양미 송금 QR\" loading=\"lazy\" decoding=\"async\">\n    <figcaption>산사</figcaption>\n  </figure>\n  <a id=\"support-link\" class=\"solid-button support-payment support-pay\" href=\"/__mirror/payment?method=kakao\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"support-pay-brand\"><img src=\"",
+          "after": "\" width=\"45\" height=\"45\" alt=\"山寺供养转账二维码\" loading=\"lazy\" decoding=\"async\">\n    <figcaption>山寺</figcaption>\n  </figure>\n  <a id=\"support-link\" class=\"solid-button support-payment support-pay\" href=\"/__mirror/payment?method=kakao\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"support-pay-brand\"><img src=\""
+        },
+        {
+          "start": 1526154,
+          "end": 1526482,
+          "before": "\" width=\"121\" height=\"50\" alt=\"\" aria-hidden=\"true\"><span>카카오페이</span></span><span class=\"support-pay-label\">공양미 보내기</span></a>\n  <a id=\"support-coffee\" class=\"solid-button support-payment support-coffee\" href=\"/__mirror/payment?method=coffee\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"support-pay-brand\"><img src=\"",
+          "after": "\" width=\"121\" height=\"50\" alt=\"\" aria-hidden=\"true\"><span>Kakao Pay</span></span><span class=\"support-pay-label\">送出供养</span></a>\n  <a id=\"support-coffee\" class=\"solid-button support-payment support-coffee\" href=\"/__mirror/payment?method=coffee\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"support-pay-brand\"><img src=\""
+        },
+        {
+          "start": 1526487,
+          "end": 1526883,
+          "before": "\" width=\"35\" height=\"50\" alt=\"\" aria-hidden=\"true\"><span>Buy me a coffee</span></span><span class=\"support-pay-label\">공양미 보내기</span></a>\n  </div>\n  <p class=\"support-note\">공양미는 서버 운영과 콘텐츠 제작에 사용됩니다. 🙏</p>\n</dialog>\n<dialog id=\"people-dialog\" class=\"game-dialog\" aria-labelledby=\"people-title\">\n  <header><h2 id=\"people-title\">함께 있는 사람</h2><button class=\"dialog-close tool\" aria-label=\"방문객 창 닫기\">",
+          "after": "\" width=\"35\" height=\"50\" alt=\"\" aria-hidden=\"true\"><span>Buy me a coffee</span></span><span class=\"support-pay-label\">送出供养</span></a>\n  </div>\n  <p class=\"support-note\">供养用于服务器运营和内容制作。🙏</p>\n</dialog>\n<dialog id=\"people-dialog\" class=\"game-dialog\" aria-labelledby=\"people-title\">\n  <header><h2 id=\"people-title\">相伴的访客</h2><button class=\"dialog-close tool\" aria-label=\"关闭访客窗口\">"
+        },
+        {
+          "start": 1526977,
+          "end": 1527304,
+          "before": "</p>\n  <p id=\"connection-note\" class=\"dialog-description\"></p><ul id=\"visitor-list\" tabindex=\"0\" aria-labelledby=\"people-title\"></ul>\n  <p class=\"small-note\">동자승을 누르면 이름이 잠깐 보여요.<br>하단의 합장으로 함께 있는 사람들에게 인사해요.</p>\n  <div class=\"people-actions\"><button id=\"retry-entry\" class=\"text-button\" hidden>다시 입장하기</button></div>\n</dialog>",
+          "after": "</p>\n  <p id=\"connection-note\" class=\"dialog-description\"></p><ul id=\"visitor-list\" tabindex=\"0\" aria-labelledby=\"people-title\"></ul>\n  <p class=\"small-note\">点击小沙弥，可短暂显示名字。<br>点击底部的合掌，向身边的访客问候。</p>\n  <div class=\"people-actions\"><button id=\"retry-entry\" class=\"text-button\" hidden>重新入寺</button></div>\n</dialog>"
+        },
+        {
+          "start": 1530747,
+          "end": 1530754,
+          "before": "\"소리 끄기\"",
+          "after": "\"关闭声音\""
+        },
+        {
+          "start": 1530755,
+          "end": 1530762,
+          "before": "\"소리 켜기\"",
+          "after": "\"开启声音\""
+        },
+        {
+          "start": 1530958,
+          "end": 1530977,
+          "before": "\"다른 탭에서는 잠시 쉬고 있어요\"",
+          "after": "\"在其他标签页中暂时休息\""
+        },
+        {
+          "start": 1530980,
+          "end": 1530993,
+          "before": "\"산사의 소리가 들려요\"",
+          "after": "\"山寺的声音已开启\""
+        },
+        {
+          "start": 1530997,
+          "end": 1531012,
+          "before": "\"기본 소리가 꺼져 있어요\"",
+          "after": "\"主声音已关闭\""
+        },
+        {
+          "start": 1531020,
+          "end": 1531037,
+          "before": "\"소리 버튼을 다시 눌러주세요\"",
+          "after": "\"请再次点击声音按钮\""
+        },
+        {
+          "start": 1531038,
+          "end": 1531055,
+          "before": "\"소리를 켜고 편안히 머물러요\"",
+          "after": "\"开启声音，安心歇息\""
+        },
+        {
+          "start": 1534867,
+          "end": 1534874,
+          "before": "\"멈추는 중\"",
+          "after": "\"正在停止\""
+        },
+        {
+          "start": 1534877,
+          "end": 1534882,
+          "before": "\"멈추기\"",
+          "after": "\"停止\""
+        },
+        {
+          "start": 1534883,
+          "end": 1534888,
+          "before": "\"절하기\"",
+          "after": "\"礼佛\""
+        },
+        {
+          "start": 1535297,
+          "end": 1535311,
+          "before": "\"절을 마치고 합장 인사\"",
+          "after": "\"礼佛结束后合掌问候\""
+        },
+        {
+          "start": 1535314,
+          "end": 1535323,
+          "before": "\"합장 인사 중\"",
+          "after": "\"正在合掌问候\""
+        },
+        {
+          "start": 1535324,
+          "end": 1535331,
+          "before": "\"합장 인사\"",
+          "after": "\"合掌问候\""
+        },
+        {
+          "start": 1535341,
+          "end": 1535352,
+          "before": "\"합장 인사 · 3\"",
+          "after": "\"合掌问候 · 3\""
+        },
+        {
+          "start": 1535390,
+          "end": 1535397,
+          "before": "\"인사 대기\"",
+          "after": "\"等待问候\""
+        },
+        {
+          "start": 1535400,
+          "end": 1535406,
+          "before": "\"합장 중\"",
+          "after": "\"合掌中\""
+        },
+        {
+          "start": 1535407,
+          "end": 1535411,
+          "before": "\"합장\"",
+          "after": "\"合掌\""
+        },
+        {
+          "start": 1535716,
+          "end": 1535737,
+          "before": "\"둘러보며 기다리거나 멈출 수 있어요\"",
+          "after": "\"可以边游览边等待，也可以随时停止\""
+        },
+        {
+          "start": 1535750,
+          "end": 1535776,
+          "before": "\"입장 대기 중 · 염주는 바로 쓸 수 있어요\"",
+          "after": "\"等待入寺中 · 可以先拨念珠\""
+        },
+        {
+          "start": 1535779,
+          "end": 1535810,
+          "before": "\"눌러 이동 · 쓸어 둘러보기 · 두 손가락 확대/축소\"",
+          "after": "\"点击移动 · 滑动环视 · 双指缩放\""
+        },
+        {
+          "start": 1535811,
+          "end": 1535841,
+          "before": "\"바닥 클릭 · 드래그로 둘러보기 · 휠로 확대/축소\"",
+          "after": "\"点击地面 · 拖动环视 · 滚轮缩放\""
+        },
+        {
+          "start": 1538889,
+          "end": 1538909,
+          "before": "\"염주 화면을 준비하지 못했습니다.\"",
+          "after": "\"无法准备念珠画面。\""
+        },
+        {
+          "start": 1539175,
+          "end": 1539207,
+          "before": "\"염주를 열지 못했어요. 새로고침한 뒤 다시 열어주세요.\"",
+          "after": "\"无法打开念珠，请刷新后重试。\""
+        },
+        {
+          "start": 1539248,
+          "end": 1539276,
+          "before": "\"염주를 열지 못했어요. 법당을 준비하고 있어요.\"",
+          "after": "\"无法打开念珠，正在准备法堂。\""
+        },
+        {
+          "start": 1539487,
+          "end": 1539494,
+          "before": "\"염주 접기\"",
+          "after": "\"收起念珠\""
+        },
+        {
+          "start": 1540648,
+          "end": 1540677,
+          "before": "\"명. 다른 서버를 선택할 수 있어요. 방문객 보기\"",
+          "after": "\"人。可以选择其他房间。查看访客\""
+        },
+        {
+          "start": 1540678,
+          "end": 1540697,
+          "before": "\"명 함께 있는 중. 방문객 보기\"",
+          "after": "\"人相伴。查看访客\""
+        },
+        {
+          "start": 1540699,
+          "end": 1540713,
+          "before": "\"연결 중. 방문객 보기\"",
+          "after": "\"连接中。查看访客\""
+        },
+        {
+          "start": 1540787,
+          "end": 1540816,
+          "before": "\"이 서버가 가득 찼어요. 다른 서버를 골라주세요.\"",
+          "after": "\"这个房间已满，请选择其他房间。\""
+        },
+        {
+          "start": 1540837,
+          "end": 1540865,
+          "before": "\"연결이 지연되고 있어요. 다시 연결하고 있어요.\"",
+          "after": "\"连接有些延迟，正在重新连接。\""
+        },
+        {
+          "start": 1540866,
+          "end": 1540881,
+          "before": "\"산사에 연결하고 있어요.\"",
+          "after": "\"正在连接山寺。\""
+        },
+        {
+          "start": 1541163,
+          "end": 1541204,
+          "before": "\"이 서버가 가득 찼어요. 서버 선택에서 다른 곳으로 들어갈 수 있어요.\"",
+          "after": "\"这个房间已满，可以在房间选择中进入其他房间。\""
+        },
+        {
+          "start": 1541476,
+          "end": 1541482,
+          "before": "산사 서버 ",
+          "after": "山寺房间 "
+        },
+        {
+          "start": 1541493,
+          "end": 1541500,
+          "before": ". 서버 선택",
+          "after": "。选择房间"
+        },
+        {
+          "start": 1541502,
+          "end": 1541512,
+          "before": "\"산사 서버 선택\"",
+          "after": "\"选择山寺房间\""
+        },
+        {
+          "start": 1542386,
+          "end": 1542389,
+          "before": "\"나\"",
+          "after": "\"我\""
+        },
+        {
+          "start": 1543191,
+          "end": 1543206,
+          "before": "\"소원을 연등에 달아보세요\"",
+          "after": "\"把心愿挂在灯上\""
+        },
+        {
+          "start": 1543209,
+          "end": 1543235,
+          "before": "\"연등 아래로 다가가면 가까운 고리가 보여요.\"",
+          "after": "\"走近祈愿灯，即可看见附近的挂环。\""
+        },
+        {
+          "start": 1543271,
+          "end": 1543286,
+          "before": "\"이 고리에 연등을 걸어요\"",
+          "after": "\"将祈愿灯挂在这里\""
+        },
+        {
+          "start": 1543289,
+          "end": 1543315,
+          "before": "\"금빛으로 표시된 고리가 연등을 걸 자리예요.\"",
+          "after": "\"金色标记的挂环，就是挂灯的位置。\""
+        },
+        {
+          "start": 1543318,
+          "end": 1543331,
+          "before": "\"이 고리에 소원 쓰기\"",
+          "after": "\"在这个挂环写心愿\""
+        },
+        {
+          "start": 1543334,
+          "end": 1543343,
+          "before": "\"여기에 걸어요\"",
+          "after": "\"挂在这里\""
+        },
+        {
+          "start": 1543362,
+          "end": 1543371,
+          "before": "\"다른 빈 고리\"",
+          "after": "\"其他空挂环\""
+        },
+        {
+          "start": 1543380,
+          "end": 1543387,
+          "before": "\"소원 읽기\"",
+          "after": "\"阅读心愿\""
+        },
+        {
+          "start": 1543390,
+          "end": 1543399,
+          "before": "\"마당 둘러보기\"",
+          "after": "\"游览庭院\""
+        },
+        {
+          "start": 1543427,
+          "end": 1543440,
+          "before": "\"소원 연등을 걸었어요\"",
+          "after": "\"已挂好祈愿灯\""
+        },
+        {
+          "start": 1543441,
+          "end": 1543453,
+          "before": "\"내가 건 연등이에요\"",
+          "after": "\"这是我挂的灯\""
+        },
+        {
+          "start": 1543456,
+          "end": 1543491,
+          "before": "\"표시된 연등을 누르면 달아 둔 소원을 다시 읽을 수 있어요.\"",
+          "after": "\"点击标记的灯，可再次阅读写下的心愿。\""
+        },
+        {
+          "start": 1543502,
+          "end": 1543511,
+          "before": "\"방금 건 연등\"",
+          "after": "\"刚挂上的灯\""
+        },
+        {
+          "start": 1543512,
+          "end": 1543518,
+          "before": "\"내 연등\"",
+          "after": "\"我的祈愿灯\""
+        },
+        {
+          "start": 1543523,
+          "end": 1543536,
+          "before": "\"이 연등에 담긴 소원\"",
+          "after": "\"这盏灯中的心愿\""
+        },
+        {
+          "start": 1543539,
+          "end": 1543559,
+          "before": "\"연등을 눌러 소원지를 펼쳐보세요.\"",
+          "after": "\"点击祈愿灯，展开愿笺。\""
+        },
+        {
+          "start": 1543562,
+          "end": 1543569,
+          "before": "\"소원 연등\"",
+          "after": "\"祈愿灯\""
+        },
+        {
+          "start": 1543845,
+          "end": 1543860,
+          "before": "\"표시된 고리에 소원 쓰기\"",
+          "after": "\"在标记的挂环写心愿\""
+        },
+        {
+          "start": 1543861,
+          "end": 1543876,
+          "before": "\"표시된 연등의 소원 읽기\"",
+          "after": "\"阅读标记灯上的心愿\""
+        },
+        {
+          "start": 1544627,
+          "end": 1544628,
+          "before": "자",
+          "after": "字"
+        },
+        {
+          "start": 1544895,
+          "end": 1544906,
+          "before": "\"연등에 적힌 소원\"",
+          "after": "\"灯上的心愿\""
+        },
+        {
+          "start": 1544907,
+          "end": 1544917,
+          "before": "\"소원 연등 걸기\"",
+          "after": "\"挂祈愿灯\""
+        },
+        {
+          "start": 1545066,
+          "end": 1545073,
+          "before": "\"연등 걸기\"",
+          "after": "\"挂灯\""
+        },
+        {
+          "start": 1545482,
+          "end": 1545516,
+          "before": "\"다른 빈 고리를 골랐어요. 적어 둔 소원은 그대로 있어요.\"",
+          "after": "\"已换一个空挂环，你写下的心愿会保留。\""
+        },
+        {
+          "start": 1545784,
+          "end": 1545800,
+          "before": "\"40자 이내로 적어주세요.\"",
+          "after": "\"请控制在 40 字以内。\""
+        },
+        {
+          "start": 1546019,
+          "end": 1546026,
+          "before": "\"거는 중…\"",
+          "after": "\"正在挂灯…\""
+        },
+        {
+          "start": 1546298,
+          "end": 1546305,
+          "before": "\"연등 걸기\"",
+          "after": "\"挂灯\""
+        },
+        {
+          "start": 1546350,
+          "end": 1546382,
+          "before": "\"다른 사람이 먼저 걸었어요. 옆 빈 고리를 골라주세요.\"",
+          "after": "\"已被别人先挂上了，请选择旁边的空挂环。\""
+        },
+        {
+          "start": 1546393,
+          "end": 1546415,
+          "before": "\"고리 가까이 다가가 다시 걸어주세요.\"",
+          "after": "\"请靠近挂环后，再次挂灯。\""
+        },
+        {
+          "start": 1546430,
+          "end": 1546456,
+          "before": "\"소원을 한 줄로, 40자 이내로 적어주세요.\"",
+          "after": "\"请将心愿写成一行，控制在 40 字以内。\""
+        },
+        {
+          "start": 1546457,
+          "end": 1546488,
+          "before": "\"연등을 저장하지 못했어요. 잠시 뒤 다시 눌러주세요.\"",
+          "after": "\"祈愿灯保存失败，请稍后再试。\""
+        },
+        {
+          "start": 1547293,
+          "end": 1547303,
+          "before": "\"탑돌이 함께하기\"",
+          "after": "\"一起绕塔\""
+        },
+        {
+          "start": 1547304,
+          "end": 1547312,
+          "before": "\"탑돌이 시작\"",
+          "after": "\"开始绕塔\""
+        },
+        {
+          "start": 1547536,
+          "end": 1547545,
+          "before": "\"탑돌이 멈추기\"",
+          "after": "\"停止绕塔\""
+        },
+        {
+          "start": 1547546,
+          "end": 1547554,
+          "before": "\"이동 멈추기\"",
+          "after": "\"停止移动\""
+        },
+        {
+          "start": 1547979,
+          "end": 1548006,
+          "before": "\"지도를 불러오지 못했어요. 다시 열어 주세요.\"",
+          "after": "\"地图加载失败，请重新打开。\""
+        },
+        {
+          "start": 1550650,
+          "end": 1550657,
+          "before": "\"바람 소리\"",
+          "after": "\"风声\""
+        },
+        {
+          "start": 1550658,
+          "end": 1550667,
+          "before": "\"바람과 새소리\"",
+          "after": "\"风声与鸟鸣\""
+        },
+        {
+          "start": 1551645,
+          "end": 1551655,
+          "before": "\"산사 로딩 실패\"",
+          "after": "\"山寺加载失败\""
+        },
+        {
+          "start": 1551783,
+          "end": 1551798,
+          "before": "\"풍경을 불러오지 못했어요\"",
+          "after": "\"无法加载风景\""
+        },
+        {
+          "start": 1552000,
+          "end": 1552038,
+          "before": "\"화면 준비에 실패했어요. 브라우저를 새로고침하고 다시 들어와주세요\"",
+          "after": "\"画面准备失败，请刷新浏览器后重新进入\""
+        },
+        {
+          "start": 1552039,
+          "end": 1552065,
+          "before": "\"풍경을 불러오지 못했어요. 다시 들어와주세요\"",
+          "after": "\"无法加载风景，请重新进入\""
+        },
+        {
+          "start": 1552148,
+          "end": 1552157,
+          "before": "\"다시 들어가기\"",
+          "after": "\"重新进入\""
+        },
+        {
+          "start": 1552949,
+          "end": 1552966,
+          "before": "\"화면을 다시 준비하고 있어요\"",
+          "after": "\"正在重新准备画面\""
+        },
+        {
+          "start": 1553006,
+          "end": 1553018,
+          "before": "\"잠시만 기다려주세요\"",
+          "after": "\"请稍候\""
+        },
+        {
+          "start": 1553602,
+          "end": 1553621,
+          "before": "\"산사의 풍경을 불러오고 있어요.\"",
+          "after": "\"正在加载山寺风景。\""
+        },
+        {
+          "start": 1553622,
+          "end": 1553641,
+          "before": "\"산사의 풍경을 불러오고 있어요.\"",
+          "after": "\"正在加载山寺风景。\""
+        },
+        {
+          "start": 1553642,
+          "end": 1553665,
+          "before": "\"청연당과 입구 돌길을 준비하고 있어요.\"",
+          "after": "\"正在准备清缘堂与入口石径。\""
+        },
+        {
+          "start": 1553666,
+          "end": 1553693,
+          "before": "\"카페25와 돌길 주변 나무를 준비하고 있어요.\"",
+          "after": "\"正在准备 CAFE25 与石径旁的树木。\""
+        },
+        {
+          "start": 1553694,
+          "end": 1553714,
+          "before": "\"입구의 첫 화면을 그리고 있어요.\"",
+          "after": "\"正在绘制入口画面。\""
+        },
+        {
+          "start": 1553715,
+          "end": 1553727,
+          "before": "\"산사에 도착했어요.\"",
+          "after": "\"已到达山寺。\""
+        },
+        {
+          "start": 1554282,
+          "end": 1554303,
+          "before": "\"이전 방문을 이어서 여는 중이에요.\"",
+          "after": "\"正在恢复上次的游览。\""
+        },
+        {
+          "start": 1555412,
+          "end": 1555429,
+          "before": "\"가까운 빈 바닥을 눌러주세요\"",
+          "after": "\"请点击附近的空地\""
+        },
+        {
+          "start": 1555893,
+          "end": 1555924,
+          "before": "\"빈 방석을 찾지 못했어요. 둘러보다 다시 눌러주세요.\"",
+          "after": "\"没有找到空坐垫，可以先游览，稍后再试。\""
+        },
+        {
+          "start": 1555925,
+          "end": 1555945,
+          "before": "\"연결되면 방석을 찾을 수 있어요.\"",
+          "after": "\"连接后即可寻找坐垫。\""
+        },
+        {
+          "start": 1556189,
+          "end": 1556198,
+          "before": "\"다시 머무르기\"",
+          "after": "\"再次停留\""
+        },
+        {
+          "start": 1556199,
+          "end": 1556210,
+          "before": "\"여기서 계속 쉬기\"",
+          "after": "\"在这里继续休息\""
+        },
+        {
+          "start": 1558587,
+          "end": 1558614,
+          "before": "\"연결을 준비하지 못했어요. 다시 들어와주세요.\"",
+          "after": "\"连接准备失败，请重新进入。\""
+        },
+        {
+          "start": 1559177,
+          "end": 1559200,
+          "before": "\"산사 종료 중 자원을 정리하지 못했어요\"",
+          "after": "\"离开山寺时，未能完成资源清理\""
+        },
+        {
+          "start": 1559412,
+          "end": 1559618,
+          "before": "</span><p class=\"temple-exit-eyebrow\">산사 · 山寺</p><h1 id=\"exit-title\">편안히 쉬어 가셨나요</h1><p>소리와 연결을 모두 마쳤어요.<br>다시 쉬고 싶을 때 들러주세요.</p><button id=\"temple-return\" class=\"solid-button\">다시 머무르기</button></div></main>",
+          "after": "</span><p class=\"temple-exit-eyebrow\">山寺 · Sansa</p><h1 id=\"exit-title\">歇得还好吗</h1><p>声音与连接均已关闭。<br>想歇一会儿时，欢迎再来。</p><button id=\"temple-return\" class=\"solid-button\">再次停留</button></div></main>"
+        }
+      ]
     }
   ]
 }

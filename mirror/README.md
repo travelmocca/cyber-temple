@@ -1,6 +1,6 @@
 # Sansa 发布产物本地镜像
 
-原站：[sansatemple.com](https://sansatemple.com/)。2026-11-11 冻结公开发布程序，保留原韩文界面、Three.js r180 渲染、模型、材质和交互；本地 Node.js 服务替代原在线服务。没有取得原作者开发工程或服务器源码。
+原站：[sansatemple.com](https://sansatemple.com/)。2026-11-11 冻结公开发布程序，在保留 Three.js r180 渲染、模型、材质和交互的基础上提供简体中文界面；本地 Node.js 服务替代原在线服务。没有取得原作者开发工程或服务器源码。
 
 ```sh
 npm ci
@@ -34,6 +34,7 @@ tests/
   helpers/                   固定时钟、随机 ID 和行为采集
   browser/                   Chrome 真实界面回归
 tools/                       原站取证、资源校验和对照脚本
+locales/                     简体中文词典与文本处理
 ```
 
 `PresenceHub` 管理生命周期，`dispatchMessage` 决定消息处理与事件顺序，活动模块承载规则。上香和施工函数操作 `Activities` 持有的状态，保持原有字段、方法及调用方兼容。修改某项规则时应进入对应活动模块；修改网络入口时应进入传输模块。
@@ -50,7 +51,9 @@ npm run test:e2e      # Chrome 界面回归
 
 浏览器证据可用 `MIRROR_E2E_OUTPUT=/absolute/output/directory npm run test:e2e` 输出到独立目录，保留历史验收记录。
 
-`baseline/site` 是不可修改的原始响应。`site` 是运行副本；改动只允许通过 `patches/patches.json` 中的精确哈希补丁登记。当前补丁仅移除入口统计脚本，并将两个支付跳转改为明确标识的本地模拟页面。
+`baseline/site` 是不可修改的原始响应。`site` 是运行副本；改动只允许通过 `patches/patches.json` 中的精确哈希补丁登记。当前 7 项补丁包括移除统计脚本、替换两个支付跳转，以及 4 项中文文本和语言元数据补丁。
+
+中文词典位于 `locales/zh-CN.json`，覆盖 588 个文本片段（含模拟支付和默认访客名）。修改后运行 `npm run format`、`npm run localize`、`npm run check`，再运行浏览器回归。生成器仅编辑 JS 字符串/模板文字并核对可执行语法树，保留表达式、标识符、HTML 属性结构及原始素材；详细边界见 [中文说明](../docs/zh-CN-localization.md)。
 
 当前验收结论和差异见 [验收记录](../docs/mirror-acceptance.md)，完整复现方式见 [运行说明](../docs/mirror-runbook.md)。
 

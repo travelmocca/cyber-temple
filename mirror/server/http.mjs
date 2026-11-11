@@ -2,6 +2,7 @@ import { createReadStream } from 'node:fs';
 import { stat, realpath } from 'node:fs/promises';
 import { extname, resolve, sep } from 'node:path';
 import { MAP } from './protocol/constants.mjs';
+import { translateText } from '../locales/zh-CN.mjs';
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
@@ -43,7 +44,9 @@ export function createRequestHandler({ site, hub }) {
           'cache-control': 'no-store',
         });
         response.end(
-          '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로컬 모의 공양</title><body style="background:#eeece3;color:#4d5144;font:18px/1.8 sans-serif;padding:3rem;max-width:40rem;margin:auto"><h1>모의 공양이 완료되었어요</h1><p>이 화면은 로컬 테스트예요. 실제 결제나 송금은 발생하지 않았어요.</p><a href="/">산사로 돌아가기</a></body></html>',
+          translateText(
+            '<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로컬 모의 공양</title><body style="background:#eeece3;color:#4d5144;font:18px/1.8 sans-serif;padding:3rem;max-width:40rem;margin:auto"><h1>모의 공양이 완료되었어요</h1><p>이 화면은 로컬 테스트예요. 실제 결제나 송금은 발생하지 않았어요.</p><a href="/">산사로 돌아가기</a></body></html>',
+          ),
         );
         return;
       }

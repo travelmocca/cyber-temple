@@ -1,9 +1,9 @@
 {
   "id": "/",
-  "name": "산사 — 온라인 절",
-  "short_name": "산사",
-  "description": "말없이 같이 앉아 있는 온라인 절, 산사.",
-  "lang": "ko",
+  "name": "山寺 — 线上寺庙",
+  "short_name": "山寺",
+  "description": "一座可以静静相伴的线上寺庙。",
+  "lang": "zh-CN",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
