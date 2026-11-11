@@ -44,6 +44,13 @@ test(
           await page.locator('#temple-entry').evaluate((node) => getComputedStyle(node).position),
           'fixed',
         );
+        const background = await page
+          .locator('#temple-entry')
+          .evaluate((node) => getComputedStyle(node, '::before').backgroundImage);
+        assert.match(
+          background,
+          mobile ? /gate-mobile\.[a-f0-9]+\.webp/ : /gate-desktop\.[a-f0-9]+\.webp/,
+        );
         await page.getByRole('button', { name: '重新加载', exact: true }).waitFor();
         block = false;
         await page.getByRole('button', { name: '重新加载', exact: true }).click();
@@ -230,6 +237,44 @@ test(
       assert.equal(sessions.length, 2);
     } finally {
       for (const context of visitors) await context.close();
+    }
+  },
+);
+
+test(
+  'warm entry reuses versioned game resources and never loads the extended font',
+  { timeout: 70000 },
+  async () => {
+    const context = await browser.newContext({ serviceWorkers: 'block' });
+    const requests = [];
+    context.on('request', (request) => requests.push(request.url()));
+    try {
+      const page = await context.newPage();
+      for (const visit of ['cold', 'warm']) {
+        await page.goto(base);
+        await page.getByRole('button', { name: '心安', exact: true }).click();
+        await page.locator('.entry-card .entry-enter').first().click();
+        await page.locator('#temple-entry').waitFor({ state: 'hidden', timeout: 45000 });
+        const game = await page.evaluate(() =>
+          performance
+            .getEntriesByType('resource')
+            .find((resource) => resource.name.includes('/assets/game-U0Pmc8tU.js'))
+            ?.toJSON(),
+        );
+        assert.ok(game?.name.includes('?v='));
+        if (visit === 'warm') assert.equal(game.transferSize, 0);
+        assert.ok(
+          await page.evaluate(() =>
+            [...document.styleSheets].some((sheet) => sheet.href?.includes('game-CvBwdk0t.css?v=')),
+          ),
+        );
+      }
+      assert.equal(
+        requests.some((url) => url.includes('SansaQuietUI-Remainder')),
+        false,
+      );
+    } finally {
+      await context.close();
     }
   },
 );

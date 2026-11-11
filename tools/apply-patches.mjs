@@ -54,6 +54,13 @@ export async function verifyAssets(root) {
       hash(await readFile(join(root, 'locales/zh-CN.json'))) !== patch.catalogSha256
     )
       throw Error('localization catalog changed; regenerate patches');
+  for (const patch of patches)
+    for (const [path, digest] of Object.entries(patch.dependencies ?? {})) {
+      if (!/^(entry|site)\//.test(path) || path.split('/').includes('..'))
+        throw Error('invalid performance dependency');
+      if (hash(await readFile(join(root, path))) !== digest)
+        throw Error('performance dependency changed; regenerate entry patches: ' + path);
+    }
   const registered = new Set(manifest.files.map((f) => f.path));
   for (const scope of ['baseline/site', 'site'])
     for (const file of await walk(join(root, scope)))

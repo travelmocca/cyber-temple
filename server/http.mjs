@@ -1,5 +1,6 @@
 import { createReadStream } from 'node:fs';
-import { stat, realpath } from 'node:fs/promises';
+import { stat, realpath, readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { MAP } from './protocol/constants.mjs';
@@ -30,6 +31,7 @@ const MIME = {
 
 // Route order and range behavior are part of the existing HTTP contract.
 export function createRequestHandler({ site, hub }) {
+  const validators = new Map();
   return async (request, response) => {
     const json = (status, body) => {
       response.writeHead(status, {
@@ -94,18 +96,53 @@ export function createRequestHandler({ site, hub }) {
         response.end();
         return;
       }
+      const stamp = `${info.size}:${info.mtimeMs}:${info.ctimeMs}:${info.ino}`;
+      let cached = validators.get(actual);
+      if (cached?.stamp !== stamp) {
+        cached = {
+          stamp,
+          digest: readFile(actual)
+            .then((bytes) => createHash('sha256').update(bytes).digest('hex'))
+            .catch((error) => {
+              validators.delete(actual);
+              throw error;
+            }),
+        };
+        validators.set(actual, cached);
+      }
+      const digest = await cached.digest;
+      const etag = `"${digest}"`;
+      const version = digest.slice(0, 12);
+      // Frozen /v/ resources must move to a new version path whenever their bytes change.
+      const immutable =
+        extname(actual).toLowerCase() !== '.html' &&
+        !(isEntry && actual === resolve(staticRoot, 'catalog.json')) &&
+        (/^\/v\/[a-f0-9]{20}\//.test(decoded) ||
+          url.searchParams.get('v') === version ||
+          decoded.endsWith(`.${version}${extname(decoded)}`));
       const headers = {
         'content-type': MIME[extname(file)] ?? 'application/octet-stream',
         'content-length': info.size,
         'accept-ranges': 'bytes',
-        'cache-control': 'no-cache',
+        'cache-control': immutable ? 'public, max-age=31536000, immutable' : 'no-cache',
+        etag,
         'x-content-type-options': 'nosniff',
         'referrer-policy': 'no-referrer',
       };
+      const matches = request.headers['if-none-match']?.split(',').map((value) => value.trim());
+      if (matches?.some((value) => value === '*' || value.replace(/^W\//, '') === etag)) {
+        const { 'content-length': ignored, ...notModified } = headers;
+        response.writeHead(304, notModified);
+        response.end();
+        return;
+      }
       let start = 0,
         end = info.size - 1,
         status = 200;
-      if (request.headers.range) {
+      if (
+        request.headers.range &&
+        (!request.headers['if-range'] || request.headers['if-range'] === etag)
+      ) {
         const match = /^bytes=(\d*)-(\d*)$/.exec(request.headers.range);
         if (match && (match[1] || match[2])) {
           if (match[1]) {

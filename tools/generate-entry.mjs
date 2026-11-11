@@ -1,7 +1,8 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
-import { applyPatch, hash, verifyAssets } from './apply-patches.mjs';
+import { applyPatch, hash } from './apply-patches.mjs';
+import { generatePerformance } from './generate-performance.mjs';
 
 const root = new URL('../', import.meta.url);
 const replacements = [
@@ -20,7 +21,9 @@ const replacements = [
 
 export async function generateEntry() {
   const registry = JSON.parse(await readFile(new URL('patches/patches.json', root), 'utf8'));
-  registry.patches = registry.patches.filter((p) => !p.id.startsWith('temple-entry-'));
+  registry.patches = registry.patches.filter(
+    (p) => !p.id.startsWith('temple-entry-') && !p.id.startsWith('performance-'),
+  );
   const outputs = [];
   for (const replacement of replacements) {
     let source = await readFile(new URL('baseline/site/' + replacement.target, root), 'utf8');
@@ -45,7 +48,7 @@ export async function generateEntry() {
   for (const output of outputs)
     await writeFile(new URL('site/' + output.target, root), output.text);
   await writeFile(new URL('patches/patches.json', root), JSON.stringify(registry, null, 2) + '\n');
-  return verifyAssets(fileURLToPath(root));
+  return generatePerformance();
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url))
   console.log(JSON.stringify(await generateEntry()));

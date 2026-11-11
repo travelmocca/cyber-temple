@@ -18,6 +18,14 @@ test('Chinese entry and app manifest declare their actual language', async () =>
   assert.equal(manifest.lang, 'zh-CN');
 });
 
+test('optimized Chinese UI keeps the base font and does not request the extended font', async () => {
+  const page = await readFile(new URL('../site/index.html', import.meta.url), 'utf8');
+  const css = await readFile(new URL('../site/assets/game-CvBwdk0t.css', import.meta.url), 'utf8');
+  assert.doesNotMatch(page, /rel="preload"[^>]+SansaQuietUI-Core/);
+  assert.doesNotMatch(css, /SansaQuietUI-Remainder\.woff2/);
+  assert.match(css, /SansaQuietUI-Core\.woff2/);
+});
+
 test('localized templates preserve dynamic values, markup, IDs and executable expressions', async () => {
   const source =
     'const count = 3; globalThis.label = `앞에 ${count}명이 있어요 · 차례가 되면 다가갑니다`; globalThis.html = `<button id="unchanged">커피 내리기</button>`;';

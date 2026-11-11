@@ -459,7 +459,7 @@ test(
       block = true;
     try {
       await context.route('**/*', (r) => {
-        if (block && r.request().url().endsWith('/assets/game-U0Pmc8tU.js')) {
+        if (block && new URL(r.request().url()).pathname === '/assets/game-U0Pmc8tU.js') {
           failed = true;
           return r.abort('failed');
         }

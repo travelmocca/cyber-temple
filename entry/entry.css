@@ -31,9 +31,15 @@ body:has(#temple-entry:not([hidden])) {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background: #566451 url('/temple-entry/gate-background.jpg') center 40% / cover no-repeat;
+  background: #566451 url('/temple-entry/gate-desktop.0c54479ac3b6.webp') center 40% / cover
+    no-repeat;
   filter: blur(1.5px);
   transform: scale(1.015);
+}
+@media (max-width: 600px) and (max-aspect-ratio: 3/4) {
+  #temple-entry::before {
+    background-image: url('/temple-entry/gate-mobile.32b25adee89f.webp');
+  }
 }
 #temple-entry::after {
   content: '';

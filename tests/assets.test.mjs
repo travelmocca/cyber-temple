@@ -35,6 +35,26 @@ test('registered baseline deletion, tampering and unregistered working changes f
     await writeFile(join(root, 'baseline/site/index.html'), 'hello');
     await writeFile(join(root, 'site/index.html'), 'hello');
     assert.equal((await verifyAssets(root)).files, 1);
+    // Entry URL versions must be regenerated if their source bytes change.
+    await mkdir(join(root, 'entry'));
+    await writeFile(join(root, 'entry/entry.css'), 'first');
+    const dependencyPatch = {
+      target: 'index.html',
+      beforeSha256: hash('hello'),
+      afterSha256: hash('hello!'),
+      before: 'hello',
+      after: 'hello!',
+      dependencies: { 'entry/entry.css': hash('first') },
+    };
+    await writeFile(
+      join(root, 'patches/patches.json'),
+      JSON.stringify({ patches: [dependencyPatch] }),
+    );
+    await writeFile(join(root, 'site/index.html'), 'hello!');
+    await verifyAssets(root);
+    await writeFile(join(root, 'entry/entry.css'), 'changed');
+    await assert.rejects(verifyAssets(root), /performance dependency changed/);
+    await writeFile(join(root, 'patches/patches.json'), JSON.stringify({ patches: [] }));
     await writeFile(join(root, 'site/index.html'), 'wrong');
     await assert.rejects(verifyAssets(root), /working/);
     await writeFile(join(root, 'site/index.html'), 'hello');

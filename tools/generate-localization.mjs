@@ -121,7 +121,10 @@ export async function createLocalizationPatch(source, target, catalogSha256) {
 export async function generateLocalization() {
   const registry = JSON.parse(await readFile(new URL('patches/patches.json', root), 'utf8'));
   registry.patches = registry.patches.filter(
-    (patch) => !patch.id.startsWith('zh-CN-') && !patch.id.startsWith('temple-entry-'),
+    (patch) =>
+      !patch.id.startsWith('zh-CN-') &&
+      !patch.id.startsWith('temple-entry-') &&
+      !patch.id.startsWith('performance-'),
   );
   const catalogSha256 = hash(await readFile(new URL('locales/zh-CN.json', root)));
   const outputs = [];

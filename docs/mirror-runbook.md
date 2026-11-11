@@ -37,7 +37,7 @@ npm run test:e2e
 - `entry/`：悬浮选寺入口、背景截图与84座佛寺配置，通过 `/temple-entry/` 提供。
 - `server/`：自建HTTP/WebSocket及房间、活动服务。
 - `baseline/`：107个原站文件的只读字节及来源/SHA-256清单。
-- `patches/`：9项精确补丁，包含3项接入、4项汉化及2项选寺适配。
+- `patches/`：12项精确补丁，包含3项接入、4项汉化、2项选寺及3项字体/版本适配。
 - `locales/`：中文词典及文本处理。
 - `tests/`、`tools/`：回归测试、补丁生成和研究工具。
 
@@ -48,7 +48,9 @@ npm run check
 npm run test:e2e
 ```
 
-`localize` 会接着重建选寺补丁。只有修订词典或相应补丁时才需运行；`npm run patch` 从只读基准重新应用已登记补丁。不要直接格式化发布包或修改只读基准。校验会拒绝资源缺失、篡改和未登记更改。详情见 [中文说明](zh-CN-localization.md)。
+`localize` 会接着重建选寺和性能补丁。修订词典时运行它；修改entry的JS/CSS后运行 `npm run entry:patch` 更新内容版本。`npm run patch` 从只读基准重新应用已登记补丁。不要直接格式化发布包或修改只读基准。校验会拒绝资源缺失、篡改、未登记更改及过期资源版本。详情见 [中文说明](zh-CN-localization.md)。
+
+HTML和寺院名录使用ETag验证更新；内容摘要版本URL及冻结 `/v/` 路径长期缓存。替换冻结路径的素材时必须更新其版本路径/引用，避免客户端继续使用旧缓存。第一轮优化与可重复测量命令见 [性能报告](performance-first-pass.md)。
 
 ## 服务状态与限制
 
