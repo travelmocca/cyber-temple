@@ -63,10 +63,17 @@ async function open(options = {}) {
     }),
   );
   await page.goto(base + '/?room=maru-17');
+  await page.getByRole('button', { name: '心安', exact: true }).click();
+  await page.locator('.entry-card .entry-enter').first().click();
   await ready(page);
   return { context, page, external, errors, failures, messages };
 }
 async function ready(page) {
+  await page.locator('#temple-entry').waitFor({ state: 'attached' });
+  if (await page.locator('#temple-entry').isVisible()) {
+    await page.getByRole('button', { name: '心安', exact: true }).click();
+    await page.locator('.entry-card .entry-enter').first().click();
+  }
   await page.locator('#game-loading.is-loaded').waitFor({ state: 'attached', timeout: 80000 });
   await page.waitForFunction(
     () => document.querySelector('canvas[data-engine]')?.dataset.position,
@@ -284,7 +291,10 @@ test(
       await p.locator('.beads-back').click({ noWaitAfter: true });
       await p.locator('#game-exit').click({ noWaitAfter: true });
       await p.locator('#temple-return').waitFor({ state: 'visible' });
-      await p.locator('#temple-return').click({ noWaitAfter: true });
+      await Promise.all([
+        p.waitForEvent('load'),
+        p.locator('#temple-return').click({ noWaitAfter: true }),
+      ]);
       await ready(p);
       assert.deepEqual(v.errors, []);
       assert.deepEqual(v.failures, []);
@@ -454,11 +464,16 @@ test(
         return new URL(r.request().url()).origin === base ? r.continue() : r.abort();
       });
       await p.goto(base);
+      await p.getByRole('button', { name: '心安', exact: true }).click();
+      await p.locator('.entry-card .entry-enter').first().click();
       await p.locator('#sansa-boot.is-error').waitFor({ state: 'visible', timeout: 15000 });
+      const selected = await p.evaluate(() => window.__templeEntry.id);
       const before = await p.locator('#sansa-boot').innerText();
       block = false;
       await p.reload();
+      await p.locator(`[data-temple-id="${selected}"] .entry-enter`).click();
       await ready(p);
+      assert.equal(await p.evaluate(() => window.__templeEntry.id), selected);
       await record('resource-recovery', {
         failedRequest: true,
         before,
@@ -582,6 +597,8 @@ test(
         r.url().startsWith(base.replace('http:', 'ws:') + '/') ? r.connectToServer() : r.close(),
       );
       await p.goto(base);
+      await p.getByRole('button', { name: '心安', exact: true }).click();
+      await p.locator('.entry-card .entry-enter').first().click();
       await ready(p);
       assert.equal((await p.locator('#game-room-number').innerText()).trim(), '01');
       assert.deepEqual(errors, []);

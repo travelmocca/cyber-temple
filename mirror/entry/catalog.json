@@ -1,0 +1,5240 @@
+{
+  "categories": [
+    {
+      "id": "wealth",
+      "label": "求财",
+      "prompt": "愿辛苦有收获，手头有余钱"
+    },
+    {
+      "id": "career",
+      "label": "事业",
+      "prompt": "愿机会来到，付出有回响"
+    },
+    {
+      "id": "love",
+      "label": "姻缘",
+      "prompt": "愿遇见合适的人，也愿相处长久"
+    },
+    {
+      "id": "health",
+      "label": "健康",
+      "prompt": "愿自己与牵挂的人都安康"
+    },
+    {
+      "id": "study",
+      "label": "学业",
+      "prompt": "愿专注有所得，努力不被辜负"
+    },
+    {
+      "id": "family",
+      "label": "家庭",
+      "prompt": "愿一家人安稳，也愿新生命平安到来"
+    },
+    {
+      "id": "fortune",
+      "label": "转运",
+      "prompt": "愿眼前有转机，下一程更顺遂"
+    },
+    {
+      "id": "peace",
+      "label": "心安",
+      "prompt": "愿烦恼轻一点，心里安稳一点"
+    }
+  ],
+  "temples": [
+    {
+      "id": "temple-001",
+      "name": "雍和宫",
+      "plaqueName": "雍和宫",
+      "region": "北京",
+      "city": "东城",
+      "headline": "把前程写进京城红墙",
+      "description": "穿过层层红墙与黄瓦，把最近最牵挂的工作和前程，留在这座由清代王府改建的佛寺里。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s001",
+          "title": "北京香火最旺的寺院，风水宝地",
+          "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eCareer",
+          "title": "雍和宫参访与祈愿的民间说法",
+          "url": "https://www.visitbeijing.com.cn/article/4MJTb9gldk5?device=amp",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "career",
+          "basisLabel": "民间口碑",
+          "reason": "参访资料记录事业与学业祈愿习惯",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eCareer",
+              "title": "雍和宫参访与祈愿的民间说法",
+              "url": "https://www.visitbeijing.com.cn/article/4MJTb9gldk5?device=amp",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "民间口碑",
+          "reason": "民间参访攻略中的学业祈愿",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eCareer",
+              "title": "雍和宫参访与祈愿的民间说法",
+              "url": "https://www.visitbeijing.com.cn/article/4MJTb9gldk5?device=amp",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "wealth",
+          "basisLabel": "民间口碑",
+          "reason": "北京文旅资料记录求财的民间口碑",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eCareer",
+              "title": "雍和宫参访与祈愿的民间说法",
+              "url": "https://www.visitbeijing.com.cn/article/4MJTb9gldk5?device=amp",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "为亲友安康设置的综合祈愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s001",
+              "title": "北京香火最旺的寺院，风水宝地",
+              "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-002",
+      "name": "红螺寺",
+      "plaqueName": "红螺寺",
+      "region": "北京",
+      "city": "怀柔",
+      "headline": "红螺山下，给相遇留个位置",
+      "description": "古松、竹林与山路围住这座京郊古寺。有人为相遇而来，也有人把添丁与家人的愿望，轻轻放在这里。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s001",
+          "title": "北京香火最旺的寺院，风水宝地",
+          "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s004",
+          "title": "京城这些地方据说可以疗情伤！您信吗？",
+          "url": "https://www.visitbeijing.com.cn/article/47QlBw0Ik1p",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "love",
+          "basisLabel": "民间口碑",
+          "reason": "北京文旅资料记载的姻缘口碑",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s004",
+              "title": "京城这些地方据说可以疗情伤！您信吗？",
+              "url": "https://www.visitbeijing.com.cn/article/47QlBw0Ik1p",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "民间口碑",
+          "reason": "北京文旅资料记载求子民俗",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s001",
+              "title": "北京香火最旺的寺院，风水宝地",
+              "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "古木与山路延展出的静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s004",
+              "title": "京城这些地方据说可以疗情伤！您信吗？",
+              "url": "https://www.visitbeijing.com.cn/article/47QlBw0Ik1p",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-003",
+      "name": "潭柘寺",
+      "plaqueName": "潭柘寺",
+      "region": "北京",
+      "city": "门头沟",
+      "headline": "银杏落满院，前路慢慢开",
+      "description": "京西山里的古寺，收藏着老北京的岁月。走过古木和重重殿院，为下一段前程许一个踏实的愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s001",
+          "title": "北京香火最旺的寺院，风水宝地",
+          "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "career",
+          "basisLabel": "民间口碑",
+          "reason": "北京文旅资料记录历史上的官运祈愿习俗",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s001",
+              "title": "北京香火最旺的寺院，风水宝地",
+              "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "古寺综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s001",
+              "title": "北京香火最旺的寺院，风水宝地",
+              "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "京西古木院落延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s001",
+              "title": "北京香火最旺的寺院，风水宝地",
+              "url": "https://www.visitbeijing.com.cn/article/47QoXTPAsNV",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-004",
+      "name": "大悲禅院",
+      "plaqueName": "大悲禅院",
+      "region": "天津",
+      "city": "河北区",
+      "headline": "海河边，替牵挂的人留一盏灯",
+      "description": "这座因观音信仰得名的津门寺院，藏在海河城市的日常里。忙碌之外，留一点时间给家人，也给自己。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s483",
+          "title": "大悲禅院",
+          "url": "https://www.dabeichanyuan.com.cn/dbcy/",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音慈悲信仰关联安康祈愿",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s483",
+              "title": "大悲禅院",
+              "url": "https://www.dabeichanyuan.com.cn/dbcy/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音信仰延展亲人守护主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s483",
+              "title": "大悲禅院",
+              "url": "https://www.dabeichanyuan.com.cn/dbcy/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-005",
+      "name": "独乐寺",
+      "plaqueName": "独乐寺",
+      "region": "天津",
+      "city": "蓟州",
+      "headline": "在辽代木阁前，慢下来",
+      "description": "抬头是辽代观音阁，眼前是高大的十一面观音。把匆忙的脚步停一停，看看木构与佛像如何走过漫长岁月。",
+      "tradition": "汉传历史佛寺",
+      "scopeNote": "",
+      "historicalSite": true,
+      "sources": [
+        {
+          "id": "s002",
+          "title": "独乐寺_景区介绍_天津政务网",
+          "url": "https://www.tj.gov.cn/sq/yztj/jqjs/202005/t20200520_2467995.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "古建观看体验延展的静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s002",
+              "title": "独乐寺_景区介绍_天津政务网",
+              "url": "https://www.tj.gov.cn/sq/yztj/jqjs/202005/t20200520_2467995.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "十一面观音的慈悲信仰关联平安",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s002",
+              "title": "独乐寺_景区介绍_天津政务网",
+              "url": "https://www.tj.gov.cn/sq/yztj/jqjs/202005/t20200520_2467995.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-006",
+      "name": "隆兴寺",
+      "plaqueName": "隆兴寺",
+      "region": "河北",
+      "city": "石家庄正定",
+      "headline": "转过摩尼殿，看见那一回眸",
+      "description": "宋式殿宇、彩色悬塑与铜铸大悲观音，让这座正定古寺处处值得停步。把没说出口的牵挂，留给一次安静的回望。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s003",
+          "title": "河北省第一至六批全国重点文物保护单位简介_河北省文物局",
+          "url": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257948.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "大悲观音信仰关联安康祈愿",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s003",
+              "title": "河北省第一至六批全国重点文物保护单位简介_河北省文物局",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257948.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音信仰延展家庭守护",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s003",
+              "title": "河北省第一至六批全国重点文物保护单位简介_河北省文物局",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257948.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "宋代院落与造像的静观主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s003",
+              "title": "河北省第一至六批全国重点文物保护单位简介_河北省文物局",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257948.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-007",
+      "name": "普宁寺",
+      "plaqueName": "普宁寺",
+      "region": "河北",
+      "city": "承德",
+      "headline": "千手之间，安放一家人的愿",
+      "description": "沿着皇家寺院的中轴向上，殿群逐层展开。大乘之阁里，高大的木雕千手千眼观音，承载着人们对慈悲的想象。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s012",
+          "title": "承德市文物局 文博要闻 普宁寺景区",
+          "url": "https://wwj.chengde.gov.cn/art/2018/11/8/art_962_753948.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "千手千眼观音信仰延展家庭守护",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s012",
+              "title": "承德市文物局 文博要闻 普宁寺景区",
+              "url": "https://wwj.chengde.gov.cn/art/2018/11/8/art_962_753948.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音慈悲信仰关联平安",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s012",
+              "title": "承德市文物局 文博要闻 普宁寺景区",
+              "url": "https://wwj.chengde.gov.cn/art/2018/11/8/art_962_753948.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-008",
+      "name": "五爷庙（万佛阁）",
+      "plaqueName": "五爷庙",
+      "region": "山西",
+      "city": "忻州五台山",
+      "headline": "五台山里，把下一步想清楚",
+      "description": "台怀镇的万佛阁，以五爷庙之名被游人熟知。小小殿院和寺前戏台，连接着佛教山场与当地民间信仰。",
+      "tradition": "藏传并融合地方民俗",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s007",
+          "title": "中心领导赴山西省太原、五台山、大同等地部分宗教活动场所开展调研_新闻简讯_上海市民族和宗教事务局",
+          "url": "https://mzzj.sh.gov.cn/zxdt_zxyw/20240611/1869ccd3094a4d6d8c45011525195858.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "综合祈福场所延展前程主题，不认定为专属传统",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s007",
+              "title": "中心领导赴山西省太原、五台山、大同等地部分宗教活动场所开展调研_新闻简讯_上海市民族和宗教事务局",
+              "url": "https://mzzj.sh.gov.cn/zxdt_zxyw/20240611/1869ccd3094a4d6d8c45011525195858.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "fortune",
+          "basisLabel": "策划延展",
+          "reason": "地方祈愿文化延展迎新纳福主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s007",
+              "title": "中心领导赴山西省太原、五台山、大同等地部分宗教活动场所开展调研_新闻简讯_上海市民族和宗教事务局",
+              "url": "https://mzzj.sh.gov.cn/zxdt_zxyw/20240611/1869ccd3094a4d6d8c45011525195858.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "wealth",
+          "basisLabel": "策划延展",
+          "reason": "大众求财联想暂作策划标签，尚缺本轮可靠专属证据",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s007",
+              "title": "中心领导赴山西省太原、五台山、大同等地部分宗教活动场所开展调研_新闻简讯_上海市民族和宗教事务局",
+              "url": "https://mzzj.sh.gov.cn/zxdt_zxyw/20240611/1869ccd3094a4d6d8c45011525195858.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-009",
+      "name": "显通寺",
+      "plaqueName": "显通寺",
+      "region": "山西",
+      "city": "忻州五台山",
+      "headline": "到文殊道场，为努力添一份定力",
+      "description": "五台山深处，铜殿与无量殿各有风骨。走进这座代表性古刹，把对考试与未来的焦虑，换成一个清楚的心愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eWutai",
+          "title": "五台山世界遗产",
+          "url": "https://whc.unesco.org/en/list/1279/",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eXiantong",
+          "title": "显通寺",
+          "url": "https://www.cppcc.people.com.cn/n1/2016/0109/c34948-28031645.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "study",
+          "basisLabel": "信仰文化关联",
+          "reason": "五台山文殊智慧信仰关联学业",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eWutai",
+              "title": "五台山世界遗产",
+              "url": "https://whc.unesco.org/en/list/1279/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "智慧与判断主题延展职业选择",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eXiantong",
+              "title": "显通寺",
+              "url": "https://www.cppcc.people.com.cn/n1/2016/0109/c34948-28031645.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-010",
+      "name": "佛光寺",
+      "plaqueName": "佛光寺",
+      "region": "山西",
+      "city": "忻州五台县",
+      "headline": "在唐代屋檐下，坐看千年",
+      "description": "东大殿保存着珍贵的唐代木构与造像。山林里的这一处停留，适合把烦心事暂放一旁，专心看一次光与屋檐。",
+      "tradition": "汉传历史佛寺",
+      "scopeNote": "",
+      "historicalSite": true,
+      "sources": [
+        {
+          "id": "eWutai",
+          "title": "五台山世界遗产",
+          "url": "https://whc.unesco.org/en/list/1279/",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "唐代木构与山林景观延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eWutai",
+              "title": "五台山世界遗产",
+              "url": "https://whc.unesco.org/en/list/1279/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "古建长久意象延展家人牵挂主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eWutai",
+              "title": "五台山世界遗产",
+              "url": "https://whc.unesco.org/en/list/1279/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-011",
+      "name": "大召寺",
+      "plaqueName": "大召寺",
+      "region": "内蒙古",
+      "city": "呼和浩特",
+      "headline": "银佛与龙雕之间，许一份平安",
+      "description": "走进呼和浩特旧城，银佛与龙雕是大召寺鲜明的记忆。塞外城市的街市声里，也能留下一份郑重的牵挂。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eDazhao",
+          "title": "大召寺",
+          "url": "https://www.hlhbsc.org/spot_detail.aspx?city=5&spot=677",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合礼佛场景的平安主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eDazhao",
+              "title": "大召寺",
+              "url": "https://www.hlhbsc.org/spot_detail.aspx?city=5&spot=677",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "老城佛寺延展家庭祈愿",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eDazhao",
+              "title": "大召寺",
+              "url": "https://www.hlhbsc.org/spot_detail.aspx?city=5&spot=677",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-012",
+      "name": "五当召",
+      "plaqueName": "五当召",
+      "region": "内蒙古",
+      "city": "包头石拐",
+      "headline": "阴山白墙，让心事慢下来",
+      "description": "白墙、红窗与金色法轮沿着山势展开。走进阴山里的藏式寺院，在院落和山风之间，给忙乱的思绪一点空隙。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s174",
+          "title": "杨柳依依，对接南北佛音——宝林朝圣团赴内蒙开展汉藏佛教文化交流_2017年第8期_海峡瞭望_福建省委台港澳工作办公室",
+          "url": "https://www.fjtb.gov.cn/focus/201708hxlw/201710/t20171027_11857974.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s022",
+          "title": "美岱召五当召明清壁画临摹展举办",
+          "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/nmg/201302/t20130221_779506.htm",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "阴山寺群景观延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s174",
+              "title": "杨柳依依，对接南北佛音——宝林朝圣团赴内蒙开展汉藏佛教文化交流_2017年第8期_海峡瞭望_福建省委台港澳工作办公室",
+              "url": "https://www.fjtb.gov.cn/focus/201708hxlw/201710/t20171027_11857974.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "经学寺院的修学背景延展专注主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s174",
+              "title": "杨柳依依，对接南北佛音——宝林朝圣团赴内蒙开展汉藏佛教文化交流_2017年第8期_海峡瞭望_福建省委台港澳工作办公室",
+              "url": "https://www.fjtb.gov.cn/focus/201708hxlw/201710/t20171027_11857974.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-013",
+      "name": "实胜寺",
+      "plaqueName": "实胜寺",
+      "region": "辽宁",
+      "city": "沈阳和平区",
+      "headline": "老北市里的一处金色记忆",
+      "description": "沈阳人熟悉的皇寺，保存着清代藏传佛教的历史线索。玛哈噶喇金佛的故事，让这座老城寺院有了独特的记忆。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s019",
+          "title": "沈阳市省级文物保护单位保护范围和建设控制地带表-重大民生信息-沈阳市文旅局",
+          "url": "https://wlgd.shenyang.gov.cn/zwgk/fdzdgknr/zdmsxx/202609/t20260928_5095885.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s191",
+          "title": "“玛哈噶喇” 金佛落座法会在沈阳市实胜寺隆重举行",
+          "url": "https://mzw.ln.gov.cn/mzw/xxgk/dtxw/zhyw/A113FDE593F94DB9A0C58B44453ADD56/index.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "fortune",
+          "basisLabel": "信仰文化关联",
+          "reason": "玛哈噶喇护法文化延展去障迎新，不指现实运势保证",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s191",
+              "title": "“玛哈噶喇” 金佛落座法会在沈阳市实胜寺隆重举行",
+              "url": "https://mzw.ln.gov.cn/mzw/xxgk/dtxw/zhyw/A113FDE593F94DB9A0C58B44453ADD56/index.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合祈福的平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s019",
+              "title": "沈阳市省级文物保护单位保护范围和建设控制地带表-重大民生信息-沈阳市文旅局",
+              "url": "https://wlgd.shenyang.gov.cn/zwgk/fdzdgknr/zdmsxx/202609/t20260928_5095885.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-014",
+      "name": "玉佛寺（玉佛苑）",
+      "plaqueName": "玉佛寺",
+      "region": "辽宁",
+      "city": "鞍山铁东区",
+      "headline": "一座玉佛，留住温润的愿望",
+      "description": "走进以大型玉佛闻名的鞍山寺院，玉石的温润与殿堂的开阔相遇。适合替父母，也替辛苦的自己，留一份安康祝愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s029",
+          "title": "全省佛教活动场所悬挂统一标识牌启动仪式暨鞍山玉佛苑更名玉佛寺揭牌仪式圆满举行",
+          "url": "https://mzw.ln.gov.cn/mzw/xxgk/dtxw/ttxw/27D7CDCBCC014FE48C011FB4C24EEDF1/index.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "玉佛礼敬场景延展安康主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s029",
+              "title": "全省佛教活动场所悬挂统一标识牌启动仪式暨鞍山玉佛苑更名玉佛寺揭牌仪式圆满举行",
+              "url": "https://mzw.ln.gov.cn/mzw/xxgk/dtxw/ttxw/27D7CDCBCC014FE48C011FB4C24EEDF1/index.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲人祈愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s029",
+              "title": "全省佛教活动场所悬挂统一标识牌启动仪式暨鞍山玉佛苑更名玉佛寺揭牌仪式圆满举行",
+              "url": "https://mzw.ln.gov.cn/mzw/xxgk/dtxw/ttxw/27D7CDCBCC014FE48C011FB4C24EEDF1/index.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-015",
+      "name": "般若寺",
+      "plaqueName": "般若寺",
+      "region": "吉林",
+      "city": "长春南关区",
+      "headline": "愿心更明，眼前的路更清楚",
+      "description": "城市中心的般若寺，把佛教的智慧之意写进寺名。走进红墙院落，让心愿具体一点，也让脚步安定一点。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s515",
+          "title": "佛光山开山宗长星云法师到吉林长春般若寺开示“般若要义”，-佛教导航",
+          "url": "https://www.fjdh.cn/bnznews/2009/09/07230191175.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "study",
+          "basisLabel": "信仰文化关联",
+          "reason": "般若在佛教中指智慧，作文化关联",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s515",
+              "title": "佛光山开山宗长星云法师到吉林长春般若寺开示“般若要义”，-佛教导航",
+              "url": "https://www.fjdh.cn/bnznews/2009/09/07230191175.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "城市寺院的静心场景",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s515",
+              "title": "佛光山开山宗长星云法师到吉林长春般若寺开示“般若要义”，-佛教导航",
+              "url": "https://www.fjdh.cn/bnznews/2009/09/07230191175.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-016",
+      "name": "正觉寺",
+      "plaqueName": "正觉寺",
+      "region": "吉林",
+      "city": "延边敦化",
+      "headline": "六鼎山下，把心愿放宽一点",
+      "description": "六鼎山文化旅游区里的正觉寺，与金鼎大佛共同组成开阔的佛教景观。抬头看远山，也给自己的愿望多留一点余地。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s031",
+          "title": "游遍吉林—延边朝鲜族自治州",
+          "url": "https://dfz.jl.gov.cn/ybjl/201801/t20180118_5217161.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s202",
+          "title": "敦化六鼎山文化旅游区简介",
+          "url": "https://swt.jl.gov.cn/fzhzgj/dlzc/202306/t20230627_8730157.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合礼佛场景延展平安主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s202",
+              "title": "敦化六鼎山文化旅游区简介",
+              "url": "https://swt.jl.gov.cn/fzhzgj/dlzc/202306/t20230627_8730157.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲友祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s031",
+              "title": "游遍吉林—延边朝鲜族自治州",
+              "url": "https://dfz.jl.gov.cn/ybjl/201801/t20180118_5217161.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-017",
+      "name": "极乐寺",
+      "plaqueName": "极乐寺",
+      "region": "黑龙江",
+      "city": "哈尔滨南岗区",
+      "headline": "北国塔影下，愿家人安好",
+      "description": "七级浮屠塔与殿堂构成哈尔滨的佛教地标。把愿望留在北国寺院里，让冬日的清静承接一年里的牵挂。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s532",
+          "title": "哈尔滨极乐寺",
+          "url": "https://www.fjdh.org.cn/www.hrbjls.net",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "北国寺院的综合平安主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s532",
+              "title": "哈尔滨极乐寺",
+              "url": "https://www.fjdh.org.cn/www.hrbjls.net",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲人祈愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s532",
+              "title": "哈尔滨极乐寺",
+              "url": "https://www.fjdh.org.cn/www.hrbjls.net",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-018",
+      "name": "大乘寺",
+      "plaqueName": "大乘寺",
+      "region": "黑龙江",
+      "city": "齐齐哈尔铁锋区",
+      "headline": "琉璃瓦下，给日子添一点暖意",
+      "description": "齐齐哈尔的琉璃瓦寺院，把北方殿堂的色彩留在城市里。走进层层佛殿，为家中的每个人留下一句祝愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s536",
+          "title": "大乘寺-齐齐哈尔-黑龙江寺院-佛教导航",
+          "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2012/09/105832186427.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人祝愿的产品主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s536",
+              "title": "大乘寺-齐齐哈尔-黑龙江寺院-佛教导航",
+              "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2012/09/105832186427.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合礼佛的安康主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s536",
+              "title": "大乘寺-齐齐哈尔-黑龙江寺院-佛教导航",
+              "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2012/09/105832186427.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-019",
+      "name": "静安寺",
+      "plaqueName": "静安寺",
+      "region": "上海",
+      "city": "静安区",
+      "headline": "金色屋顶下，想一想下一站",
+      "description": "南京西路的楼群之间，金色屋顶格外醒目。走过都市的热闹，在寺院里想一想工作、生活和下一段方向。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s768",
+          "title": "静安寺-上海市寺院-佛教导航",
+          "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2012/10/093403187206.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s040",
+          "title": "关于公布2022年度上海市文明和谐寺观教堂名单的通知",
+          "url": "https://www.shanghai.gov.cn/gwk/search/content/302be1ccc7fe4f8b932cbd3d634355a9",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eShanghaiWealth",
+          "title": "学术文章《过年，从传统到现代》记载沪上初五进香民俗",
+          "url": "https://www.gsid.nagoya-u.ac.jp/bpub/research/public/paper/article/128.pdf",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "都市地标场景延展职业选择主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s768",
+              "title": "静安寺-上海市寺院-佛教导航",
+              "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2012/10/093403187206.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "wealth",
+          "basisLabel": "民间口碑",
+          "reason": "学术文献记录上海名寺初五进香迎财神民俗",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eShanghaiWealth",
+              "title": "学术文章《过年，从传统到现代》记载沪上初五进香民俗",
+              "url": "https://www.gsid.nagoya-u.ac.jp/bpub/research/public/paper/article/128.pdf",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "城市闹中取静的体验主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s768",
+              "title": "静安寺-上海市寺院-佛教导航",
+              "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2012/10/093403187206.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-020",
+      "name": "玉佛禅寺",
+      "plaqueName": "玉佛禅寺",
+      "region": "上海",
+      "city": "普陀区",
+      "headline": "在玉佛前，留一份温柔的牵挂",
+      "description": "这座以玉佛闻名的上海寺院，让礼佛与城市生活相邻。为家人写下安康，也给自己一点从容。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s040",
+          "title": "关于公布2022年度上海市文明和谐寺观教堂名单的通知",
+          "url": "https://www.shanghai.gov.cn/gwk/search/content/302be1ccc7fe4f8b932cbd3d634355a9",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s042",
+          "title": "上海警方全力做好新年祈福安保工作",
+          "url": "https://www.shanghai.gov.cn/nw31406/20250208/aaf4bf80797c480694f60745fbc1fda1.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eShanghaiWealth",
+          "title": "学术文章《过年，从传统到现代》记载沪上初五进香民俗",
+          "url": "https://www.gsid.nagoya-u.ac.jp/bpub/research/public/paper/article/128.pdf",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "玉佛礼敬场景延展安康主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s040",
+              "title": "关于公布2022年度上海市文明和谐寺观教堂名单的通知",
+              "url": "https://www.shanghai.gov.cn/gwk/search/content/302be1ccc7fe4f8b932cbd3d634355a9",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s040",
+              "title": "关于公布2022年度上海市文明和谐寺观教堂名单的通知",
+              "url": "https://www.shanghai.gov.cn/gwk/search/content/302be1ccc7fe4f8b932cbd3d634355a9",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "wealth",
+          "basisLabel": "民间口碑",
+          "reason": "学术文献记录初五赴玉佛寺进香迎财神的地方民俗",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eShanghaiWealth",
+              "title": "学术文章《过年，从传统到现代》记载沪上初五进香民俗",
+              "url": "https://www.gsid.nagoya-u.ac.jp/bpub/research/public/paper/article/128.pdf",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-021",
+      "name": "龙华寺",
+      "plaqueName": "龙华寺",
+      "region": "上海",
+      "city": "徐汇区",
+      "headline": "龙华塔影里，写一份生活的盼头",
+      "description": "古塔与寺院相伴，龙华寺也保留沪上新年进香的地方记忆。看过塔影，为辛苦经营的生活留下一个踏实的愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eShanghaiWealth",
+          "title": "学术文章《过年，从传统到现代》记载沪上初五进香民俗",
+          "url": "https://www.gsid.nagoya-u.ac.jp/bpub/research/public/paper/article/128.pdf",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eLonghua",
+          "title": "上海龙华寺文旅介绍",
+          "url": "https://www.meet-in-shanghai.net/cn/xuhui-district/longhua-temple-310544/",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "wealth",
+          "basisLabel": "民间口碑",
+          "reason": "学术文献记录龙华寺初五进香迎财神民俗",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eShanghaiWealth",
+              "title": "学术文章《过年，从传统到现代》记载沪上初五进香民俗",
+              "url": "https://www.gsid.nagoya-u.ac.jp/bpub/research/public/paper/article/128.pdf",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eLonghua",
+              "title": "上海龙华寺文旅介绍",
+              "url": "https://www.meet-in-shanghai.net/cn/xuhui-district/longhua-temple-310544/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "fortune",
+          "basisLabel": "民间口碑",
+          "reason": "新年进香纳福的地方习俗",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eShanghaiWealth",
+              "title": "学术文章《过年，从传统到现代》记载沪上初五进香民俗",
+              "url": "https://www.gsid.nagoya-u.ac.jp/bpub/research/public/paper/article/128.pdf",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-022",
+      "name": "寒山寺",
+      "plaqueName": "寒山寺",
+      "region": "江苏",
+      "city": "苏州姑苏区",
+      "headline": "听一声钟，愿此后多些和合",
+      "description": "枫桥、古诗与钟声，让寒山寺成为许多人心里的江南。把相处中的别扭轻轻放下，为下一次好好说话许个愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s048",
+          "title": "013寒山寺 - 苏州市园林和绿化管理局",
+          "url": "https://ylj.suzhou.gov.cn/szsylj/ylml/201903/11dc5b241bcc4acfb227415e6ba558f7.shtml",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eHanshan",
+          "title": "寒山寺和合迎新钟声",
+          "url": "https://js.ifeng.com/c/8Vz4MfMFhyT",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "love",
+          "basisLabel": "信仰文化关联",
+          "reason": "寒山拾得与寺院和合文化关联关系和睦",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eHanshan",
+              "title": "寒山寺和合迎新钟声",
+              "url": "https://js.ifeng.com/c/8Vz4MfMFhyT",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "和合文化关联家庭和睦",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eHanshan",
+              "title": "寒山寺和合迎新钟声",
+              "url": "https://js.ifeng.com/c/8Vz4MfMFhyT",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "fortune",
+          "basisLabel": "民间口碑",
+          "reason": "听钟迎新与纳福活动传统",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eHanshan",
+              "title": "寒山寺和合迎新钟声",
+              "url": "https://js.ifeng.com/c/8Vz4MfMFhyT",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-023",
+      "name": "金山寺（江天禅寺）",
+      "plaqueName": "金山寺",
+      "region": "江苏",
+      "city": "镇江润州区",
+      "headline": "沿着寺裹山的屋檐，找回从容",
+      "description": "《白蛇传》让人记住金山，层层殿宇又把整座山包裹起来。顺着台阶向上，留一点时间给自己和眼前的风景。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eNation",
+          "title": "汉族地区佛教全国重点寺院名录",
+          "url": "https://www.055110.com/law/1/23274.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "依山殿群延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eNation",
+              "title": "汉族地区佛教全国重点寺院名录",
+              "url": "https://www.055110.com/law/1/23274.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eNation",
+              "title": "汉族地区佛教全国重点寺院名录",
+              "url": "https://www.055110.com/law/1/23274.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-024",
+      "name": "鸡鸣寺",
+      "plaqueName": "鸡鸣寺",
+      "region": "江苏",
+      "city": "南京玄武区",
+      "headline": "黄墙与塔影，陪你过一个春天",
+      "description": "古鸡鸣寺的黄墙与药师佛塔，是南京熟悉的天际线。春天从寺外樱花路走过，也可把对生活的牵挂留在这里。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s038",
+          "title": "鸡鸣寺简介_南京佛教_ 南京市民族宗教事务局",
+          "url": "https://mzzjj.nanjing.gov.cn/mzzj/njzjgk/njfj/201809/t20180927_1198623.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s036",
+          "title": "江苏省农业农村厅 农家致富 鸡鸣寺",
+          "url": "https://nynct.jiangsu.gov.cn/art/2025/2/14/art_12455_11491971.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "药师佛塔关联药师佛安康信仰",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s038",
+              "title": "鸡鸣寺简介_南京佛教_ 南京市民族宗教事务局",
+              "url": "https://mzzjj.nanjing.gov.cn/mzzj/njzjgk/njfj/201809/t20180927_1198623.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "城市古寺与春日景观延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s038",
+              "title": "鸡鸣寺简介_南京佛教_ 南京市民族宗教事务局",
+              "url": "https://mzzjj.nanjing.gov.cn/mzzj/njzjgk/njfj/201809/t20180927_1198623.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-025",
+      "name": "灵隐寺",
+      "plaqueName": "灵隐寺",
+      "region": "浙江",
+      "city": "杭州西湖区",
+      "headline": "走过飞来峰，把心事交给山林",
+      "description": "溪涧、石刻与层层殿堂，把灵隐藏在杭州的林谷里。把一路的喧闹留在山门外，为自己和家人许一个平安愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s041",
+          "title": "时间定了！官宣：灵隐飞来峰景区免票 - 杭州宣传网",
+          "url": "https://www.hzxcw.gov.cn/content_46075.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eNation",
+          "title": "汉族地区佛教全国重点寺院名录",
+          "url": "https://www.055110.com/law/1/23274.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合祈福主题，未指定单项专长",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s041",
+              "title": "时间定了！官宣：灵隐飞来峰景区免票 - 杭州宣传网",
+              "url": "https://www.hzxcw.gov.cn/content_46075.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "山林石刻场景延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s041",
+              "title": "时间定了！官宣：灵隐飞来峰景区免票 - 杭州宣传网",
+              "url": "https://www.hzxcw.gov.cn/content_46075.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-026",
+      "name": "灵顺寺",
+      "plaqueName": "灵顺寺",
+      "region": "浙江",
+      "city": "杭州北高峰",
+      "headline": "登上北高峰，愿辛苦有收获",
+      "description": "西湖山林之上，灵顺寺因五显财神民俗被称作财神庙。登高望远，把对收入、生意与踏实生活的愿望写下来。",
+      "tradition": "汉传并融合财神民俗",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s039",
+          "title": "杭州隐秘地图之：财神庙 _杭州网旅游频道",
+          "url": "https://travel.hangzhou.com.cn/lyzx/content/2018-08/31/content_7060702.htm",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s047",
+          "title": "北高峰财神庙初五全天预约已满！西湖景区今天接待客流量57.80万人次，第一名继续是飞来峰景区-杭州新闻中心-杭州网",
+          "url": "https://hznews.hangzhou.com.cn/chengshi/content/2023-01/25/content_8455386.htm",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "wealth",
+          "basisLabel": "民间口碑",
+          "reason": "五显财神及寺内财神民俗有地方资料记载",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s039",
+              "title": "杭州隐秘地图之：财神庙 _杭州网旅游频道",
+              "url": "https://travel.hangzhou.com.cn/lyzx/content/2018-08/31/content_7060702.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "求财民俗延展经营与工作主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s039",
+              "title": "杭州隐秘地图之：财神庙 _杭州网旅游频道",
+              "url": "https://travel.hangzhou.com.cn/lyzx/content/2018-08/31/content_7060702.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-027",
+      "name": "法喜寺",
+      "plaqueName": "法喜寺",
+      "region": "浙江",
+      "city": "杭州上天竺",
+      "headline": "黄墙深处，愿相遇刚刚好",
+      "description": "沿着上天竺的山路走进黄墙回廊，法喜寺的姻缘口碑吸引许多人前来。愿下一次相遇，是可以好好相处的人。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s554",
+          "title": "杭州文旅观察：年轻人为何“团宠”法喜寺？",
+          "url": "https://yq.zjol.com.cn/yqjd/202212/t20221212_25176912.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "love",
+          "basisLabel": "民间口碑",
+          "reason": "浙江媒体报道年轻人求姻缘的口碑",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s554",
+              "title": "杭州文旅观察：年轻人为何“团宠”法喜寺？",
+              "url": "https://yq.zjol.com.cn/yqjd/202212/t20221212_25176912.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音道场关联家庭祝愿",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s554",
+              "title": "杭州文旅观察：年轻人为何“团宠”法喜寺？",
+              "url": "https://yq.zjol.com.cn/yqjd/202212/t20221212_25176912.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "山路回廊的静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s554",
+              "title": "杭州文旅观察：年轻人为何“团宠”法喜寺？",
+              "url": "https://yq.zjol.com.cn/yqjd/202212/t20221212_25176912.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-028",
+      "name": "普济寺",
+      "plaqueName": "普济寺",
+      "region": "浙江",
+      "city": "舟山普陀山",
+      "headline": "越过山海，为牵挂的人许愿",
+      "description": "海风、山路与圆通宝殿，共同构成普陀山的记忆。把对家人的牵挂写进愿笺，也为新生命的到来留一份期待。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eNation",
+          "title": "汉族地区佛教全国重点寺院名录",
+          "url": "https://www.055110.com/law/1/23274.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s809",
+          "title": "浙江省佛教协会",
+          "url": "https://www.zjfjxh.com/Public/NewsInfo.aspx?id=ac4097e0-227c-4738-93fd-6a513ac69da9&type=1",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "普陀山观音信仰关联家庭与求子祈愿",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s809",
+              "title": "浙江省佛教协会",
+              "url": "https://www.zjfjxh.com/Public/NewsInfo.aspx?id=ac4097e0-227c-4738-93fd-6a513ac69da9&type=1",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音慈悲信仰关联平安安康",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s809",
+              "title": "浙江省佛教协会",
+              "url": "https://www.zjfjxh.com/Public/NewsInfo.aspx?id=ac4097e0-227c-4738-93fd-6a513ac69da9&type=1",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "love",
+          "basisLabel": "策划延展",
+          "reason": "由观音慈悲与家庭主题延展关系祝愿，非专属姻缘口碑",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s809",
+              "title": "浙江省佛教协会",
+              "url": "https://www.zjfjxh.com/Public/NewsInfo.aspx?id=ac4097e0-227c-4738-93fd-6a513ac69da9&type=1",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-029",
+      "name": "国清寺",
+      "plaqueName": "国清寺",
+      "region": "浙江",
+      "city": "台州天台",
+      "headline": "隋塔与溪桥之间，让心安住",
+      "description": "溪桥引你进入古寺，隋塔立在山林之间。走过天台宗祖庭的院落，在朴素的景色里，给自己和重要的人一点安静。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s046",
+          "title": "浙江省政协文史资料",
+          "url": "https://cppcc.zjzx.gov.cn/zjws/zjws-rwls/12302022071210011559131165.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eGuoqing",
+          "title": "天台和合文化与国清寺",
+          "url": "https://www.zjzx.gov.cn/zxyw/content_93811",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "山寺院落与修学背景延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s046",
+              "title": "浙江省政协文史资料",
+              "url": "https://cppcc.zjzx.gov.cn/zjws/zjws-rwls/12302022071210011559131165.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "天台和合文化的地域关联",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eGuoqing",
+              "title": "天台和合文化与国清寺",
+              "url": "https://www.zjzx.gov.cn/zxyw/content_93811",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "love",
+          "basisLabel": "信仰文化关联",
+          "reason": "寒山拾得和合文化延展关系和睦，非求脱单专属传统",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eGuoqing",
+              "title": "天台和合文化与国清寺",
+              "url": "https://www.zjzx.gov.cn/zxyw/content_93811",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-030",
+      "name": "化城寺",
+      "plaqueName": "化城寺",
+      "region": "安徽",
+      "city": "池州九华山",
+      "headline": "九华街心，留一份长久的牵挂",
+      "description": "九华山开山祖寺，今天也承担佛教文物展示功能。走进老街与院落之间，看看地藏文化如何留在一座山镇的日常里。",
+      "tradition": "汉传历史佛寺",
+      "scopeNote": "",
+      "historicalSite": true,
+      "sources": [
+        {
+          "id": "s057",
+          "title": "九华山一日游：7小时经典路线-九华山联合国教科文组织世界地质公园",
+          "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/Content/show/773420.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s052",
+          "title": "九华山风景区九华镇历史文化名镇保护规划获批-九华山联合国教科文组织世界地质公园",
+          "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/News/show/771922.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "九华山地藏文化关联孝亲与家人牵挂",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s057",
+              "title": "九华山一日游：7小时经典路线-九华山联合国教科文组织世界地质公园",
+              "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/Content/show/773420.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "历史佛寺与文物观看延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s057",
+              "title": "九华山一日游：7小时经典路线-九华山联合国教科文组织世界地质公园",
+              "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/Content/show/773420.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-031",
+      "name": "百岁宫",
+      "plaqueName": "百岁宫",
+      "region": "安徽",
+      "city": "池州九华山",
+      "headline": "登高望九华，愿长辈安康",
+      "description": "百岁宫供奉无瑕法师真身，也能远望九华街与群山。沿山路缓缓而上，把对长辈的关心变成一句郑重的祝愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s057",
+          "title": "九华山一日游：7小时经典路线-九华山联合国教科文组织世界地质公园",
+          "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/Content/show/773420.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s061",
+          "title": "九华山风景区景区介绍-九华山联合国教科文组织世界地质公园",
+          "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/News/show/770046.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "以高僧生平与寺名延展长者安康，非疗效或寿命承诺",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s057",
+              "title": "九华山一日游：7小时经典路线-九华山联合国教科文组织世界地质公园",
+              "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/Content/show/773420.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "九华地藏文化关联孝亲主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s057",
+              "title": "九华山一日游：7小时经典路线-九华山联合国教科文组织世界地质公园",
+              "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/Content/show/773420.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-032",
+      "name": "祗园寺",
+      "plaqueName": "祗园寺",
+      "region": "安徽",
+      "city": "池州九华山",
+      "headline": "九华街口，走进层层山寺院落",
+      "description": "九华山四大丛林之一的祗园寺，殿宇随山势展开。松林、溪流与紧凑院落之间，适合为亲人留一句平安的祝愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s061",
+          "title": "九华山风景区景区介绍-九华山联合国教科文组织世界地质公园",
+          "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/News/show/770046.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s052",
+          "title": "九华山风景区九华镇历史文化名镇保护规划获批-九华山联合国教科文组织世界地质公园",
+          "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/News/show/771922.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "九华地藏文化关联孝亲与家人牵挂",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s061",
+              "title": "九华山风景区景区介绍-九华山联合国教科文组织世界地质公园",
+              "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/News/show/770046.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s061",
+              "title": "九华山风景区景区介绍-九华山联合国教科文组织世界地质公园",
+              "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/News/show/770046.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "山寺院落延展静观主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s061",
+              "title": "九华山风景区景区介绍-九华山联合国教科文组织世界地质公园",
+              "url": "https://www.jiuhuashan.gov.cn/jhsdzgy/News/show/770046.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-033",
+      "name": "南普陀寺",
+      "plaqueName": "南普陀寺",
+      "region": "福建",
+      "city": "厦门思明区",
+      "headline": "五老峰下，给牵挂一个去处",
+      "description": "寺院背靠五老峰，山林与厦门的城市生活相接。为亲友留一盏愿灯，也给正在用功的自己留一点专注。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s569",
+          "title": "福建寺庙总汇_景点_福建省委台港澳工作办公室",
+          "url": "https://www.fjtb.gov.cn/meijing/201312/t20131204_5312945.htm",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音信仰延展家庭祝愿",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s569",
+              "title": "福建寺庙总汇_景点_福建省委台港澳工作办公室",
+              "url": "https://www.fjtb.gov.cn/meijing/201312/t20131204_5312945.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音慈悲信仰关联平安",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s569",
+              "title": "福建寺庙总汇_景点_福建省委台港澳工作办公室",
+              "url": "https://www.fjtb.gov.cn/meijing/201312/t20131204_5312945.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "佛教教育与修学场景延展学习专注主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s569",
+              "title": "福建寺庙总汇_景点_福建省委台港澳工作办公室",
+              "url": "https://www.fjtb.gov.cn/meijing/201312/t20131204_5312945.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "love",
+          "basisLabel": "策划延展",
+          "reason": "关系祝愿的策划延展，尚未证实为本寺专属民俗",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s569",
+              "title": "福建寺庙总汇_景点_福建省委台港澳工作办公室",
+              "url": "https://www.fjtb.gov.cn/meijing/201312/t20131204_5312945.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-034",
+      "name": "开元寺",
+      "plaqueName": "开元寺",
+      "region": "福建",
+      "city": "泉州鲤城区",
+      "headline": "双塔之间，愿相处长久",
+      "description": "东西双塔守着泉州古城，桑莲传说与海洋文化留在殿堂细节中。和重要的人一起走一段路，把长久的愿望留在这里。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s062",
+          "title": "开元寺-重点文物-历史文化-泉州旅游-泉州市人民政府",
+          "url": "https://www.quanzhou.gov.cn/lyb/lswh/zdww/201510/t20151029_183313.htm",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "古城双塔场景延展长久相伴主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s062",
+              "title": "开元寺-重点文物-历史文化-泉州旅游-泉州市人民政府",
+              "url": "https://www.quanzhou.gov.cn/lyb/lswh/zdww/201510/t20151029_183313.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "love",
+          "basisLabel": "策划延展",
+          "reason": "共同漫游与关系祝愿的产品主题，非既有姻缘传统",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s062",
+              "title": "开元寺-重点文物-历史文化-泉州旅游-泉州市人民政府",
+              "url": "https://www.quanzhou.gov.cn/lyb/lswh/zdww/201510/t20151029_183313.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "古城佛寺的静观体验",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s062",
+              "title": "开元寺-重点文物-历史文化-泉州旅游-泉州市人民政府",
+              "url": "https://www.quanzhou.gov.cn/lyb/lswh/zdww/201510/t20151029_183313.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-035",
+      "name": "涌泉寺",
+      "plaqueName": "涌泉寺",
+      "region": "福建",
+      "city": "福州鼓山",
+      "headline": "走进鼓山，才遇见这座寺",
+      "description": "寺院顺着山势藏进林间，素有进山不见寺的说法。沿着古道慢慢找，给那些暂时无解的事留一点空隙。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s567",
+          "title": "涌泉寺_鼓山片区古刹摩崖观光区_福州市鼓岭旅游度假区管理委员会",
+          "url": "https://gl.fuzhou.gov.cn/zjgl/lyjd/jdjs/gspqgcmyggq/201405/t20140509_892653.htm",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s570",
+          "title": "福州史志网_中共福州市委党史和地方志研究室 - 其它链接",
+          "url": "https://fz.fjdsfzw.org.cn/wap/2021-11-26/content_778.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "藏寺于山的景观延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s567",
+              "title": "涌泉寺_鼓山片区古刹摩崖观光区_福州市鼓岭旅游度假区管理委员会",
+              "url": "https://gl.fuzhou.gov.cn/zjgl/lyjd/jdjs/gspqgcmyggq/201405/t20140509_892653.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s567",
+              "title": "涌泉寺_鼓山片区古刹摩崖观光区_福州市鼓岭旅游度假区管理委员会",
+              "url": "https://gl.fuzhou.gov.cn/zjgl/lyjd/jdjs/gspqgcmyggq/201405/t20140509_892653.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-036",
+      "name": "东林寺",
+      "plaqueName": "东林寺",
+      "region": "江西",
+      "city": "九江庐山西麓",
+      "headline": "庐山脚下，为心找一个落点",
+      "description": "慧远与净土传统，让东林寺在佛教史上留下深刻印记。沿山麓缓步而行，把纷乱的思绪收成一句简单的愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eDonglin",
+          "title": "东林寺与慧远",
+          "url": "https://www.fjdh.cn/wumin/2009/04/07010348030.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "净土修学传统延展安住与专注主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eDonglin",
+              "title": "东林寺与慧远",
+              "url": "https://www.fjdh.cn/wumin/2009/04/07010348030.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祈愿与追思的策划主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eDonglin",
+              "title": "东林寺与慧远",
+              "url": "https://www.fjdh.cn/wumin/2009/04/07010348030.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-037",
+      "name": "佑民寺",
+      "plaqueName": "佑民寺",
+      "region": "江西",
+      "city": "南昌东湖区",
+      "headline": "城心铜佛前，愿日常安稳",
+      "description": "南昌老城里的佑民寺，以铜佛和禅宗历史为人所知。热闹街巷走进去，是替自己和家人留一份平安的地方。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s060",
+          "title": "佑民寺_东湖风采图片库_东湖区人民政府",
+          "url": "https://dhq.nc.gov.cn/dhqrmzf/dhfctpk/202010/7f4b8fd6db614afc86ee9bc8ccc4cc7a.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "城市佛寺综合平安主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s060",
+              "title": "佑民寺_东湖风采图片库_东湖区人民政府",
+              "url": "https://dhq.nc.gov.cn/dhqrmzf/dhfctpk/202010/7f4b8fd6db614afc86ee9bc8ccc4cc7a.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s060",
+              "title": "佑民寺_东湖风采图片库_东湖区人民政府",
+              "url": "https://dhq.nc.gov.cn/dhqrmzf/dhfctpk/202010/7f4b8fd6db614afc86ee9bc8ccc4cc7a.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-038",
+      "name": "灵岩寺",
+      "plaqueName": "灵岩寺",
+      "region": "山东",
+      "city": "济南长清",
+      "headline": "看一尊罗汉，也看见一种心情",
+      "description": "山坳里的灵岩寺，珍藏着生动的罗汉彩塑。走进千佛殿，慢慢辨认每一张面孔，也听一听自己此刻的心事。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eLingyan",
+          "title": "灵岩寺石刻及罗汉像保护修复",
+          "url": "https://www.xinhuanet.com/politics/2021-05/07/c_1127417876.htm",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "罗汉艺术与山林场景延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eLingyan",
+              "title": "灵岩寺石刻及罗汉像保护修复",
+              "url": "https://www.xinhuanet.com/politics/2021-05/07/c_1127417876.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人牵挂的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eLingyan",
+              "title": "灵岩寺石刻及罗汉像保护修复",
+              "url": "https://www.xinhuanet.com/politics/2021-05/07/c_1127417876.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-039",
+      "name": "湛山寺",
+      "plaqueName": "湛山寺",
+      "region": "山东",
+      "city": "青岛市南区",
+      "headline": "听山海清梵，愿一路平安",
+      "description": "这座青岛近代佛寺面海倚山，以湛山清梵闻名。把海边城市的风景和家人的牵挂，一起收进一张愿笺。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s582",
+          "title": "青岛湛山寺庙会_青岛政务网",
+          "url": "https://www.qingdao.gov.cn/lslm/zt/cjjq/hdjj/202111/t20211119_3845946.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "山海寺院的平安祝愿主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s582",
+              "title": "青岛湛山寺庙会_青岛政务网",
+              "url": "https://www.qingdao.gov.cn/lslm/zt/cjjq/hdjj/202111/t20211119_3845946.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "山海清梵景观延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s582",
+              "title": "青岛湛山寺庙会_青岛政务网",
+              "url": "https://www.qingdao.gov.cn/lslm/zt/cjjq/hdjj/202111/t20211119_3845946.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-040",
+      "name": "少林寺",
+      "plaqueName": "少林寺",
+      "region": "河南",
+      "city": "郑州登封",
+      "headline": "嵩山脚下，愿自己多一点定力",
+      "description": "禅宗、武术与塔林，共同组成少林的面貌。走过山门与碑刻，为正在努力的事许愿，也给自己一份坚持的提醒。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s073",
+          "title": "Shaolin Temple_Travel_The People’s Government of Henan Province",
+          "url": "https://english.henan.gov.cn/2019/10-16/988665.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s074",
+          "title": "少林寺景区（5A） - 登封市",
+          "url": "https://www.zhengzhou.gov.cn/view42204/6498142.jhtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "禅武坚持意象延展职业行动主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s073",
+              "title": "Shaolin Temple_Travel_The People’s Government of Henan Province",
+              "url": "https://english.henan.gov.cn/2019/10-16/988665.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "专注与坚持意象延展学业主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s073",
+              "title": "Shaolin Temple_Travel_The People’s Government of Henan Province",
+              "url": "https://english.henan.gov.cn/2019/10-16/988665.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "禅宗修习文化关联静心",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s073",
+              "title": "Shaolin Temple_Travel_The People’s Government of Henan Province",
+              "url": "https://english.henan.gov.cn/2019/10-16/988665.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-041",
+      "name": "白马寺",
+      "plaqueName": "白马寺",
+      "region": "河南",
+      "city": "洛阳",
+      "headline": "白马驮经的故事，从这里展开",
+      "description": "白马寺把佛教早期传播的历史留在洛阳。走过古刹，想一想远行与求知，也为新的开始留下自己的愿望。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s075",
+          "title": "白马寺",
+          "url": "https://www.mct.gov.cn/preview/special/3578/3597/201203/t20120330_235404.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "佛教传播与译经历史延展求知主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s075",
+              "title": "白马寺",
+              "url": "https://www.mct.gov.cn/preview/special/3578/3597/201203/t20120330_235404.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "远行求知意象延展人生新阶段",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s075",
+              "title": "白马寺",
+              "url": "https://www.mct.gov.cn/preview/special/3578/3597/201203/t20120330_235404.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s075",
+              "title": "白马寺",
+              "url": "https://www.mct.gov.cn/preview/special/3578/3597/201203/t20120330_235404.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-042",
+      "name": "大相国寺",
+      "plaqueName": "大相国寺",
+      "region": "河南",
+      "city": "开封鼓楼区",
+      "headline": "汴梁古寺，愿一家人各自安好",
+      "description": "《水浒传》里的故事让许多人记住相国寺。回到真实的佛寺与开封老城，留一份关于家人和日常的愿望。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eNation",
+          "title": "汉族地区佛教全国重点寺院名录",
+          "url": "https://www.055110.com/law/1/23274.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s879",
+          "title": "开封市历史文化名城保护名录",
+          "url": "https://www.kaifeng.gov.cn/kfsrmzfwz/tzgg/1768115858696634368/EWVE1D0L.pdf",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "古都佛寺的家庭祈愿主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eNation",
+              "title": "汉族地区佛教全国重点寺院名录",
+              "url": "https://www.055110.com/law/1/23274.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eNation",
+              "title": "汉族地区佛教全国重点寺院名录",
+              "url": "https://www.055110.com/law/1/23274.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-043",
+      "name": "归元禅寺",
+      "plaqueName": "归元禅寺",
+      "region": "湖北",
+      "city": "武汉汉阳",
+      "headline": "数过罗汉，再许一个生活的愿",
+      "description": "五百罗汉各有神情，初五迎财神又是武汉熟悉的民俗。到归元寺，为生计写一点盼头，也为家里留一份安稳。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s778",
+          "title": "春节以来，归元寺及周边治安秩序平稳--湖北省公安厅",
+          "url": "https://gat.hubei.gov.cn/bmdt/dtyw/202402/t20240216_5085193.shtml",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s080",
+          "title": "2024年春节期间归元寺对外开放有关事项通告 - 武汉市人民政府门户网站",
+          "url": "https://www.wuhan.gov.cn/zwgk/tzgg/202402/t20240201_2355000.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "wealth",
+          "basisLabel": "民间口碑",
+          "reason": "正月初五迎财神及财神殿有政府报道",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s778",
+              "title": "春节以来，归元寺及周边治安秩序平稳--湖北省公安厅",
+              "url": "https://gat.hubei.gov.cn/bmdt/dtyw/202402/t20240216_5085193.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "fortune",
+          "basisLabel": "民间口碑",
+          "reason": "迎财神纳福民俗关联新年顺遂",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s778",
+              "title": "春节以来，归元寺及周边治安秩序平稳--湖北省公安厅",
+              "url": "https://gat.hubei.gov.cn/bmdt/dtyw/202402/t20240216_5085193.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "综合家庭祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s080",
+              "title": "2024年春节期间归元寺对外开放有关事项通告 - 武汉市人民政府门户网站",
+              "url": "https://www.wuhan.gov.cn/zwgk/tzgg/202402/t20240201_2355000.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-044",
+      "name": "五祖寺",
+      "plaqueName": "五祖寺",
+      "region": "湖北",
+      "city": "黄冈黄梅",
+      "headline": "到东山，给心里的纷争放个假",
+      "description": "与禅宗五祖弘忍相连的黄梅东山，是理解中国禅宗的一处起点。走过山寺，为自己留一段安静、不赶路的时间。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eNation",
+          "title": "汉族地区佛教全国重点寺院名录",
+          "url": "https://www.055110.com/law/1/23274.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "禅宗祖庭修习文化关联静心",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eNation",
+              "title": "汉族地区佛教全国重点寺院名录",
+              "url": "https://www.055110.com/law/1/23274.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "祖庭传法历史延展求知专注主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eNation",
+              "title": "汉族地区佛教全国重点寺院名录",
+              "url": "https://www.055110.com/law/1/23274.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-045",
+      "name": "开福寺",
+      "plaqueName": "开福寺",
+      "region": "湖南",
+      "city": "长沙开福区",
+      "headline": "开福寺里，为新日子开个好头",
+      "description": "寺名伴着长沙人的城市记忆，罗汉堂里有许多值得细看的面孔。把最近的不顺写下来，愿下一程多一些从容。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eKaifu",
+          "title": "湖南汉传佛教全国重点寺院",
+          "url": "https://www.fjdh.cn/wumin/2009/04/07010348030.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "fortune",
+          "basisLabel": "策划延展",
+          "reason": "寺名与迎新意象的策划延展，非转运效果宣称",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eKaifu",
+              "title": "湖南汉传佛教全国重点寺院",
+              "url": "https://www.fjdh.cn/wumin/2009/04/07010348030.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eKaifu",
+              "title": "湖南汉传佛教全国重点寺院",
+              "url": "https://www.fjdh.cn/wumin/2009/04/07010348030.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eKaifu",
+              "title": "湖南汉传佛教全国重点寺院",
+              "url": "https://www.fjdh.cn/wumin/2009/04/07010348030.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-046",
+      "name": "祝圣寺",
+      "plaqueName": "祝圣寺",
+      "region": "湖南",
+      "city": "衡阳南岳区",
+      "headline": "寿岳山下，愿长辈岁岁安康",
+      "description": "南岳衡山的深院古寺，承接着净土修学的历史。借寿岳的地方文化意象，替长辈和家人写一句长久的祝愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s071",
+          "title": "湖南省档案局",
+          "url": "https://sdaj.hunan.gov.cn/sdaj/ggfw/hnts/lyzy/202105/t20210511_16529895.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s321",
+          "title": "衡阳市人民政府门户网站-衡山论健丨寿岳论“寿”——南岳衡山“寿”文化知多少",
+          "url": "https://www.hengyang.gov.cn/xxgk/dtxx/hydt/20230519/i3011571.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "南岳寿岳地域文化关联长者祝寿，非本寺独有",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s321",
+              "title": "衡阳市人民政府门户网站-衡山论健丨寿岳论“寿”——南岳衡山“寿”文化知多少",
+              "url": "https://www.hengyang.gov.cn/xxgk/dtxx/hydt/20230519/i3011571.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "由寿岳文化延展孝亲主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s071",
+              "title": "湖南省档案局",
+              "url": "https://sdaj.hunan.gov.cn/sdaj/ggfw/hnts/lyzy/202105/t20210511_16529895.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-047",
+      "name": "南华寺",
+      "plaqueName": "南华寺",
+      "region": "广东",
+      "city": "韶关曲江",
+      "headline": "到曹溪，给自己一个放下的机会",
+      "description": "六祖惠能在这里弘法，曹溪也因此成为禅宗重要地名。走过岭南山林，把心里的执拗暂时松开一点。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eNanhua",
+          "title": "南华寺",
+          "url": "https://www.dpm.org.cn/lemmas/239610.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s888",
+          "title": "南华禅寺 - 韶关市人民政府门户网站",
+          "url": "https://www.sg.gov.cn/sgly/yzsg/msgj/content/post_1960276.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "六祖禅宗文化关联观照与静心",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eNanhua",
+              "title": "南华寺",
+              "url": "https://www.dpm.org.cn/lemmas/239610.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "由自我观照延展人生抉择主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eNanhua",
+              "title": "南华寺",
+              "url": "https://www.dpm.org.cn/lemmas/239610.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-048",
+      "name": "光孝寺",
+      "plaqueName": "光孝寺",
+      "region": "广东",
+      "city": "广州越秀",
+      "headline": "菩提树下，愿相处多些理解",
+      "description": "未有羊城，先有光孝，是广州流传的老话。六祖受戒的历史与菩提树影，让人与人之间的牵挂有了安静的背景。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s085",
+          "title": "光孝寺",
+          "url": "https://www.yuexiu.gov.cn/zjyx/yxjd/zjwh/content/post_8665058.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "六祖与禅宗文化关联静心",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s085",
+              "title": "光孝寺",
+              "url": "https://www.yuexiu.gov.cn/zjyx/yxjd/zjwh/content/post_8665058.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "菩提树与老城场景延展家人主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s085",
+              "title": "光孝寺",
+              "url": "https://www.yuexiu.gov.cn/zjyx/yxjd/zjwh/content/post_8665058.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "love",
+          "basisLabel": "策划延展",
+          "reason": "理解与相处的产品主题，非姻缘专属传统",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s085",
+              "title": "光孝寺",
+              "url": "https://www.yuexiu.gov.cn/zjyx/yxjd/zjwh/content/post_8665058.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-049",
+      "name": "六榕寺",
+      "plaqueName": "六榕寺",
+      "region": "广东",
+      "city": "广州越秀",
+      "headline": "花塔之下，给忙碌留一点空白",
+      "description": "花塔立在广州老城里，六榕之名又与苏东坡相连。沿着塔影慢慢走，为日常留出片刻，也为家人写下一句安好。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s903",
+          "title": "田野档案编号：GZKG-2023-309（FJ）",
+          "url": "https://wglj.gz.gov.cn/attachment/7/7588/7588701/9601304.pdf",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s910",
+          "title": "市政协到六榕寺调研文物保护规划推进工作",
+          "url": "https://mzzjj.gz.gov.cn/gkmlpt/content/9/9770/post_9770381.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "花塔与城市古寺景观延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s903",
+              "title": "田野档案编号：GZKG-2023-309（FJ）",
+              "url": "https://wglj.gz.gov.cn/attachment/7/7588/7588701/9601304.pdf",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s903",
+              "title": "田野档案编号：GZKG-2023-309（FJ）",
+              "url": "https://wglj.gz.gov.cn/attachment/7/7588/7588701/9601304.pdf",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-050",
+      "name": "龙华寺",
+      "plaqueName": "龙华寺",
+      "region": "广西",
+      "city": "贵港桂平",
+      "headline": "西山古木间，愿日子平平安安",
+      "description": "桂平西山的古寺藏在绿荫里，登山、喝茶与礼佛在这里相邻。顺着山路走一程，把一家人的安康放进愿望里。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s617",
+          "title": "桂平龙华寺—桂平—广西寺院-佛教导航",
+          "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2013/11/155355312404.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s621",
+          "title": "桂平市西山龙华寺-佛教导航",
+          "url": "https://www.fjdh.cn/bnznews/2006/07/1657574811.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "山林佛寺综合安康主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s617",
+              "title": "桂平龙华寺—桂平—广西寺院-佛教导航",
+              "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2013/11/155355312404.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s617",
+              "title": "桂平龙华寺—桂平—广西寺院-佛教导航",
+              "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2013/11/155355312404.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-051",
+      "name": "栖霞寺",
+      "plaqueName": "栖霞寺",
+      "region": "广西",
+      "city": "桂林七星区",
+      "headline": "桂林山水里，留一段安静的路",
+      "description": "普陀山麓的栖霞寺，把佛寺殿堂与桂林山水接在一起。看过山石与绿荫，再给自己留一点不必着急的时间。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s622",
+          "title": "栖霞寺--桂林古名寺之一 - 景区景点 - 桂林七星骆驼山景区官方网站",
+          "url": "https://www.glqxjq.cn/post/xss.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "桂林山水与寺院场景延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s622",
+              "title": "栖霞寺--桂林古名寺之一 - 景区景点 - 桂林七星骆驼山景区官方网站",
+              "url": "https://www.glqxjq.cn/post/xss.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s622",
+              "title": "栖霞寺--桂林古名寺之一 - 景区景点 - 桂林七星骆驼山景区官方网站",
+              "url": "https://www.glqxjq.cn/post/xss.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-052",
+      "name": "南山寺",
+      "plaqueName": "南山寺",
+      "region": "海南",
+      "city": "三亚崖州区",
+      "headline": "面朝南海，愿牵挂皆有回响",
+      "description": "盛唐风格的南山寺，与同一景区的海上观音遥相呼应。海天开阔，把对父母与亲友的祝愿，写得再郑重一点。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s952",
+          "title": "Nanshan Cultural Tourism Area (Sanya)_The People's Government of Sanya City",
+          "url": "https://english.sanya.gov.cn/syen/attractions/201912/215891367f7442ffa39b03eb6c4b4720.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音与景区福寿文化关联安康祝愿",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s952",
+              "title": "Nanshan Cultural Tourism Area (Sanya)_The People's Government of Sanya City",
+              "url": "https://english.sanya.gov.cn/syen/attractions/201912/215891367f7442ffa39b03eb6c4b4720.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音慈悲文化关联家庭祝愿",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s952",
+              "title": "Nanshan Cultural Tourism Area (Sanya)_The People's Government of Sanya City",
+              "url": "https://english.sanya.gov.cn/syen/attractions/201912/215891367f7442ffa39b03eb6c4b4720.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "滨海景观延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s952",
+              "title": "Nanshan Cultural Tourism Area (Sanya)_The People's Government of Sanya City",
+              "url": "https://english.sanya.gov.cn/syen/attractions/201912/215891367f7442ffa39b03eb6c4b4720.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-053",
+      "name": "永庆寺",
+      "plaqueName": "永庆寺",
+      "region": "海南",
+      "city": "澄迈老城",
+      "headline": "椰风海岸边，愿日常慢一点",
+      "description": "重建的永庆寺依海而立，把宋式寺院布局带到盈滨半岛。穿过院落与海风，为家人的生活留一份温柔祝愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s626",
+          "title": "海南永庆寺-南海佛教网",
+          "url": "https://www.nhfjw.org.cn/nhql/list/2013/795.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "滨海佛寺的静心场景",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s626",
+              "title": "海南永庆寺-南海佛教网",
+              "url": "https://www.nhfjw.org.cn/nhql/list/2013/795.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合安康祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s626",
+              "title": "海南永庆寺-南海佛教网",
+              "url": "https://www.nhfjw.org.cn/nhql/list/2013/795.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s626",
+              "title": "海南永庆寺-南海佛教网",
+              "url": "https://www.nhfjw.org.cn/nhql/list/2013/795.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-054",
+      "name": "罗汉寺",
+      "plaqueName": "罗汉寺",
+      "region": "重庆",
+      "city": "渝中区",
+      "headline": "高楼之间，遇见老重庆的佛影",
+      "description": "城市楼群围住古寺，古佛崖石刻又把时间拉回宋代。走进罗汉堂，给奔忙中的自己留一个重新整理心事的地方。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s925",
+          "title": "市级文物保护单位名录（截至2026年8月）_重庆市文化和旅游发展委员会",
+          "url": "https://whlyw.cq.gov.cn/zwfwww/lyly/wwzy/zdww/202608/t20260827_15987819.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "古佛崖与都市佛寺延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s925",
+              "title": "市级文物保护单位名录（截至2026年8月）_重庆市文化和旅游发展委员会",
+              "url": "https://whlyw.cq.gov.cn/zwfwww/lyly/wwzy/zdww/202608/t20260827_15987819.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "都市生活场景延展职业心愿",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s925",
+              "title": "市级文物保护单位名录（截至2026年8月）_重庆市文化和旅游发展委员会",
+              "url": "https://whlyw.cq.gov.cn/zwfwww/lyly/wwzy/zdww/202608/t20260827_15987819.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "fortune",
+          "basisLabel": "策划延展",
+          "reason": "整理心事与重新出发的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s925",
+              "title": "市级文物保护单位名录（截至2026年8月）_重庆市文化和旅游发展委员会",
+              "url": "https://whlyw.cq.gov.cn/zwfwww/lyly/wwzy/zdww/202608/t20260827_15987819.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-055",
+      "name": "华岩寺",
+      "plaqueName": "华岩寺",
+      "region": "重庆",
+      "city": "九龙坡区",
+      "headline": "湖山与莲花之间，愿心安稳",
+      "description": "山、水、洞、林围绕华岩寺，荷花与湖面构成重庆另一种风景。把奔忙暂放一旁，为自己和家人留一点安静。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s083",
+          "title": "华岩寺简介",
+          "url": "https://cqjlp.gov.cn/rwjlp/wlfc/lsfy/202204/t20220412_10610671_wap.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s084",
+          "title": "跟着档案看重庆 | 湖山梵影 古今风雅——重庆华岩寺",
+          "url": "https://jda.cq.gov.cn/web/article/1471267784607813632/web/content_1471267784607813632.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "湖山景观延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s083",
+              "title": "华岩寺简介",
+              "url": "https://cqjlp.gov.cn/rwjlp/wlfc/lsfy/202204/t20220412_10610671_wap.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s083",
+              "title": "华岩寺简介",
+              "url": "https://cqjlp.gov.cn/rwjlp/wlfc/lsfy/202204/t20220412_10610671_wap.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s083",
+              "title": "华岩寺简介",
+              "url": "https://cqjlp.gov.cn/rwjlp/wlfc/lsfy/202204/t20220412_10610671_wap.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-056",
+      "name": "文殊院",
+      "plaqueName": "文殊院",
+      "region": "四川",
+      "city": "成都青羊区",
+      "headline": "到文殊院，把愿望想得更清楚",
+      "description": "成都街巷尽头，是以文殊菩萨得名的古寺。走过院落，留一点专注给考试，也留一点智慧给眼前的选择。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s741",
+          "title": "蓉中伽蓝_成都市佛教协会",
+          "url": "https://www.chengdubuddhism.com/index.php?c=category&id=18",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "study",
+          "basisLabel": "信仰文化关联",
+          "reason": "文殊智慧信仰关联学业与专注",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s741",
+              "title": "蓉中伽蓝_成都市佛教协会",
+              "url": "https://www.chengdubuddhism.com/index.php?c=category&id=18",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "智慧与选择主题延展职业决策",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s741",
+              "title": "蓉中伽蓝_成都市佛教协会",
+              "url": "https://www.chengdubuddhism.com/index.php?c=category&id=18",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "城市古寺的静心体验",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s741",
+              "title": "蓉中伽蓝_成都市佛教协会",
+              "url": "https://www.chengdubuddhism.com/index.php?c=category&id=18",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-057",
+      "name": "报国寺",
+      "plaqueName": "报国寺",
+      "region": "四川",
+      "city": "乐山峨眉山",
+      "headline": "从峨眉山脚，迈出愿望的第一步",
+      "description": "山麓的报国寺，是许多人认识峨眉山的一扇门。沿古木与山路而行，把一个愿望写下来，再想想自己可以迈出的第一步。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eEmei",
+          "title": "峨眉山世界遗产",
+          "url": "https://whc.unesco.org/en/list/779/",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "career",
+          "basisLabel": "信仰文化关联",
+          "reason": "普贤行愿文化延展行动与事业，属于策划解释",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eEmei",
+              "title": "峨眉山世界遗产",
+              "url": "https://whc.unesco.org/en/list/779/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eEmei",
+              "title": "峨眉山世界遗产",
+              "url": "https://whc.unesco.org/en/list/779/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eEmei",
+              "title": "峨眉山世界遗产",
+              "url": "https://whc.unesco.org/en/list/779/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-058",
+      "name": "昭觉寺",
+      "plaqueName": "昭觉寺",
+      "region": "四川",
+      "city": "成都成华区",
+      "headline": "川西禅林里，把心绪理一理",
+      "description": "成都北郊的昭觉寺，以禅林历史和院落风貌为人所知。给自己一段走过殿堂的时间，少一点急切，多一点觉察。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s741",
+          "title": "蓉中伽蓝_成都市佛教协会",
+          "url": "https://www.chengdubuddhism.com/index.php?c=category&id=18",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "禅宗修习文化关联静心",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s741",
+              "title": "蓉中伽蓝_成都市佛教协会",
+              "url": "https://www.chengdubuddhism.com/index.php?c=category&id=18",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "由修学与觉察延展专注主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s741",
+              "title": "蓉中伽蓝_成都市佛教协会",
+              "url": "https://www.chengdubuddhism.com/index.php?c=category&id=18",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-059",
+      "name": "弘福寺",
+      "plaqueName": "弘福寺",
+      "region": "贵州",
+      "city": "贵阳云岩区",
+      "headline": "黔灵山上，愿生活有一点转机",
+      "description": "黔灵山的林荫与石阶，引你走进弘福寺。把心里打结的事写在愿笺上，愿接下来的日子能慢慢舒展开。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s102",
+          "title": "Hongfu Temple",
+          "url": "https://yunyan.english.guiyang.gov.cn/2020-05/14/c_489287.htm",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s105",
+          "title": "贵州为什么简称 “黔”“贵”",
+          "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/2140/A3",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "fortune",
+          "basisLabel": "策划延展",
+          "reason": "山林与寺名意象延展新开始主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s102",
+              "title": "Hongfu Temple",
+              "url": "https://yunyan.english.guiyang.gov.cn/2020-05/14/c_489287.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "黔灵山林寺景观延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s102",
+              "title": "Hongfu Temple",
+              "url": "https://yunyan.english.guiyang.gov.cn/2020-05/14/c_489287.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s102",
+              "title": "Hongfu Temple",
+              "url": "https://yunyan.english.guiyang.gov.cn/2020-05/14/c_489287.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-060",
+      "name": "承恩寺",
+      "plaqueName": "承恩寺",
+      "region": "贵州",
+      "city": "铜仁梵净山",
+      "headline": "云山之间，为自己留一个停步处",
+      "description": "梵净山的山石与云雾之间，承恩寺留下朴素的佛寺院落。一路看过高山景色，在这里给心事一个短暂的停靠。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s380",
+          "title": "文化和旅游部数据服务栏目",
+          "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35069",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s720",
+          "title": "首页 - 梵净山旅游区",
+          "url": "https://fanjingshan.gz.cn/",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "高山云雾与寺院景观延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s380",
+              "title": "文化和旅游部数据服务栏目",
+              "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35069",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s380",
+              "title": "文化和旅游部数据服务栏目",
+              "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35069",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-061",
+      "name": "崇圣寺",
+      "plaqueName": "崇圣寺",
+      "region": "云南",
+      "city": "大理市",
+      "headline": "三塔与苍山，陪你把愿望放远",
+      "description": "三塔、苍山与洱海意象，组成大理辨识度很高的佛教景观。和重要的人一起看远方，也为长久的相伴留一句愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s394",
+          "title": "大理崇圣寺三塔 - 大理市人民政府",
+          "url": "https://www.yndali.gov.cn/dlsrmzf/c106716/pc/content/1983786516944621568/content_1983786516944621568.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "大理三塔场景延展长久相伴主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s394",
+              "title": "大理崇圣寺三塔 - 大理市人民政府",
+              "url": "https://www.yndali.gov.cn/dlsrmzf/c106716/pc/content/1983786516944621568/content_1983786516944621568.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "love",
+          "basisLabel": "策划延展",
+          "reason": "共同漫游的关系祝愿主题，非专属姻缘传统",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s394",
+              "title": "大理崇圣寺三塔 - 大理市人民政府",
+              "url": "https://www.yndali.gov.cn/dlsrmzf/c106716/pc/content/1983786516944621568/content_1983786516944621568.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "山水佛寺的静观体验",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s394",
+              "title": "大理崇圣寺三塔 - 大理市人民政府",
+              "url": "https://www.yndali.gov.cn/dlsrmzf/c106716/pc/content/1983786516944621568/content_1983786516944621568.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-062",
+      "name": "松赞林寺",
+      "plaqueName": "松赞林寺",
+      "region": "云南",
+      "city": "迪庆香格里拉",
+      "headline": "沿着高原台阶，给心愿一点高度",
+      "description": "金顶殿群沿山坡展开，拉姆央措湖映出高原寺院的轮廓。慢慢拾级而上，把牵挂放进开阔的天光里。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s111",
+          "title": "部门信息公开指南|松赞林寺管理局",
+          "url": "https://www.xianggelila.gov.cn/zfxxgk_xglls_szlsglj",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "高原寺群与湖景延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s111",
+              "title": "部门信息公开指南|松赞林寺管理局",
+              "url": "https://www.xianggelila.gov.cn/zfxxgk_xglls_szlsglj",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s111",
+              "title": "部门信息公开指南|松赞林寺管理局",
+              "url": "https://www.xianggelila.gov.cn/zfxxgk_xglls_szlsglj",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s111",
+              "title": "部门信息公开指南|松赞林寺管理局",
+              "url": "https://www.xianggelila.gov.cn/zfxxgk_xglls_szlsglj",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-063",
+      "name": "祝圣寺",
+      "plaqueName": "祝圣寺",
+      "region": "云南",
+      "city": "大理宾川鸡足山",
+      "headline": "鸡足山林里，为心愿留一段路",
+      "description": "鸡足山的朝山道路通向祝圣寺。古寺与山林相伴，适合在漫步时想一想，自己接下来最想守住什么。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s106",
+          "title": "小长假何处共婵娟——中秋赏月全攻略_云南要闻_云南省人民政府门户网站",
+          "url": "https://www.yn.gov.cn/ywdt/ynyw/201109/t20110908_170726.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eNation",
+          "title": "汉族地区佛教全国重点寺院名录",
+          "url": "https://www.055110.com/law/1/23274.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "鸡足山朝山景观延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s106",
+              "title": "小长假何处共婵娟——中秋赏月全攻略_云南要闻_云南省人民政府门户网站",
+              "url": "https://www.yn.gov.cn/ywdt/ynyw/201109/t20110908_170726.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "朝山行路意象延展人生方向主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s106",
+              "title": "小长假何处共婵娟——中秋赏月全攻略_云南要闻_云南省人民政府门户网站",
+              "url": "https://www.yn.gov.cn/ywdt/ynyw/201109/t20110908_170726.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-064",
+      "name": "大昭寺",
+      "plaqueName": "大昭寺",
+      "region": "西藏",
+      "city": "拉萨城关区",
+      "headline": "八廓街深处，郑重地许一个愿",
+      "description": "环寺街道与古老殿堂相连，大昭寺也是拉萨朝圣文化的重要中心。把自己最牵挂的人和事，写成一句朴素的祝愿。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eJokhang",
+          "title": "拉萨布达拉宫历史建筑群与大昭寺",
+          "url": "https://whc.unesco.org/en/list/707/",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "朝圣祈愿文化关联平安主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eJokhang",
+              "title": "拉萨布达拉宫历史建筑群与大昭寺",
+              "url": "https://whc.unesco.org/en/list/707/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲人祈愿的策划主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eJokhang",
+              "title": "拉萨布达拉宫历史建筑群与大昭寺",
+              "url": "https://whc.unesco.org/en/list/707/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "朝圣文化场景延展静心体验",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eJokhang",
+              "title": "拉萨布达拉宫历史建筑群与大昭寺",
+              "url": "https://whc.unesco.org/en/list/707/",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-065",
+      "name": "扎什伦布寺",
+      "plaqueName": "扎什伦布寺",
+      "region": "西藏",
+      "city": "日喀则桑珠孜区",
+      "headline": "在弥勒殿前，给明天一点期待",
+      "description": "红白殿墙与金顶沿山势展开，弥勒殿是寺院的重要看点。愿心里仍能留一份期待，愿家人的明天安稳。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s101",
+          "title": "扎什伦布寺_西藏自治区外事办公室",
+          "url": "https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s103",
+          "title": "民族团结的桥梁与纽带扎什伦布寺传承近600年_西藏自治区文化和旅游厅",
+          "url": "https://wlt.xizang.gov.cn/ztzl_69/tuanjie/202402/t20240201_401903.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为亲人祝愿的产品主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s101",
+              "title": "扎什伦布寺_西藏自治区外事办公室",
+              "url": "https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "弥勒文化延展希望与宽怀主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s101",
+              "title": "扎什伦布寺_西藏自治区外事办公室",
+              "url": "https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合安康主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s101",
+              "title": "扎什伦布寺_西藏自治区外事办公室",
+              "url": "https://wsb.xizang.gov.cn/xzjx/lyjd/201107/t20110713_100950.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-066",
+      "name": "法门寺",
+      "plaqueName": "法门寺",
+      "region": "陕西",
+      "city": "宝鸡扶风",
+      "headline": "走近唐代地宫，郑重安放牵挂",
+      "description": "法门寺以佛舍利与唐代地宫文物闻名。沿着历史的线索走近佛寺，为家人留下一份郑重、安静的祝愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s123",
+          "title": "文化和旅游部数据服务栏目",
+          "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35094",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "舍利礼敬场景延展安康主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s123",
+              "title": "文化和旅游部数据服务栏目",
+              "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35094",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s123",
+              "title": "文化和旅游部数据服务栏目",
+              "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35094",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-067",
+      "name": "大慈恩寺",
+      "plaqueName": "大慈恩寺",
+      "region": "陕西",
+      "city": "西安雁塔区",
+      "headline": "大雁塔下，愿努力走得更远",
+      "description": "玄奘译经与大雁塔，把求知与远行的故事留在长安。为考试和学习许愿，也为正在探索的自己留一点耐心。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s940",
+          "title": "大雁塔--西安市地方志办公室",
+          "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s941",
+          "title": "大慈恩寺--西安市地方志办公室",
+          "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1821383069511815170.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "玄奘译经与求知历史延展学业主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s940",
+              "title": "大雁塔--西安市地方志办公室",
+              "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "career",
+          "basisLabel": "策划延展",
+          "reason": "远行求知意象延展职业成长",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s940",
+              "title": "大雁塔--西安市地方志办公室",
+              "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "慈恩寺纪念母亲的历史关联孝亲主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s941",
+              "title": "大慈恩寺--西安市地方志办公室",
+              "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1821383069511815170.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-068",
+      "name": "香积寺",
+      "plaqueName": "香积寺",
+      "region": "陕西",
+      "city": "西安长安区",
+      "headline": "善导塔旁，让纷乱慢慢沉下来",
+      "description": "香积寺为纪念善导大师而建，保留着净土祖庭的历史。走到古塔旁，给思念的人一句祝愿，也给自己一段安静。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s698",
+          "title": "净土宗祖庭香积寺_陕西省佛教协会_陕西省佛教协会",
+          "url": "https://www.shanxifojiao.com.cn/index.php?a=index&aid=2917&c=View&m=home",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s695",
+          "title": "香积寺简介 - 净土宗祖庭 - 净土宗 - 净土宗",
+          "url": "https://plb.tw/gb/about_8.aspx?cchk=68502f28-61e5-4d9b-af5b-60d2224a25cb&cid=85",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "净土修学文化延展安住主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s698",
+              "title": "净土宗祖庭香积寺_陕西省佛教协会_陕西省佛教协会",
+              "url": "https://www.shanxifojiao.com.cn/index.php?a=index&aid=2917&c=View&m=home",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "追思与家人牵挂的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s698",
+              "title": "净土宗祖庭香积寺_陕西省佛教协会_陕西省佛教协会",
+              "url": "https://www.shanxifojiao.com.cn/index.php?a=index&aid=2917&c=View&m=home",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-069",
+      "name": "广仁寺",
+      "plaqueName": "广仁寺",
+      "region": "陕西",
+      "city": "西安莲湖区",
+      "headline": "长安城墙内，为生计点一盏心灯",
+      "description": "藏式殿堂藏在西安城墙西北角，绿度母与黄财神殿各有历史线索。走进汉藏文化相遇的院落，为生活的丰足写一个愿。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "eGuangren",
+          "title": "广仁寺藏巴拉千佛殿与黄财神供奉报道",
+          "url": "https://www.fjdh.cn/bnznews/2009/01/12281434431.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "eGuangrenHistory",
+          "title": "西安市地方志办公室广仁寺介绍",
+          "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1856599599317864450.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "wealth",
+          "basisLabel": "信仰文化关联",
+          "reason": "黄财神藏巴拉供奉关联财富与资粮祈愿",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "eGuangren",
+              "title": "广仁寺藏巴拉千佛殿与黄财神供奉报道",
+              "url": "https://www.fjdh.cn/bnznews/2009/01/12281434431.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "绿度母信仰关联平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eGuangrenHistory",
+              "title": "西安市地方志办公室广仁寺介绍",
+              "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1856599599317864450.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "fortune",
+          "basisLabel": "策划延展",
+          "reason": "护持与新开始的策划主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "eGuangrenHistory",
+              "title": "西安市地方志办公室广仁寺介绍",
+              "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1856599599317864450.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-070",
+      "name": "拉卜楞寺",
+      "plaqueName": "拉卜楞寺",
+      "region": "甘肃",
+      "city": "甘南夏河",
+      "headline": "转经长廊旁，把脚步放慢",
+      "description": "经学院、殿堂与转经长廊，铺展在夏河的高原河谷里。走过一段长长的路，让心愿从纷杂变得简单。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s118",
+          "title": "拉卜楞寺-夏河县人民政府",
+          "url": "https://www.xiahe.gov.cn/info/1166/41386.htm",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "河谷寺群与长廊景观延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s118",
+              "title": "拉卜楞寺-夏河县人民政府",
+              "url": "https://www.xiahe.gov.cn/info/1166/41386.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "经学院背景延展修学专注主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s118",
+              "title": "拉卜楞寺-夏河县人民政府",
+              "url": "https://www.xiahe.gov.cn/info/1166/41386.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s118",
+              "title": "拉卜楞寺-夏河县人民政府",
+              "url": "https://www.xiahe.gov.cn/info/1166/41386.htm",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-071",
+      "name": "大佛寺",
+      "plaqueName": "大佛寺",
+      "region": "甘肃",
+      "city": "张掖甘州区",
+      "headline": "河西卧佛前，愿心里的风停一停",
+      "description": "张掖大佛寺珍藏着巨大的室内卧佛与佛教文物。走过河西走廊的历史，把奔忙暂时放下，静看一尊卧佛。",
+      "tradition": "汉传历史佛寺",
+      "scopeNote": "",
+      "historicalSite": true,
+      "sources": [
+        {
+          "id": "s116",
+          "title": "张掖市人民政府〖4A〗张掖大佛寺景区",
+          "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/202303/t20230318_1007459_ghb.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s125",
+          "title": "张掖市史志办-《张掖大词典》（初稿·文物）",
+          "url": "https://www.zhangye.gov.cn/szb/dzdt/njbz/201605/t20160517_51878.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "卧佛艺术与历史寺院延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s116",
+              "title": "张掖市人民政府〖4A〗张掖大佛寺景区",
+              "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/202303/t20230318_1007459_ghb.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合安康祝愿主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s116",
+              "title": "张掖市人民政府〖4A〗张掖大佛寺景区",
+              "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/202303/t20230318_1007459_ghb.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-072",
+      "name": "塔尔寺",
+      "plaqueName": "塔尔寺",
+      "region": "青海",
+      "city": "西宁湟中区",
+      "headline": "酥油花与壁画间，留一个清楚的愿",
+      "description": "宗喀巴的历史、酥油花、壁画与堆绣，让塔尔寺的记忆格外鲜明。走近这些细节，也把自己的愿望慢慢想清楚。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s127",
+          "title": "塔尔寺 _政策_长者版_贵南县人民政府",
+          "url": "https://www.guinan.gov.cn/lnb/zc1__zwgk/zc/aztfl/mzzj/content_29609295",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "宗喀巴与修学传统延展求知主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s127",
+              "title": "塔尔寺 _政策_长者版_贵南县人民政府",
+              "url": "https://www.guinan.gov.cn/lnb/zc1__zwgk/zc/aztfl/mzzj/content_29609295",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "寺院祈愿法会的综合平安关联",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s127",
+              "title": "塔尔寺 _政策_长者版_贵南县人民政府",
+              "url": "https://www.guinan.gov.cn/lnb/zc1__zwgk/zc/aztfl/mzzj/content_29609295",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "宗教艺术观看延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s127",
+              "title": "塔尔寺 _政策_长者版_贵南县人民政府",
+              "url": "https://www.guinan.gov.cn/lnb/zc1__zwgk/zc/aztfl/mzzj/content_29609295",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-073",
+      "name": "瞿昙寺",
+      "plaqueName": "瞿昙寺",
+      "region": "青海",
+      "city": "海东乐都区",
+      "headline": "高原小故宫，收藏一段静观时光",
+      "description": "明代官式建筑与回廊壁画，让瞿昙寺有高原小故宫之称。沿着画卷和院落慢慢走，给自己的心留一点空白。",
+      "tradition": "藏传历史佛寺",
+      "scopeNote": "",
+      "historicalSite": true,
+      "sources": [
+        {
+          "id": "s124",
+          "title": "刘觖：这座藏传佛教寺院为何被称“高原小故宫”？ ——专访国家一级美术师刘觖_西藏头条网",
+          "url": "https://toutiao.xzdw.gov.cn/wh/202210/t20221025_289500.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s120",
+          "title": "​关于进一步加大对乐都区瞿昙寺景区开发建设的支持力度的建议",
+          "url": "https://www.qhrd.gov.cn/yajy/202205/t20220505_202471.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "明代建筑与壁画观看延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s124",
+              "title": "刘觖：这座藏传佛教寺院为何被称“高原小故宫”？ ——专访国家一级美术师刘觖_西藏头条网",
+              "url": "https://toutiao.xzdw.gov.cn/wh/202210/t20221025_289500.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人牵挂的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s124",
+              "title": "刘觖：这座藏传佛教寺院为何被称“高原小故宫”？ ——专访国家一级美术师刘觖_西藏头条网",
+              "url": "https://toutiao.xzdw.gov.cn/wh/202210/t20221025_289500.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-074",
+      "name": "海宝塔寺",
+      "plaqueName": "海宝塔寺",
+      "region": "宁夏",
+      "city": "银川兴庆区",
+      "headline": "银川北塔下，愿日常安稳",
+      "description": "海宝塔立在寺院中央，也是银川人熟悉的北塔。塞上城市的风景之外，为家人写一份简简单单的平安。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s426",
+          "title": "海宝塔_银川市人民政府",
+          "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdwbcs/202303/t20230301_3980416.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s422",
+          "title": "银川市人民政府办公厅关于做好2016年度“盂兰盆”法会期间社会治安和消防安全等工作的通知-银川市人民政府门户网站",
+          "url": "https://yinchuan.gov.cn/xxgk/bmxxgkml/szfbgt/xxgkml_1841/zfwj/yzbf/201608/t20160829_179704.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "古塔礼敬场景延展平安主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s426",
+              "title": "海宝塔_银川市人民政府",
+              "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdwbcs/202303/t20230301_3980416.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s426",
+              "title": "海宝塔_银川市人民政府",
+              "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdwbcs/202303/t20230301_3980416.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-075",
+      "name": "保安寺（高庙前院）",
+      "plaqueName": "保安寺",
+      "region": "宁夏",
+      "city": "中卫沙坡头区",
+      "headline": "层楼之前，为家人留一份安稳",
+      "description": "保安寺位于中卫高庙前部，有自己的山门和大雄宝殿。线上场景聚焦这座佛寺的院落，让日常牵挂有一处停靠。",
+      "tradition": "汉传",
+      "scopeNote": "仅纳入高庙前院的保安寺佛教部分。",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s416",
+          "title": "中卫高庙_中卫市人民政府",
+          "url": "https://www.nxzw.gov.cn/zjzw/zwtc/201804/t20180411_735105.html",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s706",
+          "title": "中卫保安寺—中卫—宁夏寺院-佛教导航",
+          "url": "https://www.fjdh.cn/ffzt/fjhy/ahsy2013/07/192353259627.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "保安寺院落的平安主题，非由寺名推定灵验",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s416",
+              "title": "中卫高庙_中卫市人民政府",
+              "url": "https://www.nxzw.gov.cn/zjzw/zwtc/201804/t20180411_735105.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s416",
+              "title": "中卫高庙_中卫市人民政府",
+              "url": "https://www.nxzw.gov.cn/zjzw/zwtc/201804/t20180411_735105.html",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-076",
+      "name": "圣佑庙",
+      "plaqueName": "圣佑庙",
+      "region": "新疆",
+      "city": "伊犁昭苏",
+      "headline": "天山草原边，愿远行与归家都平安",
+      "description": "圣佑庙保留着天山北麓的藏传佛教建筑记忆。把草原与远山收进视野，也替正在远行的人写下一句平安。",
+      "tradition": "藏传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s428",
+          "title": "新疆保存最完整的藏传佛教庙宇—圣佑庙 - 景区景点 - 昭苏县人民政府网",
+          "url": "https://www.zhaosu.gov.cn/zsx/c113918/202003/bf8a0f2ce7744ca8a08c3dbb9bf5b125.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "天山边地景观延展出行平安主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s428",
+              "title": "新疆保存最完整的藏传佛教庙宇—圣佑庙 - 景区景点 - 昭苏县人民政府网",
+              "url": "https://www.zhaosu.gov.cn/zsx/c113918/202003/bf8a0f2ce7744ca8a08c3dbb9bf5b125.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "远行与归家意象延展家人牵挂",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s428",
+              "title": "新疆保存最完整的藏传佛教庙宇—圣佑庙 - 景区景点 - 昭苏县人民政府网",
+              "url": "https://www.zhaosu.gov.cn/zsx/c113918/202003/bf8a0f2ce7744ca8a08c3dbb9bf5b125.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-077",
+      "name": "靖远寺",
+      "plaqueName": "靖远寺",
+      "region": "新疆",
+      "city": "伊犁察布查尔",
+      "headline": "西迁故事里，留一份归家的愿",
+      "description": "靖远寺连接着锡伯族西迁后的历史与建筑文化。走近这座伊犁古寺，在漫长的迁徙故事里，想一想家与远方。",
+      "tradition": "藏传历史佛寺",
+      "scopeNote": "",
+      "historicalSite": true,
+      "sources": [
+        {
+          "id": "s430",
+          "title": "察布查尔靖远寺_游在伊犁_伊犁哈萨克自治州人民政府",
+          "url": "https://www.xjyl.gov.cn/xjylz/c112876/200509/634e011306dd4746b6babb2714347341.shtml",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s427",
+          "title": "察布查尔县全国重点文物保护单位、自治区重点文物保护单位名录_公共文化_察布查尔县人民政府网",
+          "url": "https://www.xjcbcr.gov.cn/xjcbcr/ggwh/202609/3214dc02c7d042b68b894110dad38180.shtml",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "锡伯族西迁历史延展家人与故乡主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s430",
+              "title": "察布查尔靖远寺_游在伊犁_伊犁哈萨克自治州人民政府",
+              "url": "https://www.xjyl.gov.cn/xjylz/c112876/200509/634e011306dd4746b6babb2714347341.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "迁徙与远行意象延展平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s430",
+              "title": "察布查尔靖远寺_游在伊犁_伊犁哈萨克自治州人民政府",
+              "url": "https://www.xjyl.gov.cn/xjylz/c112876/200509/634e011306dd4746b6babb2714347341.shtml",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-078",
+      "name": "宝莲禅寺",
+      "plaqueName": "宝莲禅寺",
+      "region": "香港",
+      "city": "离岛大屿山",
+      "headline": "大屿山云雾里，把心愿放宽",
+      "description": "宝莲禅寺与天坛大佛，是大屿山熟悉的佛教地标。山海之间留一句祝愿，让心里多一点宽阔和从容。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s859",
+          "title": "香港自游乐在18区 - 宝莲禅寺及天坛大佛",
+          "url": "https://www.gohk.gov.hk/sc/spots/spot_detail.php?spot=Po+Lin+Monastery+and+The+Big+Buddha",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s865",
+          "title": "宝莲禅寺",
+          "url": "https://www.discoverhongkong.cn/place-to-go/travel.guide-po-lin-monastery.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安祈愿主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s859",
+              "title": "香港自游乐在18区 - 宝莲禅寺及天坛大佛",
+              "url": "https://www.gohk.gov.hk/sc/spots/spot_detail.php?spot=Po+Lin+Monastery+and+The+Big+Buddha",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "为家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s859",
+              "title": "香港自游乐在18区 - 宝莲禅寺及天坛大佛",
+              "url": "https://www.gohk.gov.hk/sc/spots/spot_detail.php?spot=Po+Lin+Monastery+and+The+Big+Buddha",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "山海佛寺景观延展静心主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s859",
+              "title": "香港自游乐在18区 - 宝莲禅寺及天坛大佛",
+              "url": "https://www.gohk.gov.hk/sc/spots/spot_detail.php?spot=Po+Lin+Monastery+and+The+Big+Buddha",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-079",
+      "name": "志莲净苑",
+      "plaqueName": "志莲净苑",
+      "region": "香港",
+      "city": "九龙钻石山",
+      "headline": "唐风木构间，愿心里留一点清静",
+      "description": "木构殿堂、莲池与园林，让志莲净苑在城市里留下一片安静。走过水面与回廊，为相处留一点耐心，也为自己留一点余地。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s665",
+          "title": "香港自游乐在18区 - 志莲净苑及南莲园池",
+          "url": "https://www.gohk.gov.hk/chs/spots/spot_detail.php?spot=Chi+Lin+Nunnery+%26+Nan+Lian+Garden",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s668",
+          "title": "志莲净苑及南莲园池",
+          "url": "https://www.discoverhongkong.cn/place-to-go/travel.guide-chi-lin-nunnery-and-nan-lian-garden.html",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "唐风木构与莲池景观延展静观主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s665",
+              "title": "香港自游乐在18区 - 志莲净苑及南莲园池",
+              "url": "https://www.gohk.gov.hk/chs/spots/spot_detail.php?spot=Chi+Lin+Nunnery+%26+Nan+Lian+Garden",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "love",
+          "basisLabel": "策划延展",
+          "reason": "耐心相处的产品主题，非既有姻缘口碑",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s665",
+              "title": "香港自游乐在18区 - 志莲净苑及南莲园池",
+              "url": "https://www.gohk.gov.hk/chs/spots/spot_detail.php?spot=Chi+Lin+Nunnery+%26+Nan+Lian+Garden",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s665",
+              "title": "香港自游乐在18区 - 志莲净苑及南莲园池",
+              "url": "https://www.gohk.gov.hk/chs/spots/spot_detail.php?spot=Chi+Lin+Nunnery+%26+Nan+Lian+Garden",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-080",
+      "name": "普济禅院（观音堂）",
+      "plaqueName": "普济禅院",
+      "region": "澳门",
+      "city": "望厦",
+      "headline": "澳门老街里，为生计留一点盼头",
+      "description": "古老院落里有观音信仰，也有澳门观音开库的地方民俗。为日常生计写下一份希望，再看看老城里的佛寺细节。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s138",
+          "title": "NEWS GOV-MO: 非遗视野下的观音信仰 塑造澳门文旅魅力",
+          "url": "https://www.gcs.gov.mo/news/detail/zh-hans/M25CaoafLi",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s752",
+          "title": "观音开库-非物质文化遗产-澳門文化遺產網",
+          "url": "https://www.culturalheritage.mo/gb/detail/102265?AspxAutoDetectCookieSupport=1",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s133",
+          "title": "来源页面",
+          "url": "https://www.macaotourism.gov.mo/zh-hant/sightseeing/temples",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "wealth",
+          "basisLabel": "民间口碑",
+          "reason": "观音开库与求财民俗有澳门政府资料",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s138",
+              "title": "NEWS GOV-MO: 非遗视野下的观音信仰 塑造澳门文旅魅力",
+              "url": "https://www.gcs.gov.mo/news/detail/zh-hans/M25CaoafLi",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音慈悲信仰延展家人主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s138",
+              "title": "NEWS GOV-MO: 非遗视野下的观音信仰 塑造澳门文旅魅力",
+              "url": "https://www.gcs.gov.mo/news/detail/zh-hans/M25CaoafLi",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音信仰关联平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s138",
+              "title": "NEWS GOV-MO: 非遗视野下的观音信仰 塑造澳门文旅魅力",
+              "url": "https://www.gcs.gov.mo/news/detail/zh-hans/M25CaoafLi",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-081",
+      "name": "菩提禅院",
+      "plaqueName": "菩提禅院",
+      "region": "澳门",
+      "city": "氹仔",
+      "headline": "离开热闹街市，给心愿一处停靠",
+      "description": "菩提禅院的殿堂与佛像，为氹仔留下另一种城市表情。走出热闹街市，在佛寺里安静坐一会儿，替牵挂的人许愿。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s871",
+          "title": "来源页面",
+          "url": "https://www.macaotourism.gov.mo/zh-hant/sightseeing/temples/pou-tai-sin-un",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "氹仔佛寺场景延展静心主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s871",
+              "title": "来源页面",
+              "url": "https://www.macaotourism.gov.mo/zh-hant/sightseeing/temples/pou-tai-sin-un",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "家人祝愿的产品主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s871",
+              "title": "来源页面",
+              "url": "https://www.macaotourism.gov.mo/zh-hant/sightseeing/temples/pou-tai-sin-un",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "health",
+          "basisLabel": "策划延展",
+          "reason": "综合平安主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s871",
+              "title": "来源页面",
+              "url": "https://www.macaotourism.gov.mo/zh-hant/sightseeing/temples/pou-tai-sin-un",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-082",
+      "name": "艋舺龙山寺",
+      "plaqueName": "艋舺龙山寺",
+      "region": "台湾",
+      "city": "台北万华",
+      "headline": "老城观音前，也把相遇写进愿里",
+      "description": "主祀观音的艋舺龙山寺，后殿也保留月老等民间附祀。走进台北老城的热闹院落，为相遇与长久相处留一句愿。",
+      "tradition": "汉传并有民间神祇附祀",
+      "scopeNote": "主祀观音的佛教寺院，含月老、文昌等民俗附祀。",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s842",
+          "title": "艋舺龍山寺月老生日派對",
+          "url": "https://www.lungshan.org.tw/Activity/1150925-0926/index.php",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s847",
+          "title": "艋舺龍山寺官網 - 認識奉祀神祇",
+          "url": "https://lungshan.org.tw/tw/02_1_1_gods.php",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s846",
+          "title": "艋舺龍山寺-臺灣宗教文化地圖-臺灣宗教文化資產",
+          "url": "https://taiwangods.moi.gov.tw/html/Cultural/3_0011.aspx?i=13",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "love",
+          "basisLabel": "民间口碑",
+          "reason": "寺方月老活动及奉祀资料有明确记录",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s842",
+              "title": "艋舺龍山寺月老生日派對",
+              "url": "https://www.lungshan.org.tw/Activity/1150925-0926/index.php",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "信仰文化关联",
+          "reason": "观音主祀及民俗附祀关联家庭祝愿",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s847",
+              "title": "艋舺龍山寺官網 - 認識奉祀神祇",
+              "url": "https://lungshan.org.tw/tw/02_1_1_gods.php",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "信仰文化关联",
+          "reason": "附祀文昌等信仰关联学业",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s847",
+              "title": "艋舺龍山寺官網 - 認識奉祀神祇",
+              "url": "https://lungshan.org.tw/tw/02_1_1_gods.php",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "wealth",
+          "basisLabel": "信仰文化关联",
+          "reason": "附祀福德正神等地方信仰关联生计，非专属口碑",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s847",
+              "title": "艋舺龍山寺官網 - 認識奉祀神祇",
+              "url": "https://lungshan.org.tw/tw/02_1_1_gods.php",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-083",
+      "name": "佛光山",
+      "plaqueName": "佛光山",
+      "region": "台湾",
+      "city": "高雄大树区",
+      "headline": "走进人间佛教，把愿望带回日常",
+      "description": "佛光山以人间佛教和文化教育为鲜明特色。看殿堂，也看展览，想一想一个心愿可以怎样落进自己的日常。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s686",
+          "title": "佛光山佛陀紀念館",
+          "url": "https://www.fgsbmc.org.tw/tw/visit-attraction.aspx",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s688",
+          "title": "佛光山佛陀紀念館",
+          "url": "https://www.fgsbmc.org.tw/tw/visit-main.aspx",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "文化教育背景延展学习主题",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s686",
+              "title": "佛光山佛陀紀念館",
+              "url": "https://www.fgsbmc.org.tw/tw/visit-attraction.aspx",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "family",
+          "basisLabel": "策划延展",
+          "reason": "人间佛教生活主题延展家人祝愿",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s686",
+              "title": "佛光山佛陀紀念館",
+              "url": "https://www.fgsbmc.org.tw/tw/visit-attraction.aspx",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "peace",
+          "basisLabel": "策划延展",
+          "reason": "寺院文化参访延展静心体验",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s686",
+              "title": "佛光山佛陀紀念館",
+              "url": "https://www.fgsbmc.org.tw/tw/visit-attraction.aspx",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "temple-084",
+      "name": "中台禅寺",
+      "plaqueName": "中台禅寺",
+      "region": "台湾",
+      "city": "南投埔里",
+      "headline": "在现代禅寺里，给思绪一点秩序",
+      "description": "现代建筑与禅宗空间在这里相遇，殿堂尺度开阔，细节值得慢慢看。把纷乱的想法收一收，给心里留一点清明。",
+      "tradition": "汉传",
+      "scopeNote": "",
+      "historicalSite": false,
+      "sources": [
+        {
+          "id": "s678",
+          "title": "中台禪寺-日月潭國家風景區管理處觀光旅遊網",
+          "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=84",
+          "accessedOn": "2026-11-11"
+        },
+        {
+          "id": "s681",
+          "title": "〖中台世界〗─Chung Tai World",
+          "url": "https://www.ctworld.org.tw/",
+          "accessedOn": "2026-11-11"
+        }
+      ],
+      "wishes": [
+        {
+          "categoryId": "peace",
+          "basisLabel": "信仰文化关联",
+          "reason": "禅宗修习文化关联静心",
+          "role": "primary",
+          "sources": [
+            {
+              "id": "s678",
+              "title": "中台禪寺-日月潭國家風景區管理處觀光旅遊網",
+              "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=84",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "categoryId": "study",
+          "basisLabel": "策划延展",
+          "reason": "禅修专注与文化教育背景延展学习主题",
+          "role": "secondary",
+          "sources": [
+            {
+              "id": "s678",
+              "title": "中台禪寺-日月潭國家風景區管理處觀光旅遊網",
+              "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=84",
+              "accessedOn": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

@@ -3823,6 +3823,24 @@
           "after": "</span><p class=\"temple-exit-eyebrow\">山寺 · Sansa</p><h1 id=\"exit-title\">歇得还好吗</h1><p>声音与连接均已关闭。<br>想歇一会儿时，欢迎再来。</p><button id=\"temple-return\" class=\"solid-button\">再次停留</button></div></main>"
         }
       ]
+    },
+    {
+      "id": "temple-entry-index.html",
+      "target": "index.html",
+      "beforeSha256": "f8365e41b850afc4536539bf922109675bd11d7636e67e3e68723cc52828c5cb",
+      "afterSha256": "5a3e531b022dc84d4215f52c091aaf3077e1f4baae766fd0d582c78a7433b29b",
+      "before": "<script type=\"module\" crossorigin src=\"/assets/index-qXYao_lF.js\"></script>",
+      "after": "<link rel=\"stylesheet\" href=\"/temple-entry/entry.css\">\n  <script type=\"module\" src=\"/temple-entry/entry.mjs\"></script>",
+      "reason": "Independent wish-selection entrance and local gate plaque name only; activity and room rules unchanged"
+    },
+    {
+      "id": "temple-entry-assets-game-U0Pmc8tU.js",
+      "target": "assets/game-U0Pmc8tU.js",
+      "beforeSha256": "e8cb189045ded3daa69305d4dfb94ade0656ee57af588d4fe86e872fb61e68aa",
+      "afterSha256": "af67045bfb5f0f8979db0be7a074e54dc74b559475d2b3b85f6bfac848eeb109",
+      "before": ".sign([\"山寺\"],0,",
+      "after": ".sign([globalThis.__templeEntry?.plaqueName??\"山寺\"],0,",
+      "reason": "Independent wish-selection entrance and local gate plaque name only; activity and room rules unchanged"
     }
   ]
 }

@@ -3,8 +3,9 @@ import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
 import prettier from 'prettier';
-import { applyPatch, hash, verifyAssets } from './apply-patches.mjs';
+import { applyPatch, hash } from './apply-patches.mjs';
 import { translateText, textUnits, hasKorean, untranslatedUnits } from '../locales/zh-CN.mjs';
+import { generateEntry } from './generate-entry.mjs';
 
 const root = new URL('../', import.meta.url);
 const targets = [
@@ -119,7 +120,9 @@ export async function createLocalizationPatch(source, target, catalogSha256) {
 
 export async function generateLocalization() {
   const registry = JSON.parse(await readFile(new URL('patches/patches.json', root), 'utf8'));
-  registry.patches = registry.patches.filter((patch) => !patch.id.startsWith('zh-CN-'));
+  registry.patches = registry.patches.filter(
+    (patch) => !patch.id.startsWith('zh-CN-') && !patch.id.startsWith('temple-entry-'),
+  );
   const catalogSha256 = hash(await readFile(new URL('locales/zh-CN.json', root)));
   const outputs = [];
   for (const target of targets) {
@@ -133,7 +136,7 @@ export async function generateLocalization() {
   // Validate every translation before changing any running file.
   for (const { target, text } of outputs) await writeFile(new URL('site/' + target, root), text);
   await writeFile(new URL('patches/patches.json', root), JSON.stringify(registry, null, 2) + '\n');
-  return verifyAssets(fileURLToPath(root));
+  return generateEntry();
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

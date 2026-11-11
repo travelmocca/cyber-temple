@@ -13,8 +13,9 @@
     "test": "node --test tests/*.test.mjs",
     "test:e2e": "node --test --test-concurrency=1 tests/browser/*.test.mjs",
     "localize": "node tools/generate-localization.mjs",
-    "format": "prettier --write 'server/**/*.mjs' 'tools/**/*.mjs' 'tests/**/*.mjs' 'locales/**/*.mjs' 'locales/*.json' package.json .prettierrc.json",
-    "format:check": "prettier --check 'server/**/*.mjs' 'tools/**/*.mjs' 'tests/**/*.mjs' 'locales/**/*.mjs' 'locales/*.json' package.json .prettierrc.json",
+    "entry:patch": "node tools/generate-entry.mjs",
+    "format": "prettier --write 'server/**/*.mjs' 'tools/**/*.mjs' 'tests/**/*.mjs' 'locales/**/*.mjs' 'locales/*.json' 'entry/*.{mjs,css,json}' package.json .prettierrc.json",
+    "format:check": "prettier --check 'server/**/*.mjs' 'tools/**/*.mjs' 'tests/**/*.mjs' 'locales/**/*.mjs' 'locales/*.json' 'entry/*.{mjs,css,json}' package.json .prettierrc.json",
     "check": "npm run format:check && npm run verify:assets && npm test"
   },
   "dependencies": {

@@ -1,11 +1,13 @@
 import { createReadStream } from 'node:fs';
 import { stat, realpath } from 'node:fs/promises';
 import { extname, resolve, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { MAP } from './protocol/constants.mjs';
 import { translateText } from '../locales/zh-CN.mjs';
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
+  '.mjs': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.json': 'application/json',
   '.webmanifest': 'application/manifest+json',
@@ -76,9 +78,12 @@ export function createRequestHandler({ site, hub }) {
         response.end();
         return;
       }
-      const file = resolve(site, '.' + (decoded === '/' ? '/index.html' : decoded));
+      const isEntry = decoded.startsWith('/temple-entry/');
+      const staticRoot = isEntry ? fileURLToPath(new URL('../entry/', import.meta.url)) : site;
+      const staticPath = isEntry ? decoded.slice('/temple-entry'.length) : decoded;
+      const file = resolve(staticRoot, '.' + (staticPath === '/' ? '/index.html' : staticPath));
       const actual = await realpath(file);
-      if (!actual.startsWith(resolve(site) + sep)) {
+      if (!actual.startsWith(resolve(staticRoot) + sep)) {
         response.writeHead(403);
         response.end();
         return;

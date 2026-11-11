@@ -11,6 +11,10 @@ npm start
 
 打开 [本地镜像](http://127.0.0.1:4191/)。另开独立浏览器窗口/隐私窗口并选择相同服务器，即可互相看见。没有注入虚拟访客；场景中 4 位常住僧由原前端自带。
 
+入场先选择求财、事业、姻缘、健康、学业、家庭、转运、心安之一，再从五座推荐佛寺中查看介绍、换批或进入。84座佛寺覆盖34个地区，资料与依据存于 `entry/catalog.json`，每区2至5座。选寺只改变当前浏览器的山门匾额，继续使用原有场景、房间及活动。真实寺院资料在入场前介绍，场景采用统一虚拟呈现。
+
+`entry/` 为独立静态入场模块，通过 `/temple-entry/` 提供。`npm run entry:patch` 根据当前本地化补丁重建入口与匾额的两项审计补丁。`npm run localize` 会自动继续重建入场补丁。原始只读基准不变。
+
 浏览器回归：`npm run test:e2e`，使用本机 Chrome。`PORT=4192 npm start` 可更换端口。测试使用独立临时端口。
 
 ## 自建代码结构
@@ -51,7 +55,7 @@ npm run test:e2e      # Chrome 界面回归
 
 浏览器证据可用 `MIRROR_E2E_OUTPUT=/absolute/output/directory npm run test:e2e` 输出到独立目录，保留历史验收记录。
 
-`baseline/site` 是不可修改的原始响应。`site` 是运行副本；改动只允许通过 `patches/patches.json` 中的精确哈希补丁登记。当前 7 项补丁包括移除统计脚本、替换两个支付跳转，以及 4 项中文文本和语言元数据补丁。
+`baseline/site` 是不可修改的原始响应。`site` 是运行副本；改动只允许通过 `patches/patches.json` 中的精确哈希补丁登记。当前 9 项补丁包括移除统计脚本、替换两个支付跳转、4项中文文本和语言元数据补丁，以及入场加载和山门匾额两项补丁。
 
 中文词典位于 `locales/zh-CN.json`，覆盖 588 个文本片段（含模拟支付和默认访客名）。修改后运行 `npm run format`、`npm run localize`、`npm run check`，再运行浏览器回归。生成器仅编辑 JS 字符串/模板文字并核对可执行语法树，保留表达式、标识符、HTML 属性结构及原始素材；详细边界见 [中文说明](../docs/zh-CN-localization.md)。
 
