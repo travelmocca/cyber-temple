@@ -1,0 +1,26 @@
+node_modules/
+dist/
+test-results/
+
+.snapshots/
+mirror/node_modules/
+
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Keep large captures and raw network records local; publish reviewable summaries.
+/RECON/**
+!/RECON/**/
+!/RECON/**/*.md
+!/RECON/**/*.mjs
+!/RECON/mirror/experience-matrix.json
+!/RECON/mirror/resource-graph.json
+!/RECON/mirror/source-version.json
+!/RECON/mirror/release-manifest.json
+!/RECON/refactor-2026-11-11/*.json
+!/RECON/refactor-2026-11-11/check-final.log
+!/RECON/refactor-2026-11-11/browser-final.log
+!/RECON/refactor-2026-11-11/clean-install-after.log
+!/RECON/refactor-2026-11-11/browser-final/*.json

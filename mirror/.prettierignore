@@ -1,0 +1,6 @@
+# Published bytes and audited patches must never be reformatted.
+site/
+baseline/
+patches/
+node_modules/
+tests/fixtures/

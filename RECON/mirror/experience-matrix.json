@@ -1,0 +1,918 @@
+{
+  "version": "2026-11-11",
+  "scope": "Each row is limited to its named behavior. Untested mandatory branches remain in the denominator.",
+  "items": [
+    {
+      "编号": "S01",
+      "类别": "场景到达与返回",
+      "场景/功能": "山门",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 입구，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/gate.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/gate.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S02",
+      "类别": "场景到达与返回",
+      "场景/功能": "咖啡",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 커피，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/cafe.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/cafe.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S03",
+      "类别": "场景到达与返回",
+      "场景/功能": "法堂 / 청연당",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 청연당，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/hall.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/hall.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S04",
+      "类别": "场景到达与返回",
+      "场景/功能": "林径",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 숲길，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/north.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/north.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S05",
+      "类别": "场景到达与返回",
+      "场景/功能": "莲池休憩",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 연못 쉼터，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/coffee-grove.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/coffee-grove.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S06",
+      "类别": "场景到达与返回",
+      "场景/功能": "河边",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 강변 산책로，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/river.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/river.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S07",
+      "类别": "场景到达与返回",
+      "场景/功能": "竹林",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 대나무 숲，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/bamboo.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/bamboo.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S08",
+      "类别": "场景到达与返回",
+      "场景/功能": "晒柿子",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 곶감 덕장，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/persimmons.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/persimmons.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S09",
+      "类别": "场景到达与返回",
+      "场景/功能": "梵钟",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 범종，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/bell.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/bell.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S10",
+      "类别": "场景到达与返回",
+      "场景/功能": "绕塔",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 탑돌이，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/pagoda.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/pagoda.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S11",
+      "类别": "场景到达与返回",
+      "场景/功能": "施工现场",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 공사 현장，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/lantern.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/lantern.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S12",
+      "类别": "场景到达与返回",
+      "场景/功能": "搬瓦工位",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "在地图选择 기와 나르기，实际行走至目标区域，然后选择入口返回山门。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/roundtrips/source/results.json；source-complete/construction-work.png",
+      "本地证据": "comparisons/roundtrips/local/results.json；local-complete/construction-work.png",
+      "差异": "此项只验到达和返回山门；完整边界、所有碰撞/音区分支另列 S13。绕塔以接近公开环线路径并返回为范围；不把不同实时访客造成的停点差异改成固定传送。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "S13",
+      "类别": "场景边界",
+      "场景/功能": "全场景所有边界/碰撞/音区/遮挡组合",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-complete/、roundtrips/source/",
+      "本地证据": "comparisons/local-complete/、roundtrips/local/",
+      "差异": "PARTIAL：已走查公开路线与到达/返回，未穷尽各场景全部边界、每种障碍、音区与遮挡组合。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "V01",
+      "类别": "视觉与运动",
+      "场景/功能": "同条件入口、近景、法堂、池畔、360° 环视",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "地图到入口；真实鼠标转半圈、再转半圈；滚轮近景；按相同路线到法堂和池畔；通过鼠标对齐朝向。",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/gate/source/samples.json、route-and-orbit.webm",
+      "本地证据": "comparisons/gate/local/samples.json、route-and-orbit.webm",
+      "差异": "SOURCE：1920×902、DPR 1、同 Chrome/Metal/白天。6 组角色坐标一致，观测的渲染相机差值最大约 0.0006 世界单位；材质/模型/场景/角色逻辑未改。随机植被、实时访客和动作相位不同。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "F01",
+      "类别": "单人动作",
+      "场景/功能": "合掌、申请坐垫、礼拜与起身移动",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "network/source-dual-session.json；comparisons/source-actions-first-attempt/results.json",
+      "本地证据": "comparisons/regression/native-journey.json；mirror/tests/browser/experience.test.mjs",
+      "差异": "通过限定的动作与开始/停止。坐垫耗尽选择策略和完整座位竞争属于后端替代，见 N02。原脚本礼拜后直接选咖啡曾未完成，已保留失败；本地回归显式先站起移动后再规划路径，不将旧失败记为通过。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "F02",
+      "类别": "单人动作",
+      "场景/功能": "念珠拨动与计数",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-actions-first-attempt/beads.png、results.json",
+      "本地证据": "comparisons/regression/native-journey.json",
+      "差异": "SOURCE：真实键盘聚焦念珠画布后计数从 0 到 1。回访持久化另列 F03。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "F03",
+      "类别": "回访",
+      "场景/功能": "念珠与设置的全部持久化边界",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布包 storage 逻辑；本轮念珠截图",
+      "本地证据": "comparisons/regression/native-journey.json",
+      "差异": "本地已验证刷新后念珠仍为 1；原站全部设置、计数、跨标签和清理策略未逐项复测，不由本地通过替代。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "F04",
+      "类别": "声音",
+      "场景/功能": "木鱼手动/自动与停止",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-actions-first-attempt/moktak.png、results.json",
+      "本地证据": "mirror/tests/browser/experience.test.mjs；comparisons/regression/native-journey.json",
+      "差异": "SOURCE：原音频和图片已落地，原前端自动播放和停止行为保留；音量和输出设备组合未全量听辨。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "F05",
+      "类别": "声音",
+      "场景/功能": "个人诵念播放与停止",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地静态音频；浏览器音频策略",
+      "原站证据": "comparisons/chant.json：source",
+      "本地证据": "comparisons/chant.json：local",
+      "差异": "SOURCE：实际创建的音频元素 currentTime > 0.5 秒且非暂停；停止后 paused=true。约 119.36925 秒原音源完整保存；早晚课另列 T01。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "F06",
+      "类别": "界面",
+      "场景/功能": "设置、供养入口与地图菜单打开",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-actions-first-attempt/settings.png；source-actions/support-entry.png；network/source-map-pins.json",
+      "本地证据": "comparisons/local-actions/support-entry.png；comparisons/regression/native-journey.json",
+      "差异": "只限定已打开菜单的布局/入口；所有设置值、帮助/分享弹窗、焦点冲突与重复操作未全部覆盖。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "N01",
+      "类别": "多人",
+      "场景/功能": "两名独立真实访客同房互见与事件",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "network/source-dual-session.json：aSeesB/bSeesA=true，同 room/instance",
+      "本地证据": "comparisons/regression/two-visitors.json",
+      "差异": "SOURCE 与本地均有真实双连接；本地另有桌面+触屏模拟独立上下文。4 位常住僧来自原前端，未用虚拟访客替代真实联机。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "N02",
+      "类别": "多人",
+      "场景/功能": "坐垫竞争、重复请求和释放",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "network/source-dual-session.json；主包 validVisitors/x2/mo",
+      "本地证据": "mirror/tests/protocol.test.mjs；unit-final.log",
+      "差异": "本地测试一个剩余坐垫只授予一人、重复不多占、起身/断线释放。原站耗尽策略、冷却、极限并发与选位时序未完整取证。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "N03",
+      "类别": "多人",
+      "场景/功能": "换房、断线重连和身份/杯子恢复",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "客户端握手/存储；network/source-dual-session.json",
+      "本地证据": "comparisons/regression/two-visitors.json；mirror/tests/protocol.test.mjs；clean-install.log",
+      "差异": "本地真实断连后恢复同一身份，换房释放旧状态；短断线杯子保留。原站多地区实例、长期保留和所有回访规则未对齐。原站本轮直接 room-switch 消息返回错误，弹性客户端实际新建连接。 默认无参数首页的 room=auto 分房已补齐并加入独立浏览器回归；本地选择首个有空位房间，不声明与原站自动分配策略相同。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A01",
+      "类别": "活动",
+      "场景/功能": "上香排队、开始与完成仪式",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "network/source-incense-near-altar.json；comparisons/source-incense/results.json、ritual.webm",
+      "本地证据": "comparisons/local-incense/results.json、ritual.webm；mirror/tests/protocol.test.mjs",
+      "差异": "双侧真实浏览器均走到香炉附近并完成原前端仪式，本地规则处理队首、取消、掉线、租期与过期。精确原服务阈值、所有并发时序未穷尽；本地入口距离已修正为兼容原按钮出现范围。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A02",
+      "类别": "活动",
+      "场景/功能": "咖啡制作赠送杯",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-actions/results.json、coffee.png",
+      "本地证据": "comparisons/local-actions/results.json、coffee.png",
+      "差异": "双侧原前端完成制作并持杯。约 5 秒的在线制作规则有源码/运行证据；整个咖啡服务仍是本地替代，不能据此宣布所有赠送分支通过。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A03",
+      "类别": "活动",
+      "场景/功能": "25 次礼拜兑换个人杯并分三口喝完",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-self-coffee/results.json",
+      "本地证据": "comparisons/local-self-coffee/results.json",
+      "差异": "双侧真实浏览器均完成 25 次礼拜、兑换个人杯并分三口喝空；视频/状态保留。此分支运行通过，咖啡服务仍是替代，精确原服务计时、额度边界与所有失败规则未完全对齐。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A04",
+      "类别": "活动",
+      "场景/功能": "咖啡多人赠送/索要/拒绝/取消/垃圾桶/园中席位全部分支",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布客户端协议和动画；已完成制作分支",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地实现所有已发现 cafe25 action，并有赠送、收到、饮用、席位排他和重复请求测试；原站完整真人交接动画、各垃圾桶与失败恢复组合未逐项对照。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A05",
+      "类别": "活动",
+      "场景/功能": "施工装备、搬瓦和状态",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "network/source-dual-session.json 的 construction；发布包 useConstruction/$1",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地按 equip/take/drop/return 和工位距离实现，重复交付不加两次；满额后向未完成房间交付，全房间完成后关闭参与。原站精确跨服分配、持久化和结束时序未完整取证，仍为替代。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A06",
+      "类别": "活动",
+      "场景/功能": "许愿灯写入及当前开放条件",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "主包 lantern-yard-hang/iy；当前原站快照未开放 lanternYard",
+      "本地证据": "明确返回 lantern-yard-result/unavailable",
+      "差异": "PARTIAL：发现了代码与素材，但本轮当前公共流程未取得可写许愿灯的运行证据；没有伪造一个可用活动来计算通过。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "P01",
+      "类别": "供养",
+      "场景/功能": "入口与本地支付模拟",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-actions/support-entry.png；原始两个支付链接",
+      "本地证据": "mirror/patches/patches.json；mirror/tests/server.test.mjs；clean-install.log",
+      "差异": "按计划只验证入口和本地模拟反馈，不执行真实支付；两个支付 href 经登记补丁改为本地页面，不将模拟当作原版支付通过。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "T01",
+      "类别": "时段",
+      "场景/功能": "韩国时间早晚课及昼夜边界",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布包 p2/g_；原站白天运行证据",
+      "本地证据": "原前端保留；night 音频已冻结",
+      "差异": "未在原站实际观察 05:00/18:00 早晚课及昼夜切换前、中、后全过程；没有改本地时钟伪装原站证据。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "D01",
+      "类别": "设备",
+      "场景/功能": "桌面 Chrome 核心旅程",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/gate/source/；source-complete/runtime.json",
+      "本地证据": "comparisons/regression/；clean-install.log",
+      "差异": "真实安装的 Chrome 157.0.8103.40，Metal。1920×902、1280×720、960×451 等视口分别保留证据，视口不同的样本不混作同条件截图。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "D02",
+      "类别": "设备",
+      "场景/功能": "触屏模拟行走/拖动/双指缩放/换房",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "原始未改输入程序；设备实测不由模拟替代",
+      "本地证据": "comparisons/regression/touch-input.json、two-visitors.json",
+      "差异": "限定本地模拟行为通过：Chrome 390×844、trusted CDP touch。不是 iPhone 或 Android 真机，也不是当前原站真机对照。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "D03",
+      "类别": "设备",
+      "场景/功能": "实际 Safari",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "未取得本轮原站 Safari 核心流程",
+      "本地证据": "comparisons/safari/result.json",
+      "差异": "已尝试实际安装 Safari 17.6 驱动，被“未启用允许远程自动化”阻断；没有用 Playwright WebKit 替代实测。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "D04",
+      "类别": "设备",
+      "场景/功能": "真实 iPhone Safari",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "无真机记录",
+      "本地证据": "无真机记录",
+      "差异": "缺真实设备；模拟不算真机通过。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "D05",
+      "类别": "设备",
+      "场景/功能": "真实 Android Chrome",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "无真机记录",
+      "本地证据": "无真机记录",
+      "差异": "缺真实设备；模拟不算真机通过。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "X01",
+      "类别": "独立运行",
+      "场景/功能": "原站、CDN 和外部 WebSocket 阻断后本地旅程",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "resource-graph.json、原站请求/协议记录",
+      "本地证据": "mirror/tests/browser/experience.test.mjs；clean-install.log；roundtrips/local/results.json",
+      "差异": "限定已测本地旅程：干净上下文、禁用 SW 影响、HTTP 和 WebSocket 仅准本地源；核心操作/回访/重连/触屏与地图运行不依赖原站缓存或后台。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "X02",
+      "类别": "异常",
+      "场景/功能": "动态模块失败提示和重试恢复",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/performance.json 的 source recovery",
+      "本地证据": "comparisons/regression/resource-recovery.json；performance.json 的 local recovery",
+      "差异": "持续阻断首次导航的游戏模块至原生错误出现；解除阻断后重载恢复。单次 preload 失败会被实际 import 重试，早期无效探针保留但不计作错误恢复通过。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "X03",
+      "类别": "异常",
+      "场景/功能": "弱网/长期后台/资源与活动全组合",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "未穷尽",
+      "本地证据": "已测模块失败、真实 WS 断开、刷新和回访",
+      "差异": "未穷尽弱网参数、长期后台、活动中切换设备/房间和所有迟到消息时序。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "M01",
+      "类别": "性能",
+      "场景/功能": "同设备三次加载与帧率样本",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/performance.json：source 3 次",
+      "本地证据": "comparisons/performance.json：local 3 次",
+      "差异": "描述性样本：源站访客数不能控制，本地缓存/网络不同；不以本地加载更快证明严格性能等价。",
+      "负责人": "Codex",
+      "状态": "通过"
+    },
+    {
+      "编号": "F07",
+      "类别": "界面",
+      "场景/功能": "咖啡作品、邀请/分享、二维码与图片导出全部分支",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "comparisons/source-actions-first-attempt/settings.png；source-actions/support-entry.png；network/source-map-pins.json",
+      "本地证据": "comparisons/local-actions/support-entry.png；comparisons/regression/native-journey.json",
+      "差异": "代码和动态模块/真实素材已保存，未逐分支执行分享、存图及原站/本地对应焦点流程。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    },
+    {
+      "编号": "A04-1",
+      "类别": "活动分支",
+      "场景/功能": "赠送杯 offer / accept 的双访客完整动画",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布客户端协议和动画；已完成制作分支",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地状态机有赠送/接收测试；原站完整真人交接动画与距离边界未逐项对照。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A04-2",
+      "类别": "活动分支",
+      "场景/功能": "索要咖啡 request / approve / accept",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布客户端协议和动画；已完成制作分支",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地已处理协议；原站请求、批准、走近和交接的完整运行证据未齐。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A04-3",
+      "类别": "活动分支",
+      "场景/功能": "咖啡拒绝、取消、过期和对方掉线",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布客户端协议和动画；已完成制作分支",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地有明确响应与清理；原站所有迟到、重复与超时组合未齐。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A04-4",
+      "类别": "活动分支",
+      "场景/功能": "各垃圾桶的杯子处置政策",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布客户端协议和动画；已完成制作分支",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地 dispose/clear 已实现；各垃圾桶精确距离、未喝完个人杯与赠送杯政策未完全对齐。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A04-5",
+      "类别": "活动分支",
+      "场景/功能": "园中落座、起身、座位竞争与拍照",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "发布客户端协议和动画；已完成制作分支",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地 cafe25 席位排他有测试；原站各席位、拍照与持杯约束未全量对照。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "A05-1",
+      "类别": "活动分支",
+      "场景/功能": "施工满额跨服溢出与全服完成",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "network/source-dual-session.json 的 construction；发布包 useConstruction/$1",
+      "本地证据": "mirror/server/activities.mjs；mirror/tests/protocol.test.mjs",
+      "差异": "本地已实现满额后跨房间交付、重复请求不重复加瓦，以及全房间完成后关闭参与；选择目标房间和原站全服生命周期仍未取得完整对照证据。",
+      "负责人": "Codex",
+      "状态": "替代实现"
+    },
+    {
+      "编号": "X04",
+      "类别": "输入边界",
+      "场景/功能": "文本焦点、快捷键、拖动与所有活动冲突",
+      "发现依据": "SOURCE：冻结发布包与本轮原站观测；缺失分支在差异中明确标为 PARTIAL/INFERENCE",
+      "原站构建哈希": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "前置条件": "干净公开访客上下文；白天；见证据中的视口和浏览器",
+      "输入步骤": "按对应取证脚本或测试步骤执行",
+      "预期反馈": "完成本条名称所限定的行为；不扩大为未观测分支通过",
+      "资源依赖": [
+        "baseline/manifest.json 中的当前发布程序、模型、材质、字体和音频"
+      ],
+      "服务依赖": "本地 presence/cafe25/activities",
+      "原站证据": "未穷尽",
+      "本地证据": "已测模块失败、真实 WS 断开、刷新和回访",
+      "差异": "原客户端输入保护保留，核心键盘和触屏已测；全部表单、分享、活动的焦点组合尚未全验。",
+      "负责人": "Codex",
+      "状态": "未验证"
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "edges": [
+    {
+      "from": "https://sansatemple.com/assets/game-CvBwdk0t.css",
+      "to": "https://sansatemple.com/fonts/SansaQuietUI-Remainder.woff2?v=56a14a34e80f",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-CvBwdk0t.css",
+      "to": "https://sansatemple.com/fonts/SansaQuietUI-Core.woff2?v=8cec618861e8",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/index-qXYao_lF.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/0-B2e-TO8Y.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/1-CCaZQ86C.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/2-D0tvDGl0.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/3-DM4oxTVV.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/4-1jNKKhJA.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/village-map-world-xeQKR8tV.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/moktak-7FyZzEKd.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v12/snowdrop-artwork.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/altar-devotion.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/altar-devotion.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/environment/woodland.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/environment/woodland.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/cloth/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/cloth/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/cloth/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/ground/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/ground/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/ground/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/plaster/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/plaster/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/plaster/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/rock/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/rock/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/rock/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/roof/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/roof/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/roof/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/stone/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/stone/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/stone/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/wood/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/color.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/wood/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/normal.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/materials/wood/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/roughness.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/buddha.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/models/buddha.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/pine.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/models/pine.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/monk-remote-lod.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/monk-remote-lod.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/monk.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/monk.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/monk.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/monk-remote-lod.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/sha2-BqLbjB6e.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v12/cafe25-wordmark-black.png",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v5/gongyang-cat.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v5/gongyang-cat-fit-v1.bin",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/sha2-BqLbjB6e.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v12/village-artwork-preview.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/village-mural-preview.jpg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/altar-wall-calm-20261102.jpg?v=074017b9f22d",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/village-buddha-preview.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/village-mahastamaprapta-preview.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/village-avalokitesvara-preview.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/buddha.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/mahastamaprapta.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/avalokitesvara.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/models/pine.glb",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v16/snowdrop-handoff.webp",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v2/official-gs25-logo-color.png",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/qrcode-5IewWFXk.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/cafe25-v2/official-gs25-logo-color.png",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/village-route-worker-4FUpLuoq.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/environment/village-horizon.png",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/audio/heart-sutra-v1.mp3",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/audio/temple-chant-review-v1.mp3",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/audio/temple-chant-review-v1.license.txt",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/presence-worker-BB8LPRz2.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/kakaopay-support-e_RomHli.svg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/buymeacoffee-logo-Dd8V_aS3.svg",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/audio/moktak-natural.license.txt",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/audio/moktak-hit-natural.wav?v=c3f11da43c87",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/assets/audio/moktak-hit-natural.wav?v=c3f11da43c87",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/index-qXYao_lF.js",
+      "to": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/index-qXYao_lF.js",
+      "to": "https://sansatemple.com/assets/safari-scene-bleed-BChFMqZ0.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/assets/index-qXYao_lF.js",
+      "to": "https://sansatemple.com/assets/visible-viewport-B0ZlO9sH.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/og/sansa-rest-20261101-v11.png",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/og/sansa-rest-20261101-v11.png",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/favicon.ico?v=4c79780808f4",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/favicon.svg?v=4c79780808f4",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/favicon-32.png?v=4c79780808f4",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/apple-touch-icon.png?v=ccfba25ef8c5",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/manifest.webmanifest?v=ccfba25ef8c5",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/fonts/SansaQuietUI-Core.woff2?v=8cec618861e8",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/assets/index-qXYao_lF.js",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/manifest.webmanifest?v=ccfba25ef8c5",
+      "to": "https://sansatemple.com/icon-192.png?v=ccfba25ef8c5",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/manifest.webmanifest?v=ccfba25ef8c5",
+      "to": "https://sansatemple.com/icon-512.png?v=ccfba25ef8c5",
+      "evidence": "published-file"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/audio/moktak-hit-natural.wav?v=c3f11da43c87",
+      "evidence": "published document.baseURI reference"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/audio/village/forest.mp3",
+      "evidence": "published dynamic audio naming"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/audio/village/bird-calls.mp3",
+      "evidence": "published dynamic audio naming"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/audio/village/footsteps.mp3",
+      "evidence": "published dynamic audio naming"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/audio/village/leaves.mp3",
+      "evidence": "published dynamic audio naming"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/audio/village/night.mp3",
+      "evidence": "published dynamic audio naming"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/favicon.ico",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/favicon.svg",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/favicon-32.png",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/apple-touch-icon.png",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/icon-192.png",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/icon-512.png",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/manifest.webmanifest",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "https://sansatemple.com/",
+      "to": "https://sansatemple.com/og/sansa-rest-20261101-v11.png",
+      "evidence": "entry metadata"
+    },
+    {
+      "from": "assets/game-U0Pmc8tU.js",
+      "to": "https://sansatemple.com/api/rooms/village?map=village-1&roomLimit=20&elastic=1",
+      "evidence": "published-file + captured HTTP response"
+    },
+    {
+      "from": "assets/game-U0Pmc8tU.js",
+      "to": "/presence/village",
+      "evidence": "published-file + captured two-session WebSocket"
+    },
+    {
+      "from": "assets/game-U0Pmc8tU.js",
+      "to": "/api/entry-stage",
+      "evidence": "published-file telemetry reference; local 204 substitute"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://sansatemple.com/audio/heart-sutra-v1.mp3",
+      "error": "invalid asset 404 ",
+      "disposition": "SOURCE 404 for a legacy/code-only audio label; current active rc.src is temple-chant-review-v1.mp3. Not observed as a runtime dependency in covered journeys; remains an unavailable code reference."
+    },
+    {
+      "url": "https://sansatemple.com/assets/audio/moktak-hit-natural.wav?v=c3f11da43c87",
+      "error": "invalid asset 404 ",
+      "disposition": "Static extraction used module base, but this new URL explicitly uses document.baseURI; the correct /audio/moktak-hit-natural.wav is frozen and exercised."
+    }
+  ],
+  "scope": "identified references, not proof of exhaustive hidden-content discovery"
+}

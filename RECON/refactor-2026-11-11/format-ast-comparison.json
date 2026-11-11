@@ -1,0 +1,82 @@
+[
+  {
+    "file": "tools/apply-patches.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-actions.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-chant.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-incense-browser.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-incense.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-protocol.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-self-coffee.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-source.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/capture-visual-gate.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/check-static-only.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/compare-journeys.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/complete-assets.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/measure-runtime.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/probe-local.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/roundtrips.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tools/safari-smoke.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tests/assets.test.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tests/protocol.test.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tests/server.test.mjs",
+    "astIdentical": true
+  },
+  {
+    "file": "tests/browser/experience.test.mjs",
+    "astIdenticalExceptOutput": true
+  }
+]

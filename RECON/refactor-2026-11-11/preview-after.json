@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:4191/",
+  "healthStatus": 200,
+  "health": {
+    "ok": true,
+    "map": "village-1",
+    "mode": "local replacement backend",
+    "bots": 0,
+    "connections": 0
+  },
+  "webSocketSnapshot": {
+    "type": "snapshot",
+    "map": "village-1",
+    "room": "maru-20",
+    "visitors": 1
+  }
+}

@@ -1,0 +1,355 @@
+[
+  {
+    "method": "GET",
+    "path": "/",
+    "range": null,
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "HEAD",
+    "path": "/",
+    "range": null,
+    "status": 403,
+    "headers": {},
+    "body": ""
+  },
+  {
+    "method": "POST",
+    "path": "/",
+    "range": null,
+    "status": 405,
+    "headers": {
+      "allow": "GET, HEAD",
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/",
+    "range": null,
+    "status": 405,
+    "headers": {
+      "allow": "GET, HEAD",
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/__mirror/payment?method=kakao",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "no-store",
+      "transfer-encoding": "chunked"
+    },
+    "body": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>로컬 모의 공양</title><body style=\"background:#eeece3;color:#4d5144;font:18px/1.8 sans-serif;padding:3rem;max-width:40rem;margin:auto\"><h1>모의 공양이 완료되었어요</h1><p>이 화면은 로컬 테스트예요. 실제 결제나 송금은 발생하지 않았어요.</p><a href=\"/\">산사로 돌아가기</a></body></html>"
+  },
+  {
+    "method": "POST",
+    "path": "/__mirror/payment",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "no-store",
+      "transfer-encoding": "chunked"
+    },
+    "body": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>로컬 모의 공양</title><body style=\"background:#eeece3;color:#4d5144;font:18px/1.8 sans-serif;padding:3rem;max-width:40rem;margin:auto\"><h1>모의 공양이 완료되었어요</h1><p>이 화면은 로컬 테스트예요. 실제 결제나 송금은 발생하지 않았어요.</p><a href=\"/\">산사로 돌아가기</a></body></html>"
+  },
+  {
+    "method": "HEAD",
+    "path": "/__mirror/payment",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "no-store"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/entry-stage",
+    "range": null,
+    "status": 204,
+    "headers": {},
+    "body": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/entry-stage",
+    "range": null,
+    "status": 204,
+    "headers": {},
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/rooms",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store",
+      "transfer-encoding": "chunked"
+    },
+    "body": "{\"ok\":true,\"map\":\"village-1\",\"serverTime\":1800000000000,\"rooms\":[{\"id\":\"maru\",\"number\":1,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-02\",\"number\":2,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-03\",\"number\":3,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-04\",\"number\":4,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-05\",\"number\":5,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-06\",\"number\":6,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-07\",\"number\":7,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-08\",\"number\":8,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-09\",\"number\":9,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-10\",\"number\":10,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-11\",\"number\":11,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-12\",\"number\":12,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-13\",\"number\":13,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-14\",\"number\":14,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-15\",\"number\":15,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-16\",\"number\":16,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-17\",\"number\":17,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-18\",\"number\":18,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-19\",\"number\":19,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false},{\"id\":\"maru-20\",\"number\":20,\"count\":0,\"capacity\":50,\"checkedAt\":1800000000000,\"stale\":false}]}"
+  },
+  {
+    "method": "HEAD",
+    "path": "/api/rooms/village",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store"
+    },
+    "body": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/rooms",
+    "range": null,
+    "status": 405,
+    "headers": {
+      "allow": "GET, HEAD",
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/__mirror/health",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store",
+      "transfer-encoding": "chunked"
+    },
+    "body": "{\"ok\":true,\"map\":\"village-1\",\"mode\":\"local replacement backend\",\"bots\":0,\"connections\":0}"
+  },
+  {
+    "method": "GET",
+    "path": "/missing",
+    "range": null,
+    "status": 404,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/%",
+    "range": null,
+    "status": 400,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/%00",
+    "range": null,
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/%5c",
+    "range": null,
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/%2e%2e%2foutside.txt",
+    "range": null,
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/outside.txt",
+    "range": null,
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/unknown.extension",
+    "range": null,
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": null,
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "HEAD",
+    "path": "/audio.mp3",
+    "range": null,
+    "status": 403,
+    "headers": {},
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=0-1",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=3-",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=-3",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=0-100",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=-100",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=10-",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=9-0",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=-0",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=-",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=0-1,3-4",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "bytes=9007199254740992-",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "path": "/audio.mp3",
+    "range": "invalid",
+    "status": 403,
+    "headers": {
+      "transfer-encoding": "chunked"
+    },
+    "body": ""
+  },
+  {
+    "method": "HEAD",
+    "path": "/audio.mp3",
+    "range": "bytes=3-5",
+    "status": 403,
+    "headers": {},
+    "body": ""
+  }
+]

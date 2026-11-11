@@ -1,0 +1,80 @@
+{
+  "startedAt": "2026-11-11T03:05:42.282967+00:00",
+  "entry": "https://sansatemple.com/",
+  "referenceMirror": "https://github.com/studyguy/studyguy.github.io",
+  "scope": "local, original Korean UI; no public deployment",
+  "browser": "installed Chrome, Metal",
+  "viewport": {
+    "width": 1920,
+    "height": 902,
+    "dpr": 1
+  },
+  "os": "macOS-14.8.2-arm64-arm-64bit",
+  "access": "public visitor; clean contexts; no login",
+  "branch": "codex/sansa-experience",
+  "previousServices": [
+    4174,
+    4180
+  ],
+  "port": 4191,
+  "snapshot": {
+    "path": ".snapshots/pre-mirror-2026-11-11.tar.gz",
+    "sha256": "7e9f44b996ab4859b9335df007faf4dcbef21922fc86acadfa2dfed8754f8901"
+  },
+  "hashBasis": "decoded HTTP response bytes",
+  "license": "Original site has no redistribution license established; third-party reference has no LICENSE tracked. Local study only. Original credits preserved.",
+  "frozenFiles": [
+    {
+      "path": "assets/game-CvBwdk0t.css",
+      "sha256": "8042fec7370ebd5dafe3351a929b7a8e11a67f702c75635f1382d2e6169f022b"
+    },
+    {
+      "path": "assets/game-U0Pmc8tU.js",
+      "sha256": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18"
+    },
+    {
+      "path": "assets/index-qXYao_lF.js",
+      "sha256": "3fb762f018c3d02d66a2de596e52447846adba7e303afb20643a0a8b14190ae7"
+    },
+    {
+      "path": "assets/presence-worker-BB8LPRz2.js",
+      "sha256": "3abdc6127726322c0832c59c2785d23f69242456a3d70981880e9c9d03555409"
+    },
+    {
+      "path": "assets/qrcode-5IewWFXk.js",
+      "sha256": "2970b32cca017d3a139d8d57ce77710f95c68a448624447be30ef9ffe2664099"
+    },
+    {
+      "path": "assets/safari-scene-bleed-BChFMqZ0.js",
+      "sha256": "2577ba9e79aaf8d6b335f7c1dedc4d1b883848369f14b79e7e155fc8876177bc"
+    },
+    {
+      "path": "assets/sha2-BqLbjB6e.js",
+      "sha256": "bedbb48bf385b9348c4f64059d0b5edd8049dcff099376118e81063b258956a3"
+    },
+    {
+      "path": "assets/village-route-worker-4FUpLuoq.js",
+      "sha256": "de85f2614a025e7a4ef2d80fb127b1ce9bf38cf62e6f7430b4cd40a55203e7aa"
+    },
+    {
+      "path": "assets/visible-viewport-B0ZlO9sH.js",
+      "sha256": "1dc0b56052cf2e8983a0abe4a85c2eb7dbe83e2233f1e6d14485d38aeb6752cb"
+    },
+    {
+      "path": "index.html",
+      "sha256": "972d9727d156777d2a3025150d77cf7b4e78bd3ed76e24956cec95d033701f4d"
+    }
+  ],
+  "freezeRecheckedAt": "2026-11-11T03:13:31.678Z",
+  "runtimeEnvironment": {
+    "browser": "157.0.8103.40",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "dpr": 1,
+    "gpuRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "gpuVendor": "Google Inc. (Apple)"
+  },
+  "finalVersionRecheckedAt": "2026-11-11T04:02:35.557Z",
+  "capturePort": 4190,
+  "portAdjustment": "Final preview uses 4191 because standard Fetch rejects 4190 as a forbidden port. Historical captures retain their actual 4190 URLs."
+}

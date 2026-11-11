@@ -1,0 +1,4 @@
+# Preserve downloaded bytes so manifest hashes survive checkout on every platform.
+mirror/site/** -text
+mirror/baseline/** -text
+public/** -text

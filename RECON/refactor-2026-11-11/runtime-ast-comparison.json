@@ -1,0 +1,110 @@
+[
+  {
+    "name": "HTTP handler",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "WebSocket upgrade and message handlers",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.constructor",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.room",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.deliverConstruction",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.publishConstruction",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.directory",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.broadcast",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.delta",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.snapshot",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.connect",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.disconnect",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "PresenceHub.tick",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "message dispatch, validation and request caching",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "Activities.constructor",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "Activities.remove",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "incense.nearIncense",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "incense.queueChanged",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "incense.join",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "incense.leave",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "incense.start",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "incense.offer",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "incense.tick",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "construction.work",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "construction.participation",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "construction.construction",
+    "executableAstIdentical": true
+  },
+  {
+    "name": "Cafe25 class",
+    "executableAstIdentical": true
+  }
+]

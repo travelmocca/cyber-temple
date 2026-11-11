@@ -1,0 +1,44 @@
+{
+  "source": "https://sansatemple.com/",
+  "patches": [
+    {
+      "id": "remove-injected-analytics",
+      "target": "index.html",
+      "beforeSha256": "972d9727d156777d2a3025150d77cf7b4e78bd3ed76e24956cec95d033701f4d",
+      "afterSha256": "ff1d6a40bb4b3255735de6488495ed1c58c631ccf6ed11d4f36ad6c4b9aa91f6",
+      "before": "<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092\" integrity=\"sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"8228e4f2fe6a4d7db361b76d995a3340\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>",
+      "after": "",
+      "reason": "Remove Cloudflare-injected tracking and its external request; rendering and interaction are unchanged",
+      "experience": [
+        "I01",
+        "X01"
+      ]
+    },
+    {
+      "id": "local-kakao-payment",
+      "target": "assets/game-U0Pmc8tU.js",
+      "beforeSha256": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "afterSha256": "b9beccd340070a5f65c245c10455e80a31bd4b6317d93fcb6a757f48ae4b2318",
+      "before": "href=\"https://qr.kakaopay.com/FYgMG5o7J\"",
+      "after": "href=\"/__mirror/payment?method=kakao\"",
+      "reason": "Route payment entry to explicitly labeled local simulation; no real provider request or payment",
+      "experience": [
+        "P01",
+        "X01"
+      ]
+    },
+    {
+      "id": "local-coffee-payment",
+      "target": "assets/game-U0Pmc8tU.js",
+      "beforeSha256": "b9beccd340070a5f65c245c10455e80a31bd4b6317d93fcb6a757f48ae4b2318",
+      "afterSha256": "9cae64b9045f6f82c487fdadd87c761dda3e685bc46a75e07aeb1676a306e27f",
+      "before": "href=\"https://buymeacoffee.com/sansatemple\"",
+      "after": "href=\"/__mirror/payment?method=coffee\"",
+      "reason": "Route payment entry to explicitly labeled local simulation; no real provider request or payment",
+      "experience": [
+        "P01",
+        "X01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+
+> sansa-published-mirror@0.1.0 test:e2e
+> node --test --test-concurrency=1 tests/browser/*.test.mjs
+
+TAP version 13
+# Subtest: original UI completes beads, audio, tools, café, hall and revisit with original domains blocked
+ok 1 - original UI completes beads, audio, tools, café, hall and revisit with original domains blocked
+  ---
+  duration_ms: 49922.214417
+  type: 'test'
+  ...
+# Subtest: two independent browsers see each other, change rooms and resume after actual connection loss
+ok 2 - two independent browsers see each other, change rooms and resume after actual connection loss
+  ---
+  duration_ms: 10633.070333
+  type: 'test'
+  ...
+# Subtest: real pointer drags orbit 360 degrees and wheel zoom stays bounded
+ok 3 - real pointer drags orbit 360 degrees and wheel zoom stays bounded
+  ---
+  duration_ms: 12494.799417
+  type: 'test'
+  ...
+# Subtest: failed dynamic module load shows retry and recovers in a clean context
+ok 4 - failed dynamic module load shows retry and recovers in a clean context
+  ---
+  duration_ms: 3265.390333
+  type: 'test'
+  ...
+# Subtest: mobile touch tap walks, drag orbits and two-finger pinch zooms
+ok 5 - mobile touch tap walks, drag orbits and two-finger pinch zooms
+  ---
+  duration_ms: 10740.556416
+  type: 'test'
+  ...
+# Subtest: default URL without query parameters admits a clean visitor
+ok 6 - default URL without query parameters admits a clean visitor
+  ---
+  duration_ms: 4169.246833
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 92120.223125

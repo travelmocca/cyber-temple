@@ -1,0 +1,1405 @@
+{
+  "hashBasis": "decoded HTTP response bytes",
+  "files": [
+    {
+      "url": "https://sansatemple.com/apple-touch-icon.png?v=ccfba25ef8c5",
+      "finalURL": "https://sansatemple.com/apple-touch-icon.png?v=ccfba25ef8c5",
+      "path": "apple-touch-icon.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 33262,
+      "sha256": "bd1ff4a36496f24efad9ca6aa38754fd1723f43b445e6c0aaa186c10b80b12ba",
+      "capturedAt": "2026-11-11T03:09:37.688Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/0-B2e-TO8Y.webp",
+      "finalURL": "https://sansatemple.com/assets/0-B2e-TO8Y.webp",
+      "path": "assets/0-B2e-TO8Y.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 16786,
+      "sha256": "2ff9008b4eb35abfe181fd987b772c1c1be3081d4b9c7fbe1d71e726207fcef6",
+      "capturedAt": "2026-11-11T03:09:38.697Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/1-CCaZQ86C.webp",
+      "finalURL": "https://sansatemple.com/assets/1-CCaZQ86C.webp",
+      "path": "assets/1-CCaZQ86C.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 17578,
+      "sha256": "80ad45b11bf699c0e34cf0f3e5df92dcc79114e22e21442301f6a62eb762c4c8",
+      "capturedAt": "2026-11-11T03:09:39.197Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/2-D0tvDGl0.webp",
+      "finalURL": "https://sansatemple.com/assets/2-D0tvDGl0.webp",
+      "path": "assets/2-D0tvDGl0.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 16656,
+      "sha256": "38951dce04ca6c5754a9af1018936cbfe73f785ade95a113b455e5fb1b902cc5",
+      "capturedAt": "2026-11-11T03:09:39.257Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/3-DM4oxTVV.webp",
+      "finalURL": "https://sansatemple.com/assets/3-DM4oxTVV.webp",
+      "path": "assets/3-DM4oxTVV.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 16928,
+      "sha256": "92c7cc19988455a4e85a48b67b557c43c9e161443831c2b050f0cca9517cca44",
+      "capturedAt": "2026-11-11T03:09:40.286Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/4-1jNKKhJA.webp",
+      "finalURL": "https://sansatemple.com/assets/4-1jNKKhJA.webp",
+      "path": "assets/4-1jNKKhJA.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 16518,
+      "sha256": "3c3ab18a239649cf5ae39b817bb26973c55efe8011674960929f8a482d382a80",
+      "capturedAt": "2026-11-11T03:09:40.392Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/altar-devotion.jpg",
+      "finalURL": "https://sansatemple.com/assets/altar-devotion.jpg",
+      "path": "assets/altar-devotion.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 1290114,
+      "sha256": "2c344920105b7a3a2f795c9d03b963a940cc412f11c51490086b5b093aa85b5e",
+      "capturedAt": "2026-11-11T03:09:42.331Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/altar-wall-calm-20261102.jpg?v=074017b9f22d",
+      "finalURL": "https://sansatemple.com/assets/altar-wall-calm-20261102.jpg?v=074017b9f22d",
+      "path": "assets/altar-wall-calm-20261102.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 1026536,
+      "sha256": "074017b9f22d14f3cc9abb2fb27884d1cea07d7686a4d3ebdbe1f3843e5c9bfd",
+      "capturedAt": "2026-11-11T03:05:46.223Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"3851d361263f27a2928802ccae9f2c8a\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/buymeacoffee-logo-Dd8V_aS3.svg",
+      "finalURL": "https://sansatemple.com/assets/buymeacoffee-logo-Dd8V_aS3.svg",
+      "path": "assets/buymeacoffee-logo-Dd8V_aS3.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 8133,
+      "sha256": "a668a2adad6bae5ee7e6d669cfa7876a75d572db71ac9a91f30c2e295bedb3de",
+      "capturedAt": "2026-11-11T03:05:17.270Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"f1e35f5671258c8ffe5b2ea412bbde96\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/cafe25-v12/cafe25-wordmark-black.png",
+      "finalURL": "https://sansatemple.com/assets/cafe25-v12/cafe25-wordmark-black.png",
+      "path": "assets/cafe25-v12/cafe25-wordmark-black.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 14812,
+      "sha256": "9742d9f9a8ea66619f9c69b005e435a398d4874dae93928ddc9a70b68051370b",
+      "capturedAt": "2026-11-11T03:07:38.682Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"6d850b072d36e92e2b3fb3c8619f075a\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/cafe25-v12/snowdrop-artwork.webp",
+      "finalURL": "https://sansatemple.com/assets/cafe25-v12/snowdrop-artwork.webp",
+      "path": "assets/cafe25-v12/snowdrop-artwork.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 665864,
+      "sha256": "cf9a1e1f4d95c75fae47dccb57b31d70ffbf09f95953d83e9f58f5191a644b36",
+      "capturedAt": "2026-11-11T03:05:43.950Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"25adc6e83f7d95977a02c1df4fc02d42\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/cafe25-v12/village-artwork-preview.jpg",
+      "finalURL": "https://sansatemple.com/assets/cafe25-v12/village-artwork-preview.jpg",
+      "path": "assets/cafe25-v12/village-artwork-preview.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 56897,
+      "sha256": "9dd3a4e3a207ed385f371d3fce6fb4bb3ea00da26da9143713c321f12ee41ad6",
+      "capturedAt": "2026-11-11T03:05:22.186Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"bc594e1597e358c9dd51b92d75cd93a0\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/cafe25-v16/snowdrop-handoff.webp",
+      "finalURL": "https://sansatemple.com/assets/cafe25-v16/snowdrop-handoff.webp",
+      "path": "assets/cafe25-v16/snowdrop-handoff.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 421250,
+      "sha256": "67f2ae48eecaa6e763fe5a7c5c7c7f49f2789aa43df86bedb3c8ebc431a4943a",
+      "capturedAt": "2026-11-11T03:09:54.579Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/cafe25-v2/official-gs25-logo-color.png",
+      "finalURL": "https://sansatemple.com/assets/cafe25-v2/official-gs25-logo-color.png",
+      "path": "assets/cafe25-v2/official-gs25-logo-color.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 3211,
+      "sha256": "50bd0d6960049f3c1ee389a253cd8c99b07bf5125a1bb8a6345157243e74949d",
+      "capturedAt": "2026-11-11T03:05:17.194Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"cf4d6e13de071fb81ec2aa26f5f21b00\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/cafe25-v5/gongyang-cat-fit-v1.bin",
+      "finalURL": "https://sansatemple.com/assets/cafe25-v5/gongyang-cat-fit-v1.bin",
+      "path": "assets/cafe25-v5/gongyang-cat-fit-v1.bin",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 223824,
+      "sha256": "597dfbc67dfa9cccd3d81857b0e963b684d6a13242ed47b3884b582269d33afc",
+      "capturedAt": "2026-11-11T03:05:21.280Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"504e05350e957b23daf3f4aa3e47303f\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/cafe25-v5/gongyang-cat.glb",
+      "finalURL": "https://sansatemple.com/assets/cafe25-v5/gongyang-cat.glb",
+      "path": "assets/cafe25-v5/gongyang-cat.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 2297972,
+      "sha256": "4b395ba943d647f4c490c982a70fa2175ef91569615773da7ef3429e427ed21a",
+      "capturedAt": "2026-11-11T03:05:22.222Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"5adb58970c82994533cfe254bda70bc6\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/environment/village-horizon.png",
+      "finalURL": "https://sansatemple.com/assets/environment/village-horizon.png",
+      "path": "assets/environment/village-horizon.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 22334,
+      "sha256": "272bdc10ae6728bb863e1c7181e7e58bb31cb82d738b85d37bd7d7d7b80127f8",
+      "capturedAt": "2026-11-11T03:05:18.263Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"060634471e4437dd4084e0baacbbc30a\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/environment/woodland.jpg",
+      "finalURL": "https://sansatemple.com/assets/environment/woodland.jpg",
+      "path": "assets/environment/woodland.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 799413,
+      "sha256": "b8ccb24932eda22009c7c68d683f2b365b705d5998803d1606952463170b5ed4",
+      "capturedAt": "2026-11-11T03:09:41.886Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/game-CvBwdk0t.css",
+      "finalURL": "https://sansatemple.com/assets/game-CvBwdk0t.css",
+      "path": "assets/game-CvBwdk0t.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 115521,
+      "sha256": "8042fec7370ebd5dafe3351a929b7a8e11a67f702c75635f1382d2e6169f022b",
+      "capturedAt": "2026-11-11T03:05:15.527Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"e377d5339650d951b3a1017a1f178737\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "finalURL": "https://sansatemple.com/assets/game-U0Pmc8tU.js",
+      "path": "assets/game-U0Pmc8tU.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 1572992,
+      "sha256": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+      "capturedAt": "2026-11-11T03:05:16.058Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"ff90dd4b485295ed7d688ade1a4f9fdf\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/index-qXYao_lF.js",
+      "finalURL": "https://sansatemple.com/assets/index-qXYao_lF.js",
+      "path": "assets/index-qXYao_lF.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 2945,
+      "sha256": "3fb762f018c3d02d66a2de596e52447846adba7e303afb20643a0a8b14190ae7",
+      "capturedAt": "2026-11-11T03:05:14.714Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"4beeae5629a93f9989cd9a1328811a61\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/kakaopay-support-e_RomHli.svg",
+      "finalURL": "https://sansatemple.com/assets/kakaopay-support-e_RomHli.svg",
+      "path": "assets/kakaopay-support-e_RomHli.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 5188,
+      "sha256": "a0af4297279f7a8f15f7a798e38d5aed0c4bd944446b9f196dfb7849443a870a",
+      "capturedAt": "2026-11-11T03:09:56.048Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/cloth/color.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/cloth/color.jpg",
+      "path": "assets/materials/cloth/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 203321,
+      "sha256": "68d93b2eea964dd5d731bb272573319b1b732feb41b756ae88b7321e22f3836b",
+      "capturedAt": "2026-11-11T03:09:41.884Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/cloth/normal.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/cloth/normal.jpg",
+      "path": "assets/materials/cloth/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 270710,
+      "sha256": "9b615e5fccd1252aa3506aaf3b01c1771f0d3982bb88084c949c8a7768c5dd05",
+      "capturedAt": "2026-11-11T03:09:42.826Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/cloth/roughness.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/cloth/roughness.jpg",
+      "path": "assets/materials/cloth/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 71359,
+      "sha256": "250dffdd858ee0fde9228c34d863b72f977c6d837923d4ef70a4abe9555def7f",
+      "capturedAt": "2026-11-11T03:09:42.593Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/ground/color.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/ground/color.jpg",
+      "path": "assets/materials/ground/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 580159,
+      "sha256": "2917478b165398fcf44826a4ba7afb8f1a709004773eaa4cbf884d1064ed80c3",
+      "capturedAt": "2026-11-11T03:09:43.894Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/ground/normal.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/ground/normal.jpg",
+      "path": "assets/materials/ground/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 850814,
+      "sha256": "be1d53726eb3ac2e3fc1ba92aeef93d70bab5d25f2caee6909fd2334535a79e4",
+      "capturedAt": "2026-11-11T03:09:43.897Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/ground/roughness.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/ground/roughness.jpg",
+      "path": "assets/materials/ground/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 220289,
+      "sha256": "09cc07f6c822030969512f2e5cb8299203a064b43d761d7cedf02b9d4a9e6e59",
+      "capturedAt": "2026-11-11T03:09:43.886Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/plaster/color.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/plaster/color.jpg",
+      "path": "assets/materials/plaster/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 445803,
+      "sha256": "43d30d55955e492a4bfd4780f565b8cd34b3cc1790b5fecb889b02aa64505266",
+      "capturedAt": "2026-11-11T03:09:44.909Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/plaster/normal.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/plaster/normal.jpg",
+      "path": "assets/materials/plaster/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 528798,
+      "sha256": "50378ea78aa6876bc75398a4c87b58d85196f99eb083cc18116628af9a35d968",
+      "capturedAt": "2026-11-11T03:09:44.909Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/plaster/roughness.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/plaster/roughness.jpg",
+      "path": "assets/materials/plaster/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 37280,
+      "sha256": "b2511b533f9f358d1c0693e61f55a5ec85b029898468d79eb718c547d700ba15",
+      "capturedAt": "2026-11-11T03:09:45.963Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/rock/color.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/rock/color.jpg",
+      "path": "assets/materials/rock/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 618576,
+      "sha256": "bb99dcaeee3ca50309ff95b11b0e6c2af27d23f90d30a72bda04106407e8000d",
+      "capturedAt": "2026-11-11T03:09:45.778Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/rock/normal.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/rock/normal.jpg",
+      "path": "assets/materials/rock/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 513703,
+      "sha256": "45ad53aefcf52f5f49d0d1881fe392eaeebeda136ec20f9f2b0f6fd2a293c032",
+      "capturedAt": "2026-11-11T03:09:45.770Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/rock/roughness.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/rock/roughness.jpg",
+      "path": "assets/materials/rock/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 379155,
+      "sha256": "fdc6e8262e08ac176e94bca1db126e73178c5304041209a91ea0b1cb6994cec0",
+      "capturedAt": "2026-11-11T03:09:46.355Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/roof/color.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/roof/color.jpg",
+      "path": "assets/materials/roof/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 33239,
+      "sha256": "3e8a43ff937425389f3812683be5e7389b951908bc6aa9b875f57e21ed349564",
+      "capturedAt": "2026-11-11T03:09:46.289Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/roof/normal.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/roof/normal.jpg",
+      "path": "assets/materials/roof/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 54032,
+      "sha256": "dca756bc219d455487544e0ef69570eb8e5b7a66cca49e112b25b27e953fda1e",
+      "capturedAt": "2026-11-11T03:09:46.829Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/roof/roughness.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/roof/roughness.jpg",
+      "path": "assets/materials/roof/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 673,
+      "sha256": "6b157b2c2ebef780d479c6e2e1ce0b4ed85405b2424718e17e05751cc71ded80",
+      "capturedAt": "2026-11-11T03:09:46.678Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/stone/color.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/stone/color.jpg",
+      "path": "assets/materials/stone/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 527525,
+      "sha256": "ff60082ae5226c39c5c9d6cb25d215c1d2ea71efb5e283bc515434c4484c0c5c",
+      "capturedAt": "2026-11-11T03:09:47.651Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/stone/normal.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/stone/normal.jpg",
+      "path": "assets/materials/stone/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 309367,
+      "sha256": "285e62149efcb2c16051e7da35aed518997561cfb04a797cddca585fa407a689",
+      "capturedAt": "2026-11-11T03:09:49.036Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/stone/roughness.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/stone/roughness.jpg",
+      "path": "assets/materials/stone/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 108416,
+      "sha256": "c4dc0f6489e21e4731029c7fee1883c5fd44de9ec571f7021d01de6dad5336b6",
+      "capturedAt": "2026-11-11T03:09:48.729Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/wood/color.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/wood/color.jpg",
+      "path": "assets/materials/wood/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 351663,
+      "sha256": "88d480c99fe1844be3ae081287085bd127989730cc68c4c874cc358cc62189d3",
+      "capturedAt": "2026-11-11T03:09:51.058Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/wood/normal.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/wood/normal.jpg",
+      "path": "assets/materials/wood/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 100419,
+      "sha256": "010131d6e170d13c5e1d01b618cf75b4c6105e1c4418ccec3927b16b494e9800",
+      "capturedAt": "2026-11-11T03:09:49.425Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/materials/wood/roughness.jpg",
+      "finalURL": "https://sansatemple.com/assets/materials/wood/roughness.jpg",
+      "path": "assets/materials/wood/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 223634,
+      "sha256": "a931e3a24eece0d12c906820aa4620ea72543c286e8d560f28fd07f745f94096",
+      "capturedAt": "2026-11-11T03:09:50.566Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/models/avalokitesvara.glb",
+      "finalURL": "https://sansatemple.com/assets/models/avalokitesvara.glb",
+      "path": "assets/models/avalokitesvara.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 1563460,
+      "sha256": "2a6e930eaf82eec98e5889cdf44c577d45c86212b2578a1181eefd766fe4d626",
+      "capturedAt": "2026-11-11T03:05:46.160Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"bb3b53f92afb6971147516d9f84e0fb3\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/models/buddha.glb",
+      "finalURL": "https://sansatemple.com/assets/models/buddha.glb",
+      "path": "assets/models/buddha.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 1516016,
+      "sha256": "4ca8555700b3bf0a9db50bdb156ffb689478f315df3dc0a5db8f9f2afafb4a07",
+      "capturedAt": "2026-11-11T03:09:52.711Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/models/mahastamaprapta.glb",
+      "finalURL": "https://sansatemple.com/assets/models/mahastamaprapta.glb",
+      "path": "assets/models/mahastamaprapta.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 1551756,
+      "sha256": "15c16816222742ddd4a3cf84eb9c7bc8c048fb8e559347dded4f0f4a773cbfae",
+      "capturedAt": "2026-11-11T03:05:45.481Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"b72cfb14952057191b390d38ff678359\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/models/pine.glb",
+      "finalURL": "https://sansatemple.com/assets/models/pine.glb",
+      "path": "assets/models/pine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 4893776,
+      "sha256": "e1a1a47554e713569b5135bcc97e3e55ec7b9f68d29bd4d4331ccfe29d650715",
+      "capturedAt": "2026-11-11T03:09:53.062Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/models/village-avalokitesvara-preview.glb",
+      "finalURL": "https://sansatemple.com/assets/models/village-avalokitesvara-preview.glb",
+      "path": "assets/models/village-avalokitesvara-preview.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 73204,
+      "sha256": "af510a538a2d6dcfe4c05c72fad9d0ab97234839dae1ba497190840500004f08",
+      "capturedAt": "2026-11-11T03:05:16.986Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"79aca23317fc02c6ad760e15d1fed346\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/models/village-buddha-preview.glb",
+      "finalURL": "https://sansatemple.com/assets/models/village-buddha-preview.glb",
+      "path": "assets/models/village-buddha-preview.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 55300,
+      "sha256": "fb5ac8580acc391160aba315a0c91fa5c3400a8f004863f61880d45434996377",
+      "capturedAt": "2026-11-11T03:05:16.982Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"a240d10ae1b52fb7f6e9eb51f61e2f8e\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/models/village-mahastamaprapta-preview.glb",
+      "finalURL": "https://sansatemple.com/assets/models/village-mahastamaprapta-preview.glb",
+      "path": "assets/models/village-mahastamaprapta-preview.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 74184,
+      "sha256": "5ebfdc78608356feb16a82e7aed4bde77861dc73e8ad976e16cdf02b632f14da",
+      "capturedAt": "2026-11-11T03:05:16.932Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"e8f317755a40205fa1d03744b5c0d993\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/moktak-7FyZzEKd.webp",
+      "finalURL": "https://sansatemple.com/assets/moktak-7FyZzEKd.webp",
+      "path": "assets/moktak-7FyZzEKd.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 55926,
+      "sha256": "8dbb1c1af59780ed07382aeaae2a65f0be1c824ffacdd519fcf8f2124f54e8e3",
+      "capturedAt": "2026-11-11T03:09:40.533Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/monk-remote-lod.glb",
+      "finalURL": "https://sansatemple.com/assets/monk-remote-lod.glb",
+      "path": "assets/monk-remote-lod.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 222548,
+      "sha256": "31fa64fc4471e1ee3ba07dd026d42ccb68c15f4b357627aea7000b8ab907553d",
+      "capturedAt": "2026-11-11T03:09:53.828Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/monk.glb",
+      "finalURL": "https://sansatemple.com/assets/monk.glb",
+      "path": "assets/monk.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 1288188,
+      "sha256": "0dc4e7a1d22bec895e3f64b1b324292d82c4363a8cbbd2147f75b75e6929a2b1",
+      "capturedAt": "2026-11-11T03:09:53.986Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/presence-worker-BB8LPRz2.js",
+      "finalURL": "https://sansatemple.com/assets/presence-worker-BB8LPRz2.js",
+      "path": "assets/presence-worker-BB8LPRz2.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 83263,
+      "sha256": "3abdc6127726322c0832c59c2785d23f69242456a3d70981880e9c9d03555409",
+      "capturedAt": "2026-11-11T03:05:16.943Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"2caebcc3bf8aa1c407596ca1ef6c0358\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/qrcode-5IewWFXk.js",
+      "finalURL": "https://sansatemple.com/assets/qrcode-5IewWFXk.js",
+      "path": "assets/qrcode-5IewWFXk.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 21140,
+      "sha256": "2970b32cca017d3a139d8d57ce77710f95c68a448624447be30ef9ffe2664099",
+      "capturedAt": "2026-11-11T03:09:54.241Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/safari-scene-bleed-BChFMqZ0.js",
+      "finalURL": "https://sansatemple.com/assets/safari-scene-bleed-BChFMqZ0.js",
+      "path": "assets/safari-scene-bleed-BChFMqZ0.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 2236,
+      "sha256": "2577ba9e79aaf8d6b335f7c1dedc4d1b883848369f14b79e7e155fc8876177bc",
+      "capturedAt": "2026-11-11T03:05:16.976Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"4804f6e46304807a40fca8b3363a1cb4\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/sha2-BqLbjB6e.js",
+      "finalURL": "https://sansatemple.com/assets/sha2-BqLbjB6e.js",
+      "path": "assets/sha2-BqLbjB6e.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 11322,
+      "sha256": "bedbb48bf385b9348c4f64059d0b5edd8049dcff099376118e81063b258956a3",
+      "capturedAt": "2026-11-11T03:09:53.819Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/assets/village-map-world-xeQKR8tV.webp",
+      "finalURL": "https://sansatemple.com/assets/village-map-world-xeQKR8tV.webp",
+      "path": "assets/village-map-world-xeQKR8tV.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 333538,
+      "sha256": "2de17721d3d0ee3e65d858ebd9a863c52a436ce3de4dfe8a4145cc5797f16c0a",
+      "capturedAt": "2026-11-11T03:05:25.414Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"ad89cb8607477543c75df9756157ab9b\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/village-mural-preview.jpg",
+      "finalURL": "https://sansatemple.com/assets/village-mural-preview.jpg",
+      "path": "assets/village-mural-preview.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 20024,
+      "sha256": "5883a416dcbdb2d7b79b40ae829b42c52ce4d3da4c1b25673de98b3137b6c6cc",
+      "capturedAt": "2026-11-11T03:05:19.694Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"138548fe99809a818d759ddb4efe2448\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/village-route-worker-4FUpLuoq.js",
+      "finalURL": "https://sansatemple.com/assets/village-route-worker-4FUpLuoq.js",
+      "path": "assets/village-route-worker-4FUpLuoq.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 33921,
+      "sha256": "de85f2614a025e7a4ef2d80fb127b1ce9bf38cf62e6f7430b4cd40a55203e7aa",
+      "capturedAt": "2026-11-11T03:05:22.232Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"8cf12bca9b154294d815dc1783f94c27\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/assets/visible-viewport-B0ZlO9sH.js",
+      "finalURL": "https://sansatemple.com/assets/visible-viewport-B0ZlO9sH.js",
+      "path": "assets/visible-viewport-B0ZlO9sH.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 2196,
+      "sha256": "1dc0b56052cf2e8983a0abe4a85c2eb7dbe83e2233f1e6d14485d38aeb6752cb",
+      "capturedAt": "2026-11-11T03:05:18.268Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"981e23e4c9cc8bc8d63983d54e5c9f2c\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/audio/moktak-hit-natural.wav?v=c3f11da43c87",
+      "finalURL": "https://sansatemple.com/audio/moktak-hit-natural.wav?v=c3f11da43c87",
+      "path": "audio/moktak-hit-natural.wav",
+      "status": 200,
+      "contentType": "audio/wav",
+      "bytes": 97064,
+      "sha256": "c3f11da43c87bcd98716f81fe67160228a0dfc7ebeeecd6c5aa0d3330225c1d5",
+      "capturedAt": "2026-11-11T03:13:30.137Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/moktak-natural.license.txt",
+      "finalURL": "https://sansatemple.com/audio/moktak-natural.license.txt",
+      "path": "audio/moktak-natural.license.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "bytes": 2203,
+      "sha256": "d0b1c6ffd63aa37e2a29072067ca23a3d55af6b15e0a5c0d320d8d23c18db2d3",
+      "capturedAt": "2026-11-11T03:09:56.285Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/temple-chant-review-v1.license.txt",
+      "finalURL": "https://sansatemple.com/audio/temple-chant-review-v1.license.txt",
+      "path": "audio/temple-chant-review-v1.license.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "bytes": 1175,
+      "sha256": "f6317ddcf0d5b7ae93ade2ab048ad944d7b2cecad5f1c8c2a88e726321b90316",
+      "capturedAt": "2026-11-11T03:09:54.910Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/temple-chant-review-v1.mp3",
+      "finalURL": "https://sansatemple.com/audio/temple-chant-review-v1.mp3",
+      "path": "audio/temple-chant-review-v1.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 1671980,
+      "sha256": "7863dc8904f6f962389ae43301d974df07c91f9b5800d0f33d074631c645a9dc",
+      "capturedAt": "2026-11-11T03:09:55.775Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/village/bird-calls.mp3",
+      "finalURL": "https://sansatemple.com/audio/village/bird-calls.mp3",
+      "path": "audio/village/bird-calls.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 63548,
+      "sha256": "e9ced4e0b44dc7c383fb46cb936aa29fcd00c6ba426fc2422af9c68989fb17d8",
+      "capturedAt": "2026-11-11T03:09:57.227Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/village/footsteps.mp3",
+      "finalURL": "https://sansatemple.com/audio/village/footsteps.mp3",
+      "path": "audio/village/footsteps.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 35180,
+      "sha256": "8460eae2575772f7a4ac6b6b52c039c7cefff70fe7261754ff0b3c43a34b272b",
+      "capturedAt": "2026-11-11T03:09:57.227Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/village/forest.mp3",
+      "finalURL": "https://sansatemple.com/audio/village/forest.mp3",
+      "path": "audio/village/forest.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 77804,
+      "sha256": "b630f59928f3faa45a273b4a5593c005dbadfaf0ab589150bb1495b2f62fac0e",
+      "capturedAt": "2026-11-11T03:09:56.728Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/village/leaves.mp3",
+      "finalURL": "https://sansatemple.com/audio/village/leaves.mp3",
+      "path": "audio/village/leaves.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 295820,
+      "sha256": "63ef29f4af51f437024a2fbf8441df1290277af5ee63c1de846ee1a4ddc9426c",
+      "capturedAt": "2026-11-11T03:09:57.384Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/audio/village/night.mp3",
+      "finalURL": "https://sansatemple.com/audio/village/night.mp3",
+      "path": "audio/village/night.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 192716,
+      "sha256": "ad5c7c154dc9ca6d995c7ec030db8bc63ea9465c9b4642681124bc078c2879df",
+      "capturedAt": "2026-11-11T03:09:57.345Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/favicon-32.png?v=4c79780808f4",
+      "finalURL": "https://sansatemple.com/favicon-32.png?v=4c79780808f4",
+      "path": "favicon-32.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 2122,
+      "sha256": "bf38470619b595dc061f701dbf9b4e6e310f8e1938d53b087c046497d6150aa7",
+      "capturedAt": "2026-11-11T03:09:37.438Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/favicon.ico?v=4c79780808f4",
+      "finalURL": "https://sansatemple.com/favicon.ico?v=4c79780808f4",
+      "path": "favicon.ico",
+      "status": 200,
+      "contentType": "image/vnd.microsoft.icon",
+      "bytes": 7066,
+      "sha256": "dbae4bf8ed587b9b9ed00effe19ce04d104b37139d68c98092da5eb820fbf292",
+      "capturedAt": "2026-11-11T03:05:19.663Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"f3d7ca388063b142b5088ae0dc5a15d3\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/favicon.svg?v=4c79780808f4",
+      "finalURL": "https://sansatemple.com/favicon.svg?v=4c79780808f4",
+      "path": "favicon.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 82261,
+      "sha256": "4c79780808f48cfe6653709a2d9d3333f91c5521a3df2aca5473c31405f824c2",
+      "capturedAt": "2026-11-11T03:05:19.110Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd",
+        "etag": "W/\"6e2992b7e59c9417bf9e879682b116b6\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/fonts/SansaQuietUI-Core.woff2?v=8cec618861e8",
+      "finalURL": "https://sansatemple.com/fonts/SansaQuietUI-Core.woff2?v=8cec618861e8",
+      "path": "fonts/SansaQuietUI-Core.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "bytes": 142748,
+      "sha256": "8cec618861e89316a157e5aba970a112ece6d32f0e2cfd150935eb05bed5036e",
+      "capturedAt": "2026-11-11T03:05:15.203Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"8c1b18eada617297daef813356b69748\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/fonts/SansaQuietUI-Remainder.woff2?v=56a14a34e80f",
+      "finalURL": "https://sansatemple.com/fonts/SansaQuietUI-Remainder.woff2?v=56a14a34e80f",
+      "path": "fonts/SansaQuietUI-Remainder.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "bytes": 1998920,
+      "sha256": "56a14a34e80f0193f109f7cfc6f672e57cdc808bbce7cd4f21f1aa08861ed9ca",
+      "capturedAt": "2026-11-11T03:09:40.016Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/icon-192.png",
+      "finalURL": "https://sansatemple.com/icon-192.png",
+      "path": "icon-192.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 37193,
+      "sha256": "5434a7ac25f7efeb4cbc9a3debf984b0663e0a5986d4f89a986a373cf00cde55",
+      "capturedAt": "2026-11-11T03:09:57.383Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/icon-512.png",
+      "finalURL": "https://sansatemple.com/icon-512.png",
+      "path": "icon-512.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 205040,
+      "sha256": "52426f70a675a8b16f192b9eac5a4a76fc82a6d21ca855867b154b376c3525e8",
+      "capturedAt": "2026-11-11T03:09:58.540Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/",
+      "finalURL": "https://sansatemple.com/",
+      "path": "index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 5631,
+      "sha256": "972d9727d156777d2a3025150d77cf7b4e78bd3ed76e24956cec95d033701f4d",
+      "capturedAt": "2026-11-11T03:05:14.460Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "zstd"
+      }
+    },
+    {
+      "url": "https://sansatemple.com/manifest.webmanifest?v=ccfba25ef8c5",
+      "finalURL": "https://sansatemple.com/manifest.webmanifest?v=ccfba25ef8c5",
+      "path": "manifest.webmanifest",
+      "status": 200,
+      "contentType": "application/manifest+json",
+      "bytes": 579,
+      "sha256": "0aa8d967278ee6741b39c3a293637d2cb4a3b68ad8ce1595b3662140d59a220d",
+      "capturedAt": "2026-11-11T03:09:38.422Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/og/sansa-rest-20261101-v11.png",
+      "finalURL": "https://sansatemple.com/og/sansa-rest-20261101-v11.png",
+      "path": "og/sansa-rest-20261101-v11.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 839163,
+      "sha256": "14b419c459f240578a8712780f4e2968298a3e1d032e007ea9328c0f6675f3d1",
+      "capturedAt": "2026-11-11T03:09:37.997Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/altar-devotion.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/altar-devotion.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/altar-devotion.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 1290114,
+      "sha256": "2c344920105b7a3a2f795c9d03b963a940cc412f11c51490086b5b093aa85b5e",
+      "capturedAt": "2026-11-11T03:09:42.330Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/environment/woodland.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/environment/woodland.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/environment/woodland.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 799413,
+      "sha256": "b8ccb24932eda22009c7c68d683f2b365b705d5998803d1606952463170b5ed4",
+      "capturedAt": "2026-11-11T03:09:41.885Z",
+      "discovery": "published-file-reference"
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/color.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/color.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/cloth/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 203321,
+      "sha256": "68d93b2eea964dd5d731bb272573319b1b732feb41b756ae88b7321e22f3836b",
+      "capturedAt": "2026-11-11T03:05:19.407Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"a10fee8d1641d28e509c2ef0b457ae72\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/normal.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/normal.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/cloth/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 270710,
+      "sha256": "9b615e5fccd1252aa3506aaf3b01c1771f0d3982bb88084c949c8a7768c5dd05",
+      "capturedAt": "2026-11-11T03:05:19.665Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"50d684416cde820c57e8f8cc158d93b4\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/roughness.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/cloth/roughness.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/cloth/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 71359,
+      "sha256": "250dffdd858ee0fde9228c34d863b72f977c6d837923d4ef70a4abe9555def7f",
+      "capturedAt": "2026-11-11T03:05:19.663Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"0aefaf4be2ac64ff959f0897aaee8465\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/color.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/color.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/ground/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 580159,
+      "sha256": "2917478b165398fcf44826a4ba7afb8f1a709004773eaa4cbf884d1064ed80c3",
+      "capturedAt": "2026-11-11T03:05:28.826Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"3d428a9025edb42e9b0c23eebc60d090\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/normal.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/normal.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/ground/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 850814,
+      "sha256": "be1d53726eb3ac2e3fc1ba92aeef93d70bab5d25f2caee6909fd2334535a79e4",
+      "capturedAt": "2026-11-11T03:05:29.363Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"3ade5706768aaed63a7d6dae18666d75\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/roughness.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/ground/roughness.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/ground/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 220289,
+      "sha256": "09cc07f6c822030969512f2e5cb8299203a064b43d761d7cedf02b9d4a9e6e59",
+      "capturedAt": "2026-11-11T03:05:28.530Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"6c033bf2b991276fcbc32a6b092f23f2\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/color.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/color.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/plaster/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 445803,
+      "sha256": "43d30d55955e492a4bfd4780f565b8cd34b3cc1790b5fecb889b02aa64505266",
+      "capturedAt": "2026-11-11T03:05:18.306Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"47dfb01bb2d1b237cfea0b1a277da553\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/normal.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/normal.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/plaster/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 528798,
+      "sha256": "50378ea78aa6876bc75398a4c87b58d85196f99eb083cc18116628af9a35d968",
+      "capturedAt": "2026-11-11T03:05:18.888Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"1fc615eefff960ed3812a06db6618d9a\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/roughness.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/plaster/roughness.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/plaster/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 37280,
+      "sha256": "b2511b533f9f358d1c0693e61f55a5ec85b029898468d79eb718c547d700ba15",
+      "capturedAt": "2026-11-11T03:05:18.887Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"01a6e0728cda18f5fbefb0795fe6be83\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/color.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/color.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/rock/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 618576,
+      "sha256": "bb99dcaeee3ca50309ff95b11b0e6c2af27d23f90d30a72bda04106407e8000d",
+      "capturedAt": "2026-11-11T03:05:28.831Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"8b1e301650ec8e984371be036759c663\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/normal.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/normal.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/rock/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 513703,
+      "sha256": "45ad53aefcf52f5f49d0d1881fe392eaeebeda136ec20f9f2b0f6fd2a293c032",
+      "capturedAt": "2026-11-11T03:05:30.148Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"bd510a116e46097d82584fe9f808d524\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/roughness.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/rock/roughness.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/rock/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 379155,
+      "sha256": "fdc6e8262e08ac176e94bca1db126e73178c5304041209a91ea0b1cb6994cec0",
+      "capturedAt": "2026-11-11T03:05:30.258Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"dab1bfe0150a647536e12fdc2c9fd27a\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/color.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/color.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/roof/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 33239,
+      "sha256": "3e8a43ff937425389f3812683be5e7389b951908bc6aa9b875f57e21ed349564",
+      "capturedAt": "2026-11-11T03:05:18.886Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"567f6a06569a3c25a2aae6360665379a\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/normal.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/normal.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/roof/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 54032,
+      "sha256": "dca756bc219d455487544e0ef69570eb8e5b7a66cca49e112b25b27e953fda1e",
+      "capturedAt": "2026-11-11T03:05:18.887Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"ea8faf61ec5bcb4c228073d6a1983e78\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/roughness.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/roof/roughness.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/roof/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 673,
+      "sha256": "6b157b2c2ebef780d479c6e2e1ce0b4ed85405b2424718e17e05751cc71ded80",
+      "capturedAt": "2026-11-11T03:05:19.175Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"6acfab43b41b581f2c1e18ee0acd382a\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/color.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/color.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/stone/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 527525,
+      "sha256": "ff60082ae5226c39c5c9d6cb25d215c1d2ea71efb5e283bc515434c4484c0c5c",
+      "capturedAt": "2026-11-11T03:05:18.043Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"f02e38f7f621954e5ba9e96153e18498\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/normal.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/normal.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/stone/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 309367,
+      "sha256": "285e62149efcb2c16051e7da35aed518997561cfb04a797cddca585fa407a689",
+      "capturedAt": "2026-11-11T03:05:18.269Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"cfe90043889102829130066bd4d55388\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/roughness.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/stone/roughness.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/stone/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 108416,
+      "sha256": "c4dc0f6489e21e4731029c7fee1883c5fd44de9ec571f7021d01de6dad5336b6",
+      "capturedAt": "2026-11-11T03:05:18.263Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"4be8b6cc199bddb6375135a7ba5e3872\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/color.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/color.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/wood/color.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 351663,
+      "sha256": "88d480c99fe1844be3ae081287085bd127989730cc68c4c874cc358cc62189d3",
+      "capturedAt": "2026-11-11T03:05:16.982Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"93e9a840258bcd74bcec6d45c8cd17ec\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/normal.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/normal.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/wood/normal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 100419,
+      "sha256": "010131d6e170d13c5e1d01b618cf75b4c6105e1c4418ccec3927b16b494e9800",
+      "capturedAt": "2026-11-11T03:05:16.977Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"6e329050b338faad7e4969f0db679285\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/roughness.jpg",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/materials/wood/roughness.jpg",
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/wood/roughness.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 223634,
+      "sha256": "a931e3a24eece0d12c906820aa4620ea72543c286e8d560f28fd07f745f94096",
+      "capturedAt": "2026-11-11T03:05:16.987Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "\"abff767ac6aa3736da06793c8b288003\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/models/buddha.glb",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/models/buddha.glb",
+      "path": "v/37821d4f60cfb916c0bd/assets/models/buddha.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 1516016,
+      "sha256": "4ca8555700b3bf0a9db50bdb156ffb689478f315df3dc0a5db8f9f2afafb4a07",
+      "capturedAt": "2026-11-11T03:05:45.452Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "content-encoding": "gzip",
+        "etag": "\"577eda5ce5288eb4c2d7f4bb821021b3\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/models/pine.glb",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/models/pine.glb",
+      "path": "v/37821d4f60cfb916c0bd/assets/models/pine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 4893776,
+      "sha256": "e1a1a47554e713569b5135bcc97e3e55ec7b9f68d29bd4d4331ccfe29d650715",
+      "capturedAt": "2026-11-11T03:05:30.255Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "content-encoding": "gzip",
+        "etag": "\"dd58b52f13046dbc89fac9cc27313a3e\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/monk-remote-lod.glb",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/monk-remote-lod.glb",
+      "path": "v/37821d4f60cfb916c0bd/assets/monk-remote-lod.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 222548,
+      "sha256": "31fa64fc4471e1ee3ba07dd026d42ccb68c15f4b357627aea7000b8ab907553d",
+      "capturedAt": "2026-11-11T03:05:22.233Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "content-encoding": "gzip",
+        "etag": "\"a9d7e5ed40564b04686abcd5f6cf55c7\""
+      }
+    },
+    {
+      "url": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/monk.glb",
+      "finalURL": "https://sansatemple.com/v/37821d4f60cfb916c0bd/assets/monk.glb",
+      "path": "v/37821d4f60cfb916c0bd/assets/monk.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "bytes": 1288188,
+      "sha256": "0dc4e7a1d22bec895e3f64b1b324292d82c4363a8cbbd2147f75b75e6929a2b1",
+      "capturedAt": "2026-11-11T03:05:16.975Z",
+      "discovery": "network-observed",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "content-encoding": "gzip",
+        "etag": "\"a59abe1c3309204a850381132ac5622d\""
+      }
+    }
+  ],
+  "completedAt": "2026-11-11T03:13:31.675Z"
+}

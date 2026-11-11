@@ -1,0 +1,625 @@
+{
+  "label": "runnable-local-2026-11-11",
+  "createdAt": "2026-11-11T04:07:44.786Z",
+  "fullAcceptance": false,
+  "preview": "http://127.0.0.1:4191/",
+  "capturePort": 4190,
+  "portNote": "Historical captures retain actual 4190 URLs. Final preview uses safe port 4191.",
+  "sourceMainSha256": "d60f3877ae848853e2e4ea2d41dadf9c9cd4736a4d768b6c93f2f67456e64d18",
+  "sourceManifestSha256": "dc0ff651aa80e0f30183649efafb0137462f76449a31bc50297a9919ebcb9873",
+  "patchSetSha256": "249d89287dfa26970470afbb853ce91a92b92968f519e27ee9db0db84c2b93c3",
+  "registeredSourceFiles": 107,
+  "registeredSourceBytes": 49072870,
+  "patchCount": 3,
+  "environment": {
+    "browser": "157.0.8103.40",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "dpr": 1,
+    "gpuRenderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "gpuVendor": "Google Inc. (Apple)"
+  },
+  "runtime": [
+    {
+      "path": "package.json",
+      "bytes": 535,
+      "sha256": "ecb56244846cfc20bd8494c05562b61da7b714cb85a26d9e87c58eb22b896c2f"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 1424,
+      "sha256": "5cffc2f6315c6d96775e216587e20389dd5d2f762c78380f3f5e46225cf6420f"
+    },
+    {
+      "path": "server/index.mjs",
+      "bytes": 6012,
+      "sha256": "1ea17560e1f3d2c1e62e6ace98e1f77f4d81b27d3c0fcaf14e100f8b2cdbaead"
+    },
+    {
+      "path": "server/presence.mjs",
+      "bytes": 8601,
+      "sha256": "b693f8147e3f9343853e158f95a11aece657b55ce4702ff5731817f981285a7f"
+    },
+    {
+      "path": "server/activities.mjs",
+      "bytes": 9196,
+      "sha256": "b01976379ac6a7f18bb64963fc3758265146be07220b746776cf70486e1f6e54"
+    },
+    {
+      "path": "tools/apply-patches.mjs",
+      "bytes": 2856,
+      "sha256": "4396783cb7f8283f51786d18d11dbcb13c25bdc71acc4086797d9dd05c4bd973"
+    },
+    {
+      "path": "tests/assets.test.mjs",
+      "bytes": 2336,
+      "sha256": "e2fc2a09082d6406f3f6b88679b059e864d6e55568b5803caa49c2f9485d67c1"
+    },
+    {
+      "path": "tests/protocol.test.mjs",
+      "bytes": 11230,
+      "sha256": "ea84a848b56324de3617c62217207fe85a5097217dd2b8995f3c55421fe0feb5"
+    },
+    {
+      "path": "tests/server.test.mjs",
+      "bytes": 3398,
+      "sha256": "c4a55ff30ba3e6449ac757327d44a065e32a75c2fad37ff5717806c8366b7346"
+    },
+    {
+      "path": "tests/browser/experience.test.mjs",
+      "bytes": 14611,
+      "sha256": "73e0d2e2777d8a46504d01b796e64546fde0fc44bdb345ed72291e10efcec62d"
+    }
+  ],
+  "assets": [
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 33262,
+      "sha256": "bd1ff4a36496f24efad9ca6aa38754fd1723f43b445e6c0aaa186c10b80b12ba"
+    },
+    {
+      "path": "assets/0-B2e-TO8Y.webp",
+      "bytes": 16786,
+      "sha256": "2ff9008b4eb35abfe181fd987b772c1c1be3081d4b9c7fbe1d71e726207fcef6"
+    },
+    {
+      "path": "assets/1-CCaZQ86C.webp",
+      "bytes": 17578,
+      "sha256": "80ad45b11bf699c0e34cf0f3e5df92dcc79114e22e21442301f6a62eb762c4c8"
+    },
+    {
+      "path": "assets/2-D0tvDGl0.webp",
+      "bytes": 16656,
+      "sha256": "38951dce04ca6c5754a9af1018936cbfe73f785ade95a113b455e5fb1b902cc5"
+    },
+    {
+      "path": "assets/3-DM4oxTVV.webp",
+      "bytes": 16928,
+      "sha256": "92c7cc19988455a4e85a48b67b557c43c9e161443831c2b050f0cca9517cca44"
+    },
+    {
+      "path": "assets/4-1jNKKhJA.webp",
+      "bytes": 16518,
+      "sha256": "3c3ab18a239649cf5ae39b817bb26973c55efe8011674960929f8a482d382a80"
+    },
+    {
+      "path": "assets/altar-devotion.jpg",
+      "bytes": 1290114,
+      "sha256": "2c344920105b7a3a2f795c9d03b963a940cc412f11c51490086b5b093aa85b5e"
+    },
+    {
+      "path": "assets/altar-wall-calm-20261102.jpg",
+      "bytes": 1026536,
+      "sha256": "074017b9f22d14f3cc9abb2fb27884d1cea07d7686a4d3ebdbe1f3843e5c9bfd"
+    },
+    {
+      "path": "assets/buymeacoffee-logo-Dd8V_aS3.svg",
+      "bytes": 8133,
+      "sha256": "a668a2adad6bae5ee7e6d669cfa7876a75d572db71ac9a91f30c2e295bedb3de"
+    },
+    {
+      "path": "assets/cafe25-v12/cafe25-wordmark-black.png",
+      "bytes": 14812,
+      "sha256": "9742d9f9a8ea66619f9c69b005e435a398d4874dae93928ddc9a70b68051370b"
+    },
+    {
+      "path": "assets/cafe25-v12/snowdrop-artwork.webp",
+      "bytes": 665864,
+      "sha256": "cf9a1e1f4d95c75fae47dccb57b31d70ffbf09f95953d83e9f58f5191a644b36"
+    },
+    {
+      "path": "assets/cafe25-v12/village-artwork-preview.jpg",
+      "bytes": 56897,
+      "sha256": "9dd3a4e3a207ed385f371d3fce6fb4bb3ea00da26da9143713c321f12ee41ad6"
+    },
+    {
+      "path": "assets/cafe25-v16/snowdrop-handoff.webp",
+      "bytes": 421250,
+      "sha256": "67f2ae48eecaa6e763fe5a7c5c7c7f49f2789aa43df86bedb3c8ebc431a4943a"
+    },
+    {
+      "path": "assets/cafe25-v2/official-gs25-logo-color.png",
+      "bytes": 3211,
+      "sha256": "50bd0d6960049f3c1ee389a253cd8c99b07bf5125a1bb8a6345157243e74949d"
+    },
+    {
+      "path": "assets/cafe25-v5/gongyang-cat-fit-v1.bin",
+      "bytes": 223824,
+      "sha256": "597dfbc67dfa9cccd3d81857b0e963b684d6a13242ed47b3884b582269d33afc"
+    },
+    {
+      "path": "assets/cafe25-v5/gongyang-cat.glb",
+      "bytes": 2297972,
+      "sha256": "4b395ba943d647f4c490c982a70fa2175ef91569615773da7ef3429e427ed21a"
+    },
+    {
+      "path": "assets/environment/village-horizon.png",
+      "bytes": 22334,
+      "sha256": "272bdc10ae6728bb863e1c7181e7e58bb31cb82d738b85d37bd7d7d7b80127f8"
+    },
+    {
+      "path": "assets/environment/woodland.jpg",
+      "bytes": 799413,
+      "sha256": "b8ccb24932eda22009c7c68d683f2b365b705d5998803d1606952463170b5ed4"
+    },
+    {
+      "path": "assets/game-CvBwdk0t.css",
+      "bytes": 115521,
+      "sha256": "8042fec7370ebd5dafe3351a929b7a8e11a67f702c75635f1382d2e6169f022b"
+    },
+    {
+      "path": "assets/game-U0Pmc8tU.js",
+      "bytes": 1572984,
+      "sha256": "9cae64b9045f6f82c487fdadd87c761dda3e685bc46a75e07aeb1676a306e27f"
+    },
+    {
+      "path": "assets/index-qXYao_lF.js",
+      "bytes": 2945,
+      "sha256": "3fb762f018c3d02d66a2de596e52447846adba7e303afb20643a0a8b14190ae7"
+    },
+    {
+      "path": "assets/kakaopay-support-e_RomHli.svg",
+      "bytes": 5188,
+      "sha256": "a0af4297279f7a8f15f7a798e38d5aed0c4bd944446b9f196dfb7849443a870a"
+    },
+    {
+      "path": "assets/materials/cloth/color.jpg",
+      "bytes": 203321,
+      "sha256": "68d93b2eea964dd5d731bb272573319b1b732feb41b756ae88b7321e22f3836b"
+    },
+    {
+      "path": "assets/materials/cloth/normal.jpg",
+      "bytes": 270710,
+      "sha256": "9b615e5fccd1252aa3506aaf3b01c1771f0d3982bb88084c949c8a7768c5dd05"
+    },
+    {
+      "path": "assets/materials/cloth/roughness.jpg",
+      "bytes": 71359,
+      "sha256": "250dffdd858ee0fde9228c34d863b72f977c6d837923d4ef70a4abe9555def7f"
+    },
+    {
+      "path": "assets/materials/ground/color.jpg",
+      "bytes": 580159,
+      "sha256": "2917478b165398fcf44826a4ba7afb8f1a709004773eaa4cbf884d1064ed80c3"
+    },
+    {
+      "path": "assets/materials/ground/normal.jpg",
+      "bytes": 850814,
+      "sha256": "be1d53726eb3ac2e3fc1ba92aeef93d70bab5d25f2caee6909fd2334535a79e4"
+    },
+    {
+      "path": "assets/materials/ground/roughness.jpg",
+      "bytes": 220289,
+      "sha256": "09cc07f6c822030969512f2e5cb8299203a064b43d761d7cedf02b9d4a9e6e59"
+    },
+    {
+      "path": "assets/materials/plaster/color.jpg",
+      "bytes": 445803,
+      "sha256": "43d30d55955e492a4bfd4780f565b8cd34b3cc1790b5fecb889b02aa64505266"
+    },
+    {
+      "path": "assets/materials/plaster/normal.jpg",
+      "bytes": 528798,
+      "sha256": "50378ea78aa6876bc75398a4c87b58d85196f99eb083cc18116628af9a35d968"
+    },
+    {
+      "path": "assets/materials/plaster/roughness.jpg",
+      "bytes": 37280,
+      "sha256": "b2511b533f9f358d1c0693e61f55a5ec85b029898468d79eb718c547d700ba15"
+    },
+    {
+      "path": "assets/materials/rock/color.jpg",
+      "bytes": 618576,
+      "sha256": "bb99dcaeee3ca50309ff95b11b0e6c2af27d23f90d30a72bda04106407e8000d"
+    },
+    {
+      "path": "assets/materials/rock/normal.jpg",
+      "bytes": 513703,
+      "sha256": "45ad53aefcf52f5f49d0d1881fe392eaeebeda136ec20f9f2b0f6fd2a293c032"
+    },
+    {
+      "path": "assets/materials/rock/roughness.jpg",
+      "bytes": 379155,
+      "sha256": "fdc6e8262e08ac176e94bca1db126e73178c5304041209a91ea0b1cb6994cec0"
+    },
+    {
+      "path": "assets/materials/roof/color.jpg",
+      "bytes": 33239,
+      "sha256": "3e8a43ff937425389f3812683be5e7389b951908bc6aa9b875f57e21ed349564"
+    },
+    {
+      "path": "assets/materials/roof/normal.jpg",
+      "bytes": 54032,
+      "sha256": "dca756bc219d455487544e0ef69570eb8e5b7a66cca49e112b25b27e953fda1e"
+    },
+    {
+      "path": "assets/materials/roof/roughness.jpg",
+      "bytes": 673,
+      "sha256": "6b157b2c2ebef780d479c6e2e1ce0b4ed85405b2424718e17e05751cc71ded80"
+    },
+    {
+      "path": "assets/materials/stone/color.jpg",
+      "bytes": 527525,
+      "sha256": "ff60082ae5226c39c5c9d6cb25d215c1d2ea71efb5e283bc515434c4484c0c5c"
+    },
+    {
+      "path": "assets/materials/stone/normal.jpg",
+      "bytes": 309367,
+      "sha256": "285e62149efcb2c16051e7da35aed518997561cfb04a797cddca585fa407a689"
+    },
+    {
+      "path": "assets/materials/stone/roughness.jpg",
+      "bytes": 108416,
+      "sha256": "c4dc0f6489e21e4731029c7fee1883c5fd44de9ec571f7021d01de6dad5336b6"
+    },
+    {
+      "path": "assets/materials/wood/color.jpg",
+      "bytes": 351663,
+      "sha256": "88d480c99fe1844be3ae081287085bd127989730cc68c4c874cc358cc62189d3"
+    },
+    {
+      "path": "assets/materials/wood/normal.jpg",
+      "bytes": 100419,
+      "sha256": "010131d6e170d13c5e1d01b618cf75b4c6105e1c4418ccec3927b16b494e9800"
+    },
+    {
+      "path": "assets/materials/wood/roughness.jpg",
+      "bytes": 223634,
+      "sha256": "a931e3a24eece0d12c906820aa4620ea72543c286e8d560f28fd07f745f94096"
+    },
+    {
+      "path": "assets/models/avalokitesvara.glb",
+      "bytes": 1563460,
+      "sha256": "2a6e930eaf82eec98e5889cdf44c577d45c86212b2578a1181eefd766fe4d626"
+    },
+    {
+      "path": "assets/models/buddha.glb",
+      "bytes": 1516016,
+      "sha256": "4ca8555700b3bf0a9db50bdb156ffb689478f315df3dc0a5db8f9f2afafb4a07"
+    },
+    {
+      "path": "assets/models/mahastamaprapta.glb",
+      "bytes": 1551756,
+      "sha256": "15c16816222742ddd4a3cf84eb9c7bc8c048fb8e559347dded4f0f4a773cbfae"
+    },
+    {
+      "path": "assets/models/pine.glb",
+      "bytes": 4893776,
+      "sha256": "e1a1a47554e713569b5135bcc97e3e55ec7b9f68d29bd4d4331ccfe29d650715"
+    },
+    {
+      "path": "assets/models/village-avalokitesvara-preview.glb",
+      "bytes": 73204,
+      "sha256": "af510a538a2d6dcfe4c05c72fad9d0ab97234839dae1ba497190840500004f08"
+    },
+    {
+      "path": "assets/models/village-buddha-preview.glb",
+      "bytes": 55300,
+      "sha256": "fb5ac8580acc391160aba315a0c91fa5c3400a8f004863f61880d45434996377"
+    },
+    {
+      "path": "assets/models/village-mahastamaprapta-preview.glb",
+      "bytes": 74184,
+      "sha256": "5ebfdc78608356feb16a82e7aed4bde77861dc73e8ad976e16cdf02b632f14da"
+    },
+    {
+      "path": "assets/moktak-7FyZzEKd.webp",
+      "bytes": 55926,
+      "sha256": "8dbb1c1af59780ed07382aeaae2a65f0be1c824ffacdd519fcf8f2124f54e8e3"
+    },
+    {
+      "path": "assets/monk-remote-lod.glb",
+      "bytes": 222548,
+      "sha256": "31fa64fc4471e1ee3ba07dd026d42ccb68c15f4b357627aea7000b8ab907553d"
+    },
+    {
+      "path": "assets/monk.glb",
+      "bytes": 1288188,
+      "sha256": "0dc4e7a1d22bec895e3f64b1b324292d82c4363a8cbbd2147f75b75e6929a2b1"
+    },
+    {
+      "path": "assets/presence-worker-BB8LPRz2.js",
+      "bytes": 83263,
+      "sha256": "3abdc6127726322c0832c59c2785d23f69242456a3d70981880e9c9d03555409"
+    },
+    {
+      "path": "assets/qrcode-5IewWFXk.js",
+      "bytes": 21140,
+      "sha256": "2970b32cca017d3a139d8d57ce77710f95c68a448624447be30ef9ffe2664099"
+    },
+    {
+      "path": "assets/safari-scene-bleed-BChFMqZ0.js",
+      "bytes": 2236,
+      "sha256": "2577ba9e79aaf8d6b335f7c1dedc4d1b883848369f14b79e7e155fc8876177bc"
+    },
+    {
+      "path": "assets/sha2-BqLbjB6e.js",
+      "bytes": 11322,
+      "sha256": "bedbb48bf385b9348c4f64059d0b5edd8049dcff099376118e81063b258956a3"
+    },
+    {
+      "path": "assets/village-map-world-xeQKR8tV.webp",
+      "bytes": 333538,
+      "sha256": "2de17721d3d0ee3e65d858ebd9a863c52a436ce3de4dfe8a4145cc5797f16c0a"
+    },
+    {
+      "path": "assets/village-mural-preview.jpg",
+      "bytes": 20024,
+      "sha256": "5883a416dcbdb2d7b79b40ae829b42c52ce4d3da4c1b25673de98b3137b6c6cc"
+    },
+    {
+      "path": "assets/village-route-worker-4FUpLuoq.js",
+      "bytes": 33921,
+      "sha256": "de85f2614a025e7a4ef2d80fb127b1ce9bf38cf62e6f7430b4cd40a55203e7aa"
+    },
+    {
+      "path": "assets/visible-viewport-B0ZlO9sH.js",
+      "bytes": 2196,
+      "sha256": "1dc0b56052cf2e8983a0abe4a85c2eb7dbe83e2233f1e6d14485d38aeb6752cb"
+    },
+    {
+      "path": "audio/moktak-hit-natural.wav",
+      "bytes": 97064,
+      "sha256": "c3f11da43c87bcd98716f81fe67160228a0dfc7ebeeecd6c5aa0d3330225c1d5"
+    },
+    {
+      "path": "audio/moktak-natural.license.txt",
+      "bytes": 2203,
+      "sha256": "d0b1c6ffd63aa37e2a29072067ca23a3d55af6b15e0a5c0d320d8d23c18db2d3"
+    },
+    {
+      "path": "audio/temple-chant-review-v1.license.txt",
+      "bytes": 1175,
+      "sha256": "f6317ddcf0d5b7ae93ade2ab048ad944d7b2cecad5f1c8c2a88e726321b90316"
+    },
+    {
+      "path": "audio/temple-chant-review-v1.mp3",
+      "bytes": 1671980,
+      "sha256": "7863dc8904f6f962389ae43301d974df07c91f9b5800d0f33d074631c645a9dc"
+    },
+    {
+      "path": "audio/village/bird-calls.mp3",
+      "bytes": 63548,
+      "sha256": "e9ced4e0b44dc7c383fb46cb936aa29fcd00c6ba426fc2422af9c68989fb17d8"
+    },
+    {
+      "path": "audio/village/footsteps.mp3",
+      "bytes": 35180,
+      "sha256": "8460eae2575772f7a4ac6b6b52c039c7cefff70fe7261754ff0b3c43a34b272b"
+    },
+    {
+      "path": "audio/village/forest.mp3",
+      "bytes": 77804,
+      "sha256": "b630f59928f3faa45a273b4a5593c005dbadfaf0ab589150bb1495b2f62fac0e"
+    },
+    {
+      "path": "audio/village/leaves.mp3",
+      "bytes": 295820,
+      "sha256": "63ef29f4af51f437024a2fbf8441df1290277af5ee63c1de846ee1a4ddc9426c"
+    },
+    {
+      "path": "audio/village/night.mp3",
+      "bytes": 192716,
+      "sha256": "ad5c7c154dc9ca6d995c7ec030db8bc63ea9465c9b4642681124bc078c2879df"
+    },
+    {
+      "path": "favicon-32.png",
+      "bytes": 2122,
+      "sha256": "bf38470619b595dc061f701dbf9b4e6e310f8e1938d53b087c046497d6150aa7"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 7066,
+      "sha256": "dbae4bf8ed587b9b9ed00effe19ce04d104b37139d68c98092da5eb820fbf292"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 82261,
+      "sha256": "4c79780808f48cfe6653709a2d9d3333f91c5521a3df2aca5473c31405f824c2"
+    },
+    {
+      "path": "fonts/SansaQuietUI-Core.woff2",
+      "bytes": 142748,
+      "sha256": "8cec618861e89316a157e5aba970a112ece6d32f0e2cfd150935eb05bed5036e"
+    },
+    {
+      "path": "fonts/SansaQuietUI-Remainder.woff2",
+      "bytes": 1998920,
+      "sha256": "56a14a34e80f0193f109f7cfc6f672e57cdc808bbce7cd4f21f1aa08861ed9ca"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 37193,
+      "sha256": "5434a7ac25f7efeb4cbc9a3debf984b0663e0a5986d4f89a986a373cf00cde55"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 205040,
+      "sha256": "52426f70a675a8b16f192b9eac5a4a76fc82a6d21ca855867b154b376c3525e8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5265,
+      "sha256": "ff1d6a40bb4b3255735de6488495ed1c58c631ccf6ed11d4f36ad6c4b9aa91f6"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 579,
+      "sha256": "0aa8d967278ee6741b39c3a293637d2cb4a3b68ad8ce1595b3662140d59a220d"
+    },
+    {
+      "path": "og/sansa-rest-20261101-v11.png",
+      "bytes": 839163,
+      "sha256": "14b419c459f240578a8712780f4e2968298a3e1d032e007ea9328c0f6675f3d1"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/altar-devotion.jpg",
+      "bytes": 1290114,
+      "sha256": "2c344920105b7a3a2f795c9d03b963a940cc412f11c51490086b5b093aa85b5e"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/environment/woodland.jpg",
+      "bytes": 799413,
+      "sha256": "b8ccb24932eda22009c7c68d683f2b365b705d5998803d1606952463170b5ed4"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/cloth/color.jpg",
+      "bytes": 203321,
+      "sha256": "68d93b2eea964dd5d731bb272573319b1b732feb41b756ae88b7321e22f3836b"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/cloth/normal.jpg",
+      "bytes": 270710,
+      "sha256": "9b615e5fccd1252aa3506aaf3b01c1771f0d3982bb88084c949c8a7768c5dd05"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/cloth/roughness.jpg",
+      "bytes": 71359,
+      "sha256": "250dffdd858ee0fde9228c34d863b72f977c6d837923d4ef70a4abe9555def7f"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/ground/color.jpg",
+      "bytes": 580159,
+      "sha256": "2917478b165398fcf44826a4ba7afb8f1a709004773eaa4cbf884d1064ed80c3"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/ground/normal.jpg",
+      "bytes": 850814,
+      "sha256": "be1d53726eb3ac2e3fc1ba92aeef93d70bab5d25f2caee6909fd2334535a79e4"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/ground/roughness.jpg",
+      "bytes": 220289,
+      "sha256": "09cc07f6c822030969512f2e5cb8299203a064b43d761d7cedf02b9d4a9e6e59"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/plaster/color.jpg",
+      "bytes": 445803,
+      "sha256": "43d30d55955e492a4bfd4780f565b8cd34b3cc1790b5fecb889b02aa64505266"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/plaster/normal.jpg",
+      "bytes": 528798,
+      "sha256": "50378ea78aa6876bc75398a4c87b58d85196f99eb083cc18116628af9a35d968"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/plaster/roughness.jpg",
+      "bytes": 37280,
+      "sha256": "b2511b533f9f358d1c0693e61f55a5ec85b029898468d79eb718c547d700ba15"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/rock/color.jpg",
+      "bytes": 618576,
+      "sha256": "bb99dcaeee3ca50309ff95b11b0e6c2af27d23f90d30a72bda04106407e8000d"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/rock/normal.jpg",
+      "bytes": 513703,
+      "sha256": "45ad53aefcf52f5f49d0d1881fe392eaeebeda136ec20f9f2b0f6fd2a293c032"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/rock/roughness.jpg",
+      "bytes": 379155,
+      "sha256": "fdc6e8262e08ac176e94bca1db126e73178c5304041209a91ea0b1cb6994cec0"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/roof/color.jpg",
+      "bytes": 33239,
+      "sha256": "3e8a43ff937425389f3812683be5e7389b951908bc6aa9b875f57e21ed349564"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/roof/normal.jpg",
+      "bytes": 54032,
+      "sha256": "dca756bc219d455487544e0ef69570eb8e5b7a66cca49e112b25b27e953fda1e"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/roof/roughness.jpg",
+      "bytes": 673,
+      "sha256": "6b157b2c2ebef780d479c6e2e1ce0b4ed85405b2424718e17e05751cc71ded80"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/stone/color.jpg",
+      "bytes": 527525,
+      "sha256": "ff60082ae5226c39c5c9d6cb25d215c1d2ea71efb5e283bc515434c4484c0c5c"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/stone/normal.jpg",
+      "bytes": 309367,
+      "sha256": "285e62149efcb2c16051e7da35aed518997561cfb04a797cddca585fa407a689"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/stone/roughness.jpg",
+      "bytes": 108416,
+      "sha256": "c4dc0f6489e21e4731029c7fee1883c5fd44de9ec571f7021d01de6dad5336b6"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/wood/color.jpg",
+      "bytes": 351663,
+      "sha256": "88d480c99fe1844be3ae081287085bd127989730cc68c4c874cc358cc62189d3"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/wood/normal.jpg",
+      "bytes": 100419,
+      "sha256": "010131d6e170d13c5e1d01b618cf75b4c6105e1c4418ccec3927b16b494e9800"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/materials/wood/roughness.jpg",
+      "bytes": 223634,
+      "sha256": "a931e3a24eece0d12c906820aa4620ea72543c286e8d560f28fd07f745f94096"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/models/buddha.glb",
+      "bytes": 1516016,
+      "sha256": "4ca8555700b3bf0a9db50bdb156ffb689478f315df3dc0a5db8f9f2afafb4a07"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/models/pine.glb",
+      "bytes": 4893776,
+      "sha256": "e1a1a47554e713569b5135bcc97e3e55ec7b9f68d29bd4d4331ccfe29d650715"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/monk-remote-lod.glb",
+      "bytes": 222548,
+      "sha256": "31fa64fc4471e1ee3ba07dd026d42ccb68c15f4b357627aea7000b8ab907553d"
+    },
+    {
+      "path": "v/37821d4f60cfb916c0bd/assets/monk.glb",
+      "bytes": 1288188,
+      "sha256": "0dc4e7a1d22bec895e3f64b1b324292d82c4363a8cbbd2147f75b75e6929a2b1"
+    }
+  ],
+  "verification": {
+    "cleanInstallExitCode": 0,
+    "unitTests": 25,
+    "browserTests": 6,
+    "cleanInstallLogSha256": "ff352a4dcb9d750af1f549253c080b49dc10eb30c42869554b77f05faa0d3721",
+    "mapRoundtrips": {
+      "source": 23,
+      "local": 23
+    },
+    "sourceAndLocalIncense": true,
+    "sourceAndLocalPersonalChant": true,
+    "sourceAndLocal25BowSelfCoffee": true
+  },
+  "scope": "Preserved published frontend with local replacement services. Full device, timed activity and branch parity not accepted; see experience matrix."
+}
