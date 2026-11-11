@@ -40,6 +40,10 @@ test(
       });
       try {
         await page.goto(base + '/?room=maru-17');
+        assert.equal(
+          await page.locator('#temple-entry').evaluate((node) => getComputedStyle(node).position),
+          'fixed',
+        );
         await page.getByRole('button', { name: '重新加载', exact: true }).waitFor();
         block = false;
         await page.getByRole('button', { name: '重新加载', exact: true }).click();
@@ -65,9 +69,11 @@ test(
           next,
         );
         await page.locator('.entry-more').first().click();
-        await page.locator('dialog[open]').waitFor();
+        await page.locator('.entry-detail:not([hidden])').waitFor();
+        assert.equal(await page.locator('dialog[open]').count(), 0);
         assert.ok((await page.locator('.entry-sources a').count()) > 0);
         await page.keyboard.press('Escape');
+        assert.equal(await page.locator('.entry-card').first().isVisible(), true);
         await page.reload();
         await page.locator('.entry-card').first().waitFor();
         assert.deepEqual(
@@ -81,6 +87,23 @@ test(
           false,
         );
         assert.equal(await page.locator('canvas[data-engine]').count(), 0);
+        await page.locator('#entry-back-wishes').click();
+        assert.equal(await page.locator('#temple-entry').getAttribute('data-step'), 'wishes');
+        await page.getByRole('button', { name: '姻缘', exact: true }).click();
+        assert.deepEqual(
+          await page
+            .locator('.entry-card')
+            .evaluateAll((nodes) => nodes.map((n) => n.dataset.templeId)),
+          next,
+        );
+        if (mobile) {
+          const carousel = page.locator('.entry-cards');
+          assert.ok(await carousel.evaluate((node) => node.scrollWidth > node.clientWidth));
+          await carousel.evaluate((node) => node.scrollTo({ left: node.scrollWidth }));
+          await page.locator('.entry-more').last().click();
+          await page.getByRole('button', { name: '返回推荐寺院', exact: true }).click();
+          await carousel.evaluate((node) => node.scrollTo({ left: 0 }));
+        }
         await page.screenshot({
           path: fileURLToPath(new URL(mobile ? 'mobile.png' : 'desktop.png', out)),
           fullPage: true,
@@ -89,6 +112,36 @@ test(
       } finally {
         await context.close();
       }
+    }
+  },
+);
+
+test(
+  'WebGL initialization failure exposes the floating retry without waiting for a timeout',
+  { timeout: 30000 },
+  async () => {
+    const context = await browser.newContext({ serviceWorkers: 'block' });
+    try {
+      await context.route('**/*', (r) =>
+        new URL(r.request().url()).origin === base ? r.continue() : r.abort(),
+      );
+      await context.addInitScript(() => {
+        const getContext = HTMLCanvasElement.prototype.getContext;
+        HTMLCanvasElement.prototype.getContext = function (type, ...args) {
+          if (/webgl/i.test(type)) return null;
+          return getContext.call(this, type, ...args);
+        };
+      });
+      const page = await context.newPage();
+      await page.goto(base);
+      await page.getByRole('button', { name: '心安', exact: true }).click();
+      await page.locator('.entry-card .entry-enter').first().click();
+      await page.locator('.entry-loading .entry-retry').waitFor({ timeout: 15000 });
+      assert.equal(await page.locator('.entry-loading').getAttribute('data-state'), 'error');
+      assert.equal(await page.locator('#app').evaluate((node) => node.inert), true);
+      assert.equal(await page.locator('#temple-entry').isVisible(), true);
+    } finally {
+      await context.close();
     }
   },
 );
@@ -112,6 +165,13 @@ test(
           r.url().startsWith(base.replace('http:', 'ws:') + '/') ? r.connectToServer() : r.close(),
         );
         await context.addInitScript(() => {
+          const schedule = window.setTimeout;
+          window.setTimeout = function (callback, delay, ...args) {
+            // Extend the entrance fade to make input isolation observable without racing 240ms.
+            const entranceFade =
+              delay === 240 && new Error().stack.includes('/temple-entry/entry.mjs');
+            return schedule.call(this, callback, entranceFade ? 1800 : delay, ...args);
+          };
           window.drawnLabels = [];
           const draw = CanvasRenderingContext2D.prototype.fillText;
           CanvasRenderingContext2D.prototype.fillText = function (text, ...args) {
@@ -125,6 +185,7 @@ test(
         await page.goto(base + '/?room=maru-17');
         await page.getByRole('button', { name: category, exact: true }).click();
         await page.locator('.entry-card .entry-enter').first().click();
+        await page.locator('.entry-loading').waitFor({ state: 'visible' });
         await page
           .locator('#game-loading.is-loaded')
           .waitFor({ state: 'attached', timeout: 80000 });
@@ -138,7 +199,22 @@ test(
           drawn: window.drawnLabels,
         }));
         assert.ok(identity.drawn.includes(identity.selected.plaqueName));
-        assert.equal(await page.locator('#temple-entry').isVisible(), false);
+        await page.locator('#temple-entry.is-revealing').waitFor();
+        const position = await page.locator('canvas[data-engine]').getAttribute('data-position');
+        await page.keyboard.down('w');
+        await page.waitForTimeout(350);
+        await page.keyboard.up('w');
+        await page.keyboard.press('Digit2');
+        assert.equal(
+          await page.locator('canvas[data-engine]').getAttribute('data-position'),
+          position,
+        );
+        assert.notEqual(
+          await page.locator('canvas[data-engine]').getAttribute('data-mode'),
+          'beads',
+        );
+        assert.equal(await page.locator('#temple-entry').isVisible(), true);
+        await page.locator('#temple-entry').waitFor({ state: 'hidden' });
         assert.equal((await page.locator('#game-room-number').innerText()).trim(), '17');
         await page.locator('#game-settings').click();
         await page.locator('#settings-dialog').waitFor({ state: 'visible' });

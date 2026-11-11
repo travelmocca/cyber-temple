@@ -4,25 +4,34 @@ const app = document.getElementById('app');
 app.hidden = true;
 const entrance = document.createElement('main');
 entrance.id = 'temple-entry';
+entrance.dataset.step = 'wishes';
 entrance.innerHTML = `
   <header class="entry-mast"><a href="/" class="entry-brand">山寺<span>一念入山</span></a><span class="entry-edition">各地佛寺 · 一处清静</span></header>
-  <section class="entry-intro"><p class="entry-eyebrow">把心事，暂寄山间</p><h1>你想求什么？</h1><p class="entry-lead">选一个此刻的心愿，遇见五座有缘的佛寺。</p></section>
+  <div class="entry-panel">
+  <section class="entry-intro"><p class="entry-eyebrow">把心事，暂寄山间</p><h1>此刻，你想求什么？</h1><p class="entry-lead">选一个心愿，遇见五座有缘的佛寺。</p></section>
   <nav class="entry-categories" aria-label="祈愿类型"></nav>
-  <section class="entry-results" aria-label="推荐寺院"><div class="entry-results-head"><div><p class="entry-eyebrow">循愿而行</p><h2 id="entry-results-title">先选一个心愿</h2></div><button id="entry-refresh" type="button" hidden>换一批 <span aria-hidden="true">↻</span></button></div><p id="entry-status" role="status" aria-live="polite">正在准备寺院名录…</p><div class="entry-cards"></div></section>
-  <footer class="entry-footer">以统一虚拟场景呈现各地佛寺文化。入寺后，可沿石径自在漫步。</footer>
-  <dialog class="entry-detail" aria-labelledby="entry-detail-title"><button class="entry-close" type="button" aria-label="关闭寺院介绍">×</button><div id="entry-detail-content"></div></dialog>`;
+  <p id="entry-status" role="status" aria-live="polite">正在准备寺院名录…</p>
+  <section class="entry-results" aria-label="推荐寺院" hidden><div class="entry-results-head"><div><button id="entry-back-wishes" class="entry-back" type="button">← 返回心愿</button><h2 id="entry-results-title">先选一个心愿</h2></div><button id="entry-refresh" type="button" hidden>换一批 <span aria-hidden="true">↻</span></button></div><div class="entry-cards"></div></section>
+  <section class="entry-detail" aria-labelledby="entry-detail-title" hidden><button class="entry-close entry-back" type="button" aria-label="返回推荐寺院">← 返回推荐</button><div id="entry-detail-content"></div></section>
+  <footer class="entry-footer">以统一虚拟场景呈现各地佛寺文化。</footer>
+  </div>
+  <section class="entry-loading" role="status" aria-live="polite" hidden><p class="entry-eyebrow">山门将启</p><h2 id="entry-loading-title"></h2><p id="entry-loading-status">正在准备山间风景，请稍候…</p><div class="entry-loading-line" aria-hidden="true"></div><button class="entry-retry" type="button" hidden>重新入寺</button></section>`;
 document.body.append(entrance);
 const categoriesElement = entrance.querySelector('.entry-categories');
 const cards = entrance.querySelector('.entry-cards');
 const status = entrance.querySelector('#entry-status');
 const refresh = entrance.querySelector('#entry-refresh');
-const dialog = entrance.querySelector('dialog');
+const panel = entrance.querySelector('.entry-panel');
+const detailSection = entrance.querySelector('.entry-detail');
+const results = entrance.querySelector('.entry-results');
+const loading = entrance.querySelector('.entry-loading');
 const detail = entrance.querySelector('#entry-detail-content');
 const rounds = new Map();
 const storageKey = 'temple-entry-v1';
 let catalog,
   selectedCategory,
   selectedTemple,
+  detailTrigger,
   entering = false;
 
 function saveState() {
@@ -76,31 +85,86 @@ function element(tag, className, text) {
   return node;
 }
 
-function enterTemple(temple) {
+function sceneReady(signal) {
+  return new Promise((resolve, reject) => {
+    const observer = new MutationObserver(check);
+    const timer = setTimeout(() => finish(new Error('scene timeout')), 90000);
+    function finish(error) {
+      clearTimeout(timer);
+      observer.disconnect();
+      signal.removeEventListener('abort', abort);
+      error ? reject(error) : resolve();
+    }
+    function abort() {
+      finish(new Error('scene observation cancelled'));
+    }
+    function check() {
+      if (app.querySelector('#sansa-boot.is-error, #game-loading[role="alert"]'))
+        return finish(new Error('scene unavailable'));
+      if (
+        app.querySelector('#game-loading.is-loaded') &&
+        app.querySelector('canvas[data-engine]')?.dataset.position
+      )
+        finish();
+    }
+    observer.observe(app, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ['class', 'data-position', 'role'],
+    });
+    signal.addEventListener('abort', abort, { once: true });
+    check();
+  });
+}
+
+async function enterTemple(temple) {
   if (entering) return;
   entering = true;
   selectedTemple = temple.id;
   saveState();
-  dialog.close();
   globalThis.__templeEntry = Object.freeze({ id: temple.id, plaqueName: temple.plaqueName });
   document.title = `${temple.plaqueName} · 山寺`;
-  entrance.hidden = true;
+  entrance.dataset.step = 'loading';
+  panel.hidden = true;
+  loading.hidden = false;
+  entrance.querySelector('#entry-loading-title').textContent = `即将进入 · ${temple.plaqueName}`;
   app.hidden = false;
-  import('/assets/index-qXYao_lF.js').catch(() => {
-    entering = false;
-    app.hidden = true;
-    entrance.hidden = false;
-    status.textContent = '场景加载失败，请刷新页面后重试。';
-    const retry = element('button', 'entry-retry', '刷新重试');
+  app.inert = true;
+  // The original game listens on window; inert alone only blocks element interaction.
+  const inputController = new AbortController();
+  const blockGameKeys = (event) => event.stopImmediatePropagation();
+  for (const type of ['keydown', 'keyup'])
+    window.addEventListener(type, blockGameKeys, { capture: true, signal: inputController.signal });
+  const controller = new AbortController();
+  try {
+    // Attach readiness and error observation before loading the original asynchronous boot.
+    await Promise.all([import('/assets/index-qXYao_lF.js'), sceneReady(controller.signal)]);
+    entrance.classList.add('is-revealing');
+    await new Promise((resolve) =>
+      setTimeout(resolve, matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 240),
+    );
+    entrance.hidden = true;
+    app.inert = false;
+    inputController.abort();
+  } catch {
+    loading.dataset.state = 'error';
+    entrance.querySelector('#entry-loading-status').textContent =
+      '风景暂时未能准备好。重新入寺会保留你的选择。';
+    const retry = loading.querySelector('.entry-retry');
+    retry.hidden = false;
     retry.onclick = () => location.reload();
-    status.append(' ', retry);
-  });
+    retry.focus();
+  } finally {
+    controller.abort();
+  }
 }
 
 function templeContent(temple, full = false) {
   const wrapper = element('div', 'entry-card-content');
   wrapper.append(element('p', 'entry-location', `${temple.region} · ${temple.city}`));
   const heading = element(full ? 'h2' : 'h3', '', temple.name);
+  if (full) heading.tabIndex = -1;
   if (full) heading.id = 'entry-detail-title';
   wrapper.append(
     heading,
@@ -156,8 +220,13 @@ function templeContent(temple, full = false) {
     more.type = 'button';
     more.setAttribute('aria-label', `查看${temple.name}介绍`);
     more.onclick = () => {
+      detailTrigger = more;
       detail.replaceChildren(templeContent(temple, true));
-      dialog.showModal();
+      entrance.dataset.step = 'detail';
+      results.hidden = true;
+      detailSection.hidden = false;
+      detail.querySelector('h2').focus();
+      panel.scrollTop = 0;
     };
     actions.append(more);
   }
@@ -173,6 +242,9 @@ function templeContent(temple, full = false) {
 function showBatch(next = false) {
   const category = catalog.categories.find((c) => c.id === selectedCategory);
   if (!category) return;
+  entrance.dataset.step = 'results';
+  results.hidden = false;
+  detailSection.hidden = true;
   let batch = rounds.get(category.id);
   if (!batch || next) {
     batch = recommend(catalog.temples, category.id, batch?.seen, batch?.ids);
@@ -233,8 +305,19 @@ async function loadCatalog() {
   }
 }
 refresh.onclick = () => showBatch(true);
-entrance.querySelector('.entry-close').onclick = () => dialog.close();
-dialog.addEventListener('click', (event) => {
-  if (event.target === dialog) dialog.close();
+function backToResults() {
+  entrance.dataset.step = 'results';
+  detailSection.hidden = true;
+  results.hidden = false;
+  detailTrigger?.focus();
+}
+entrance.querySelector('.entry-close').onclick = backToResults;
+entrance.querySelector('#entry-back-wishes').onclick = () => {
+  entrance.dataset.step = 'wishes';
+  results.hidden = true;
+  categoriesElement.querySelector('[aria-pressed="true"]')?.focus();
+};
+entrance.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && entrance.dataset.step === 'detail') backToResults();
 });
 loadCatalog();

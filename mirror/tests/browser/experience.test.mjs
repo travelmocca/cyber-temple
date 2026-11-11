@@ -70,7 +70,8 @@ async function open(options = {}) {
 }
 async function ready(page) {
   await page.locator('#temple-entry').waitFor({ state: 'attached' });
-  if (await page.locator('#temple-entry').isVisible()) {
+  const entrance = page.locator('#temple-entry');
+  if ((await entrance.isVisible()) && (await entrance.getAttribute('data-step')) !== 'loading') {
     await page.getByRole('button', { name: '心安', exact: true }).click();
     await page.locator('.entry-card .entry-enter').first().click();
   }
@@ -80,6 +81,7 @@ async function ready(page) {
     null,
     { timeout: 40000 },
   );
+  await entrance.waitFor({ state: 'hidden' });
 }
 async function travel(page, pin) {
   await page.locator('#village-places').click({ noWaitAfter: true });
@@ -467,10 +469,14 @@ test(
       await p.getByRole('button', { name: '心安', exact: true }).click();
       await p.locator('.entry-card .entry-enter').first().click();
       await p.locator('#sansa-boot.is-error').waitFor({ state: 'visible', timeout: 15000 });
+      await p.locator('.entry-loading .entry-retry').waitFor({ state: 'visible' });
+      assert.equal(await p.locator('#temple-entry').getAttribute('data-step'), 'loading');
+      assert.equal(await p.locator('#app').evaluate((node) => node.inert), true);
       const selected = await p.evaluate(() => window.__templeEntry.id);
       const before = await p.locator('#sansa-boot').innerText();
       block = false;
-      await p.reload();
+      await p.getByRole('button', { name: '重新入寺', exact: true }).focus();
+      await p.keyboard.press('Enter');
       await p.locator(`[data-temple-id="${selected}"] .entry-enter`).click();
       await ready(p);
       assert.equal(await p.evaluate(() => window.__templeEntry.id), selected);

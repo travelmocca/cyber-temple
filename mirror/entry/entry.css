@@ -5,20 +5,46 @@
 }
 body:has(#temple-entry:not([hidden])) {
   margin: 0;
-  overflow: auto;
+  overflow: hidden;
 }
 #temple-entry {
   --ink: #293e33;
   --muted: #717568;
   --line: #d3d3c3;
   --paper: #f1efe5;
-  min-height: 100dvh;
-  background: var(--paper);
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 100px 32px 38px;
+  isolation: isolate;
   color: var(--ink);
   font-family: 'Songti SC', 'Noto Serif CJK SC', serif;
-  padding: 0 max(24px, calc((100vw - 1200px) / 2));
   box-sizing: border-box;
-  overflow-x: clip;
+  opacity: 1;
+  transition: opacity 0.24s ease;
+}
+#temple-entry::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: #566451 url('/temple-entry/gate-background.jpg') center 40% / cover no-repeat;
+  filter: blur(1.5px);
+  transform: scale(1.015);
+}
+#temple-entry::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, #15281e45 0%, #16251d12 28%, #15251d99 100%);
+}
+#temple-entry.is-revealing {
+  opacity: 0;
+  pointer-events: none;
 }
 #temple-entry * {
   box-sizing: border-box;
@@ -33,21 +59,25 @@ body:has(#temple-entry:not([hidden])) {
 }
 #temple-entry button:focus-visible,
 #temple-entry a:focus-visible {
-  outline: 2px solid #987943;
-  outline-offset: 5px;
+  outline: 2px solid #a88b52;
+  outline-offset: 3px;
 }
 .entry-mast {
+  position: absolute;
+  top: max(28px, env(safe-area-inset-top));
+  left: 40px;
+  right: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 0;
-  border-bottom: 1px solid var(--line);
+  color: #faf5e7;
+  text-shadow: 0 2px 10px #10221980;
 }
 .entry-brand {
-  font-size: 24px;
+  font-size: 26px;
   letter-spacing: 6px;
   text-decoration: none;
-  color: var(--ink);
+  color: inherit;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -56,119 +86,160 @@ body:has(#temple-entry:not([hidden])) {
 .entry-edition {
   font-size: 12px;
   letter-spacing: 3px;
-  color: var(--muted);
+}
+.entry-panel {
+  width: min(1180px, 100%);
+  max-height: calc(100dvh - 150px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: #f5f3e9f2;
+  border: 1px solid #fbf8e0a3;
+  box-shadow: 0 22px 70px #0d1e1847;
+  border-radius: 14px;
+  padding: 26px 28px 14px;
+  backdrop-filter: blur(16px);
+  scrollbar-width: thin;
+}
+#temple-entry[data-step='wishes'] .entry-panel {
+  width: min(640px, 100%);
+  padding: 32px 36px 18px;
 }
 .entry-intro {
-  padding: 58px 0 34px;
-  position: relative;
+  padding: 0 0 22px;
+  text-align: center;
 }
 .entry-eyebrow {
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 4px;
   color: #8c784e;
-  margin: 0 0 14px;
+  margin: 0 0 12px;
 }
 .entry-intro h1 {
   font-weight: 500;
-  font-size: clamp(34px, 5vw, 58px);
-  letter-spacing: 5px;
-  margin: 0 0 18px;
-  line-height: 1.35;
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin: 0 0 12px;
+  line-height: 1.4;
 }
 .entry-lead {
   color: var(--muted);
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.8;
   margin: 0;
 }
 .entry-categories {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  gap: 10px;
-  margin: 0 0 42px;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+#temple-entry[data-step='wishes'] .entry-categories {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
 }
 .entry-category {
-  border: 1px solid var(--line);
-  background: transparent;
+  border: 1px solid #c5c8b5;
+  background: #ffffff28;
   color: var(--ink);
-  min-height: 72px;
-  font-size: 20px !important;
-  letter-spacing: 6px;
-  padding-left: 12px;
+  min-height: 42px;
+  font-size: 16px !important;
+  letter-spacing: 4px;
+  padding: 9px 4px 9px 8px;
+  border-radius: 4px;
   transition:
     background 0.15s,
     color 0.15s;
 }
+#temple-entry[data-step='wishes'] .entry-category {
+  min-height: 66px;
+  font-size: 21px !important;
+}
 .entry-category:hover {
-  background: #e7e7da;
+  background: #e5e8da;
 }
 .entry-category[aria-pressed='true'] {
   color: #f6f1df;
   background: var(--ink);
   border-color: var(--ink);
 }
-.entry-results {
-  padding-bottom: 44px;
+#temple-entry:not([data-step='wishes']) .entry-intro {
+  display: none;
+}
+#temple-entry[data-step='detail'] .entry-categories,
+#temple-entry[data-step='detail'] #entry-status {
+  display: none;
 }
 .entry-results-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  border-top: 1px solid var(--line);
-  padding-top: 28px;
+  gap: 12px;
+  margin-bottom: 18px;
 }
 .entry-results-head h2 {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: 2px;
-  margin: 0;
+  margin: 8px 0 0;
+}
+.entry-back {
+  border: 0;
+  background: transparent;
+  color: #6e7867;
+  padding: 5px 0;
+  font-size: 12px !important;
+  min-height: 32px;
 }
 #entry-refresh {
-  background: transparent;
-  border: 1px solid #a7ac9a;
+  background: #fff5;
+  border: 1px solid #b5bba9;
   color: var(--ink);
-  padding: 12px 18px;
-  border-radius: 3px;
-  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  min-height: 42px;
   white-space: nowrap;
+  font-size: 13px !important;
 }
 #entry-refresh span {
-  font-size: 21px;
-  margin-left: 10px;
+  font-size: 18px;
+  margin-left: 8px;
 }
 #entry-status {
   font:
-    13px/1.9 -apple-system,
+    12px/1.8 -apple-system,
     BlinkMacSystemFont,
     sans-serif;
   color: var(--muted);
-  margin: 16px 0 24px;
-  min-height: 25px;
+  margin: 10px 0 16px;
+  min-height: 22px;
+}
+#temple-entry[data-step='wishes'] #entry-status {
+  text-align: center;
+  margin: 18px 0 12px;
 }
 .entry-cards {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
 }
 .entry-card {
-  background: #faf9f2;
-  border: 1px solid #dedecf;
+  background: #fffdf69c;
+  border: 1px solid #d8dccb;
   position: relative;
-  border-radius: 3px;
+  border-radius: 6px;
   min-width: 0;
 }
 .entry-card:before {
   content: '';
   display: block;
-  width: 32px;
-  border-top: 3px solid #ad9561;
+  width: 24px;
+  border-top: 2px solid #ad9561;
   position: absolute;
   top: 0;
-  left: 24px;
+  left: 16px;
 }
 .entry-card-content {
-  padding: 28px 24px;
+  padding: 20px 16px 16px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -177,68 +248,77 @@ body:has(#temple-entry:not([hidden])) {
 .entry-location {
   color: #888674;
   font:
-    11px/1.7 -apple-system,
+    10px/1.7 -apple-system,
     BlinkMacSystemFont,
     sans-serif;
-  letter-spacing: 2px;
-  margin: 0 0 14px;
+  letter-spacing: 1px;
+  margin: 0 0 9px;
 }
-.entry-card h3,
-.entry-detail h2 {
-  font-size: 26px;
+.entry-card h3 {
+  font-size: 22px;
   font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: 2px;
-  margin: 0 0 18px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
   overflow-wrap: anywhere;
 }
 .entry-hook {
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 13px;
+  line-height: 1.7;
   color: #576750;
-  margin: 0 0 12px;
+  margin: 0 0 10px;
 }
 .entry-description {
   font:
-    13px/1.95 -apple-system,
+    12px/1.85 -apple-system,
     BlinkMacSystemFont,
     sans-serif;
   color: #74786c;
-  margin: 0 0 18px;
+  margin: 0 0 12px;
+}
+.entry-card .entry-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .entry-basis {
   font:
-    11px/1.5 -apple-system,
+    10px/1.5 -apple-system,
     BlinkMacSystemFont,
     sans-serif;
   color: #8c784e;
   border: 1px solid #ddd4bd;
   border-radius: 2px;
-  padding: 3px 7px;
+  padding: 2px 5px;
   align-self: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .entry-types {
+  font:
+    10px/1.7 -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  color: #737c69;
+  margin: 0 0 8px;
+}
+.entry-reason {
   font:
     11px/1.7 -apple-system,
     BlinkMacSystemFont,
     sans-serif;
-  color: #737c69;
-  margin: 0 0 10px;
-}
-.entry-reason {
-  font:
-    12px/1.7 -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
   color: #818576;
-  margin: 0 0 22px;
+  margin: 0 0 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .entry-actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 8px;
   margin-top: auto;
   padding-top: 12px;
 }
@@ -248,62 +328,62 @@ body:has(#temple-entry:not([hidden])) {
   color: #65705c;
   background: transparent;
   padding: 7px 0;
-  font-size: 13px !important;
+  font-size: 11px !important;
+  white-space: nowrap;
+  min-height: 40px;
 }
 .entry-enter {
   border: 1px solid var(--ink);
   background: var(--ink);
   color: #f6f1df;
-  padding: 12px 18px;
-  font-size: 13px !important;
-  min-height: 44px;
-  border-radius: 2px;
+  padding: 11px 12px;
+  font-size: 12px !important;
+  min-height: 42px;
+  border-radius: 3px;
+  white-space: nowrap;
 }
 .entry-footer {
-  border-top: 1px solid var(--line);
-  padding: 24px 0 32px;
+  border-top: 1px solid #cdd1bf;
+  padding: 12px 0 0;
+  margin-top: 16px;
+  text-align: center;
   color: #8b8d7d;
   font:
-    12px/1.9 -apple-system,
+    10px/1.8 -apple-system,
     BlinkMacSystemFont,
     sans-serif;
 }
 .entry-detail {
-  max-width: 600px;
-  width: calc(100vw - 32px);
-  max-height: 85dvh;
-  overflow: auto;
-  background: #faf9f2;
-  border: 1px solid #b6b9a7;
-  border-radius: 5px;
-  color: var(--ink);
-  padding: 18px 8px;
-}
-.entry-detail::backdrop {
-  background: #152b22a8;
-  backdrop-filter: blur(4px);
-}
-.entry-close {
-  position: absolute;
-  right: 12px;
-  top: 10px;
-  background: none;
-  border: 0;
-  font-size: 30px !important;
-  color: var(--ink);
-  width: 44px;
-  height: 44px;
+  max-width: 640px;
+  margin: 0 auto;
 }
 .entry-detail .entry-card-content {
-  padding-top: 28px;
+  padding: 12px 8px;
+}
+.entry-detail h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 0 14px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 .entry-detail h3 {
   font-size: 16px;
   font-weight: 500;
   margin: 12px 0;
 }
+.entry-detail .entry-description {
+  font-size: 13px;
+}
+.entry-detail .entry-actions {
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 0;
+  background: #f5f3e9f5;
+  padding: 12px 0 2px;
+}
 .entry-sources {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .entry-sources a {
   display: block;
@@ -319,62 +399,183 @@ body:has(#temple-entry:not([hidden])) {
   background: transparent;
   border: 0;
   border-bottom: 1px solid currentColor;
-  color: var(--ink);
-  padding: 5px;
+  color: inherit;
+  padding: 8px;
+  font-size: 13px !important;
+  min-height: 40px;
 }
-@media (max-width: 850px) {
-  .entry-categories {
-    grid-template-columns: repeat(4, 1fr);
+.entry-loading {
+  color: #f8f2dd;
+  text-align: center;
+  background: #1b3028dc;
+  border: 1px solid #ded3a666;
+  border-radius: 10px;
+  padding: 28px 36px;
+  max-width: calc(100vw - 32px);
+  box-shadow: 0 12px 50px #07171066;
+  backdrop-filter: blur(12px);
+  margin-bottom: 60px;
+}
+.entry-loading .entry-eyebrow {
+  color: #c7b686;
+}
+.entry-loading h2 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  overflow-wrap: anywhere;
+}
+#entry-loading-status {
+  font:
+    13px/1.8 -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  color: #d4d9c8;
+  margin: 0;
+}
+.entry-loading-line {
+  height: 2px;
+  background: #89977b;
+  position: relative;
+  overflow: hidden;
+  margin: 22px auto 0;
+  width: 180px;
+}
+.entry-loading-line:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #e7d497;
+  animation: entry-loading 1.4s ease-in-out infinite;
+  transform-origin: left;
+}
+.entry-loading[data-state='error'] .entry-loading-line {
+  display: none;
+}
+@keyframes entry-loading {
+  0% {
+    transform: scaleX(0);
+    opacity: 0.6;
   }
+  60% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+@media (max-width: 1100px) {
   .entry-cards {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
   }
-  .entry-intro {
-    padding-top: 38px;
+  .entry-card {
+    flex: 0 0 240px;
+    scroll-snap-align: start;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   #temple-entry {
-    padding: 0 20px;
+    padding: 80px 12px max(12px, env(safe-area-inset-bottom));
   }
   .entry-mast {
-    padding: 22px 0;
+    top: max(20px, env(safe-area-inset-top));
+    left: 22px;
+    right: 22px;
+  }
+  .entry-brand {
+    font-size: 22px;
+    gap: 14px;
+  }
+  .entry-brand span {
+    font-size: 10px;
   }
   .entry-edition {
     display: none;
   }
-  .entry-brand span {
-    font-size: 11px;
+  .entry-panel {
+    padding: 18px 16px 12px;
+    max-height: calc(100dvh - 150px);
+    border-radius: 16px 16px 9px 9px;
   }
-  .entry-intro {
-    padding: 34px 0 26px;
-  }
-  .entry-categories {
-    gap: 8px;
-    margin-bottom: 30px;
-  }
-  .entry-category {
-    min-height: 59px;
-    font-size: 18px !important;
-  }
-  .entry-cards {
-    grid-template-columns: 1fr;
-  }
-  .entry-card-content {
-    padding: 26px 22px;
-  }
-  .entry-results-head h2 {
-    font-size: 21px;
+  #temple-entry[data-step='wishes'] .entry-panel {
+    padding: 26px 22px 16px;
   }
   .entry-intro h1 {
-    letter-spacing: 3px;
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
+  .entry-lead {
+    font-size: 12px;
+  }
+  .entry-categories {
+    gap: 6px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #temple-entry[data-step='wishes'] .entry-categories {
+    gap: 9px;
+  }
+  .entry-category {
+    min-height: 36px;
+    font-size: 14px !important;
+  }
+  #temple-entry[data-step='wishes'] .entry-category {
+    min-height: 56px;
+    font-size: 19px !important;
+  }
+  .entry-cards {
+    margin: 0 -4px;
+    padding: 0 4px 10px;
+    gap: 10px;
+  }
+  .entry-card {
+    flex-basis: calc(100% - 20px);
+  }
+  .entry-card-content {
+    padding: 18px;
   }
   .entry-card h3 {
     font-size: 25px;
   }
+  .entry-card .entry-description {
+    -webkit-line-clamp: 2;
+  }
+  .entry-reason {
+    -webkit-line-clamp: 1;
+  }
+  .entry-results-head {
+    margin-bottom: 12px;
+  }
+  .entry-results-head h2 {
+    font-size: 21px;
+  }
+  .entry-footer {
+    margin-top: 10px;
+    font-size: 9px;
+  }
+  .entry-loading {
+    padding: 24px 22px;
+    margin-bottom: 40px;
+  }
+  .entry-loading h2 {
+    font-size: 23px;
+  }
+  #entry-status {
+    font-size: 11px;
+    margin: 8px 0 12px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
+  #temple-entry,
   .entry-category {
     transition: none;
+  }
+  .entry-loading-line:after {
+    animation: none;
   }
 }
