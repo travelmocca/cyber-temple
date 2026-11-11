@@ -1,5 +1,8 @@
 import { recommend } from './recommend.mjs';
 
+// Optional tracking loads independently; its failure cannot block the entrance.
+const analytics = import('./analytics.mjs').catch(() => null);
+
 const app = document.getElementById('app');
 app.hidden = true;
 const entrance = document.createElement('main');
@@ -147,6 +150,7 @@ async function enterTemple(temple) {
     entrance.hidden = true;
     app.inert = false;
     inputController.abort();
+    analytics.then((module) => module?.recordEntrance()).catch(() => {});
   } catch {
     loading.dataset.state = 'error';
     entrance.querySelector('#entry-loading-status').textContent =

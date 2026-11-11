@@ -10,6 +10,8 @@ npm run check
 npm start
 ```
 
+需要Node.js 22.13.0或更新版本。访问统计使用内置SQLite落盘；在部署环境设置12至256字符的 `REPORT_PASSWORD` 后，通过 `/api/report` 输入口令查看PV、UV和入寺统计。数据库目录需持久化挂载，详情见 [统计配置](docs/analytics.md)。
+
 打开 [本地镜像](http://127.0.0.1:4191/)。另开独立浏览器窗口/隐私窗口并选择相同服务器，即可互相看见。没有注入虚拟访客；场景中 4 位常住僧由原前端自带。
 
 入场先选择求财、事业、姻缘、健康、学业、家庭、转运、心安之一，再从五座推荐佛寺中查看介绍、换批或进入。84座佛寺覆盖34个地区，资料与依据存于 `entry/catalog.json`，每区2至5座。选寺只改变当前浏览器的山门匾额，继续使用原有场景、房间及活动。真实寺院资料在入场前介绍，场景采用统一虚拟呈现。
@@ -28,6 +30,7 @@ npm start
 - [素材与独立部署待办](docs/self-hosting.md)
 - [根目录迁移验收](docs/project-root-acceptance.md)
 - [第一轮性能优化效果](docs/performance-first-pass.md)
+- [访问统计与报表口令配置](docs/analytics.md)
 
 ## 自建代码结构
 
@@ -40,6 +43,8 @@ patches/                     精确补丁登记
 server/
   index.mjs                  创建服务、启动、关闭
   http.mjs                   HTTP 路由、静态文件、音频 Range
+  analytics.mjs              匿名事件、SQLite持久化与PV/UV聚合
+  report.mjs                 报表、口令会话及事件采集接口
   websocket.mjs              握手、来源检查、限速、消息收发
   presence.mjs               房间、会话、断线恢复、广播
   protocol/

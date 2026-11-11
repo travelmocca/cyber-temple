@@ -3,6 +3,10 @@ dist/
 test-results/
 
 .snapshots/
+/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
 
 .DS_Store
 .env

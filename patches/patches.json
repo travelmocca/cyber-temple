@@ -3899,7 +3899,7 @@
       "id": "performance-index.html",
       "target": "index.html",
       "beforeSha256": "5a3e531b022dc84d4215f52c091aaf3077e1f4baae766fd0d582c78a7433b29b",
-      "afterSha256": "32b86a69a7fee0df2703b776927ea661693ab71866ec65440a8b73e78ae7235c",
+      "afterSha256": "7b7529309a22b73a75e143dd2666758a2a5ea12ab6e0499922d6604ac9ee1d6a",
       "edits": [
         {
           "start": 1925,
@@ -3917,12 +3917,12 @@
           "start": 3785,
           "end": 3814,
           "before": "src=\"/temple-entry/entry.mjs\"",
-          "after": "src=\"/temple-entry/entry.mjs?v=2062d0e7a9b1\""
+          "after": "src=\"/temple-entry/entry.mjs?v=de84ae1a2f7b\""
         }
       ],
       "dependencies": {
         "entry/entry.css": "cb7e47f5718b316387d6a38fd1900e2fdc0512275de6c30f2cc5e488a4fc5b6f",
-        "entry/entry.mjs": "2062d0e7a9b1847debb3f706e61ede61afb8cd534203de1adc2f421b8165f892"
+        "entry/entry.mjs": "de84ae1a2f7ba367e463eb71707c2bb06b9a22f51fa53fb726a1e092b10f49d1"
       },
       "reason": "Remove unused extended font and version resource URLs; scene and activity logic unchanged"
     }

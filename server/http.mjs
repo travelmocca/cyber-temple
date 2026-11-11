@@ -5,6 +5,7 @@ import { extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { MAP } from './protocol/constants.mjs';
 import { translateText } from '../locales/zh-CN.mjs';
+import { createReportHandler } from './report.mjs';
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
@@ -30,8 +31,9 @@ const MIME = {
 };
 
 // Route order and range behavior are part of the existing HTTP contract.
-export function createRequestHandler({ site, hub }) {
+export function createRequestHandler({ site, hub, analytics, reportPassword }) {
   const validators = new Map();
+  const report = createReportHandler({ analytics, password: reportPassword });
   return async (request, response) => {
     const json = (status, body) => {
       response.writeHead(status, {
@@ -42,6 +44,7 @@ export function createRequestHandler({ site, hub }) {
     };
     try {
       const url = new URL(request.url, 'http://localhost');
+      if (await report(request, response, url)) return;
       if (url.pathname === '/__mirror/payment') {
         response.writeHead(200, {
           'content-type': 'text/html; charset=utf-8',
@@ -85,6 +88,14 @@ export function createRequestHandler({ site, hub }) {
       const staticPath = isEntry ? decoded.slice('/temple-entry'.length) : decoded;
       const file = resolve(staticRoot, '.' + (staticPath === '/' ? '/index.html' : staticPath));
       const actual = await realpath(file);
+      if (
+        analytics?.path !== ':memory:' &&
+        [analytics?.path, analytics?.path + '-wal', analytics?.path + '-shm'].includes(actual)
+      ) {
+        response.writeHead(403);
+        response.end();
+        return;
+      }
       if (!actual.startsWith(resolve(staticRoot) + sep)) {
         response.writeHead(403);
         response.end();

@@ -75,6 +75,7 @@ location / {
     proxy_pass http://127.0.0.1:4191;
     proxy_http_version 1.1;
     proxy_set_header Host $http_host;
+    proxy_set_header X-Forwarded-Proto $scheme;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection $connection_upgrade;
     proxy_read_timeout 300s;
@@ -87,7 +88,9 @@ location / {
 
 ## 四、公开运营前补齐运行能力
 
-当前房间/活动状态是单进程内存数据，服务重启会清空；没有完成数据库持久化、多实例共享状态和真实收款。若需要长期保存进度、交易或账户，需先明确数据范围，再做存储、备份和恢复；不要直接开多个Node副本期待房间同步。
+当前房间/活动状态是单进程内存数据，服务重启会清空；没有完成游戏状态的数据库持久化、多实例共享状态和真实收款。若需要长期保存进度、交易或账户，需先明确数据范围，再做存储、备份和恢复；不要直接开多个Node副本期待房间同步。
+
+访问埋点现已独立使用SQLite持久化，不能据此认为游戏进度也已持久化。部署需Node>=22.13.0、配置 `REPORT_PASSWORD`，并保留 `ANALYTICS_DB` 所在数据卷。查看地址为 `/api/report`；数据库、口令和CDN绕过配置见 [统计部署说明](analytics.md)。
 
 真实设备、Safari、网络断开、证书/代理后的WebSocket、容量及滥用防护需在目标部署环境验证。20个房间、每房50人的配置不等于已完成1000人并发压测。已测本地旅程可在外站请求被阻断时运行，但这不意味着包内所有外链、可选分支和原站品牌均已移除。
 
