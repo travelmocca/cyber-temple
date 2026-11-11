@@ -3,7 +3,6 @@ dist/
 test-results/
 
 .snapshots/
-mirror/node_modules/
 
 .DS_Store
 .env

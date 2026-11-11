@@ -1,8 +1,0 @@
-金铜佛坐像及金铜菩萨立像（德寿 2116）
-금동불좌상·금동보살입상, 덕수 2116
-Author and source: National Museum of Korea / 국립중앙박물관
-Collection record: https://www.museum.go.kr/MUSEUM/contents/M0505000000.do?relicId=1116&schM=view&searchId=search
-Official 3D data: https://www.museum.go.kr/afile/fileDownloadById/31664
-License: Korea Open Government License Type 1 — Attribution
-https://www.kogl.or.kr/info/licenseType1.do
-Changes: Converted the museum OBJ/MTL models to glTF, normalized scale, resized and compressed the color and normal textures, and arranged the models for this virtual scene.

@@ -4,18 +4,18 @@
 
 ## 维护方式
 
-- `mirror/locales/zh-CN.json`：588 条原文到中文的词典，其中 583 条来自发布程序和页面，其余用于本地访客名及模拟支付。
-- `mirror/locales/zh-CN.mjs`：保留空白、HTML 和模板边界的文本处理。
-- `mirror/tools/generate-localization.mjs`：从只读原版叠加本地接入补丁，解析 JS 文本并生成位置/原文/前后哈希均可校验的中文补丁。不会格式化或重新打包整份发布程序。
-- `mirror/patches/patches.json`：3 项既有接入补丁与 4 项中文补丁。中文补丁绑定词典哈希；只改词典但未重新生成时，资源校验会拒绝通过。
+- `locales/zh-CN.json`：588 条原文到中文的词典，其中 583 条来自发布程序和页面，其余用于本地访客名及模拟支付。
+- `locales/zh-CN.mjs`：保留空白、HTML 和模板边界的文本处理。
+- `tools/generate-localization.mjs`：从只读原版叠加本地接入补丁，解析 JS 文本并生成位置/原文/前后哈希均可校验的中文补丁。不会格式化或重新打包整份发布程序。
+- `patches/patches.json`：3 项接入、4 项中文和2项选寺适配补丁。中文补丁绑定词典哈希；只改词典但未重新生成时，资源校验会拒绝通过。
 
 修改词典后，在仓库根目录执行：
 
 ```sh
-npm --prefix mirror run format
-npm --prefix mirror run localize
-npm --prefix mirror run check
-npm --prefix mirror run test:e2e
+npm run format
+npm run localize
+npm run check
+npm run test:e2e
 ```
 
 文本生成器对比替换前后的 JS 语法树，只允许字符串/模板文本改变，并将数值显示语言从 `ko-KR` 改为 `zh-CN`。原房间 ID、协议类型、变量、表达式、动画、路径、模型和业务条件保留。原始行为基线不重新生成，差分测试只显式归一中文默认名和模拟支付文字，其余 478 步、711 条消息及 35 种 HTTP 请求继续逐项比较。
@@ -24,4 +24,4 @@ npm --prefix mirror run test:e2e
 
 CAFE25、GS25 等品牌名称保留；艺术家使用拉丁字母姓名，原始署名、音频/模型授权文件和来源链接不变。图片/纹理中已经绘制的文字与录音仍为原始素材，本次不重绘贴图或替换诵经。共修时间仍按原程序的韩国时间，中文界面注明 UTC+9。
 
-原只读版本位于 `mirror/baseline/`。当前中文版本属于用户授权的文本修改，先前原版复刻和等行为重构的历史报告仍保留其当时结论；中文版本验证另存于 `RECON/zh-CN-2026-11-11/`。真实手机与 Safari 的既有未验收状态不因汉化而改变。
+原只读版本位于 `baseline/`。当前中文版本属于用户授权的文本修改，先前原版复刻和等行为重构的历史报告仍保留其当时结论；中文版本验证另存于 `RECON/zh-CN-2026-11-11/`。真实手机与 Safari 的既有未验收状态不因汉化而改变。

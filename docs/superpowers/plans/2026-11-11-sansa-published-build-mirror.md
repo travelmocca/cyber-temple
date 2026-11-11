@@ -1,5 +1,7 @@
 # 山寺发布产物镜像与完整体验验收 Implementation Plan
 
+> 历史实施记录：目录在2026-11-11后续整理中已提升到仓库根目录。本文的mirror/和旧原型描述为当时状态；当前命令与结构以根目录README.md为准。
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. 本计划默认在当前会话顺序执行，不自动启动子代理。
 
 **Goal:** 保留冻结版本原站已发布的前端程序和真实素材，在本地恢复尽可能一致的公开访客体验，并用可复查的证据说明覆盖范围、差异和无法验证的边界。
