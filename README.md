@@ -18,7 +18,9 @@ npm start
 
 入口以实际山门截图生成的桌面/手机WebP为全屏背景，原稿保留在 `entry/gate-background.jpg`。心愿、推荐与介绍在同一悬浮面板中切换；手机可横滑寺院卡片。选寺后才加载游戏，真实场景就绪后淡出入口，失败时在浮层重试并恢复选寺记录。
 
-`entry/` 为独立静态入场模块，通过 `/temple-entry/` 提供。`npm run entry:patch` 根据当前本地化补丁重建入口与匾额的两项审计补丁。`npm run localize` 会自动继续重建入场补丁。原始只读基准不变。
+庭院加入一只低多边形柴犬，在山门内的安全范围随机散步和停留，带骨骼待机/行走动画。小狗为各浏览器独立运行的装饰角色；模型失败不阻塞入寺。模型来自 Quaternius 的 CC0 动画动物包，文件来源与校验见 `entry/dog/source.json`。
+
+`entry/` 为独立静态入场与场景扩展模块，通过 `/temple-entry/` 提供。`npm run entry:patch` 根据当前本地化补丁重建入口、匾额、小狗和资源版本补丁。`npm run localize` 会自动继续这一生成链。原始只读基准不变。
 
 浏览器回归：`npm run test:e2e`，使用本机 Chrome。`PORT=4192 npm start` 可更换端口。测试使用独立临时端口。
 
@@ -37,7 +39,7 @@ npm start
 ```text
 site/                        带审计补丁的运行程序、模型、图片、声音和字体
 baseline/                    冻结原站文件和SHA-256清单
-entry/                       悬浮入场及佛寺目录
+entry/                       悬浮入场、佛寺目录及庭院小狗模块/素材
 locales/                     简体中文词典
 patches/                     精确补丁登记
 server/
@@ -77,7 +79,7 @@ npm run test:e2e      # Chrome 界面回归
 
 浏览器证据可用 `MIRROR_E2E_OUTPUT=/absolute/output/directory npm run test:e2e` 输出到独立目录，保留历史验收记录。
 
-`baseline/site` 是不可修改的原始响应。`site` 是运行副本；改动只允许通过 `patches/patches.json` 中的精确哈希补丁登记。当前12项补丁包含3项接入、4项中文、2项选寺，以及3项字体/资源版本适配。原始模型、贴图、声音和字体文件保留；扩展字体不再请求，入口使用桌面/手机WebP。
+`baseline/site` 是不可修改的原始响应。`site` 是运行副本；改动只允许通过 `patches/patches.json` 中的精确哈希补丁登记。当前13项补丁包含3项接入、4项中文、2项选寺、1项小狗，以及3项字体/资源版本适配。原始模型、贴图、声音和字体文件保留；扩展字体不再请求，入口使用桌面/手机WebP。新增小狗模型位于 `entry/dog/`，不写入冻结基准；小狗模块和素材的哈希也受补丁依赖校验。
 
 静态资源支持ETag/304；HTML和寺院名录检查更新，内容版本URL及冻结版本路径长期缓存。修改 `entry/` 的JS/CSS后执行 `npm run entry:patch` 更新入口资源版本，再执行 `npm run check`。
 

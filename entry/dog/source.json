@@ -1,0 +1,15 @@
+{
+  "title": "ShibaInu",
+  "author": "Quaternius",
+  "pack": "Ultimate Animated Animal Pack",
+  "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+  "license": "CC0-1.0",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "retrieved": "2026-11-14",
+  "mirror": "https://raw.githubusercontent.com/trebeljahr/quaternius-showcase/5b491b755c6d2aaa263aaaf8671b30b559a380a4/public/glb/animals_pack/ShibaInu.glb",
+  "file": "shiba.4c8d4d9361a3.glb",
+  "bytes": 540592,
+  "sha256": "4c8d4d9361a3abd4ef08a9a09aeabf1eb5d4cbddfd4ce271aacf64a254f1dbc1",
+  "provenance": "GLB obtained from the pinned third-party mirror. The author's download folder provides ShibaInu.gltf; its download is quota-limited, so conversion details and equivalence with that original have not been verified.",
+  "changes": "Bytes unchanged relative to the pinned mirror; runtime scales to 0.65 world units, uses Idle/Walk clips and matte fur materials."
+}

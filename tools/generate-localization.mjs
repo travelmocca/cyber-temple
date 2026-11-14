@@ -124,6 +124,7 @@ export async function generateLocalization() {
     (patch) =>
       !patch.id.startsWith('zh-CN-') &&
       !patch.id.startsWith('temple-entry-') &&
+      !patch.id.startsWith('temple-dog-') &&
       !patch.id.startsWith('performance-'),
   );
   const catalogSha256 = hash(await readFile(new URL('locales/zh-CN.json', root)));

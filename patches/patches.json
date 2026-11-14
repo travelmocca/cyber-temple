@@ -3843,6 +3843,50 @@
       "reason": "Independent wish-selection entrance and local gate plaque name only; activity and room rules unchanged"
     },
     {
+      "id": "temple-dog-assets-game-U0Pmc8tU.js",
+      "target": "assets/game-U0Pmc8tU.js",
+      "beforeSha256": "af67045bfb5f0f8979db0be7a074e54dc74b559475d2b3b85f6bfac848eeb109",
+      "afterSha256": "8162fe3225ecf361f9d5177ddf9398d4857ddd03ed0164522fc75d35c340a58e",
+      "dependencies": {
+        "entry/dog.mjs": "4bdd35aad7f02129bf7febacf29ba215144318c3b59b0caea79449fd11831d59",
+        "entry/dog/source.json": "2a54ae7a2b830dd7332a8881cca2801cf92f0ac6733c15641117b7b6a934a218",
+        "entry/dog/shiba.4c8d4d9361a3.glb": "4c8d4d9361a3abd4ef08a9a09aeabf1eb5d4cbddfd4ce271aacf64a254f1dbc1"
+      },
+      "edits": [
+        {
+          "start": 0,
+          "end": 41,
+          "before": "import{_ as xv}from\"./index-qXYao_lF.js\";",
+          "after": "import{_ as xv}from\"./index-qXYao_lF.js\";import{createTempleDog}from\"/temple-entry/dog.mjs?v=4bdd35aad7f0\";"
+        },
+        {
+          "start": 1151418,
+          "end": 1151466,
+          "before": "const j1=new Set([Te,Ye,mt,ee]);return{assets:Ca",
+          "after": "const templeDog=createTempleDog({Group:Mt,Box3:fn,Vector3:R,AnimationMixer:oT,GLTFLoader:u1,Mesh:ot,PlaneGeometry:oi,MeshBasicMaterial:Wn,DataTexture:gi},{scene:i,isWalkable:(x,z,r)=>!Ea(x,z,r),groundHeight:(x,z)=>Ht.groundY+$t(x,z)+.035});const j1=new Set([Te,Ye,mt,ee]);return{templeDog,assets:Ca"
+        },
+        {
+          "start": 1152841,
+          "end": 1152900,
+          "before": "update(Y,ge,$e=!1,tt){const dt=!tt||tt.intersectsSphere(W_)",
+          "after": "update(Y,ge,$e=!1,tt){templeDog.update(ge);const dt=!tt||tt.intersectsSphere(W_)"
+        },
+        {
+          "start": 1153407,
+          "end": 1153460,
+          "before": "kh?.dispose(),Rh?.dispose(),u?.dispose(),Jn.dispose()",
+          "after": "templeDog.dispose(),kh?.dispose(),Rh?.dispose(),u?.dispose(),Jn.dispose()"
+        },
+        {
+          "start": 1521874,
+          "end": 1521913,
+          "before": "佛画资料 · 参考阿弥陀三尊的传统图像，由 AI 生成的山寺原创图片。</p>",
+          "after": "佛画资料 · 参考阿弥陀三尊的传统图像，由 AI 生成的山寺原创图片。</p><p class=\"artwork-credit\">庭院柴犬 · <a href=\"https://quaternius.com/packs/ultimateanimatedanimals.html\" target=\"_blank\" rel=\"noopener noreferrer\">Quaternius · Ultimate Animated Animal Pack</a>，CC0。已适配尺寸、材质与庭院散步动作。</p>"
+        }
+      ],
+      "reason": "Load one CC0 animated courtyard dog using the existing Three.js runtime; independent local patrol, lifecycle cleanup and source credit"
+    },
+    {
       "id": "performance-assets-game-CvBwdk0t.css",
       "target": "assets/game-CvBwdk0t.css",
       "beforeSha256": "8042fec7370ebd5dafe3351a929b7a8e11a67f702c75635f1382d2e6169f022b",
@@ -3862,13 +3906,13 @@
       "id": "performance-assets-index-qXYao_lF.js",
       "target": "assets/index-qXYao_lF.js",
       "beforeSha256": "d7d31a54f49476a0c8c5562b2ea885d6e2e179f674beb10afa6c5451edb2a31e",
-      "afterSha256": "a0101bf026668689188e24aae3e8685e43d9ca0501dd78af43799ebe3d51b85f",
+      "afterSha256": "dc1b5caeb8f41c4cd05ec20a646b8e710cadcb98d0f9cb6baa00e3be41cba6b8",
       "edits": [
         {
           "start": 57,
           "end": 82,
           "before": "\"assets/game-U0Pmc8tU.js\"",
-          "after": "\"assets/game-U0Pmc8tU.js?v=af67045bfb5f\""
+          "after": "\"assets/game-U0Pmc8tU.js?v=8162fe3225ec\""
         },
         {
           "start": 83,
@@ -3886,11 +3930,11 @@
           "start": 1971,
           "end": 1991,
           "before": "\"./game-U0Pmc8tU.js\"",
-          "after": "\"./game-U0Pmc8tU.js?v=af67045bfb5f\""
+          "after": "\"./game-U0Pmc8tU.js?v=8162fe3225ec\""
         }
       ],
       "dependencies": {
-        "site/assets/game-U0Pmc8tU.js": "af67045bfb5f0f8979db0be7a074e54dc74b559475d2b3b85f6bfac848eeb109",
+        "site/assets/game-U0Pmc8tU.js": "8162fe3225ecf361f9d5177ddf9398d4857ddd03ed0164522fc75d35c340a58e",
         "site/assets/game-CvBwdk0t.css": "c011f59939ade25bd96af6aa31961b7be706b1e04b920e174a2f86971b4fb1bf"
       },
       "reason": "Remove unused extended font and version resource URLs; scene and activity logic unchanged"
